@@ -9,7 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 38,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 17,
+        "name": "ServiceBase",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 21,
@@ -19,24 +28,24 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 27,
             "end": 36,
-            "accessibility": null,
+            "static": false,
             "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 27,
               "end": 32,
-              "decorators": [],
               "name": "field",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
+            "value": null,
+            "decorators": [],
+            "declare": false,
             "override": false,
+            "optional": false,
+            "definite": false,
             "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 32,
@@ -45,36 +54,23 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 34,
                 "end": 35,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 34,
                   "end": 35,
-                  "decorators": [],
                   "name": "T",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
             },
-            "value": null
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 17,
-        "decorators": [],
-        "name": "ServiceBase",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 17,
@@ -84,56 +80,61 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeParameter",
             "start": 18,
             "end": 19,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
             "name": {
               "type": "Identifier",
               "start": 18,
               "end": 19,
-              "decorators": [],
               "name": "T",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "out": false
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
           }
         ]
-      }
+      },
+      "implements": [],
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     },
     {
       "type": "ClassDeclaration",
       "start": 39,
       "end": 97,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 45,
+        "end": 52,
+        "name": "Service",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 61,
+        "end": 72,
+        "name": "ServiceBase",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "ClassBody",
         "start": 94,
         "end": 97,
         "body": []
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 45,
-        "end": 52,
-        "decorators": [],
-        "name": "Service",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": {
-        "type": "Identifier",
-        "start": 61,
-        "end": 72,
-        "decorators": [],
-        "name": "ServiceBase",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "abstract": false,
+      "declare": false,
       "superTypeArguments": {
         "type": "TSTypeParameterInstantiation",
         "start": 72,
@@ -151,31 +152,39 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 80,
                 "end": 87,
-                "decorators": [],
                 "name": "Service",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 88,
                 "end": 92,
-                "decorators": [],
                 "name": "Base",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
             },
             "typeArguments": null
           }
         ]
-      },
-      "typeParameters": null
+      }
     },
     {
       "type": "TSModuleDeclaration",
       "start": 98,
       "end": 188,
+      "id": {
+        "type": "Identifier",
+        "start": 108,
+        "end": 115,
+        "name": "Service",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 116,
@@ -185,7 +194,6 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 122,
             "end": 186,
-            "attributes": [],
             "declaration": {
               "type": "VariableDeclaration",
               "start": 129,
@@ -195,15 +203,14 @@ __ESTREE_TEST__:PASS:
                   "type": "VariableDeclarator",
                   "start": 135,
                   "end": 185,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 135,
                     "end": 139,
-                    "decorators": [],
                     "name": "Base",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
                   "init": {
                     "type": "ObjectExpression",
@@ -214,79 +221,72 @@ __ESTREE_TEST__:PASS:
                         "type": "Property",
                         "start": 152,
                         "end": 161,
+                        "method": false,
+                        "shorthand": false,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
                           "start": 152,
                           "end": 156,
-                          "decorators": [],
                           "name": "name",
-                          "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
                         },
-                        "kind": "init",
-                        "method": false,
-                        "optional": false,
-                        "shorthand": false,
                         "value": {
                           "type": "Literal",
                           "start": 158,
                           "end": 161,
-                          "raw": "\"1\"",
-                          "value": "1"
-                        }
+                          "value": "1",
+                          "raw": "\"1\""
+                        },
+                        "kind": "init",
+                        "optional": false
                       },
                       {
                         "type": "Property",
                         "start": 171,
                         "end": 179,
+                        "method": false,
+                        "shorthand": false,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
                           "start": 171,
                           "end": 176,
-                          "decorators": [],
                           "name": "value",
-                          "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
                         },
-                        "kind": "init",
-                        "method": false,
-                        "optional": false,
-                        "shorthand": false,
                         "value": {
                           "type": "Literal",
                           "start": 178,
                           "end": 179,
-                          "raw": "5",
-                          "value": 5
-                        }
+                          "value": 5,
+                          "raw": "5"
+                        },
+                        "kind": "init",
+                        "optional": false
                       }
                     ]
-                  }
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "const"
+              "kind": "const",
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "namespace",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 108,
-        "end": 115,
-        "decorators": [],
-        "name": "Service",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     }
   ],
   "sourceType": "script",

@@ -9,23 +9,23 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 7,
-      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 0,
         "end": 6,
+        "operator": "++",
+        "prefix": false,
         "argument": {
           "type": "Identifier",
           "start": 0,
           "end": 4,
-          "decorators": [],
           "name": "eval",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "operator": "++",
-        "prefix": false
-      }
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

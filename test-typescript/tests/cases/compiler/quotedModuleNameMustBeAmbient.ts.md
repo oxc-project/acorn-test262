@@ -9,43 +9,43 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 13,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 7,
+        "end": 10,
+        "value": "M",
+        "raw": "'M'"
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 11,
         "end": 13,
         "body": []
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 7,
-        "end": 10,
-        "raw": "'M'",
-        "value": "M"
-      }
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 15,
       "end": 37,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 30,
+        "end": 34,
+        "value": "M2",
+        "raw": "'M2'"
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 35,
         "end": 37,
         "body": []
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 30,
-        "end": 34,
-        "raw": "'M2'",
-        "value": "M2"
-      }
+      "global": false
     }
   ],
   "sourceType": "script",

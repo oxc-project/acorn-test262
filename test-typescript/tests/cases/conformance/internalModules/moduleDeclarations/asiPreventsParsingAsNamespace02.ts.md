@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 18,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 18,
-            "decorators": [],
             "name": "module",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 10,
@@ -31,13 +28,16 @@ __ESTREE_TEST__:PASS:
                 "start": 12,
                 "end": 18
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -48,14 +48,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 24,
           "end": 33,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 24,
             "end": 33,
-            "decorators": [],
             "name": "m",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 25,
@@ -65,43 +62,46 @@ __ESTREE_TEST__:PASS:
                 "start": 27,
                 "end": 33
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 36,
       "end": 42,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 36,
         "end": 42,
-        "decorators": [],
         "name": "module",
-        "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 87,
       "end": 88,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 87,
         "end": 88,
-        "decorators": [],
         "name": "m",
-        "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "BlockStatement",

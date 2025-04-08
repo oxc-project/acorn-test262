@@ -9,16 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "TSTypeAliasDeclaration",
       "start": 0,
       "end": 26,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 5,
         "end": 8,
-        "decorators": [],
         "name": "T01",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSUnionType",
         "start": 11,
@@ -36,22 +36,22 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 27,
       "end": 53,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 32,
         "end": 35,
-        "decorators": [],
         "name": "T02",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSIntersectionType",
         "start": 38,
@@ -69,22 +69,22 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 54,
       "end": 89,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 59,
         "end": 62,
-        "decorators": [],
         "name": "T03",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSUnionType",
         "start": 65,
@@ -107,22 +107,22 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 90,
       "end": 125,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 95,
         "end": 98,
-        "decorators": [],
         "name": "T04",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSIntersectionType",
         "start": 101,
@@ -145,22 +145,22 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 126,
       "end": 149,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 131,
         "end": 134,
-        "decorators": [],
         "name": "T05",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSUnionType",
         "start": 137,
@@ -178,22 +178,22 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 150,
       "end": 173,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 155,
         "end": 158,
-        "decorators": [],
         "name": "T06",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSIntersectionType",
         "start": 161,
@@ -211,22 +211,22 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 174,
       "end": 203,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 179,
         "end": 182,
-        "decorators": [],
         "name": "T07",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSUnionType",
         "start": 185,
@@ -244,22 +244,22 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 204,
       "end": 233,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 209,
         "end": 212,
-        "decorators": [],
         "name": "T08",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSIntersectionType",
         "start": 215,
@@ -277,22 +277,22 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 234,
       "end": 258,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 239,
         "end": 242,
-        "decorators": [],
         "name": "T09",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSUnionType",
         "start": 245,
@@ -310,22 +310,22 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 259,
       "end": 283,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 264,
         "end": 267,
-        "decorators": [],
         "name": "T10",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSIntersectionType",
         "start": 270,
@@ -343,22 +343,22 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 284,
       "end": 317,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 289,
         "end": 292,
-        "decorators": [],
         "name": "T11",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSUnionType",
         "start": 295,
@@ -373,20 +373,18 @@ __ESTREE_TEST__:PASS:
                 "type": "TSPropertySignature",
                 "start": 297,
                 "end": 306,
-                "accessibility": null,
                 "computed": false,
+                "optional": false,
+                "readonly": false,
                 "key": {
                   "type": "Identifier",
                   "start": 297,
                   "end": 298,
-                  "decorators": [],
                   "name": "a",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "optional": false,
-                "readonly": false,
-                "static": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
                   "start": 298,
@@ -396,7 +394,9 @@ __ESTREE_TEST__:PASS:
                     "start": 300,
                     "end": 306
                   }
-                }
+                },
+                "accessibility": null,
+                "static": false
               }
             ]
           },
@@ -407,22 +407,22 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 318,
       "end": 351,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 323,
         "end": 326,
-        "decorators": [],
         "name": "T12",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSIntersectionType",
         "start": 329,
@@ -437,20 +437,18 @@ __ESTREE_TEST__:PASS:
                 "type": "TSPropertySignature",
                 "start": 331,
                 "end": 340,
-                "accessibility": null,
                 "computed": false,
+                "optional": false,
+                "readonly": false,
                 "key": {
                   "type": "Identifier",
                   "start": 331,
                   "end": 332,
-                  "decorators": [],
                   "name": "a",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "optional": false,
-                "readonly": false,
-                "static": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
                   "start": 332,
@@ -460,7 +458,9 @@ __ESTREE_TEST__:PASS:
                     "start": 334,
                     "end": 340
                   }
-                }
+                },
+                "accessibility": null,
+                "static": false
               }
             ]
           },
@@ -471,7 +471,7 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     }
   ],
   "sourceType": "script",

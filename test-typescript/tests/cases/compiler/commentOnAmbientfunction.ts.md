@@ -9,45 +9,45 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 97,
       "end": 120,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 114,
         "end": 117,
-        "decorators": [],
         "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": false,
+      "async": false,
       "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "body": null,
+      "declare": true,
+      "typeParameters": null,
+      "returnType": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 150,
       "end": 173,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 167,
         "end": 170,
-        "decorators": [],
         "name": "bar",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": false,
+      "async": false,
       "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "body": null,
+      "declare": true,
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "module",
@@ -65,28 +65,24 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 28,
       "end": 79,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 45,
         "end": 51,
-        "decorators": [],
         "name": "foobar",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": false,
+      "async": false,
       "params": [
         {
           "type": "Identifier",
           "start": 52,
           "end": 65,
-          "decorators": [],
           "name": "a",
-          "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
             "start": 53,
@@ -99,16 +95,21 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 62,
                 "end": 65,
-                "decorators": [],
                 "name": "foo",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "typeArguments": null
             }
-          }
+          },
+          "decorators": [],
+          "optional": false
         }
       ],
+      "body": null,
+      "declare": true,
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 66,
@@ -121,15 +122,14 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 75,
             "end": 78,
-            "decorators": [],
             "name": "bar",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "typeArguments": null
         }
-      },
-      "typeParameters": null
+      }
     }
   ],
   "sourceType": "module",

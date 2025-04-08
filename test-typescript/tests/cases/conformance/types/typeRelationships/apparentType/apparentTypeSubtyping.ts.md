@@ -9,7 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 208,
       "end": 250,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 214,
+        "end": 218,
+        "name": "Base",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 237,
@@ -19,24 +28,24 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 243,
             "end": 248,
-            "accessibility": null,
+            "static": false,
             "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 243,
               "end": 244,
-              "decorators": [],
               "name": "x",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
+            "value": null,
+            "decorators": [],
+            "declare": false,
             "override": false,
+            "optional": false,
+            "definite": false,
             "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 244,
@@ -45,36 +54,23 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 246,
                 "end": 247,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 246,
                   "end": 247,
-                  "decorators": [],
                   "name": "U",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
             },
-            "value": null
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 214,
-        "end": 218,
-        "decorators": [],
-        "name": "Base",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 218,
@@ -84,43 +80,64 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeParameter",
             "start": 219,
             "end": 235,
-            "const": false,
-            "constraint": {
-              "type": "TSTypeReference",
-              "start": 229,
-              "end": 235,
-              "typeArguments": null,
-              "typeName": {
-                "type": "Identifier",
-                "start": 229,
-                "end": 235,
-                "decorators": [],
-                "name": "String",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
-            "default": null,
-            "in": false,
             "name": {
               "type": "Identifier",
               "start": 219,
               "end": 220,
-              "decorators": [],
               "name": "U",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "out": false
+            "constraint": {
+              "type": "TSTypeReference",
+              "start": 229,
+              "end": 235,
+              "typeName": {
+                "type": "Identifier",
+                "start": 229,
+                "end": 235,
+                "name": "String",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "typeArguments": null
+            },
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
           }
         ]
-      }
+      },
+      "implements": [],
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     },
     {
       "type": "ClassDeclaration",
       "start": 361,
       "end": 426,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 367,
+        "end": 374,
+        "name": "Derived",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 386,
+        "end": 390,
+        "name": "Base",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "ClassBody",
         "start": 399,
@@ -130,24 +147,24 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 414,
             "end": 424,
-            "accessibility": null,
+            "static": false,
             "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 414,
               "end": 415,
-              "decorators": [],
               "name": "x",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
+            "value": null,
+            "decorators": [],
+            "declare": false,
             "override": false,
+            "optional": false,
+            "definite": false,
             "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 415,
@@ -156,43 +173,52 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 417,
                 "end": 423,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 417,
                   "end": 423,
-                  "decorators": [],
                   "name": "String",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
             },
-            "value": null
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 367,
-        "end": 374,
-        "decorators": [],
-        "name": "Derived",
-        "optional": false,
-        "typeAnnotation": null
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "start": 374,
+        "end": 377,
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "start": 375,
+            "end": 376,
+            "name": {
+              "type": "Identifier",
+              "start": 375,
+              "end": 376,
+              "name": "U",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          }
+        ]
       },
       "implements": [],
-      "superClass": {
-        "type": "Identifier",
-        "start": 386,
-        "end": 390,
-        "decorators": [],
-        "name": "Base",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "abstract": false,
+      "declare": false,
       "superTypeArguments": {
         "type": "TSTypeParameterInstantiation",
         "start": 390,
@@ -204,39 +230,22 @@ __ESTREE_TEST__:PASS:
             "end": 397
           }
         ]
-      },
-      "typeParameters": {
-        "type": "TSTypeParameterDeclaration",
-        "start": 374,
-        "end": 377,
-        "params": [
-          {
-            "type": "TSTypeParameter",
-            "start": 375,
-            "end": 376,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 375,
-              "end": 376,
-              "decorators": [],
-              "name": "U",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          }
-        ]
       }
     },
     {
       "type": "ClassDeclaration",
       "start": 428,
       "end": 480,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 434,
+        "end": 439,
+        "name": "Base2",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 440,
@@ -246,24 +255,24 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 446,
             "end": 456,
-            "accessibility": null,
+            "static": false,
             "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 446,
               "end": 447,
-              "decorators": [],
               "name": "x",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
+            "value": null,
+            "decorators": [],
+            "declare": false,
             "override": false,
+            "optional": false,
+            "definite": false,
             "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 447,
@@ -272,42 +281,42 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 449,
                 "end": 455,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 449,
                   "end": 455,
-                  "decorators": [],
                   "name": "String",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
             },
-            "value": null
+            "accessibility": null
           },
           {
             "type": "PropertyDefinition",
             "start": 461,
             "end": 478,
-            "accessibility": null,
+            "static": true,
             "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 468,
               "end": 469,
-              "decorators": [],
               "name": "s",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
+            "value": null,
+            "decorators": [],
+            "declare": false,
             "override": false,
+            "optional": false,
+            "definite": false,
             "readonly": false,
-            "static": true,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 469,
@@ -316,43 +325,51 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 471,
                 "end": 477,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 471,
                   "end": 477,
-                  "decorators": [],
                   "name": "String",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
             },
-            "value": null
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 434,
-        "end": 439,
-        "decorators": [],
-        "name": "Base2",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     },
     {
       "type": "ClassDeclaration",
       "start": 578,
       "end": 721,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 584,
+        "end": 592,
+        "name": "Derived2",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 619,
+        "end": 624,
+        "name": "Base2",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "ClassBody",
         "start": 625,
@@ -362,24 +379,24 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 714,
             "end": 719,
-            "accessibility": null,
+            "static": false,
             "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 714,
               "end": 715,
-              "decorators": [],
               "name": "x",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
+            "value": null,
+            "decorators": [],
+            "declare": false,
             "override": false,
+            "optional": false,
+            "definite": false,
             "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 715,
@@ -388,44 +405,23 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 717,
                 "end": 718,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 717,
                   "end": 718,
-                  "decorators": [],
                   "name": "U",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
             },
-            "value": null
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 584,
-        "end": 592,
-        "decorators": [],
-        "name": "Derived2",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": {
-        "type": "Identifier",
-        "start": 619,
-        "end": 624,
-        "decorators": [],
-        "name": "Base2",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 592,
@@ -435,37 +431,41 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeParameter",
             "start": 593,
             "end": 609,
-            "const": false,
-            "constraint": {
-              "type": "TSTypeReference",
-              "start": 603,
-              "end": 609,
-              "typeArguments": null,
-              "typeName": {
-                "type": "Identifier",
-                "start": 603,
-                "end": 609,
-                "decorators": [],
-                "name": "String",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
-            "default": null,
-            "in": false,
             "name": {
               "type": "Identifier",
               "start": 593,
               "end": 594,
-              "decorators": [],
               "name": "U",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "out": false
+            "constraint": {
+              "type": "TSTypeReference",
+              "start": 603,
+              "end": 609,
+              "typeName": {
+                "type": "Identifier",
+                "start": 603,
+                "end": 609,
+                "name": "String",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "typeArguments": null
+            },
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
           }
         ]
-      }
+      },
+      "implements": [],
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     }
   ],
   "sourceType": "script",

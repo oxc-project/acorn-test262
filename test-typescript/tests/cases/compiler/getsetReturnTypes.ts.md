@@ -9,7 +9,38 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 74,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 18,
+        "name": "makePoint",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 19,
+          "end": 28,
+          "name": "x",
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "start": 20,
+            "end": 28,
+            "typeAnnotation": {
+              "type": "TSNumberKeyword",
+              "start": 22,
+              "end": 28
+            }
+          },
+          "decorators": [],
+          "optional": false
+        }
+      ],
       "body": {
         "type": "BlockStatement",
         "start": 30,
@@ -28,25 +59,27 @@ __ESTREE_TEST__:PASS:
                   "type": "Property",
                   "start": 46,
                   "end": 67,
+                  "method": false,
+                  "shorthand": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
                     "start": 50,
                     "end": 51,
-                    "decorators": [],
                     "name": "x",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "kind": "get",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "FunctionExpression",
                     "start": 51,
                     "end": 67,
+                    "id": null,
+                    "expression": false,
+                    "generator": false,
                     "async": false,
+                    "params": [],
                     "body": {
                       "type": "BlockStatement",
                       "start": 54,
@@ -60,22 +93,20 @@ __ESTREE_TEST__:PASS:
                             "type": "Identifier",
                             "start": 63,
                             "end": 64,
-                            "decorators": [],
                             "name": "x",
-                            "optional": false,
-                            "typeAnnotation": null
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
                           }
                         }
                       ]
                     },
                     "declare": false,
-                    "expression": false,
-                    "generator": false,
-                    "id": null,
-                    "params": [],
-                    "returnType": null,
-                    "typeParameters": null
-                  }
+                    "typeParameters": null,
+                    "returnType": null
+                  },
+                  "kind": "get",
+                  "optional": false
                 }
               ]
             }
@@ -83,39 +114,8 @@ __ESTREE_TEST__:PASS:
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 18,
-        "decorators": [],
-        "name": "makePoint",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [
-        {
-          "type": "Identifier",
-          "start": 19,
-          "end": 28,
-          "decorators": [],
-          "name": "x",
-          "optional": false,
-          "typeAnnotation": {
-            "type": "TSTypeAnnotation",
-            "start": 20,
-            "end": 28,
-            "typeAnnotation": {
-              "type": "TSNumberKeyword",
-              "start": 22,
-              "end": 28
-            }
-          }
-        }
-      ],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     },
     {
       "type": "EmptyStatement",
@@ -131,61 +131,61 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 81,
           "end": 99,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 81,
             "end": 82,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 85,
             "end": 99,
-            "computed": false,
             "object": {
               "type": "CallExpression",
               "start": 85,
               "end": 97,
+              "callee": {
+                "type": "Identifier",
+                "start": 85,
+                "end": 94,
+                "name": "makePoint",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 95,
                   "end": 96,
-                  "raw": "2",
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 85,
-                "end": 94,
-                "decorators": [],
-                "name": "makePoint",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 98,
               "end": 99,
-              "decorators": [],
               "name": "x",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": false,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -196,14 +196,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 105,
           "end": 131,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 105,
             "end": 114,
-            "decorators": [],
             "name": "y",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 106,
@@ -213,53 +210,56 @@ __ESTREE_TEST__:PASS:
                 "start": 108,
                 "end": 114
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 117,
             "end": 131,
-            "computed": false,
             "object": {
               "type": "CallExpression",
               "start": 117,
               "end": 129,
+              "callee": {
+                "type": "Identifier",
+                "start": 117,
+                "end": 126,
+                "name": "makePoint",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 127,
                   "end": 128,
-                  "raw": "2",
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 117,
-                "end": 126,
-                "decorators": [],
-                "name": "makePoint",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 130,
               "end": 131,
-              "decorators": [],
               "name": "x",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": false,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

@@ -9,21 +9,22 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 41,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 17,
         "end": 18,
-        "decorators": [],
         "name": "f",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": false,
+      "async": false,
       "params": [],
+      "body": null,
+      "declare": true,
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 20,
@@ -45,8 +46,7 @@ __ESTREE_TEST__:PASS:
             }
           ]
         }
-      },
-      "typeParameters": null
+      }
     },
     {
       "type": "VariableDeclaration",
@@ -57,50 +57,50 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 47,
           "end": 64,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 47,
             "end": 49,
-            "decorators": [],
             "name": "gg",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "LogicalExpression",
             "start": 52,
             "end": 64,
-            "operator": "??",
             "left": {
               "type": "CallExpression",
               "start": 52,
               "end": 55,
-              "arguments": [],
               "callee": {
                 "type": "Identifier",
                 "start": 52,
                 "end": 53,
-                "decorators": [],
                 "name": "f",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
+              "arguments": [],
               "optional": false,
               "typeArguments": null
             },
+            "operator": "??",
             "right": {
               "type": "Literal",
               "start": 59,
               "end": 64,
-              "raw": "'foo'",
-              "value": "foo"
+              "value": "foo",
+              "raw": "'foo'"
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     }
   ],
   "sourceType": "script",

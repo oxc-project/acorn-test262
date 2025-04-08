@@ -14,33 +14,64 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 22,
           "end": 39,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 22,
             "end": 35,
-            "decorators": [],
             "name": "globalCounter",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 38,
             "end": 39,
-            "raw": "0",
-            "value": 0
-          }
+            "value": 0,
+            "raw": "0"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 41,
       "end": 166,
+      "id": {
+        "type": "Identifier",
+        "start": 50,
+        "end": 62,
+        "name": "incrementIdx",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 63,
+          "end": 74,
+          "name": "max",
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "start": 66,
+            "end": 74,
+            "typeAnnotation": {
+              "type": "TSNumberKeyword",
+              "start": 68,
+              "end": 74
+            }
+          },
+          "decorators": [],
+          "optional": false
+        }
+      ],
       "body": {
         "type": "BlockStatement",
         "start": 76,
@@ -50,7 +81,6 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 82,
             "end": 101,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 82,
@@ -60,19 +90,20 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 82,
                 "end": 95,
-                "decorators": [],
                 "name": "globalCounter",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Literal",
                 "start": 99,
                 "end": 100,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "VariableDeclaration",
@@ -83,102 +114,102 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 110,
                 "end": 147,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 110,
                   "end": 113,
-                  "decorators": [],
                   "name": "idx",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "init": {
                   "type": "CallExpression",
                   "start": 116,
                   "end": 147,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 116,
+                    "end": 126,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 116,
+                      "end": 120,
+                      "name": "Math",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 121,
+                      "end": 126,
+                      "name": "floor",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
                   "arguments": [
                     {
                       "type": "BinaryExpression",
                       "start": 127,
                       "end": 146,
-                      "operator": "*",
                       "left": {
                         "type": "CallExpression",
                         "start": 127,
                         "end": 140,
-                        "arguments": [],
                         "callee": {
                           "type": "MemberExpression",
                           "start": 127,
                           "end": 138,
-                          "computed": false,
                           "object": {
                             "type": "Identifier",
                             "start": 127,
                             "end": 131,
-                            "decorators": [],
                             "name": "Math",
-                            "optional": false,
-                            "typeAnnotation": null
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
                           },
-                          "optional": false,
                           "property": {
                             "type": "Identifier",
                             "start": 132,
                             "end": 138,
-                            "decorators": [],
                             "name": "random",
-                            "optional": false,
-                            "typeAnnotation": null
-                          }
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
+                          },
+                          "computed": false,
+                          "optional": false
                         },
+                        "arguments": [],
                         "optional": false,
                         "typeArguments": null
                       },
+                      "operator": "*",
                       "right": {
                         "type": "Identifier",
                         "start": 143,
                         "end": 146,
-                        "decorators": [],
                         "name": "max",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       }
                     }
                   ],
-                  "callee": {
-                    "type": "MemberExpression",
-                    "start": 116,
-                    "end": 126,
-                    "computed": false,
-                    "object": {
-                      "type": "Identifier",
-                      "start": 116,
-                      "end": 120,
-                      "decorators": [],
-                      "name": "Math",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "optional": false,
-                    "property": {
-                      "type": "Identifier",
-                      "start": 121,
-                      "end": 126,
-                      "decorators": [],
-                      "name": "floor",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  },
                   "optional": false,
                   "typeArguments": null
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "kind": "let",
+            "declare": false
           },
           {
             "type": "ReturnStatement",
@@ -188,48 +219,17 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 160,
               "end": 163,
-              "decorators": [],
               "name": "idx",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 50,
-        "end": 62,
-        "decorators": [],
-        "name": "incrementIdx",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [
-        {
-          "type": "Identifier",
-          "start": 63,
-          "end": 74,
-          "decorators": [],
-          "name": "max",
-          "optional": false,
-          "typeAnnotation": {
-            "type": "TSTypeAnnotation",
-            "start": 66,
-            "end": 74,
-            "typeAnnotation": {
-              "type": "TSNumberKeyword",
-              "start": 68,
-              "end": 74
-            }
-          }
-        }
-      ],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     },
     {
       "type": "VariableDeclaration",
@@ -240,15 +240,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 172,
           "end": 196,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 172,
             "end": 178,
-            "decorators": [],
             "name": "array1",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrayExpression",
@@ -259,49 +258,49 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 182,
                 "end": 183,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 185,
                 "end": 186,
-                "raw": "2",
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 188,
                 "end": 189,
-                "raw": "3",
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
               {
                 "type": "Literal",
                 "start": 191,
                 "end": 192,
-                "raw": "4",
-                "value": 4
+                "value": 4,
+                "raw": "4"
               },
               {
                 "type": "Literal",
                 "start": 194,
                 "end": 195,
-                "raw": "5",
-                "value": 5
+                "value": 5,
+                "raw": "5"
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 199,
       "end": 241,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 199,
@@ -311,75 +310,75 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 199,
           "end": 234,
-          "computed": true,
           "object": {
             "type": "Identifier",
             "start": 199,
             "end": 205,
-            "decorators": [],
             "name": "array1",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "CallExpression",
             "start": 206,
             "end": 233,
+            "callee": {
+              "type": "Identifier",
+              "start": 206,
+              "end": 218,
+              "name": "incrementIdx",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "arguments": [
               {
                 "type": "MemberExpression",
                 "start": 219,
                 "end": 232,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 219,
                   "end": 225,
-                  "decorators": [],
                   "name": "array1",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 226,
                   "end": 232,
-                  "decorators": [],
                   "name": "length",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "computed": false,
+                "optional": false
               }
             ],
-            "callee": {
-              "type": "Identifier",
-              "start": 206,
-              "end": 218,
-              "decorators": [],
-              "name": "incrementIdx",
-              "optional": false,
-              "typeAnnotation": null
-            },
             "optional": false,
             "typeArguments": null
-          }
+          },
+          "computed": true,
+          "optional": false
         },
         "right": {
           "type": "Literal",
           "start": 239,
           "end": 240,
-          "raw": "3",
-          "value": 3
+          "value": 3,
+          "raw": "3"
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 243,
       "end": 325,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 243,
@@ -389,60 +388,60 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 243,
           "end": 278,
-          "computed": true,
           "object": {
             "type": "Identifier",
             "start": 243,
             "end": 249,
-            "decorators": [],
             "name": "array1",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "CallExpression",
             "start": 250,
             "end": 277,
+            "callee": {
+              "type": "Identifier",
+              "start": 250,
+              "end": 262,
+              "name": "incrementIdx",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "arguments": [
               {
                 "type": "MemberExpression",
                 "start": 263,
                 "end": 276,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 263,
                   "end": 269,
-                  "decorators": [],
                   "name": "array1",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 270,
                   "end": 276,
-                  "decorators": [],
                   "name": "length",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "computed": false,
+                "optional": false
               }
             ],
-            "callee": {
-              "type": "Identifier",
-              "start": 250,
-              "end": 262,
-              "decorators": [],
-              "name": "incrementIdx",
-              "optional": false,
-              "typeAnnotation": null
-            },
             "optional": false,
             "typeArguments": null
-          }
+          },
+          "computed": true,
+          "optional": false
         },
         "right": {
           "type": "AssignmentExpression",
@@ -453,76 +452,76 @@ __ESTREE_TEST__:PASS:
             "type": "MemberExpression",
             "start": 283,
             "end": 318,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 283,
               "end": 289,
-              "decorators": [],
               "name": "array1",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "CallExpression",
               "start": 290,
               "end": 317,
+              "callee": {
+                "type": "Identifier",
+                "start": 290,
+                "end": 302,
+                "name": "incrementIdx",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "MemberExpression",
                   "start": 303,
                   "end": 316,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 303,
                     "end": 309,
-                    "decorators": [],
                     "name": "array1",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 310,
                     "end": 316,
-                    "decorators": [],
                     "name": "length",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "computed": false,
+                  "optional": false
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 290,
-                "end": 302,
-                "decorators": [],
-                "name": "incrementIdx",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "computed": true,
+            "optional": false
           },
           "right": {
             "type": "Literal",
             "start": 323,
             "end": 324,
-            "raw": "2",
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 327,
       "end": 408,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 327,
@@ -532,134 +531,135 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 327,
           "end": 362,
-          "computed": true,
           "object": {
             "type": "Identifier",
             "start": 327,
             "end": 333,
-            "decorators": [],
             "name": "array1",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "CallExpression",
             "start": 334,
             "end": 361,
+            "callee": {
+              "type": "Identifier",
+              "start": 334,
+              "end": 346,
+              "name": "incrementIdx",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "arguments": [
               {
                 "type": "MemberExpression",
                 "start": 347,
                 "end": 360,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 347,
                   "end": 353,
-                  "decorators": [],
                   "name": "array1",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 354,
                   "end": 360,
-                  "decorators": [],
                   "name": "length",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "computed": false,
+                "optional": false
               }
             ],
-            "callee": {
-              "type": "Identifier",
-              "start": 334,
-              "end": 346,
-              "decorators": [],
-              "name": "incrementIdx",
-              "optional": false,
-              "typeAnnotation": null
-            },
             "optional": false,
             "typeArguments": null
-          }
+          },
+          "computed": true,
+          "optional": false
         },
         "right": {
           "type": "BinaryExpression",
           "start": 367,
           "end": 407,
-          "operator": "**",
           "left": {
             "type": "MemberExpression",
             "start": 367,
             "end": 402,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 367,
               "end": 373,
-              "decorators": [],
               "name": "array1",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "CallExpression",
               "start": 374,
               "end": 401,
+              "callee": {
+                "type": "Identifier",
+                "start": 374,
+                "end": 386,
+                "name": "incrementIdx",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "MemberExpression",
                   "start": 387,
                   "end": 400,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 387,
                     "end": 393,
-                    "decorators": [],
                     "name": "array1",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 394,
                     "end": 400,
-                    "decorators": [],
                     "name": "length",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "computed": false,
+                  "optional": false
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 374,
-                "end": 386,
-                "decorators": [],
-                "name": "incrementIdx",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "computed": true,
+            "optional": false
           },
+          "operator": "**",
           "right": {
             "type": "Literal",
             "start": 406,
             "end": 407,
-            "raw": "2",
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

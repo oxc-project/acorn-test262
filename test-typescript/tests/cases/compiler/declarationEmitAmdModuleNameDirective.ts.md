@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 37,
       "end": 58,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 44,
@@ -19,31 +18,32 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 50,
             "end": 57,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 50,
               "end": 53,
-              "decorators": [],
               "name": "foo",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "init": {
               "type": "Literal",
               "start": 56,
               "end": 57,
-              "raw": "1",
-              "value": 1
-            }
+              "value": 1,
+              "raw": "1"
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -61,15 +61,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 55,
       "end": 81,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 73,
-        "end": 80,
-        "raw": "'./foo'",
-        "value": "./foo"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -79,45 +70,54 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 63,
             "end": 66,
-            "decorators": [],
             "name": "foo",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 63,
             "end": 66,
-            "decorators": [],
             "name": "foo",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 73,
+        "end": 80,
+        "value": "./foo",
+        "raw": "'./foo'"
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 82,
       "end": 91,
-      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 82,
         "end": 90,
+        "operator": "void",
+        "prefix": true,
         "argument": {
           "type": "Identifier",
           "start": 87,
           "end": 90,
-          "decorators": [],
           "name": "foo",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "operator": "void",
-        "prefix": true
-      }
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

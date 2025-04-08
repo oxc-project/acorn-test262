@@ -9,7 +9,22 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 65,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 8,
+        "name": "C1",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": {
+        "type": "Literal",
+        "start": 17,
+        "end": 21,
+        "value": null,
+        "raw": "null"
+      },
       "body": {
         "type": "ClassBody",
         "start": 22,
@@ -19,27 +34,27 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 26,
             "end": 63,
-            "accessibility": null,
+            "static": true,
             "computed": false,
-            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 33,
               "end": 39,
-              "decorators": [],
               "name": "method",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": true,
             "value": {
               "type": "FunctionExpression",
               "start": 39,
               "end": 63,
+              "id": null,
+              "expression": false,
+              "generator": false,
               "async": false,
+              "params": [],
               "body": {
                 "type": "BlockStatement",
                 "start": 42,
@@ -49,69 +64,69 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 48,
                     "end": 59,
-                    "directive": null,
                     "expression": {
                       "type": "MemberExpression",
                       "start": 48,
                       "end": 58,
-                      "computed": false,
                       "object": {
                         "type": "Super",
                         "start": 48,
                         "end": 53
                       },
-                      "optional": false,
                       "property": {
                         "type": "Identifier",
                         "start": 54,
                         "end": 58,
-                        "decorators": [],
                         "name": "oops",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    }
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "directive": null
                   }
                 ]
               },
               "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "typeParameters": null,
+              "returnType": null
+            },
+            "decorators": [],
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 8,
-        "decorators": [],
-        "name": "C1",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": {
-        "type": "Literal",
-        "start": 17,
-        "end": 21,
-        "raw": "null",
-        "value": null
-      },
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     },
     {
       "type": "ClassDeclaration",
       "start": 67,
       "end": 125,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 73,
+        "end": 75,
+        "name": "C2",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": {
+        "type": "Literal",
+        "start": 84,
+        "end": 88,
+        "value": null,
+        "raw": "null"
+      },
       "body": {
         "type": "ClassBody",
         "start": 89,
@@ -121,27 +136,27 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 93,
             "end": 123,
-            "accessibility": null,
+            "static": false,
             "computed": false,
-            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 93,
               "end": 99,
-              "decorators": [],
               "name": "method",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 99,
               "end": 123,
+              "id": null,
+              "expression": false,
+              "generator": false,
               "async": false,
+              "params": [],
               "body": {
                 "type": "BlockStatement",
                 "start": 102,
@@ -151,63 +166,48 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 108,
                     "end": 119,
-                    "directive": null,
                     "expression": {
                       "type": "MemberExpression",
                       "start": 108,
                       "end": 118,
-                      "computed": false,
                       "object": {
                         "type": "Super",
                         "start": 108,
                         "end": 113
                       },
-                      "optional": false,
                       "property": {
                         "type": "Identifier",
                         "start": 114,
                         "end": 118,
-                        "decorators": [],
                         "name": "oops",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    }
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "directive": null
                   }
                 ]
               },
               "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "typeParameters": null,
+              "returnType": null
+            },
+            "decorators": [],
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 73,
-        "end": 75,
-        "decorators": [],
-        "name": "C2",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": {
-        "type": "Literal",
-        "start": 84,
-        "end": 88,
-        "raw": "null",
-        "value": null
-      },
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     }
   ],
   "sourceType": "script",

@@ -9,16 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "TSTypeAliasDeclaration",
       "start": 0,
       "end": 149,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 5,
         "end": 18,
-        "decorators": [],
         "name": "TypeStructure",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSUnionType",
         "start": 23,
@@ -37,8 +37,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 26,
                   "end": 30,
-                  "raw": "\"or\"",
-                  "value": "or"
+                  "value": "or",
+                  "raw": "\"or\""
                 }
               },
               {
@@ -49,16 +49,16 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 32,
                   "end": 45,
-                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 32,
                     "end": 45,
-                    "decorators": [],
                     "name": "TypeStructure",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "typeArguments": null
                 }
               }
             ]
@@ -76,8 +76,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 96,
                   "end": 104,
-                  "raw": "\"string\"",
-                  "value": "string"
+                  "value": "string",
+                  "raw": "\"string\""
                 }
               }
             ]
@@ -95,8 +95,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 111,
                   "end": 119,
-                  "raw": "\"number\"",
-                  "value": "number"
+                  "value": "number",
+                  "raw": "\"number\""
                 }
               }
             ]
@@ -114,30 +114,30 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 127,
                   "end": 133,
-                  "raw": "\"list\"",
-                  "value": "list"
+                  "value": "list",
+                  "raw": "\"list\""
                 }
               },
               {
                 "type": "TSTypeReference",
                 "start": 135,
                 "end": 148,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 135,
                   "end": 148,
-                  "decorators": [],
                   "name": "TypeStructure",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
             ]
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     }
   ],
   "sourceType": "script",

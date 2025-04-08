@@ -15,27 +15,27 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "body": []
       },
-      "finalizer": null,
       "handler": {
         "type": "CatchClause",
         "start": 8,
         "end": 21,
+        "param": {
+          "type": "Identifier",
+          "start": 15,
+          "end": 16,
+          "name": "e",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
         "body": {
           "type": "BlockStatement",
           "start": 18,
           "end": 21,
           "body": []
-        },
-        "param": {
-          "type": "Identifier",
-          "start": 15,
-          "end": 16,
-          "decorators": [],
-          "name": "e",
-          "optional": false,
-          "typeAnnotation": null
         }
-      }
+      },
+      "finalizer": null
     }
   ],
   "sourceType": "script",

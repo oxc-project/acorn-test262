@@ -9,16 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 21,
-      "kind": "module",
-      "declare": true,
-      "global": false,
       "id": {
         "type": "Literal",
         "start": 15,
         "end": 20,
-        "raw": "\"foo\"",
-        "value": "foo"
-      }
+        "value": "foo",
+        "raw": "\"foo\""
+      },
+      "kind": "module",
+      "declare": true,
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -36,7 +36,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 54,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 20,
+        "value": "foo",
+        "raw": "\"foo\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 21,
@@ -46,7 +52,6 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 27,
             "end": 52,
-            "attributes": [],
             "declaration": {
               "type": "VariableDeclaration",
               "start": 34,
@@ -56,14 +61,11 @@ __ESTREE_TEST__:PASS:
                   "type": "VariableDeclarator",
                   "start": 40,
                   "end": 51,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 40,
                     "end": 51,
-                    "decorators": [],
                     "name": "bar",
-                    "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 43,
@@ -73,29 +75,27 @@ __ESTREE_TEST__:PASS:
                         "start": 45,
                         "end": 51
                       }
-                    }
+                    },
+                    "decorators": [],
+                    "optional": false
                   },
-                  "init": null
+                  "init": null,
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "const"
+              "kind": "const",
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 20,
-        "raw": "\"foo\"",
-        "value": "foo"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -113,15 +113,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 86,
       "end": 115,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 109,
-        "end": 114,
-        "raw": "\"foo\"",
-        "value": "foo"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -131,10 +122,10 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 93,
             "end": 96,
-            "decorators": [],
             "name": "foo",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         },
         {
@@ -145,23 +136,32 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 99,
             "end": 102,
-            "decorators": [],
             "name": "bar",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 99,
             "end": 102,
-            "decorators": [],
             "name": "bar",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 109,
+        "end": 114,
+        "value": "foo",
+        "raw": "\"foo\""
+      },
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

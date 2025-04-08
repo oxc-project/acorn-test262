@@ -13,10 +13,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 15,
         "end": 20,
-        "decorators": [],
         "name": "xyzzy",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
       "exportKind": "value"
     }

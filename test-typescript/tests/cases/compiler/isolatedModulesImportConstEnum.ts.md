@@ -9,15 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 30,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 20,
-        "end": 29,
-        "raw": "'./file2'",
-        "value": "./file2"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -27,88 +18,97 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 9,
             "end": 12,
-            "decorators": [],
             "name": "Foo",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
             "end": 12,
-            "decorators": [],
             "name": "Foo",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 20,
+        "end": 29,
+        "value": "./file2",
+        "raw": "'./file2'"
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 31,
       "end": 52,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 31,
         "end": 51,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 31,
+          "end": 42,
+          "object": {
+            "type": "Identifier",
+            "start": 31,
+            "end": 38,
+            "name": "console",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 39,
+            "end": 42,
+            "name": "log",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
+        },
         "arguments": [
           {
             "type": "MemberExpression",
             "start": 43,
             "end": 50,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 43,
               "end": 46,
-              "decorators": [],
               "name": "Foo",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 47,
               "end": 50,
-              "decorators": [],
               "name": "BAR",
-              "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": false,
+            "optional": false
           }
         ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 31,
-          "end": 42,
-          "computed": false,
-          "object": {
-            "type": "Identifier",
-            "start": 31,
-            "end": 38,
-            "decorators": [],
-            "name": "console",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 39,
-            "end": 42,
-            "decorators": [],
-            "name": "log",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -126,11 +126,39 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 32,
-      "attributes": [],
       "declaration": {
         "type": "TSEnumDeclaration",
         "start": 7,
         "end": 32,
+        "id": {
+          "type": "Identifier",
+          "start": 18,
+          "end": 21,
+          "name": "Foo",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "members": [
+          {
+            "type": "TSEnumMember",
+            "start": 26,
+            "end": 29,
+            "id": {
+              "type": "Identifier",
+              "start": 26,
+              "end": 29,
+              "name": "BAR",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "initializer": null,
+            "computed": false
+          }
+        ],
+        "const": true,
+        "declare": false,
         "body": {
           "type": "TSEnumBody",
           "start": 22,
@@ -140,35 +168,25 @@ __ESTREE_TEST__:PASS:
               "type": "TSEnumMember",
               "start": 26,
               "end": 29,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 26,
                 "end": 29,
-                "decorators": [],
                 "name": "BAR",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "initializer": null
+              "initializer": null,
+              "computed": false
             }
           ]
-        },
-        "const": true,
-        "declare": false,
-        "id": {
-          "type": "Identifier",
-          "start": 18,
-          "end": 21,
-          "decorators": [],
-          "name": "Foo",
-          "optional": false,
-          "typeAnnotation": null
         }
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",

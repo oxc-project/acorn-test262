@@ -9,37 +9,37 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 17,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 7,
         "end": 17,
-        "abstract": false,
+        "id": {
+          "type": "Identifier",
+          "start": 13,
+          "end": 14,
+          "name": "A",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "superClass": null,
         "body": {
           "type": "ClassBody",
           "start": 15,
           "end": 17,
           "body": []
         },
-        "declare": false,
         "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 13,
-          "end": 14,
-          "decorators": [],
-          "name": "A",
-          "optional": false,
-          "typeAnnotation": null
-        },
+        "typeParameters": null,
         "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false,
+        "superTypeArguments": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -61,12 +61,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 12,
         "end": 16,
-        "decorators": [],
         "name": "from",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "type",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 19,
@@ -75,10 +74,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 27,
           "end": 32,
-          "raw": "'./a'",
-          "value": "./a"
+          "value": "./a",
+          "raw": "'./a'"
         }
-      }
+      },
+      "importKind": "type"
     }
   ],
   "sourceType": "module",

@@ -9,28 +9,34 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 25,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 21,
+        "value": "http",
+        "raw": "\"http\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 22,
         "end": 25,
         "body": []
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 21,
-        "raw": "\"http\"",
-        "value": "http"
-      }
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 27,
       "end": 123,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 42,
+        "end": 65,
+        "value": "intern/dojo/node!http",
+        "raw": "'intern/dojo/node!http'"
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 66,
@@ -44,12 +50,11 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 79,
               "end": 83,
-              "decorators": [],
               "name": "http",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "importKind": "value",
             "moduleReference": {
               "type": "TSExternalModuleReference",
               "start": 86,
@@ -58,10 +63,11 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 94,
                 "end": 100,
-                "raw": "'http'",
-                "value": "http"
+                "value": "http",
+                "raw": "'http'"
               }
-            }
+            },
+            "importKind": "value"
           },
           {
             "type": "TSExportAssignment",
@@ -71,23 +77,17 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 116,
               "end": 120,
-              "decorators": [],
               "name": "http",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 42,
-        "end": 65,
-        "raw": "'intern/dojo/node!http'",
-        "value": "intern/dojo/node!http"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -105,15 +105,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 32,
       "end": 78,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 54,
-        "end": 77,
-        "raw": "'intern/dojo/node!http'",
-        "value": "intern/dojo/node!http"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -123,13 +114,22 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 44,
             "end": 48,
-            "decorators": [],
             "name": "http",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 54,
+        "end": 77,
+        "value": "intern/dojo/node!http",
+        "raw": "'intern/dojo/node!http'"
+      },
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

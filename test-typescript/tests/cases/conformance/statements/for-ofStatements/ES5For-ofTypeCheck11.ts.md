@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 28,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 28,
-            "decorators": [],
             "name": "union",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 9,
@@ -48,13 +45,16 @@ __ESTREE_TEST__:PASS:
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -65,14 +65,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 34,
           "end": 43,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 34,
             "end": 43,
-            "decorators": [],
             "name": "v",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 35,
@@ -82,42 +79,45 @@ __ESTREE_TEST__:PASS:
                 "start": 37,
                 "end": 43
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ForOfStatement",
       "start": 45,
       "end": 65,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 62,
-        "end": 65,
-        "body": []
-      },
       "left": {
         "type": "Identifier",
         "start": 50,
         "end": 51,
-        "decorators": [],
         "name": "v",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
       "right": {
         "type": "Identifier",
         "start": 55,
         "end": 60,
-        "decorators": [],
         "name": "union",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 62,
+        "end": 65,
+        "body": []
       }
     }
   ],

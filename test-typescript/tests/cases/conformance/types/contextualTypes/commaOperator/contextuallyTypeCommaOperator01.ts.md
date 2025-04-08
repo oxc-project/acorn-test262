@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 28,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 28,
-            "decorators": [],
             "name": "x",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 5,
@@ -30,14 +27,13 @@ __ESTREE_TEST__:PASS:
                 "type": "TSFunctionType",
                 "start": 7,
                 "end": 28,
+                "typeParameters": null,
                 "params": [
                   {
                     "type": "Identifier",
                     "start": 8,
                     "end": 17,
-                    "decorators": [],
                     "name": "a",
-                    "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 9,
@@ -47,7 +43,9 @@ __ESTREE_TEST__:PASS:
                         "start": 11,
                         "end": 17
                       }
-                    }
+                    },
+                    "decorators": [],
+                    "optional": false
                   }
                 ],
                 "returnType": {
@@ -59,22 +57,23 @@ __ESTREE_TEST__:PASS:
                     "start": 22,
                     "end": 28
                   }
-                },
-                "typeParameters": null
+                }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 31,
       "end": 49,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 31,
@@ -84,10 +83,10 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 31,
           "end": 32,
-          "decorators": [],
           "name": "x",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
         "right": {
           "type": "SequenceExpression",
@@ -98,43 +97,44 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 36,
               "end": 39,
-              "raw": "100",
-              "value": 100
+              "value": 100,
+              "raw": "100"
             },
             {
               "type": "ArrowFunctionExpression",
               "start": 41,
               "end": 47,
-              "async": false,
-              "body": {
-                "type": "Identifier",
-                "start": 46,
-                "end": 47,
-                "decorators": [],
-                "name": "a",
-                "optional": false,
-                "typeAnnotation": null
-              },
+              "id": null,
               "expression": true,
               "generator": false,
-              "id": null,
+              "async": false,
               "params": [
                 {
                   "type": "Identifier",
                   "start": 41,
                   "end": 42,
-                  "decorators": [],
                   "name": "a",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 }
               ],
-              "returnType": null,
-              "typeParameters": null
+              "body": {
+                "type": "Identifier",
+                "start": 46,
+                "end": 47,
+                "name": "a",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "typeParameters": null,
+              "returnType": null
             }
           ]
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

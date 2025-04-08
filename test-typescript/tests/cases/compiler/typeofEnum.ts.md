@@ -9,6 +9,51 @@ __ESTREE_TEST__:PASS:
       "type": "TSEnumDeclaration",
       "start": 0,
       "end": 25,
+      "id": {
+        "type": "Identifier",
+        "start": 5,
+        "end": 6,
+        "name": "E",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "members": [
+        {
+          "type": "TSEnumMember",
+          "start": 13,
+          "end": 15,
+          "id": {
+            "type": "Identifier",
+            "start": 13,
+            "end": 15,
+            "name": "e1",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": null,
+          "computed": false
+        },
+        {
+          "type": "TSEnumMember",
+          "start": 21,
+          "end": 23,
+          "id": {
+            "type": "Identifier",
+            "start": 21,
+            "end": 23,
+            "name": "e2",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": null,
+          "computed": false
+        }
+      ],
+      "const": false,
+      "declare": false,
       "body": {
         "type": "TSEnumBody",
         "start": 7,
@@ -18,46 +63,35 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 13,
             "end": 15,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 13,
               "end": 15,
-              "decorators": [],
               "name": "e1",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 21,
             "end": 23,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 21,
               "end": 23,
-              "decorators": [],
               "name": "e2",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           }
         ]
-      },
-      "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 5,
-        "end": 6,
-        "decorators": [],
-        "name": "E",
-        "optional": false,
-        "typeAnnotation": null
       }
     },
     {
@@ -69,14 +103,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 31,
           "end": 43,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 31,
             "end": 43,
-            "decorators": [],
             "name": "e1",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 33,
@@ -89,51 +120,54 @@ __ESTREE_TEST__:PASS:
                   "type": "Identifier",
                   "start": 42,
                   "end": 43,
-                  "decorators": [],
                   "name": "E",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "typeArguments": null
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 45,
       "end": 51,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 45,
         "end": 50,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 45,
           "end": 47,
-          "decorators": [],
           "name": "e1",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 48,
           "end": 50,
-          "decorators": [],
           "name": "e1",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      }
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "computed": false,
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

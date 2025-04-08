@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 20,
       "end": 97,
+      "id": {
+        "type": "Identifier",
+        "start": 27,
+        "end": 28,
+        "name": "Q",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 29,
@@ -18,7 +27,19 @@ __ESTREE_TEST__:PASS:
             "type": "FunctionDeclaration",
             "start": 35,
             "end": 95,
+            "id": {
+              "type": "Identifier",
+              "start": 44,
+              "end": 45,
+              "name": "P",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "expression": false,
+            "generator": false,
             "async": false,
+            "params": [],
             "body": {
               "type": "BlockStatement",
               "start": 48,
@@ -33,60 +54,39 @@ __ESTREE_TEST__:PASS:
                       "type": "VariableDeclarator",
                       "start": 83,
                       "end": 88,
-                      "definite": false,
                       "id": {
                         "type": "Identifier",
                         "start": 83,
                         "end": 84,
-                        "decorators": [],
                         "name": "a",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
                       "init": {
                         "type": "Literal",
                         "start": 87,
                         "end": 88,
-                        "raw": "1",
-                        "value": 1
-                      }
+                        "value": 1,
+                        "raw": "1"
+                      },
+                      "definite": false
                     }
                   ],
-                  "declare": false,
-                  "kind": "var"
+                  "kind": "var",
+                  "declare": false
                 }
               ]
             },
             "declare": false,
-            "expression": false,
-            "generator": false,
-            "id": {
-              "type": "Identifier",
-              "start": 44,
-              "end": 45,
-              "decorators": [],
-              "name": "P",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
+            "typeParameters": null,
+            "returnType": null
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 27,
-        "end": 28,
-        "decorators": [],
-        "name": "Q",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

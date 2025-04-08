@@ -9,6 +9,17 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 40,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 18,
+        "name": "CSSProps",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "extends": [],
+      "typeParameters": null,
       "body": {
         "type": "TSInterfaceBody",
         "start": 20,
@@ -18,20 +29,18 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 24,
             "end": 38,
-            "accessibility": null,
             "computed": false,
+            "optional": true,
+            "readonly": false,
             "key": {
               "type": "Identifier",
               "start": 24,
               "end": 29,
-              "decorators": [],
               "name": "color",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": true,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 30,
@@ -41,27 +50,29 @@ __ESTREE_TEST__:PASS:
                 "start": 32,
                 "end": 38
               }
-            }
+            },
+            "accessibility": null,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 18,
-        "decorators": [],
-        "name": "CSSProps",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 41,
       "end": 95,
+      "id": {
+        "type": "Identifier",
+        "start": 51,
+        "end": 65,
+        "name": "NestedCSSProps",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "extends": [],
+      "typeParameters": null,
       "body": {
         "type": "TSInterfaceBody",
         "start": 66,
@@ -71,20 +82,18 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 70,
             "end": 93,
-            "accessibility": null,
             "computed": false,
+            "optional": true,
+            "readonly": false,
             "key": {
               "type": "Identifier",
               "start": 70,
               "end": 76,
-              "decorators": [],
               "name": "nested",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": true,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 77,
@@ -93,38 +102,40 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 79,
                 "end": 93,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 79,
                   "end": 93,
-                  "decorators": [],
                   "name": "NestedSelector",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
-            }
+            },
+            "accessibility": null,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 51,
-        "end": 65,
-        "decorators": [],
-        "name": "NestedCSSProps",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 96,
       "end": 143,
+      "id": {
+        "type": "Identifier",
+        "start": 106,
+        "end": 120,
+        "name": "NestedSelector",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "extends": [],
+      "typeParameters": null,
       "body": {
         "type": "TSInterfaceBody",
         "start": 122,
@@ -134,20 +145,18 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 126,
             "end": 141,
-            "accessibility": null,
             "computed": false,
+            "optional": false,
+            "readonly": false,
             "key": {
               "type": "Identifier",
               "start": 126,
               "end": 130,
-              "decorators": [],
               "name": "prop",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 130,
@@ -156,33 +165,24 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 132,
                 "end": 140,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 132,
                   "end": 140,
-                  "decorators": [],
                   "name": "CSSProps",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
-            }
+            },
+            "accessibility": null,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 106,
-        "end": 120,
-        "decorators": [],
-        "name": "NestedSelector",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -193,14 +193,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 149,
           "end": 215,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 149,
             "end": 171,
-            "decorators": [],
             "name": "stylen",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 155,
@@ -209,18 +206,20 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 157,
                 "end": 171,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 157,
                   "end": 171,
-                  "decorators": [],
                   "name": "NestedCSSProps",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ObjectExpression",
@@ -231,20 +230,18 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 178,
                 "end": 213,
+                "method": false,
+                "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
                   "start": 178,
                   "end": 184,
-                  "decorators": [],
                   "name": "nested",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "ObjectExpression",
                   "start": 186,
@@ -254,20 +251,18 @@ __ESTREE_TEST__:PASS:
                       "type": "Property",
                       "start": 188,
                       "end": 211,
+                      "method": false,
+                      "shorthand": false,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
                         "start": 188,
                         "end": 192,
-                        "decorators": [],
                         "name": "prop",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
-                      "kind": "init",
-                      "method": false,
-                      "optional": false,
-                      "shorthand": false,
                       "value": {
                         "type": "ObjectExpression",
                         "start": 194,
@@ -277,40 +272,45 @@ __ESTREE_TEST__:PASS:
                             "type": "Property",
                             "start": 196,
                             "end": 209,
+                            "method": false,
+                            "shorthand": false,
                             "computed": false,
                             "key": {
                               "type": "Identifier",
                               "start": 196,
                               "end": 202,
-                              "decorators": [],
                               "name": "colour",
-                              "optional": false,
-                              "typeAnnotation": null
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
                             },
-                            "kind": "init",
-                            "method": false,
-                            "optional": false,
-                            "shorthand": false,
                             "value": {
                               "type": "Literal",
                               "start": 204,
                               "end": 209,
-                              "raw": "'red'",
-                              "value": "red"
-                            }
+                              "value": "red",
+                              "raw": "'red'"
+                            },
+                            "kind": "init",
+                            "optional": false
                           }
                         ]
-                      }
+                      },
+                      "kind": "init",
+                      "optional": false
                     }
                   ]
-                }
+                },
+                "kind": "init",
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     }
   ],
   "sourceType": "script",

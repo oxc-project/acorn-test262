@@ -9,6 +9,17 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 77,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 11,
+        "name": "I",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "extends": [],
+      "typeParameters": null,
       "body": {
         "type": "TSInterfaceBody",
         "start": 12,
@@ -18,36 +29,34 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 18,
             "end": 47,
-            "accessibility": null,
             "computed": true,
+            "optional": false,
+            "readonly": false,
             "key": {
               "type": "MemberExpression",
               "start": 19,
               "end": 37,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 19,
                 "end": 25,
-                "decorators": [],
                 "name": "Symbol",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 26,
                 "end": 37,
-                "decorators": [],
                 "name": "unscopables",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
             },
-            "optional": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 38,
@@ -57,61 +66,52 @@ __ESTREE_TEST__:PASS:
                 "start": 40,
                 "end": 46
               }
-            }
+            },
+            "accessibility": null,
+            "static": false
           },
           {
             "type": "TSMethodSignature",
             "start": 52,
             "end": 75,
-            "accessibility": null,
-            "computed": true,
             "key": {
               "type": "MemberExpression",
               "start": 53,
               "end": 71,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 53,
                 "end": 59,
-                "decorators": [],
                 "name": "Symbol",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 60,
                 "end": 71,
-                "decorators": [],
                 "name": "toPrimitive",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
             },
-            "kind": "method",
+            "computed": true,
             "optional": false,
+            "kind": "method",
+            "typeParameters": null,
             "params": [],
-            "readonly": false,
             "returnType": null,
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 11,
-        "decorators": [],
-        "name": "I",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     }
   ],
   "sourceType": "script",

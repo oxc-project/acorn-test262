@@ -13,12 +13,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 32,
         "end": 34,
-        "decorators": [],
         "name": "fs",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 37,
@@ -27,10 +26,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 45,
           "end": 72,
-          "raw": "'./requireOfAnEmptyFile1_b'",
-          "value": "./requireOfAnEmptyFile1_b"
+          "value": "./requireOfAnEmptyFile1_b",
+          "raw": "'./requireOfAnEmptyFile1_b'"
         }
-      }
+      },
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

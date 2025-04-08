@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 14,
           "end": 30,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
             "end": 30,
-            "decorators": [],
             "name": "O",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 15,
@@ -37,19 +34,31 @@ __ESTREE_TEST__:PASS:
                   "end": 30
                 }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "kind": "const",
+      "declare": true
     },
     {
       "type": "ClassDeclaration",
       "start": 32,
       "end": 73,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 46,
+        "end": 49,
+        "name": "Bar",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 53,
@@ -59,24 +68,24 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 59,
             "end": 71,
-            "accessibility": null,
+            "static": false,
             "computed": true,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 60,
               "end": 61,
-              "decorators": [],
               "name": "O",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
+            "value": null,
+            "decorators": [],
+            "declare": false,
             "override": false,
+            "optional": false,
+            "definite": false,
             "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 62,
@@ -87,24 +96,11 @@ __ESTREE_TEST__:PASS:
                 "end": 70
               }
             },
-            "value": null
+            "accessibility": null
           }
         ]
       },
-      "declare": true,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 46,
-        "end": 49,
-        "decorators": [],
-        "name": "Bar",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 49,
@@ -114,23 +110,27 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeParameter",
             "start": 50,
             "end": 51,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
             "name": {
               "type": "Identifier",
               "start": 50,
               "end": 51,
-              "decorators": [],
               "name": "O",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "out": false
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
           }
         ]
-      }
+      },
+      "implements": [],
+      "abstract": false,
+      "declare": true,
+      "superTypeArguments": null
     }
   ],
   "sourceType": "script",

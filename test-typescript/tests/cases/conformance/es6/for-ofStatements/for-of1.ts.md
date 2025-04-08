@@ -14,47 +14,47 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 20,
           "end": 21,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 20,
             "end": 21,
-            "decorators": [],
             "name": "v",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ForOfStatement",
       "start": 23,
       "end": 40,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 37,
-        "end": 40,
-        "body": []
-      },
       "left": {
         "type": "Identifier",
         "start": 28,
         "end": 29,
-        "decorators": [],
         "name": "v",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
       "right": {
         "type": "ArrayExpression",
         "start": 33,
         "end": 35,
         "elements": []
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 37,
+        "end": 40,
+        "body": []
       }
     }
   ],

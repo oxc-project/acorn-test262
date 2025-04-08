@@ -9,14 +9,14 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 3,
-      "directive": null,
       "expression": {
         "type": "Literal",
         "start": 0,
         "end": 3,
-        "raw": "1e0",
-        "value": 1
-      }
+        "value": 1,
+        "raw": "1e0"
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

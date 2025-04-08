@@ -14,61 +14,61 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 6,
           "end": 29,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
             "end": 9,
-            "decorators": [],
             "name": "foo",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "CallExpression",
             "start": 12,
             "end": 29,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 12,
+              "end": 22,
+              "object": {
+                "type": "Identifier",
+                "start": 12,
+                "end": 18,
+                "name": "Symbol",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 19,
+                "end": 22,
+                "name": "for",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
+            },
             "arguments": [
               {
                 "type": "Literal",
                 "start": 23,
                 "end": 28,
-                "raw": "\"foo\"",
-                "value": "foo"
+                "value": "foo",
+                "raw": "\"foo\""
               }
             ],
-            "callee": {
-              "type": "MemberExpression",
-              "start": 12,
-              "end": 22,
-              "computed": false,
-              "object": {
-                "type": "Identifier",
-                "start": 12,
-                "end": 18,
-                "decorators": [],
-                "name": "Symbol",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "property": {
-                "type": "Identifier",
-                "start": 19,
-                "end": 22,
-                "decorators": [],
-                "name": "for",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
             "optional": false,
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -79,15 +79,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 37,
           "end": 61,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 37,
             "end": 38,
-            "decorators": [],
             "name": "o",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ObjectExpression",
@@ -98,36 +97,37 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 43,
                 "end": 59,
+                "method": false,
+                "shorthand": false,
                 "computed": true,
                 "key": {
                   "type": "Identifier",
                   "start": 44,
                   "end": 47,
-                  "decorators": [],
                   "name": "foo",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Identifier",
                   "start": 50,
                   "end": 59,
-                  "decorators": [],
                   "name": "undefined",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "kind": "init",
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     }
   ],
   "sourceType": "script",

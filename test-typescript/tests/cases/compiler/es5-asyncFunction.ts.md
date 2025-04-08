@@ -14,27 +14,39 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 12,
           "end": 13,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
             "end": 13,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "declare": true
     },
     {
       "type": "FunctionDeclaration",
       "start": 16,
       "end": 42,
+      "id": {
+        "type": "Identifier",
+        "start": 31,
+        "end": 36,
+        "name": "empty",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": true,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 39,
@@ -42,26 +54,26 @@ __ESTREE_TEST__:PASS:
         "body": []
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 31,
-        "end": 36,
-        "decorators": [],
-        "name": "empty",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     },
     {
       "type": "FunctionDeclaration",
       "start": 44,
       "end": 89,
+      "id": {
+        "type": "Identifier",
+        "start": 59,
+        "end": 70,
+        "name": "singleAwait",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": true,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 73,
@@ -71,7 +83,6 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 79,
             "end": 87,
-            "directive": null,
             "expression": {
               "type": "AwaitExpression",
               "start": 79,
@@ -80,30 +91,19 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 85,
                 "end": 86,
-                "decorators": [],
                 "name": "x",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 59,
-        "end": 70,
-        "decorators": [],
-        "name": "singleAwait",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

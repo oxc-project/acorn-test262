@@ -10,6 +10,37 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 80,
       "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 5,
+        "end": 10,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 9,
+            "end": 10,
+            "id": {
+              "type": "Identifier",
+              "start": 9,
+              "end": 10,
+              "name": "v",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "init": null,
+            "definite": false
+          }
+        ],
+        "kind": "let",
+        "declare": false
+      },
+      "right": {
+        "type": "ArrayExpression",
+        "start": 14,
+        "end": 16,
+        "elements": []
+      },
       "body": {
         "type": "BlockStatement",
         "start": 18,
@@ -24,27 +55,68 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 28,
                 "end": 29,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 28,
                   "end": 29,
-                  "decorators": [],
                   "name": "v",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "kind": "let",
+            "declare": false
           },
           {
             "type": "ForOfStatement",
             "start": 35,
             "end": 78,
             "await": false,
+            "left": {
+              "type": "VariableDeclaration",
+              "start": 40,
+              "end": 45,
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "start": 44,
+                  "end": 45,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 44,
+                    "end": 45,
+                    "name": "v",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "init": null,
+                  "definite": false
+                }
+              ],
+              "kind": "let",
+              "declare": false
+            },
+            "right": {
+              "type": "ArrayExpression",
+              "start": 49,
+              "end": 52,
+              "elements": [
+                {
+                  "type": "Identifier",
+                  "start": 50,
+                  "end": 51,
+                  "name": "v",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                }
+              ]
+            },
             "body": {
               "type": "BlockStatement",
               "start": 54,
@@ -59,98 +131,26 @@ __ESTREE_TEST__:PASS:
                       "type": "VariableDeclarator",
                       "start": 70,
                       "end": 71,
-                      "definite": false,
                       "id": {
                         "type": "Identifier",
                         "start": 70,
                         "end": 71,
-                        "decorators": [],
                         "name": "v",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
-                      "init": null
+                      "init": null,
+                      "definite": false
                     }
                   ],
-                  "declare": false,
-                  "kind": "const"
-                }
-              ]
-            },
-            "left": {
-              "type": "VariableDeclaration",
-              "start": 40,
-              "end": 45,
-              "declarations": [
-                {
-                  "type": "VariableDeclarator",
-                  "start": 44,
-                  "end": 45,
-                  "definite": false,
-                  "id": {
-                    "type": "Identifier",
-                    "start": 44,
-                    "end": 45,
-                    "decorators": [],
-                    "name": "v",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "init": null
-                }
-              ],
-              "declare": false,
-              "kind": "let"
-            },
-            "right": {
-              "type": "ArrayExpression",
-              "start": 49,
-              "end": 52,
-              "elements": [
-                {
-                  "type": "Identifier",
-                  "start": 50,
-                  "end": 51,
-                  "decorators": [],
-                  "name": "v",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "kind": "const",
+                  "declare": false
                 }
               ]
             }
           }
         ]
-      },
-      "left": {
-        "type": "VariableDeclaration",
-        "start": 5,
-        "end": 10,
-        "declarations": [
-          {
-            "type": "VariableDeclarator",
-            "start": 9,
-            "end": 10,
-            "definite": false,
-            "id": {
-              "type": "Identifier",
-              "start": 9,
-              "end": 10,
-              "decorators": [],
-              "name": "v",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "init": null
-          }
-        ],
-        "declare": false,
-        "kind": "let"
-      },
-      "right": {
-        "type": "ArrayExpression",
-        "start": 14,
-        "end": 16,
-        "elements": []
       }
     }
   ],

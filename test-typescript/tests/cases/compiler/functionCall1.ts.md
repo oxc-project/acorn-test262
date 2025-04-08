@@ -9,7 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 29,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 12,
+        "name": "foo",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 18,
@@ -23,25 +35,14 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 26,
               "end": 28,
-              "raw": "\"\"",
-              "value": ""
+              "value": "",
+              "raw": "\"\""
             }
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 12,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 14,
@@ -51,8 +52,7 @@ __ESTREE_TEST__:PASS:
           "start": 15,
           "end": 18
         }
-      },
-      "typeParameters": null
+      }
     },
     {
       "type": "EmptyStatement",
@@ -68,37 +68,37 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 35,
           "end": 44,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 35,
             "end": 36,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "CallExpression",
             "start": 39,
             "end": 44,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 39,
               "end": 42,
-              "decorators": [],
               "name": "foo",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
+            "arguments": [],
             "optional": false,
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

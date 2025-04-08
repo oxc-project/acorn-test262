@@ -13,12 +13,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 7,
         "end": 8,
-        "decorators": [],
         "name": "i",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 11,
@@ -27,33 +26,34 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 19,
           "end": 24,
-          "raw": "\"mod\"",
-          "value": "mod"
+          "value": "mod",
+          "raw": "\"mod\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSModuleDeclaration",
       "start": 39,
       "end": 54,
+      "id": {
+        "type": "Identifier",
+        "start": 49,
+        "end": 50,
+        "name": "N",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 51,
         "end": 54,
         "body": []
       },
+      "kind": "namespace",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 49,
-        "end": 50,
-        "decorators": [],
-        "name": "N",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     },
     {
       "type": "TSExportAssignment",
@@ -63,10 +63,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 64,
         "end": 65,
-        "decorators": [],
         "name": "N",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     }
   ],

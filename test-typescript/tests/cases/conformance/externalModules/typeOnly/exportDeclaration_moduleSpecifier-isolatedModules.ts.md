@@ -9,32 +9,32 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 19,
-      "attributes": [],
       "declaration": {
         "type": "TSTypeAliasDeclaration",
         "start": 7,
         "end": 19,
-        "declare": false,
         "id": {
           "type": "Identifier",
           "start": 12,
           "end": 13,
-          "decorators": [],
           "name": "A",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "typeParameters": null,
         "typeAnnotation": {
           "type": "TSTypeLiteral",
           "start": 16,
           "end": 18,
           "members": []
         },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     }
   ],
   "sourceType": "module",
@@ -52,42 +52,42 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 29,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "type",
-      "source": {
-        "type": "Literal",
-        "start": 23,
-        "end": 28,
-        "raw": "'./a'",
-        "value": "./a"
-      },
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 14,
           "end": 15,
-          "exported": {
-            "type": "Identifier",
-            "start": 14,
-            "end": 15,
-            "decorators": [],
-            "name": "A",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "exportKind": "value",
           "local": {
             "type": "Identifier",
             "start": 14,
             "end": 15,
-            "decorators": [],
             "name": "A",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "exported": {
+            "type": "Identifier",
+            "start": 14,
+            "end": 15,
+            "name": "A",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 23,
+        "end": 28,
+        "value": "./a",
+        "raw": "'./a'"
+      },
+      "attributes": [],
+      "exportKind": "type"
     }
   ],
   "sourceType": "module",

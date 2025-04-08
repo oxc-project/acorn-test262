@@ -9,36 +9,36 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 13,
-      "directive": "use strict",
       "expression": {
         "type": "Literal",
         "start": 0,
         "end": 12,
-        "raw": "\"use strict\"",
-        "value": "use strict"
-      }
+        "value": "use strict",
+        "raw": "\"use strict\""
+      },
+      "directive": "use strict"
     },
     {
       "type": "ExpressionStatement",
       "start": 14,
       "end": 23,
-      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 14,
         "end": 22,
+        "operator": "delete",
+        "prefix": true,
         "argument": {
           "type": "Identifier",
           "start": 21,
           "end": 22,
-          "decorators": [],
           "name": "a",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "operator": "delete",
-        "prefix": true
-      }
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

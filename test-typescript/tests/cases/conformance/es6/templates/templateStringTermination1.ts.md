@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 2,
       "end": 4,
-      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 2,
@@ -20,14 +19,15 @@ __ESTREE_TEST__:PASS:
             "type": "TemplateElement",
             "start": 2,
             "end": 4,
-            "tail": true,
             "value": {
               "cooked": "",
               "raw": ""
-            }
+            },
+            "tail": true
           }
         ]
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

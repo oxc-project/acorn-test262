@@ -9,16 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "SwitchStatement",
       "start": 0,
       "end": 16,
-      "cases": [],
       "discriminant": {
         "type": "Identifier",
         "start": 8,
         "end": 11,
-        "decorators": [],
         "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "cases": []
     }
   ],
   "sourceType": "script",

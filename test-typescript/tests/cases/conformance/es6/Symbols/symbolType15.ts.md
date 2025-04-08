@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 15,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 15,
-            "decorators": [],
             "name": "sym",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 7,
@@ -31,13 +28,16 @@ __ESTREE_TEST__:PASS:
                 "start": 9,
                 "end": 15
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -48,14 +48,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 21,
           "end": 35,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 21,
             "end": 35,
-            "decorators": [],
             "name": "symObj",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 27,
@@ -64,30 +61,32 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 29,
                 "end": 35,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 29,
                   "end": 35,
-                  "decorators": [],
                   "name": "Symbol",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 38,
       "end": 51,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 38,
@@ -97,27 +96,27 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 38,
           "end": 44,
-          "decorators": [],
           "name": "symObj",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
         "right": {
           "type": "Identifier",
           "start": 47,
           "end": 50,
-          "decorators": [],
           "name": "sym",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 52,
       "end": 65,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 52,
@@ -127,21 +126,22 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 52,
           "end": 55,
-          "decorators": [],
           "name": "sym",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
         "right": {
           "type": "Identifier",
           "start": 58,
           "end": 64,
-          "decorators": [],
           "name": "symObj",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

@@ -14,27 +14,27 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 9,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 5,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 8,
             "end": 9,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "module",
@@ -52,7 +52,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 31,
       "end": 44,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 38,
@@ -62,25 +61,26 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 42,
             "end": 43,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 42,
               "end": 43,
-              "decorators": [],
               "name": "y",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "kind": "var",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -102,12 +102,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 7,
         "end": 8,
-        "decorators": [],
         "name": "y",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 11,
@@ -116,10 +115,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 19,
           "end": 24,
-          "raw": "\"./a\"",
-          "value": "./a"
+          "value": "./a",
+          "raw": "\"./a\""
         }
-      }
+      },
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

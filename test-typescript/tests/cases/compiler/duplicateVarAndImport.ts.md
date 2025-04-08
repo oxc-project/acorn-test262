@@ -14,44 +14,44 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 50,
           "end": 51,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 50,
             "end": 51,
-            "decorators": [],
             "name": "a",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 53,
       "end": 65,
+      "id": {
+        "type": "Identifier",
+        "start": 60,
+        "end": 61,
+        "name": "M",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 62,
         "end": 65,
         "body": []
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 60,
-        "end": 61,
-        "decorators": [],
-        "name": "M",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -61,21 +61,21 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 73,
         "end": 74,
-        "decorators": [],
         "name": "a",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "Identifier",
         "start": 77,
         "end": 78,
-        "decorators": [],
         "name": "M",
-        "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "importKind": "value"
     }
   ],
   "sourceType": "script",

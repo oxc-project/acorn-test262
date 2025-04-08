@@ -9,16 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "TSTypeAliasDeclaration",
       "start": 0,
       "end": 50,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 5,
         "end": 6,
-        "decorators": [],
         "name": "A",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeLiteral",
         "start": 9,
@@ -28,17 +28,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 15,
             "end": 28,
-            "accessibility": null,
             "computed": false,
+            "optional": false,
+            "readonly": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 15,
               "end": 19,
               "name": "foo"
             },
-            "optional": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 19,
@@ -48,24 +46,25 @@ __ESTREE_TEST__:PASS:
                 "start": 21,
                 "end": 27
               }
-            }
+            },
+            "accessibility": null,
+            "static": false
           },
           {
             "type": "TSMethodSignature",
             "start": 33,
             "end": 48,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 33,
               "end": 37,
               "name": "bar"
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": null,
             "params": [],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 39,
@@ -76,17 +75,29 @@ __ESTREE_TEST__:PASS:
                 "end": 47
               }
             },
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 52,
       "end": 105,
+      "id": {
+        "type": "Identifier",
+        "start": 62,
+        "end": 63,
+        "name": "B",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "extends": [],
+      "typeParameters": null,
       "body": {
         "type": "TSInterfaceBody",
         "start": 64,
@@ -96,17 +107,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 70,
             "end": 83,
-            "accessibility": null,
             "computed": false,
+            "optional": false,
+            "readonly": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 70,
               "end": 74,
               "name": "foo"
             },
-            "optional": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 74,
@@ -116,24 +125,25 @@ __ESTREE_TEST__:PASS:
                 "start": 76,
                 "end": 82
               }
-            }
+            },
+            "accessibility": null,
+            "static": false
           },
           {
             "type": "TSMethodSignature",
             "start": 88,
             "end": 103,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 88,
               "end": 92,
               "name": "bar"
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": null,
             "params": [],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 94,
@@ -144,23 +154,13 @@ __ESTREE_TEST__:PASS:
                 "end": 102
               }
             },
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 62,
-        "end": 63,
-        "decorators": [],
-        "name": "B",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -171,14 +171,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 121,
           "end": 228,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 121,
             "end": 228,
-            "decorators": [],
             "name": "x",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 122,
@@ -192,17 +189,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 130,
                     "end": 143,
-                    "accessibility": null,
                     "computed": false,
+                    "optional": false,
+                    "readonly": false,
                     "key": {
                       "type": "PrivateIdentifier",
                       "start": 130,
                       "end": 134,
                       "name": "foo"
                     },
-                    "optional": false,
-                    "readonly": false,
-                    "static": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 134,
@@ -212,26 +207,26 @@ __ESTREE_TEST__:PASS:
                         "start": 136,
                         "end": 142
                       }
-                    }
+                    },
+                    "accessibility": null,
+                    "static": false
                   },
                   {
                     "type": "TSPropertySignature",
                     "start": 148,
                     "end": 206,
-                    "accessibility": null,
                     "computed": false,
+                    "optional": false,
+                    "readonly": false,
                     "key": {
                       "type": "Identifier",
                       "start": 148,
                       "end": 151,
-                      "decorators": [],
                       "name": "bar",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "optional": false,
-                    "readonly": false,
-                    "static": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 151,
@@ -245,17 +240,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSPropertySignature",
                             "start": 163,
                             "end": 176,
-                            "accessibility": null,
                             "computed": false,
+                            "optional": false,
+                            "readonly": false,
                             "key": {
                               "type": "PrivateIdentifier",
                               "start": 163,
                               "end": 167,
                               "name": "baz"
                             },
-                            "optional": false,
-                            "readonly": false,
-                            "static": false,
                             "typeAnnotation": {
                               "type": "TSTypeAnnotation",
                               "start": 167,
@@ -265,24 +258,25 @@ __ESTREE_TEST__:PASS:
                                 "start": 169,
                                 "end": 175
                               }
-                            }
+                            },
+                            "accessibility": null,
+                            "static": false
                           },
                           {
                             "type": "TSMethodSignature",
                             "start": 185,
                             "end": 200,
-                            "accessibility": null,
-                            "computed": false,
                             "key": {
                               "type": "PrivateIdentifier",
                               "start": 185,
                               "end": 189,
                               "name": "taz"
                             },
-                            "kind": "method",
+                            "computed": false,
                             "optional": false,
+                            "kind": "method",
+                            "typeParameters": null,
                             "params": [],
-                            "readonly": false,
                             "returnType": {
                               "type": "TSTypeAnnotation",
                               "start": 191,
@@ -293,29 +287,31 @@ __ESTREE_TEST__:PASS:
                                 "end": 199
                               }
                             },
-                            "static": false,
-                            "typeParameters": null
+                            "accessibility": null,
+                            "readonly": false,
+                            "static": false
                           }
                         ]
                       }
-                    }
+                    },
+                    "accessibility": null,
+                    "static": false
                   },
                   {
                     "type": "TSMethodSignature",
                     "start": 211,
                     "end": 226,
-                    "accessibility": null,
-                    "computed": false,
                     "key": {
                       "type": "PrivateIdentifier",
                       "start": 211,
                       "end": 215,
                       "name": "baz"
                     },
-                    "kind": "method",
+                    "computed": false,
                     "optional": false,
+                    "kind": "method",
+                    "typeParameters": null,
                     "params": [],
-                    "readonly": false,
                     "returnType": {
                       "type": "TSTypeAnnotation",
                       "start": 217,
@@ -326,18 +322,22 @@ __ESTREE_TEST__:PASS:
                         "end": 225
                       }
                     },
-                    "static": false,
-                    "typeParameters": null
+                    "accessibility": null,
+                    "readonly": false,
+                    "static": false
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "kind": "const",
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
@@ -348,14 +348,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 245,
           "end": 271,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 245,
             "end": 271,
-            "decorators": [],
             "name": "y",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 246,
@@ -374,20 +371,18 @@ __ESTREE_TEST__:PASS:
                         "type": "TSPropertySignature",
                         "start": 251,
                         "end": 268,
-                        "accessibility": null,
                         "computed": false,
+                        "optional": false,
+                        "readonly": false,
                         "key": {
                           "type": "Identifier",
                           "start": 251,
                           "end": 254,
-                          "decorators": [],
                           "name": "qux",
-                          "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
                         },
-                        "optional": false,
-                        "readonly": false,
-                        "static": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
                           "start": 254,
@@ -401,17 +396,15 @@ __ESTREE_TEST__:PASS:
                                 "type": "TSPropertySignature",
                                 "start": 258,
                                 "end": 266,
-                                "accessibility": null,
                                 "computed": false,
+                                "optional": false,
+                                "readonly": false,
                                 "key": {
                                   "type": "PrivateIdentifier",
                                   "start": 258,
                                   "end": 263,
                                   "name": "quux"
                                 },
-                                "optional": false,
-                                "readonly": false,
-                                "static": false,
                                 "typeAnnotation": {
                                   "type": "TSTypeAnnotation",
                                   "start": 263,
@@ -424,27 +417,34 @@ __ESTREE_TEST__:PASS:
                                       "type": "Literal",
                                       "start": 265,
                                       "end": 266,
-                                      "raw": "3",
-                                      "value": 3
+                                      "value": 3,
+                                      "raw": "3"
                                     }
                                   }
-                                }
+                                },
+                                "accessibility": null,
+                                "static": false
                               }
                             ]
                           }
-                        }
+                        },
+                        "accessibility": null,
+                        "static": false
                       }
                     ]
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "kind": "const",
+      "declare": true
     }
   ],
   "sourceType": "script",

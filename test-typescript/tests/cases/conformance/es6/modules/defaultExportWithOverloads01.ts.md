@@ -13,23 +13,23 @@ __ESTREE_TEST__:PASS:
         "type": "TSDeclareFunction",
         "start": 15,
         "end": 28,
-        "async": false,
-        "body": null,
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 24,
           "end": 25,
-          "decorators": [],
           "name": "f",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "expression": false,
+        "generator": false,
+        "async": false,
         "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "body": null,
+        "declare": false,
+        "typeParameters": null,
+        "returnType": null
       },
       "exportKind": "value"
     },
@@ -41,28 +41,24 @@ __ESTREE_TEST__:PASS:
         "type": "TSDeclareFunction",
         "start": 44,
         "end": 66,
-        "async": false,
-        "body": null,
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 53,
           "end": 54,
-          "decorators": [],
           "name": "f",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "expression": false,
+        "generator": false,
+        "async": false,
         "params": [
           {
             "type": "Identifier",
             "start": 55,
             "end": 64,
-            "decorators": [],
             "name": "x",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 56,
@@ -72,11 +68,15 @@ __ESTREE_TEST__:PASS:
                 "start": 58,
                 "end": 64
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           }
         ],
-        "returnType": null,
-        "typeParameters": null
+        "body": null,
+        "declare": false,
+        "typeParameters": null,
+        "returnType": null
       },
       "exportKind": "value"
     },
@@ -88,25 +88,18 @@ __ESTREE_TEST__:PASS:
         "type": "FunctionDeclaration",
         "start": 82,
         "end": 112,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 109,
-          "end": 112,
-          "body": []
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 91,
           "end": 92,
-          "decorators": [],
           "name": "f",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "expression": false,
+        "generator": false,
+        "async": false,
         "params": [
           {
             "type": "RestElement",
@@ -116,10 +109,10 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 96,
               "end": 100,
-              "decorators": [],
               "name": "args",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "decorators": [],
             "optional": false,
@@ -141,8 +134,15 @@ __ESTREE_TEST__:PASS:
             "value": null
           }
         ],
-        "returnType": null,
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 109,
+          "end": 112,
+          "body": []
+        },
+        "declare": false,
+        "typeParameters": null,
+        "returnType": null
       },
       "exportKind": "value"
     }

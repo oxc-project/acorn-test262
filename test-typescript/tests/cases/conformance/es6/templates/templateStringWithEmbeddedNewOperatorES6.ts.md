@@ -14,15 +14,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 21,
           "end": 54,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 21,
             "end": 22,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "TemplateLiteral",
@@ -33,24 +32,24 @@ __ESTREE_TEST__:PASS:
                 "type": "NewExpression",
                 "start": 32,
                 "end": 48,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 36,
+                  "end": 42,
+                  "name": "String",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
                 "arguments": [
                   {
                     "type": "Literal",
                     "start": 43,
                     "end": 47,
-                    "raw": "\"Hi\"",
-                    "value": "Hi"
+                    "value": "Hi",
+                    "raw": "\"Hi\""
                   }
                 ],
-                "callee": {
-                  "type": "Identifier",
-                  "start": 36,
-                  "end": 42,
-                  "decorators": [],
-                  "name": "String",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
                 "typeArguments": null
               }
             ],
@@ -59,28 +58,29 @@ __ESTREE_TEST__:PASS:
                 "type": "TemplateElement",
                 "start": 25,
                 "end": 31,
-                "tail": false,
                 "value": {
                   "cooked": "abc",
                   "raw": "abc"
-                }
+                },
+                "tail": false
               },
               {
                 "type": "TemplateElement",
                 "start": 49,
                 "end": 54,
-                "tail": true,
                 "value": {
                   "cooked": "def",
                   "raw": "def"
-                }
+                },
+                "tail": true
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

@@ -9,15 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 38,
       "end": 66,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 56,
-        "end": 65,
-        "raw": "\"./other\"",
-        "value": "./other"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -27,13 +18,22 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 45,
             "end": 50,
-            "decorators": [],
             "name": "await",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 56,
+        "end": 65,
+        "value": "./other",
+        "raw": "\"./other\""
+      },
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",
@@ -56,14 +56,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 14,
           "end": 25,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
             "end": 25,
-            "decorators": [],
             "name": "_await",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 20,
@@ -73,13 +70,16 @@ __ESTREE_TEST__:PASS:
                 "start": 22,
                 "end": 25
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "kind": "const",
+      "declare": true
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -89,10 +89,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 42,
         "end": 48,
-        "decorators": [],
         "name": "_await",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
       "exportKind": "value"
     }

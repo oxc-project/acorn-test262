@@ -14,15 +14,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 5,
           "end": 30,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 5,
             "end": 6,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "TSTypeAssertion",
@@ -37,8 +36,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 21,
                   "end": 24,
-                  "raw": "123",
-                  "value": 123
+                  "value": 123,
+                  "raw": "123"
                 }
               ],
               "quasis": [
@@ -46,21 +45,21 @@ __ESTREE_TEST__:PASS:
                   "type": "TemplateElement",
                   "start": 14,
                   "end": 20,
-                  "tail": false,
                   "value": {
                     "cooked": "abc",
                     "raw": "abc"
-                  }
+                  },
+                  "tail": false
                 },
                 {
                   "type": "TemplateElement",
                   "start": 25,
                   "end": 30,
-                  "tail": true,
                   "value": {
                     "cooked": "def",
                     "raw": "def"
-                  }
+                  },
+                  "tail": true
                 }
               ]
             },
@@ -69,11 +68,12 @@ __ESTREE_TEST__:PASS:
               "start": 10,
               "end": 13
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

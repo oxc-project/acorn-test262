@@ -9,7 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 137,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 7,
+        "name": "C",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 8,
@@ -19,43 +28,43 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 14,
             "end": 67,
-            "accessibility": null,
+            "static": false,
             "computed": true,
-            "decorators": [],
             "key": {
               "type": "MemberExpression",
               "start": 19,
               "end": 37,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 19,
                 "end": 25,
-                "decorators": [],
                 "name": "Symbol",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 26,
                 "end": 37,
-                "decorators": [],
                 "name": "hasInstance",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
             },
             "kind": "get",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 38,
               "end": 67,
+              "id": null,
+              "expression": false,
+              "generator": false,
               "async": false,
+              "params": [],
               "body": {
                 "type": "BlockStatement",
                 "start": 41,
@@ -69,62 +78,72 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 58,
                       "end": 60,
-                      "raw": "\"\"",
-                      "value": ""
+                      "value": "",
+                      "raw": "\"\""
                     }
                   }
                 ]
               },
               "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "typeParameters": null,
+              "returnType": null
+            },
+            "decorators": [],
+            "override": false,
+            "optional": false,
+            "accessibility": null
           },
           {
             "type": "MethodDefinition",
             "start": 100,
             "end": 135,
-            "accessibility": null,
+            "static": false,
             "computed": true,
-            "decorators": [],
             "key": {
               "type": "MemberExpression",
               "start": 105,
               "end": 123,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 105,
                 "end": 111,
-                "decorators": [],
                 "name": "Symbol",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 112,
                 "end": 123,
-                "decorators": [],
                 "name": "hasInstance",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
             },
             "kind": "set",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 124,
               "end": 135,
+              "id": null,
+              "expression": false,
+              "generator": false,
               "async": false,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "start": 125,
+                  "end": 126,
+                  "name": "x",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                }
+              ],
               "body": {
                 "type": "BlockStatement",
                 "start": 128,
@@ -132,47 +151,27 @@ __ESTREE_TEST__:PASS:
                 "body": []
               },
               "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [
-                {
-                  "type": "Identifier",
-                  "start": 125,
-                  "end": 126,
-                  "decorators": [],
-                  "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              ],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "typeParameters": null,
+              "returnType": null
+            },
+            "decorators": [],
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 7,
-        "decorators": [],
-        "name": "C",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     },
     {
       "type": "ExpressionStatement",
       "start": 139,
       "end": 171,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 139,
@@ -182,64 +181,64 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 139,
           "end": 166,
-          "computed": true,
           "object": {
             "type": "NewExpression",
             "start": 140,
             "end": 145,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 144,
               "end": 145,
-              "decorators": [],
               "name": "C",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
+            "arguments": [],
             "typeArguments": null
           },
-          "optional": false,
           "property": {
             "type": "MemberExpression",
             "start": 147,
             "end": 165,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 147,
               "end": 153,
-              "decorators": [],
               "name": "Symbol",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 154,
               "end": 165,
-              "decorators": [],
               "name": "hasInstance",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": false,
+            "optional": false
+          },
+          "computed": true,
+          "optional": false
         },
         "right": {
           "type": "Literal",
           "start": 169,
           "end": 170,
-          "raw": "0",
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 172,
       "end": 205,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 172,
@@ -249,58 +248,59 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 172,
           "end": 199,
-          "computed": true,
           "object": {
             "type": "NewExpression",
             "start": 173,
             "end": 178,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 177,
               "end": 178,
-              "decorators": [],
               "name": "C",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
+            "arguments": [],
             "typeArguments": null
           },
-          "optional": false,
           "property": {
             "type": "MemberExpression",
             "start": 180,
             "end": 198,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 180,
               "end": 186,
-              "decorators": [],
               "name": "Symbol",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 187,
               "end": 198,
-              "decorators": [],
               "name": "hasInstance",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": false,
+            "optional": false
+          },
+          "computed": true,
+          "optional": false
         },
         "right": {
           "type": "Literal",
           "start": 202,
           "end": 204,
-          "raw": "\"\"",
-          "value": ""
+          "value": "",
+          "raw": "\"\""
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

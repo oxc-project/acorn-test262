@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 217,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 34,
+        "value": "@truffle/contract",
+        "raw": "\"@truffle/contract\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 35,
@@ -19,6 +25,17 @@ __ESTREE_TEST__:PASS:
             "type": "TSInterfaceDeclaration",
             "start": 41,
             "end": 94,
+            "id": {
+              "type": "Identifier",
+              "start": 51,
+              "end": 65,
+              "name": "ContractObject",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "extends": [],
+            "typeParameters": null,
             "body": {
               "type": "TSInterfaceBody",
               "start": 66,
@@ -28,20 +45,18 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 76,
                   "end": 88,
-                  "accessibility": null,
                   "computed": false,
+                  "optional": false,
+                  "readonly": false,
                   "key": {
                     "type": "Identifier",
                     "start": 76,
                     "end": 79,
-                    "decorators": [],
                     "name": "foo",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "optional": false,
-                  "readonly": false,
-                  "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 79,
@@ -51,27 +66,27 @@ __ESTREE_TEST__:PASS:
                       "start": 81,
                       "end": 87
                     }
-                  }
+                  },
+                  "accessibility": null,
+                  "static": false
                 }
               ]
             },
-            "declare": false,
-            "extends": [],
-            "id": {
-              "type": "Identifier",
-              "start": 51,
-              "end": 65,
-              "decorators": [],
-              "name": "ContractObject",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeParameters": null
+            "declare": false
           },
           {
             "type": "TSModuleDeclaration",
             "start": 99,
             "end": 179,
+            "id": {
+              "type": "Identifier",
+              "start": 109,
+              "end": 124,
+              "name": "TruffleContract",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "body": {
               "type": "TSModuleBlock",
               "start": 125,
@@ -81,56 +96,47 @@ __ESTREE_TEST__:PASS:
                   "type": "ExportNamedDeclaration",
                   "start": 135,
                   "end": 173,
-                  "attributes": [],
                   "declaration": {
                     "type": "TSTypeAliasDeclaration",
                     "start": 142,
                     "end": 173,
-                    "declare": false,
                     "id": {
                       "type": "Identifier",
                       "start": 147,
                       "end": 155,
-                      "decorators": [],
                       "name": "Contract",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
+                    "typeParameters": null,
                     "typeAnnotation": {
                       "type": "TSTypeReference",
                       "start": 158,
                       "end": 172,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 158,
                         "end": 172,
-                        "decorators": [],
                         "name": "ContractObject",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "typeArguments": null
                     },
-                    "typeParameters": null
+                    "declare": false
                   },
-                  "exportKind": "type",
+                  "specifiers": [],
                   "source": null,
-                  "specifiers": []
+                  "attributes": [],
+                  "exportKind": "type"
                 }
               ]
             },
+            "kind": "namespace",
             "declare": false,
-            "global": false,
-            "id": {
-              "type": "Identifier",
-              "start": 109,
-              "end": 124,
-              "decorators": [],
-              "name": "TruffleContract",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "namespace"
+            "global": false
           },
           {
             "type": "ExportDefaultDeclaration",
@@ -140,24 +146,18 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 199,
               "end": 214,
-              "decorators": [],
               "name": "TruffleContract",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 34,
-        "raw": "\"@truffle/contract\"",
-        "value": "@truffle/contract"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",

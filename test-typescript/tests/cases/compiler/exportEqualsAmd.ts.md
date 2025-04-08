@@ -18,25 +18,25 @@ __ESTREE_TEST__:PASS:
             "type": "Property",
             "start": 11,
             "end": 26,
+            "method": false,
+            "shorthand": false,
             "computed": true,
             "key": {
               "type": "Literal",
               "start": 12,
               "end": 16,
-              "raw": "\"hi\"",
-              "value": "hi"
+              "value": "hi",
+              "raw": "\"hi\""
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "Literal",
               "start": 19,
               "end": 26,
-              "raw": "\"there\"",
-              "value": "there"
-            }
+              "value": "there",
+              "raw": "\"there\""
+            },
+            "kind": "init",
+            "optional": false
           }
         ]
       }

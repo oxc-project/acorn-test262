@@ -13,12 +13,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 7,
         "end": 10,
-        "decorators": [],
         "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 13,
@@ -27,10 +26,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 21,
           "end": 26,
-          "raw": "\"foo\"",
-          "value": "foo"
+          "value": "foo",
+          "raw": "\"foo\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -40,12 +40,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 36,
         "end": 39,
-        "decorators": [],
         "name": "bar",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 42,
@@ -54,10 +53,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 50,
           "end": 55,
-          "raw": "\"bar\"",
-          "value": "bar"
+          "value": "bar",
+          "raw": "\"bar\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -67,12 +67,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 65,
         "end": 68,
-        "decorators": [],
         "name": "baz",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 71,
@@ -81,55 +80,56 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 79,
           "end": 84,
-          "raw": "\"baz\"",
-          "value": "baz"
+          "value": "baz",
+          "raw": "\"baz\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 87,
       "end": 103,
-      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 87,
         "end": 102,
-        "operator": "+",
         "left": {
           "type": "BinaryExpression",
           "start": 87,
           "end": 96,
-          "operator": "+",
           "left": {
             "type": "Identifier",
             "start": 87,
             "end": 90,
-            "decorators": [],
             "name": "foo",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
+          "operator": "+",
           "right": {
             "type": "Identifier",
             "start": 93,
             "end": 96,
-            "decorators": [],
             "name": "bar",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         },
+        "operator": "+",
         "right": {
           "type": "Identifier",
           "start": 99,
           "end": 102,
-          "decorators": [],
           "name": "baz",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

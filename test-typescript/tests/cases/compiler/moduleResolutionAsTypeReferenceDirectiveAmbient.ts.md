@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 56,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 23,
+        "value": "phaser",
+        "raw": "\"phaser\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 24,
@@ -19,7 +25,6 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 30,
             "end": 54,
-            "attributes": [],
             "declaration": {
               "type": "VariableDeclaration",
               "start": 37,
@@ -29,14 +34,11 @@ __ESTREE_TEST__:PASS:
                   "type": "VariableDeclarator",
                   "start": 43,
                   "end": 53,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 43,
                     "end": 53,
-                    "decorators": [],
                     "name": "a2",
-                    "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 45,
@@ -46,29 +48,27 @@ __ESTREE_TEST__:PASS:
                         "start": 47,
                         "end": 53
                       }
-                    }
+                    },
+                    "decorators": [],
+                    "optional": false
                   },
-                  "init": null
+                  "init": null,
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "const"
+              "kind": "const",
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 23,
-        "raw": "\"phaser\"",
-        "value": "phaser"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -86,15 +86,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 28,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 19,
-        "end": 27,
-        "raw": "\"phaser\"",
-        "value": "phaser"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -104,23 +95,32 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 9,
             "end": 11,
-            "decorators": [],
             "name": "a2",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
             "end": 11,
-            "decorators": [],
             "name": "a2",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 19,
+        "end": 27,
+        "value": "phaser",
+        "raw": "\"phaser\""
+      },
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

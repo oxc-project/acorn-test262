@@ -14,27 +14,27 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 10,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 5,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 8,
             "end": 10,
-            "raw": "''",
-            "value": ""
-          }
+            "value": "",
+            "raw": "''"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -45,59 +45,59 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 16,
           "end": 42,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 16,
             "end": 17,
-            "decorators": [],
             "name": "d",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "CallExpression",
             "start": 20,
             "end": 42,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 20,
+              "end": 31,
+              "object": {
+                "type": "Identifier",
+                "start": 20,
+                "end": 21,
+                "name": "x",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "property": {
+                "type": "Literal",
+                "start": 22,
+                "end": 30,
+                "value": "charAt",
+                "raw": "'charAt'"
+              },
+              "computed": true,
+              "optional": false
+            },
             "arguments": [
               {
                 "type": "Literal",
                 "start": 32,
                 "end": 41,
-                "raw": "'invalid'",
-                "value": "invalid"
+                "value": "invalid",
+                "raw": "'invalid'"
               }
             ],
-            "callee": {
-              "type": "MemberExpression",
-              "start": 20,
-              "end": 31,
-              "computed": true,
-              "object": {
-                "type": "Identifier",
-                "start": 20,
-                "end": 21,
-                "decorators": [],
-                "name": "x",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "property": {
-                "type": "Literal",
-                "start": 22,
-                "end": 30,
-                "raw": "'charAt'",
-                "value": "charAt"
-              }
-            },
             "optional": false,
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

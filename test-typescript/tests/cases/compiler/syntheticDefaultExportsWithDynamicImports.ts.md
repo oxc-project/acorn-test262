@@ -9,28 +9,24 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 50,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 17,
         "end": 30,
-        "decorators": [],
         "name": "packageExport",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": false,
+      "async": false,
       "params": [
         {
           "type": "Identifier",
           "start": 31,
           "end": 40,
-          "decorators": [],
           "name": "x",
-          "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
             "start": 32,
@@ -40,9 +36,14 @@ __ESTREE_TEST__:PASS:
               "start": 34,
               "end": 40
             }
-          }
+          },
+          "decorators": [],
+          "optional": false
         }
       ],
+      "body": null,
+      "declare": true,
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 41,
@@ -52,8 +53,7 @@ __ESTREE_TEST__:PASS:
           "start": 43,
           "end": 49
         }
-      },
-      "typeParameters": null
+      }
     },
     {
       "type": "TSExportAssignment",
@@ -63,10 +63,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 60,
         "end": 73,
-        "decorators": [],
         "name": "packageExport",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     }
   ],
@@ -85,121 +85,121 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 52,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 51,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 0,
+          "end": 22,
+          "object": {
+            "type": "ImportExpression",
+            "start": 0,
+            "end": 17,
+            "source": {
+              "type": "Literal",
+              "start": 7,
+              "end": 16,
+              "value": "package",
+              "raw": "\"package\""
+            },
+            "options": null
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 18,
+            "end": 22,
+            "name": "then",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
+        },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 23,
             "end": 50,
-            "async": false,
-            "body": {
-              "type": "CallExpression",
-              "start": 43,
-              "end": 50,
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 47,
-                  "end": 49,
-                  "raw": "42",
-                  "value": 42
-                }
-              ],
-              "callee": {
-                "type": "Identifier",
-                "start": 43,
-                "end": 46,
-                "decorators": [],
-                "name": "foo",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "typeArguments": null
-            },
+            "id": null,
             "expression": true,
             "generator": false,
-            "id": null,
+            "async": false,
             "params": [
               {
                 "type": "ObjectPattern",
                 "start": 24,
                 "end": 38,
-                "decorators": [],
-                "optional": false,
                 "properties": [
                   {
                     "type": "Property",
                     "start": 25,
                     "end": 37,
+                    "method": false,
+                    "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
                       "start": 25,
                       "end": 32,
-                      "decorators": [],
                       "name": "default",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "kind": "init",
-                    "method": false,
-                    "optional": false,
-                    "shorthand": false,
                     "value": {
                       "type": "Identifier",
                       "start": 34,
                       "end": 37,
-                      "decorators": [],
                       "name": "foo",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "kind": "init",
+                    "optional": false
                   }
                 ],
+                "decorators": [],
+                "optional": false,
                 "typeAnnotation": null
               }
             ],
-            "returnType": null,
-            "typeParameters": null
+            "body": {
+              "type": "CallExpression",
+              "start": 43,
+              "end": 50,
+              "callee": {
+                "type": "Identifier",
+                "start": 43,
+                "end": 46,
+                "name": "foo",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 47,
+                  "end": 49,
+                  "value": 42,
+                  "raw": "42"
+                }
+              ],
+              "optional": false,
+              "typeArguments": null
+            },
+            "typeParameters": null,
+            "returnType": null
           }
         ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 0,
-          "end": 22,
-          "computed": false,
-          "object": {
-            "type": "ImportExpression",
-            "start": 0,
-            "end": 17,
-            "options": null,
-            "source": {
-              "type": "Literal",
-              "start": 7,
-              "end": 16,
-              "raw": "\"package\"",
-              "value": "package"
-            }
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 18,
-            "end": 22,
-            "decorators": [],
-            "name": "then",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

@@ -9,6 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "WhileStatement",
       "start": 0,
       "end": 28,
+      "test": {
+        "type": "Literal",
+        "start": 7,
+        "end": 11,
+        "value": true,
+        "raw": "true"
+      },
       "body": {
         "type": "BlockStatement",
         "start": 13,
@@ -21,13 +28,6 @@ __ESTREE_TEST__:PASS:
             "label": null
           }
         ]
-      },
-      "test": {
-        "type": "Literal",
-        "start": 7,
-        "end": 11,
-        "raw": "true",
-        "value": true
       }
     }
   ],

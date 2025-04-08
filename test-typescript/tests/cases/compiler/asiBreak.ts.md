@@ -9,18 +9,18 @@ __ESTREE_TEST__:PASS:
       "type": "WhileStatement",
       "start": 1,
       "end": 19,
+      "test": {
+        "type": "Literal",
+        "start": 8,
+        "end": 12,
+        "value": true,
+        "raw": "true"
+      },
       "body": {
         "type": "BreakStatement",
         "start": 14,
         "end": 19,
         "label": null
-      },
-      "test": {
-        "type": "Literal",
-        "start": 8,
-        "end": 12,
-        "raw": "true",
-        "value": true
       }
     }
   ],

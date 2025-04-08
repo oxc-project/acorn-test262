@@ -9,15 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 30,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 19,
-        "end": 29,
-        "raw": "'./b.json'",
-        "value": "./b.json"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -27,13 +18,22 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 12,
             "end": 13,
-            "decorators": [],
             "name": "b",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 19,
+        "end": 29,
+        "value": "./b.json",
+        "raw": "'./b.json'"
+      },
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

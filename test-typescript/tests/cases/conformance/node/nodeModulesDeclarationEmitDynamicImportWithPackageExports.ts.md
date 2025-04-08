@@ -9,11 +9,11 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 19,
       "end": 29,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -31,7 +31,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 19,
       "end": 64,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 26,
@@ -41,15 +40,14 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 32,
             "end": 63,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 32,
               "end": 33,
-              "decorators": [],
               "name": "a",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "init": {
               "type": "AwaitExpression",
@@ -59,30 +57,31 @@ __ESTREE_TEST__:PASS:
                 "type": "ImportExpression",
                 "start": 42,
                 "end": 63,
-                "options": null,
                 "source": {
                   "type": "Literal",
                   "start": 49,
                   "end": 62,
-                  "raw": "\"package/cjs\"",
-                  "value": "package/cjs"
-                }
+                  "value": "package/cjs",
+                  "raw": "\"package/cjs\""
+                },
+                "options": null
               }
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 65,
       "end": 110,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 72,
@@ -92,15 +91,14 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 78,
             "end": 109,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 78,
               "end": 79,
-              "decorators": [],
               "name": "b",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "init": {
               "type": "AwaitExpression",
@@ -110,30 +108,31 @@ __ESTREE_TEST__:PASS:
                 "type": "ImportExpression",
                 "start": 88,
                 "end": 109,
-                "options": null,
                 "source": {
                   "type": "Literal",
                   "start": 95,
                   "end": 108,
-                  "raw": "\"package/mjs\"",
-                  "value": "package/mjs"
-                }
+                  "value": "package/mjs",
+                  "raw": "\"package/mjs\""
+                },
+                "options": null
               }
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 111,
       "end": 152,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 118,
@@ -143,15 +142,14 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 124,
             "end": 151,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 124,
               "end": 125,
-              "decorators": [],
               "name": "c",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "init": {
               "type": "AwaitExpression",
@@ -161,30 +159,31 @@ __ESTREE_TEST__:PASS:
                 "type": "ImportExpression",
                 "start": 134,
                 "end": 151,
-                "options": null,
                 "source": {
                   "type": "Literal",
                   "start": 141,
                   "end": 150,
-                  "raw": "\"package\"",
-                  "value": "package"
-                }
+                  "value": "package",
+                  "raw": "\"package\""
+                },
+                "options": null
               }
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 153,
       "end": 192,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 160,
@@ -194,15 +193,14 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 166,
             "end": 191,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 166,
               "end": 167,
-              "decorators": [],
               "name": "f",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "init": {
               "type": "AwaitExpression",
@@ -212,24 +210,26 @@ __ESTREE_TEST__:PASS:
                 "type": "ImportExpression",
                 "start": 176,
                 "end": 191,
-                "options": null,
                 "source": {
                   "type": "Literal",
                   "start": 183,
                   "end": 190,
-                  "raw": "\"inner\"",
-                  "value": "inner"
-                }
+                  "value": "inner",
+                  "raw": "\"inner\""
+                },
+                "options": null
               }
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -247,7 +247,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 19,
       "end": 62,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 26,
@@ -257,15 +256,14 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 32,
             "end": 61,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 32,
               "end": 33,
-              "decorators": [],
               "name": "d",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "init": {
               "type": "AwaitExpression",
@@ -275,30 +273,31 @@ __ESTREE_TEST__:PASS:
                 "type": "ImportExpression",
                 "start": 42,
                 "end": 61,
-                "options": null,
                 "source": {
                   "type": "Literal",
                   "start": 49,
                   "end": 60,
-                  "raw": "\"inner/cjs\"",
-                  "value": "inner/cjs"
-                }
+                  "value": "inner/cjs",
+                  "raw": "\"inner/cjs\""
+                },
+                "options": null
               }
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 63,
       "end": 106,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 70,
@@ -308,15 +307,14 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 76,
             "end": 105,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 76,
               "end": 77,
-              "decorators": [],
               "name": "e",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "init": {
               "type": "AwaitExpression",
@@ -326,24 +324,26 @@ __ESTREE_TEST__:PASS:
                 "type": "ImportExpression",
                 "start": 86,
                 "end": 105,
-                "options": null,
                 "source": {
                   "type": "Literal",
                   "start": 93,
                   "end": 104,
-                  "raw": "\"inner/mjs\"",
-                  "value": "inner/mjs"
-                }
+                  "value": "inner/mjs",
+                  "raw": "\"inner/mjs\""
+                },
+                "options": null
               }
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -361,7 +361,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 19,
       "end": 47,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 26,
@@ -371,31 +370,32 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 32,
             "end": 46,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 32,
               "end": 39,
-              "decorators": [],
               "name": "cjsMain",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "init": {
               "type": "Literal",
               "start": 42,
               "end": 46,
-              "raw": "true",
-              "value": true
-            }
+              "value": true,
+              "raw": "true"
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",

@@ -13,12 +13,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 7,
         "end": 9,
-        "decorators": [],
         "name": "c1",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 12,
@@ -27,10 +26,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 20,
           "end": 25,
-          "raw": "'./c'",
-          "value": "./c"
+          "value": "./c",
+          "raw": "'./c'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
@@ -41,45 +41,45 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 53,
           "end": 62,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 53,
             "end": 55,
-            "decorators": [],
             "name": "x2",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 58,
             "end": 62,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 58,
               "end": 60,
-              "decorators": [],
               "name": "c1",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 61,
               "end": 62,
-              "decorators": [],
               "name": "a",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": false,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -89,12 +89,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 71,
         "end": 73,
-        "decorators": [],
         "name": "c2",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 76,
@@ -103,16 +102,25 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 84,
           "end": 94,
-          "raw": "'./c.json'",
-          "value": "./c.json"
+          "value": "./c.json",
+          "raw": "'./c.json'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "IfStatement",
       "start": 119,
       "end": 174,
-      "alternate": null,
+      "test": {
+        "type": "Identifier",
+        "start": 123,
+        "end": 125,
+        "name": "x2",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 127,
@@ -127,45 +135,45 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 137,
                 "end": 145,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 137,
                   "end": 138,
-                  "decorators": [],
                   "name": "b",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "init": {
                   "type": "MemberExpression",
                   "start": 141,
                   "end": 145,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 141,
                     "end": 143,
-                    "decorators": [],
                     "name": "c2",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 144,
                     "end": 145,
-                    "decorators": [],
                     "name": "b",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                }
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "kind": "let",
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
@@ -176,72 +184,64 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 155,
                 "end": 171,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 155,
                   "end": 156,
-                  "decorators": [],
                   "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "init": {
                   "type": "BinaryExpression",
                   "start": 160,
                   "end": 170,
-                  "operator": "===",
                   "left": {
                     "type": "MemberExpression",
                     "start": 160,
                     "end": 164,
-                    "computed": false,
                     "object": {
                       "type": "Identifier",
                       "start": 160,
                       "end": 162,
-                      "decorators": [],
                       "name": "c1",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "optional": false,
                     "property": {
                       "type": "Identifier",
                       "start": 163,
                       "end": 164,
-                      "decorators": [],
                       "name": "b",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "computed": false,
+                    "optional": false
                   },
+                  "operator": "===",
                   "right": {
                     "type": "Identifier",
                     "start": 169,
                     "end": 170,
-                    "decorators": [],
                     "name": "b",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   }
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "kind": "let",
+            "declare": false
           }
         ]
       },
-      "test": {
-        "type": "Identifier",
-        "start": 123,
-        "end": 125,
-        "decorators": [],
-        "name": "x2",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "alternate": null
     }
   ],
   "sourceType": "module",
@@ -268,53 +268,53 @@ __ESTREE_TEST__:PASS:
             "type": "Property",
             "start": 11,
             "end": 18,
+            "method": false,
+            "shorthand": false,
             "computed": false,
             "key": {
               "type": "Identifier",
               "start": 11,
               "end": 12,
-              "decorators": [],
               "name": "a",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "Literal",
               "start": 14,
               "end": 18,
-              "raw": "true",
-              "value": true
-            }
+              "value": true,
+              "raw": "true"
+            },
+            "kind": "init",
+            "optional": false
           },
           {
             "type": "Property",
             "start": 20,
             "end": 30,
+            "method": false,
+            "shorthand": false,
             "computed": false,
             "key": {
               "type": "Identifier",
               "start": 20,
               "end": 21,
-              "decorators": [],
               "name": "b",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "Literal",
               "start": 23,
               "end": 30,
-              "raw": "\"hello\"",
-              "value": "hello"
-            }
+              "value": "hello",
+              "raw": "\"hello\""
+            },
+            "kind": "init",
+            "optional": false
           }
         ]
       }

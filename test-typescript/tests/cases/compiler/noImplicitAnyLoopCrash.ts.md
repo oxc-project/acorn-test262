@@ -14,38 +14,38 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 18,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 7,
-            "decorators": [],
             "name": "foo",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrowFunctionExpression",
             "start": 10,
             "end": 18,
+            "id": null,
+            "expression": false,
+            "generator": false,
             "async": false,
+            "params": [],
             "body": {
               "type": "BlockStatement",
               "start": 16,
               "end": 18,
               "body": []
             },
-            "expression": false,
-            "generator": false,
-            "id": null,
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "typeParameters": null,
+            "returnType": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -56,26 +56,33 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 24,
           "end": 27,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 24,
             "end": 27,
-            "decorators": [],
             "name": "bar",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     },
     {
       "type": "WhileStatement",
       "start": 29,
       "end": 66,
+      "test": {
+        "type": "Literal",
+        "start": 36,
+        "end": 37,
+        "value": 1,
+        "raw": "1"
+      },
       "body": {
         "type": "BlockStatement",
         "start": 39,
@@ -85,7 +92,6 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 45,
             "end": 64,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 45,
@@ -95,19 +101,30 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 45,
                 "end": 48,
-                "decorators": [],
                 "name": "bar",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "UnaryExpression",
                 "start": 51,
                 "end": 63,
+                "operator": "~",
+                "prefix": true,
                 "argument": {
                   "type": "CallExpression",
                   "start": 52,
                   "end": 63,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 52,
+                    "end": 55,
+                    "name": "foo",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
                   "arguments": [
                     {
                       "type": "SpreadElement",
@@ -117,38 +134,21 @@ __ESTREE_TEST__:PASS:
                         "type": "Identifier",
                         "start": 59,
                         "end": 62,
-                        "decorators": [],
                         "name": "bar",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       }
                     }
                   ],
-                  "callee": {
-                    "type": "Identifier",
-                    "start": 52,
-                    "end": 55,
-                    "decorators": [],
-                    "name": "foo",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
                   "optional": false,
                   "typeArguments": null
-                },
-                "operator": "~",
-                "prefix": true
+                }
               }
-            }
+            },
+            "directive": null
           }
         ]
-      },
-      "test": {
-        "type": "Literal",
-        "start": 36,
-        "end": 37,
-        "raw": "1",
-        "value": 1
       }
     }
   ],

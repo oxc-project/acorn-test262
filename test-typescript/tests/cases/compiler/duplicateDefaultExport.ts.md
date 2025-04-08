@@ -13,8 +13,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 15,
         "end": 16,
-        "raw": "0",
-        "value": 0
+        "value": 0,
+        "raw": "0"
       },
       "exportKind": "value"
     },
@@ -26,7 +26,11 @@ __ESTREE_TEST__:PASS:
         "type": "FunctionDeclaration",
         "start": 33,
         "end": 46,
+        "id": null,
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 44,
@@ -34,12 +38,8 @@ __ESTREE_TEST__:PASS:
           "body": []
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": null,
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
       "exportKind": "value"
     }

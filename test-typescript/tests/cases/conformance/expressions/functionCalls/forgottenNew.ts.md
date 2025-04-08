@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 48,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 12,
+        "name": "Tools",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 13,
@@ -18,52 +27,43 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 19,
             "end": 46,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 26,
               "end": 46,
-              "abstract": false,
+              "id": {
+                "type": "Identifier",
+                "start": 32,
+                "end": 42,
+                "name": "NullLogger",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "superClass": null,
               "body": {
                 "type": "ClassBody",
                 "start": 43,
                 "end": 46,
                 "body": []
               },
-              "declare": false,
               "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 32,
-                "end": 42,
-                "decorators": [],
-                "name": "NullLogger",
-                "optional": false,
-                "typeAnnotation": null
-              },
+              "typeParameters": null,
               "implements": [],
-              "superClass": null,
-              "superTypeArguments": null,
-              "typeParameters": null
+              "abstract": false,
+              "declare": false,
+              "superTypeArguments": null
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 12,
-        "decorators": [],
-        "name": "Tools",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "VariableDeclaration",
@@ -74,53 +74,53 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 54,
           "end": 81,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 54,
             "end": 60,
-            "decorators": [],
             "name": "logger",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "CallExpression",
             "start": 63,
             "end": 81,
-            "arguments": [],
             "callee": {
               "type": "MemberExpression",
               "start": 63,
               "end": 79,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 63,
                 "end": 68,
-                "decorators": [],
                 "name": "Tools",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 69,
                 "end": 79,
-                "decorators": [],
                 "name": "NullLogger",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
             },
+            "arguments": [],
             "optional": false,
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

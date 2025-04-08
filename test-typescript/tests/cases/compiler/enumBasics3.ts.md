@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 110,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 8,
+        "name": "M",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 9,
@@ -18,11 +27,19 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 13,
             "end": 108,
-            "attributes": [],
             "declaration": {
               "type": "TSModuleDeclaration",
               "start": 20,
               "end": 108,
+              "id": {
+                "type": "Identifier",
+                "start": 30,
+                "end": 31,
+                "name": "N",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "body": {
                 "type": "TSModuleBlock",
                 "start": 32,
@@ -32,11 +49,85 @@ __ESTREE_TEST__:PASS:
                     "type": "ExportNamedDeclaration",
                     "start": 38,
                     "end": 104,
-                    "attributes": [],
                     "declaration": {
                       "type": "TSEnumDeclaration",
                       "start": 45,
                       "end": 104,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 50,
+                        "end": 52,
+                        "name": "E1",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "members": [
+                        {
+                          "type": "TSEnumMember",
+                          "start": 61,
+                          "end": 66,
+                          "id": {
+                            "type": "Identifier",
+                            "start": 61,
+                            "end": 62,
+                            "name": "a",
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
+                          },
+                          "initializer": {
+                            "type": "Literal",
+                            "start": 65,
+                            "end": 66,
+                            "value": 1,
+                            "raw": "1"
+                          },
+                          "computed": false
+                        },
+                        {
+                          "type": "TSEnumMember",
+                          "start": 74,
+                          "end": 81,
+                          "id": {
+                            "type": "Identifier",
+                            "start": 74,
+                            "end": 75,
+                            "name": "b",
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
+                          },
+                          "initializer": {
+                            "type": "MemberExpression",
+                            "start": 78,
+                            "end": 81,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 78,
+                              "end": 79,
+                              "name": "a",
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 80,
+                              "end": 81,
+                              "name": "a",
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "computed": false
+                        }
+                      ],
+                      "const": false,
+                      "declare": false,
                       "body": {
                         "type": "TSEnumBody",
                         "start": 53,
@@ -46,120 +137,102 @@ __ESTREE_TEST__:PASS:
                             "type": "TSEnumMember",
                             "start": 61,
                             "end": 66,
-                            "computed": false,
                             "id": {
                               "type": "Identifier",
                               "start": 61,
                               "end": 62,
-                              "decorators": [],
                               "name": "a",
-                              "optional": false,
-                              "typeAnnotation": null
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
                             },
                             "initializer": {
                               "type": "Literal",
                               "start": 65,
                               "end": 66,
-                              "raw": "1",
-                              "value": 1
-                            }
+                              "value": 1,
+                              "raw": "1"
+                            },
+                            "computed": false
                           },
                           {
                             "type": "TSEnumMember",
                             "start": 74,
                             "end": 81,
-                            "computed": false,
                             "id": {
                               "type": "Identifier",
                               "start": 74,
                               "end": 75,
-                              "decorators": [],
                               "name": "b",
-                              "optional": false,
-                              "typeAnnotation": null
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
                             },
                             "initializer": {
                               "type": "MemberExpression",
                               "start": 78,
                               "end": 81,
-                              "computed": false,
                               "object": {
                                 "type": "Identifier",
                                 "start": 78,
                                 "end": 79,
-                                "decorators": [],
                                 "name": "a",
-                                "optional": false,
-                                "typeAnnotation": null
+                                "typeAnnotation": null,
+                                "decorators": [],
+                                "optional": false
                               },
-                              "optional": false,
                               "property": {
                                 "type": "Identifier",
                                 "start": 80,
                                 "end": 81,
-                                "decorators": [],
                                 "name": "a",
-                                "optional": false,
-                                "typeAnnotation": null
-                              }
-                            }
+                                "typeAnnotation": null,
+                                "decorators": [],
+                                "optional": false
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "computed": false
                           }
                         ]
-                      },
-                      "const": false,
-                      "declare": false,
-                      "id": {
-                        "type": "Identifier",
-                        "start": 50,
-                        "end": 52,
-                        "decorators": [],
-                        "name": "E1",
-                        "optional": false,
-                        "typeAnnotation": null
                       }
                     },
-                    "exportKind": "value",
+                    "specifiers": [],
                     "source": null,
-                    "specifiers": []
+                    "attributes": [],
+                    "exportKind": "value"
                   }
                 ]
               },
+              "kind": "namespace",
               "declare": false,
-              "global": false,
-              "id": {
-                "type": "Identifier",
-                "start": 30,
-                "end": 31,
-                "decorators": [],
-                "name": "N",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "kind": "namespace"
+              "global": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 8,
-        "decorators": [],
-        "name": "M",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 112,
       "end": 236,
+      "id": {
+        "type": "Identifier",
+        "start": 119,
+        "end": 120,
+        "name": "M",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 121,
@@ -169,11 +242,19 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 125,
             "end": 234,
-            "attributes": [],
             "declaration": {
               "type": "TSModuleDeclaration",
               "start": 132,
               "end": 234,
+              "id": {
+                "type": "Identifier",
+                "start": 142,
+                "end": 143,
+                "name": "N",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "body": {
                 "type": "TSModuleBlock",
                 "start": 144,
@@ -183,11 +264,183 @@ __ESTREE_TEST__:PASS:
                     "type": "ExportNamedDeclaration",
                     "start": 150,
                     "end": 230,
-                    "attributes": [],
                     "declaration": {
                       "type": "TSEnumDeclaration",
                       "start": 157,
                       "end": 230,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 162,
+                        "end": 164,
+                        "name": "E2",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "members": [
+                        {
+                          "type": "TSEnumMember",
+                          "start": 173,
+                          "end": 185,
+                          "id": {
+                            "type": "Identifier",
+                            "start": 173,
+                            "end": 174,
+                            "name": "b",
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
+                          },
+                          "initializer": {
+                            "type": "MemberExpression",
+                            "start": 177,
+                            "end": 185,
+                            "object": {
+                              "type": "MemberExpression",
+                              "start": 177,
+                              "end": 183,
+                              "object": {
+                                "type": "MemberExpression",
+                                "start": 177,
+                                "end": 180,
+                                "object": {
+                                  "type": "Identifier",
+                                  "start": 177,
+                                  "end": 178,
+                                  "name": "M",
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "start": 179,
+                                  "end": 180,
+                                  "name": "N",
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
+                                },
+                                "computed": false,
+                                "optional": false
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 181,
+                                "end": 183,
+                                "name": "E1",
+                                "typeAnnotation": null,
+                                "decorators": [],
+                                "optional": false
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 184,
+                              "end": 185,
+                              "name": "a",
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "computed": false
+                        },
+                        {
+                          "type": "TSEnumMember",
+                          "start": 193,
+                          "end": 207,
+                          "id": {
+                            "type": "Identifier",
+                            "start": 193,
+                            "end": 194,
+                            "name": "c",
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
+                          },
+                          "initializer": {
+                            "type": "MemberExpression",
+                            "start": 197,
+                            "end": 207,
+                            "object": {
+                              "type": "MemberExpression",
+                              "start": 197,
+                              "end": 205,
+                              "object": {
+                                "type": "MemberExpression",
+                                "start": 197,
+                                "end": 203,
+                                "object": {
+                                  "type": "MemberExpression",
+                                  "start": 197,
+                                  "end": 200,
+                                  "object": {
+                                    "type": "Identifier",
+                                    "start": 197,
+                                    "end": 198,
+                                    "name": "M",
+                                    "typeAnnotation": null,
+                                    "decorators": [],
+                                    "optional": false
+                                  },
+                                  "property": {
+                                    "type": "Identifier",
+                                    "start": 199,
+                                    "end": 200,
+                                    "name": "N",
+                                    "typeAnnotation": null,
+                                    "decorators": [],
+                                    "optional": false
+                                  },
+                                  "computed": false,
+                                  "optional": false
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "start": 201,
+                                  "end": 203,
+                                  "name": "E1",
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
+                                },
+                                "computed": false,
+                                "optional": false
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 204,
+                                "end": 205,
+                                "name": "a",
+                                "typeAnnotation": null,
+                                "decorators": [],
+                                "optional": false
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 206,
+                              "end": 207,
+                              "name": "a",
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "computed": false
+                        }
+                      ],
+                      "const": false,
+                      "declare": false,
                       "body": {
                         "type": "TSEnumBody",
                         "start": 165,
@@ -197,213 +450,186 @@ __ESTREE_TEST__:PASS:
                             "type": "TSEnumMember",
                             "start": 173,
                             "end": 185,
-                            "computed": false,
                             "id": {
                               "type": "Identifier",
                               "start": 173,
                               "end": 174,
-                              "decorators": [],
                               "name": "b",
-                              "optional": false,
-                              "typeAnnotation": null
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
                             },
                             "initializer": {
                               "type": "MemberExpression",
                               "start": 177,
                               "end": 185,
-                              "computed": false,
                               "object": {
                                 "type": "MemberExpression",
                                 "start": 177,
                                 "end": 183,
-                                "computed": false,
                                 "object": {
                                   "type": "MemberExpression",
                                   "start": 177,
                                   "end": 180,
-                                  "computed": false,
                                   "object": {
                                     "type": "Identifier",
                                     "start": 177,
                                     "end": 178,
-                                    "decorators": [],
                                     "name": "M",
-                                    "optional": false,
-                                    "typeAnnotation": null
+                                    "typeAnnotation": null,
+                                    "decorators": [],
+                                    "optional": false
                                   },
-                                  "optional": false,
                                   "property": {
                                     "type": "Identifier",
                                     "start": 179,
                                     "end": 180,
-                                    "decorators": [],
                                     "name": "N",
-                                    "optional": false,
-                                    "typeAnnotation": null
-                                  }
+                                    "typeAnnotation": null,
+                                    "decorators": [],
+                                    "optional": false
+                                  },
+                                  "computed": false,
+                                  "optional": false
                                 },
-                                "optional": false,
                                 "property": {
                                   "type": "Identifier",
                                   "start": 181,
                                   "end": 183,
-                                  "decorators": [],
                                   "name": "E1",
-                                  "optional": false,
-                                  "typeAnnotation": null
-                                }
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
+                                },
+                                "computed": false,
+                                "optional": false
                               },
-                              "optional": false,
                               "property": {
                                 "type": "Identifier",
                                 "start": 184,
                                 "end": 185,
-                                "decorators": [],
                                 "name": "a",
-                                "optional": false,
-                                "typeAnnotation": null
-                              }
-                            }
+                                "typeAnnotation": null,
+                                "decorators": [],
+                                "optional": false
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "computed": false
                           },
                           {
                             "type": "TSEnumMember",
                             "start": 193,
                             "end": 207,
-                            "computed": false,
                             "id": {
                               "type": "Identifier",
                               "start": 193,
                               "end": 194,
-                              "decorators": [],
                               "name": "c",
-                              "optional": false,
-                              "typeAnnotation": null
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
                             },
                             "initializer": {
                               "type": "MemberExpression",
                               "start": 197,
                               "end": 207,
-                              "computed": false,
                               "object": {
                                 "type": "MemberExpression",
                                 "start": 197,
                                 "end": 205,
-                                "computed": false,
                                 "object": {
                                   "type": "MemberExpression",
                                   "start": 197,
                                   "end": 203,
-                                  "computed": false,
                                   "object": {
                                     "type": "MemberExpression",
                                     "start": 197,
                                     "end": 200,
-                                    "computed": false,
                                     "object": {
                                       "type": "Identifier",
                                       "start": 197,
                                       "end": 198,
-                                      "decorators": [],
                                       "name": "M",
-                                      "optional": false,
-                                      "typeAnnotation": null
+                                      "typeAnnotation": null,
+                                      "decorators": [],
+                                      "optional": false
                                     },
-                                    "optional": false,
                                     "property": {
                                       "type": "Identifier",
                                       "start": 199,
                                       "end": 200,
-                                      "decorators": [],
                                       "name": "N",
-                                      "optional": false,
-                                      "typeAnnotation": null
-                                    }
+                                      "typeAnnotation": null,
+                                      "decorators": [],
+                                      "optional": false
+                                    },
+                                    "computed": false,
+                                    "optional": false
                                   },
-                                  "optional": false,
                                   "property": {
                                     "type": "Identifier",
                                     "start": 201,
                                     "end": 203,
-                                    "decorators": [],
                                     "name": "E1",
-                                    "optional": false,
-                                    "typeAnnotation": null
-                                  }
+                                    "typeAnnotation": null,
+                                    "decorators": [],
+                                    "optional": false
+                                  },
+                                  "computed": false,
+                                  "optional": false
                                 },
-                                "optional": false,
                                 "property": {
                                   "type": "Identifier",
                                   "start": 204,
                                   "end": 205,
-                                  "decorators": [],
                                   "name": "a",
-                                  "optional": false,
-                                  "typeAnnotation": null
-                                }
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
+                                },
+                                "computed": false,
+                                "optional": false
                               },
-                              "optional": false,
                               "property": {
                                 "type": "Identifier",
                                 "start": 206,
                                 "end": 207,
-                                "decorators": [],
                                 "name": "a",
-                                "optional": false,
-                                "typeAnnotation": null
-                              }
-                            }
+                                "typeAnnotation": null,
+                                "decorators": [],
+                                "optional": false
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "computed": false
                           }
                         ]
-                      },
-                      "const": false,
-                      "declare": false,
-                      "id": {
-                        "type": "Identifier",
-                        "start": 162,
-                        "end": 164,
-                        "decorators": [],
-                        "name": "E2",
-                        "optional": false,
-                        "typeAnnotation": null
                       }
                     },
-                    "exportKind": "value",
+                    "specifiers": [],
                     "source": null,
-                    "specifiers": []
+                    "attributes": [],
+                    "exportKind": "value"
                   }
                 ]
               },
+              "kind": "namespace",
               "declare": false,
-              "global": false,
-              "id": {
-                "type": "Identifier",
-                "start": 142,
-                "end": 143,
-                "decorators": [],
-                "name": "N",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "kind": "namespace"
+              "global": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 119,
-        "end": 120,
-        "decorators": [],
-        "name": "M",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

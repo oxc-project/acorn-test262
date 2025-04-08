@@ -9,16 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 21,
-      "kind": "module",
-      "declare": true,
-      "global": false,
       "id": {
         "type": "Literal",
         "start": 15,
         "end": 20,
-        "raw": "\"foo\"",
-        "value": "foo"
-      }
+        "value": "foo",
+        "raw": "\"foo\""
+      },
+      "kind": "module",
+      "declare": true,
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -36,16 +36,16 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 21,
-      "kind": "module",
-      "declare": true,
-      "global": false,
       "id": {
         "type": "Literal",
         "start": 15,
         "end": 20,
-        "raw": "\"foo\"",
-        "value": "foo"
-      }
+        "value": "foo",
+        "raw": "\"foo\""
+      },
+      "kind": "module",
+      "declare": true,
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -63,15 +63,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 86,
       "end": 108,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 102,
-        "end": 107,
-        "raw": "\"foo\"",
-        "value": "foo"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -81,13 +72,22 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 93,
             "end": 96,
-            "decorators": [],
             "name": "foo",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 102,
+        "end": 107,
+        "value": "foo",
+        "raw": "\"foo\""
+      },
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

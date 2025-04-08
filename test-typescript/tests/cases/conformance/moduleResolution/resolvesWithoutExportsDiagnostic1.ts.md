@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 33,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
@@ -19,14 +18,11 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 21,
             "end": 32,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 21,
               "end": 32,
-              "decorators": [],
               "name": "foo",
-              "optional": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 24,
@@ -36,17 +32,21 @@ __ESTREE_TEST__:PASS:
                   "start": 26,
                   "end": 32
                 }
-              }
+              },
+              "decorators": [],
+              "optional": false
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": true,
-        "kind": "const"
+        "kind": "const",
+        "declare": true
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     }
   ],
   "sourceType": "module",
@@ -64,7 +64,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 33,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
@@ -74,14 +73,11 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 21,
             "end": 32,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 21,
               "end": 32,
-              "decorators": [],
               "name": "bar",
-              "optional": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 24,
@@ -91,17 +87,21 @@ __ESTREE_TEST__:PASS:
                   "start": 26,
                   "end": 32
                 }
-              }
+              },
+              "decorators": [],
+              "optional": false
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": true,
-        "kind": "const"
+        "kind": "const",
+        "declare": true
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     }
   ],
   "sourceType": "module",

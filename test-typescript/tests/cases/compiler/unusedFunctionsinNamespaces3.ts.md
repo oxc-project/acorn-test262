@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 76,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 20,
+        "name": "Validation",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 21,
@@ -23,39 +32,29 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 31,
                 "end": 74,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 31,
                   "end": 40,
-                  "decorators": [],
                   "name": "function1",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "init": {
                   "type": "FunctionExpression",
                   "start": 43,
                   "end": 74,
-                  "async": false,
-                  "body": {
-                    "type": "BlockStatement",
-                    "start": 67,
-                    "end": 74,
-                    "body": []
-                  },
-                  "declare": false,
+                  "id": null,
                   "expression": false,
                   "generator": false,
-                  "id": null,
+                  "async": false,
                   "params": [
                     {
                       "type": "Identifier",
                       "start": 52,
                       "end": 65,
-                      "decorators": [],
                       "name": "param1",
-                      "optional": false,
                       "typeAnnotation": {
                         "type": "TSTypeAnnotation",
                         "start": 58,
@@ -65,31 +64,32 @@ __ESTREE_TEST__:PASS:
                           "start": 59,
                           "end": 65
                         }
-                      }
+                      },
+                      "decorators": [],
+                      "optional": false
                     }
                   ],
-                  "returnType": null,
-                  "typeParameters": null
-                }
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 67,
+                    "end": 74,
+                    "body": []
+                  },
+                  "declare": false,
+                  "typeParameters": null,
+                  "returnType": null
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "kind": "var",
+            "declare": false
           }
         ]
       },
+      "kind": "namespace",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 20,
-        "decorators": [],
-        "name": "Validation",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     }
   ],
   "sourceType": "script",

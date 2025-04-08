@@ -9,6 +9,17 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 47,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 11,
+        "name": "A",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "extends": [],
+      "typeParameters": null,
       "body": {
         "type": "TSInterfaceBody",
         "start": 12,
@@ -18,20 +29,18 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 16,
             "end": 26,
-            "accessibility": null,
             "computed": false,
+            "optional": false,
+            "readonly": false,
             "key": {
               "type": "Identifier",
               "start": 16,
               "end": 17,
-              "decorators": [],
               "name": "a",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 17,
@@ -41,26 +50,26 @@ __ESTREE_TEST__:PASS:
                 "start": 19,
                 "end": 25
               }
-            }
+            },
+            "accessibility": null,
+            "static": false
           },
           {
             "type": "TSPropertySignature",
             "start": 29,
             "end": 45,
-            "accessibility": null,
             "computed": false,
+            "optional": false,
+            "readonly": false,
             "key": {
               "type": "Identifier",
               "start": 29,
               "end": 33,
-              "decorators": [],
               "name": "getA",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 33,
@@ -69,6 +78,11 @@ __ESTREE_TEST__:PASS:
                 "type": "TSIndexedAccessType",
                 "start": 35,
                 "end": 44,
+                "objectType": {
+                  "type": "TSThisType",
+                  "start": 35,
+                  "end": 39
+                },
                 "indexType": {
                   "type": "TSLiteralType",
                   "start": 40,
@@ -77,63 +91,37 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 40,
                     "end": 43,
-                    "raw": "'a'",
-                    "value": "a"
+                    "value": "a",
+                    "raw": "'a'"
                   }
-                },
-                "objectType": {
-                  "type": "TSThisType",
-                  "start": 35,
-                  "end": 39
                 }
               }
-            }
+            },
+            "accessibility": null,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 11,
-        "decorators": [],
-        "name": "A",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 49,
       "end": 86,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 54,
         "end": 55,
-        "decorators": [],
         "name": "T",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSIndexedAccessType",
         "start": 58,
         "end": 85,
-        "indexType": {
-          "type": "TSLiteralType",
-          "start": 78,
-          "end": 84,
-          "literal": {
-            "type": "Literal",
-            "start": 78,
-            "end": 84,
-            "raw": "'getA'",
-            "value": "getA"
-          }
-        },
         "objectType": {
           "type": "TSIntersectionType",
           "start": 59,
@@ -143,16 +131,16 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 59,
               "end": 60,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 59,
                 "end": 60,
-                "decorators": [],
                 "name": "A",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "typeArguments": null
             },
             {
               "type": "TSTypeLiteral",
@@ -163,20 +151,18 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 65,
                   "end": 74,
-                  "accessibility": null,
                   "computed": false,
+                  "optional": false,
+                  "readonly": false,
                   "key": {
                     "type": "Identifier",
                     "start": 65,
                     "end": 66,
-                    "decorators": [],
                     "name": "a",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "optional": false,
-                  "readonly": false,
-                  "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 66,
@@ -186,14 +172,28 @@ __ESTREE_TEST__:PASS:
                       "start": 68,
                       "end": 74
                     }
-                  }
+                  },
+                  "accessibility": null,
+                  "static": false
                 }
               ]
             }
           ]
+        },
+        "indexType": {
+          "type": "TSLiteralType",
+          "start": 78,
+          "end": 84,
+          "literal": {
+            "type": "Literal",
+            "start": 78,
+            "end": 84,
+            "value": "getA",
+            "raw": "'getA'"
+          }
         }
       },
-      "typeParameters": null
+      "declare": false
     }
   ],
   "sourceType": "script",

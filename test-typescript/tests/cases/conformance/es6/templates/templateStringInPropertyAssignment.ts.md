@@ -14,15 +14,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 5,
           "end": 47,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 5,
             "end": 6,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ObjectExpression",
@@ -33,20 +32,18 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 15,
                 "end": 45,
+                "method": false,
+                "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
                   "start": 15,
                   "end": 16,
-                  "decorators": [],
                   "name": "a",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "TemplateLiteral",
                   "start": 18,
@@ -56,15 +53,15 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 25,
                       "end": 28,
-                      "raw": "123",
-                      "value": 123
+                      "value": 123,
+                      "raw": "123"
                     },
                     {
                       "type": "Literal",
                       "start": 36,
                       "end": 39,
-                      "raw": "456",
-                      "value": 456
+                      "value": 456,
+                      "raw": "456"
                     }
                   ],
                   "quasis": [
@@ -72,41 +69,44 @@ __ESTREE_TEST__:PASS:
                       "type": "TemplateElement",
                       "start": 18,
                       "end": 24,
-                      "tail": false,
                       "value": {
                         "cooked": "abc",
                         "raw": "abc"
-                      }
+                      },
+                      "tail": false
                     },
                     {
                       "type": "TemplateElement",
                       "start": 29,
                       "end": 35,
-                      "tail": false,
                       "value": {
                         "cooked": "def",
                         "raw": "def"
-                      }
+                      },
+                      "tail": false
                     },
                     {
                       "type": "TemplateElement",
                       "start": 40,
                       "end": 45,
-                      "tail": true,
                       "value": {
                         "cooked": "ghi",
                         "raw": "ghi"
-                      }
+                      },
+                      "tail": true
                     }
                   ]
-                }
+                },
+                "kind": "init",
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

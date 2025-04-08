@@ -9,22 +9,18 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 33,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 33,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 0,
           "end": 31,
-          "computed": false,
           "object": {
             "type": "CallExpression",
             "start": 0,
             "end": 27,
-            "arguments": [],
             "callee": {
               "type": "TSAsExpression",
               "start": 1,
@@ -33,7 +29,19 @@ __ESTREE_TEST__:PASS:
                 "type": "FunctionExpression",
                 "start": 1,
                 "end": 17,
+                "id": {
+                  "type": "Identifier",
+                  "start": 10,
+                  "end": 11,
+                  "name": "a",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "expression": false,
+                "generator": false,
                 "async": false,
+                "params": [],
                 "body": {
                   "type": "BlockStatement",
                   "start": 14,
@@ -41,20 +49,8 @@ __ESTREE_TEST__:PASS:
                   "body": []
                 },
                 "declare": false,
-                "expression": false,
-                "generator": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 10,
-                  "end": 11,
-                  "decorators": [],
-                  "name": "a",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "params": [],
-                "returnType": null,
-                "typeParameters": null
+                "typeParameters": null,
+                "returnType": null
               },
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
@@ -62,23 +58,27 @@ __ESTREE_TEST__:PASS:
                 "end": 24
               }
             },
+            "arguments": [],
             "optional": false,
             "typeArguments": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 28,
             "end": 31,
-            "decorators": [],
             "name": "foo",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
         },
+        "arguments": [],
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

@@ -13,33 +13,33 @@ __ESTREE_TEST__:PASS:
         "type": "ExpressionStatement",
         "start": 7,
         "end": 13,
-        "directive": null,
         "expression": {
           "type": "CallExpression",
           "start": 7,
           "end": 12,
-          "arguments": [],
           "callee": {
             "type": "Identifier",
             "start": 7,
             "end": 10,
-            "decorators": [],
             "name": "bar",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
+          "arguments": [],
           "optional": false,
           "typeArguments": null
-        }
+        },
+        "directive": null
       },
       "label": {
         "type": "Identifier",
         "start": 0,
         "end": 3,
-        "decorators": [],
         "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     }
   ],
