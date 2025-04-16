@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 67,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 20,
+        "value": "foo",
+        "raw": "\"foo\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 21,
@@ -19,24 +25,24 @@ __ESTREE_TEST__:PASS:
             "type": "TSModuleDeclaration",
             "start": 26,
             "end": 40,
+            "id": {
+              "type": "Identifier",
+              "start": 36,
+              "end": 37,
+              "name": "M",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "body": {
               "type": "TSModuleBlock",
               "start": 38,
               "end": 40,
               "body": []
             },
+            "kind": "namespace",
             "declare": false,
-            "global": false,
-            "id": {
-              "type": "Identifier",
-              "start": 36,
-              "end": 37,
-              "decorators": [],
-              "name": "M",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "namespace"
+            "global": false
           },
           {
             "type": "VariableDeclaration",
@@ -47,21 +53,21 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 48,
                 "end": 49,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 48,
                   "end": 49,
-                  "decorators": [],
                   "name": "M",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "kind": "var",
+            "declare": false
           },
           {
             "type": "TSExportAssignment",
@@ -71,29 +77,29 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 63,
               "end": 64,
-              "decorators": [],
               "name": "M",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 20,
-        "raw": "\"foo\"",
-        "value": "foo"
-      }
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 69,
       "end": 113,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 84,
+        "end": 89,
+        "value": "bar",
+        "raw": "\"bar\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 90,
@@ -103,34 +109,28 @@ __ESTREE_TEST__:PASS:
             "type": "TSModuleDeclaration",
             "start": 96,
             "end": 111,
-            "kind": "module",
+            "id": {
+              "type": "Literal",
+              "start": 103,
+              "end": 108,
+              "value": "foo",
+              "raw": "\"foo\""
+            },
             "body": {
               "type": "TSModuleBlock",
               "start": 109,
               "end": 111,
               "body": []
             },
+            "kind": "module",
             "declare": false,
-            "global": false,
-            "id": {
-              "type": "Literal",
-              "start": 103,
-              "end": 108,
-              "raw": "\"foo\"",
-              "value": "foo"
-            }
+            "global": false
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 84,
-        "end": 89,
-        "raw": "\"bar\"",
-        "value": "bar"
-      }
+      "global": false
     }
   ],
   "sourceType": "script",

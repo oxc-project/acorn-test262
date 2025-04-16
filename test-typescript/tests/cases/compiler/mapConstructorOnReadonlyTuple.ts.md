@@ -14,15 +14,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 6,
           "end": 41,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
             "end": 11,
-            "decorators": [],
             "name": "pairs",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "TSAsExpression",
@@ -48,8 +47,8 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 20,
                       "end": 21,
-                      "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   ]
                 },
@@ -68,8 +67,8 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 29,
                       "end": 30,
-                      "raw": "2",
-                      "value": 2
+                      "value": 2,
+                      "raw": "2"
                     }
                   ]
                 }
@@ -79,86 +78,87 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 36,
               "end": 41,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 36,
                 "end": 41,
-                "decorators": [],
                 "name": "const",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "typeArguments": null
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 43,
       "end": 58,
-      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 43,
         "end": 57,
+        "callee": {
+          "type": "Identifier",
+          "start": 47,
+          "end": 50,
+          "name": "Map",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
         "arguments": [
           {
             "type": "Identifier",
             "start": 51,
             "end": 56,
-            "decorators": [],
             "name": "pairs",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         ],
-        "callee": {
-          "type": "Identifier",
-          "start": 47,
-          "end": 50,
-          "decorators": [],
-          "name": "Map",
-          "optional": false,
-          "typeAnnotation": null
-        },
         "typeArguments": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 59,
       "end": 78,
-      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 59,
         "end": 77,
+        "callee": {
+          "type": "Identifier",
+          "start": 63,
+          "end": 70,
+          "name": "WeakMap",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
         "arguments": [
           {
             "type": "Identifier",
             "start": 71,
             "end": 76,
-            "decorators": [],
             "name": "pairs",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         ],
-        "callee": {
-          "type": "Identifier",
-          "start": 63,
-          "end": 70,
-          "decorators": [],
-          "name": "WeakMap",
-          "optional": false,
-          "typeAnnotation": null
-        },
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

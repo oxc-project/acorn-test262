@@ -9,7 +9,29 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 1,
       "end": 351,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 21,
+        "name": "getSecurity",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 22,
+          "end": 27,
+          "name": "level",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        }
+      ],
       "body": {
         "type": "BlockStatement",
         "start": 29,
@@ -19,6 +41,15 @@ __ESTREE_TEST__:PASS:
             "type": "SwitchStatement",
             "start": 35,
             "end": 344,
+            "discriminant": {
+              "type": "Identifier",
+              "start": 42,
+              "end": 47,
+              "name": "level",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "cases": [
               {
                 "type": "SwitchCase",
@@ -29,8 +60,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 63,
                   "end": 64,
-                  "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               },
               {
@@ -42,8 +73,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 88,
                   "end": 89,
-                  "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               },
               {
@@ -59,8 +90,8 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 175,
                       "end": 179,
-                      "raw": "\"Hi\"",
-                      "value": "Hi"
+                      "value": "Hi",
+                      "raw": "\"Hi\""
                     }
                   }
                 ],
@@ -68,8 +99,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 113,
                   "end": 114,
-                  "raw": "2",
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 }
               },
               {
@@ -81,8 +112,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 194,
                   "end": 195,
-                  "raw": "3",
-                  "value": 3
+                  "value": 3,
+                  "raw": "3"
                 }
               },
               {
@@ -98,8 +129,8 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 251,
                       "end": 258,
-                      "raw": "\"hello\"",
-                      "value": "hello"
+                      "value": "hello",
+                      "raw": "\"hello\""
                     }
                   }
                 ],
@@ -107,8 +138,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 220,
                   "end": 221,
-                  "raw": "4",
-                  "value": 4
+                  "value": 4,
+                  "raw": "4"
                 }
               },
               {
@@ -120,8 +151,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 273,
                   "end": 274,
-                  "raw": "5",
-                  "value": 5
+                  "value": 5,
+                  "raw": "5"
                 }
               },
               {
@@ -137,51 +168,20 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 330,
                       "end": 337,
-                      "raw": "\"world\"",
-                      "value": "world"
+                      "value": "world",
+                      "raw": "\"world\""
                     }
                   }
                 ],
                 "test": null
               }
-            ],
-            "discriminant": {
-              "type": "Identifier",
-              "start": 42,
-              "end": 47,
-              "decorators": [],
-              "name": "level",
-              "optional": false,
-              "typeAnnotation": null
-            }
+            ]
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 21,
-        "decorators": [],
-        "name": "getSecurity",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [
-        {
-          "type": "Identifier",
-          "start": 22,
-          "end": 27,
-          "decorators": [],
-          "name": "level",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      ],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 198,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 23,
+        "value": "events",
+        "raw": "\"events\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 24,
@@ -19,6 +25,17 @@ __ESTREE_TEST__:PASS:
             "type": "TSInterfaceDeclaration",
             "start": 28,
             "end": 96,
+            "id": {
+              "type": "Identifier",
+              "start": 38,
+              "end": 57,
+              "name": "EventEmitterOptions",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "extends": [],
+            "typeParameters": null,
             "body": {
               "type": "TSInterfaceBody",
               "start": 58,
@@ -28,20 +45,18 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 64,
                   "end": 92,
-                  "accessibility": null,
                   "computed": false,
+                  "optional": true,
+                  "readonly": false,
                   "key": {
                     "type": "Identifier",
                     "start": 64,
                     "end": 81,
-                    "decorators": [],
                     "name": "captureRejections",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "optional": true,
-                  "readonly": false,
-                  "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 82,
@@ -51,28 +66,28 @@ __ESTREE_TEST__:PASS:
                       "start": 84,
                       "end": 91
                     }
-                  }
+                  },
+                  "accessibility": null,
+                  "static": false
                 }
               ]
             },
-            "declare": false,
-            "extends": [],
-            "id": {
-              "type": "Identifier",
-              "start": 38,
-              "end": 57,
-              "decorators": [],
-              "name": "EventEmitterOptions",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeParameters": null
+            "declare": false
           },
           {
             "type": "ClassDeclaration",
             "start": 99,
             "end": 171,
-            "abstract": false,
+            "id": {
+              "type": "Identifier",
+              "start": 105,
+              "end": 117,
+              "name": "EventEmitter",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "superClass": null,
             "body": {
               "type": "ClassBody",
               "start": 118,
@@ -82,40 +97,32 @@ __ESTREE_TEST__:PASS:
                   "type": "MethodDefinition",
                   "start": 124,
                   "end": 167,
-                  "accessibility": null,
+                  "static": false,
                   "computed": false,
-                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 124,
                     "end": 135,
-                    "decorators": [],
                     "name": "constructor",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
                   "kind": "constructor",
-                  "optional": false,
-                  "override": false,
-                  "static": false,
                   "value": {
                     "type": "TSEmptyBodyFunctionExpression",
                     "start": 135,
                     "end": 167,
-                    "async": false,
-                    "body": null,
-                    "declare": false,
+                    "id": null,
                     "expression": false,
                     "generator": false,
-                    "id": null,
+                    "async": false,
                     "params": [
                       {
                         "type": "Identifier",
                         "start": 136,
                         "end": 165,
-                        "decorators": [],
                         "name": "options",
-                        "optional": true,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
                           "start": 144,
@@ -124,41 +131,40 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 146,
                             "end": 165,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 146,
                               "end": 165,
-                              "decorators": [],
                               "name": "EventEmitterOptions",
-                              "optional": false,
-                              "typeAnnotation": null
-                            }
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
+                            },
+                            "typeArguments": null
                           }
-                        }
+                        },
+                        "decorators": [],
+                        "optional": true
                       }
                     ],
-                    "returnType": null,
-                    "typeParameters": null
-                  }
+                    "body": null,
+                    "declare": false,
+                    "typeParameters": null,
+                    "returnType": null
+                  },
+                  "decorators": [],
+                  "override": false,
+                  "optional": false,
+                  "accessibility": null
                 }
               ]
             },
-            "declare": false,
             "decorators": [],
-            "id": {
-              "type": "Identifier",
-              "start": 105,
-              "end": 117,
-              "decorators": [],
-              "name": "EventEmitter",
-              "optional": false,
-              "typeAnnotation": null
-            },
+            "typeParameters": null,
             "implements": [],
-            "superClass": null,
-            "superTypeArguments": null,
-            "typeParameters": null
+            "abstract": false,
+            "declare": false,
+            "superTypeArguments": null
           },
           {
             "type": "TSExportAssignment",
@@ -168,29 +174,29 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 183,
               "end": 195,
-              "decorators": [],
               "name": "EventEmitter",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 23,
-        "raw": "\"events\"",
-        "value": "events"
-      }
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 199,
       "end": 287,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 214,
+        "end": 227,
+        "value": "node:events",
+        "raw": "\"node:events\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 228,
@@ -204,12 +210,11 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 239,
               "end": 245,
-              "decorators": [],
               "name": "events",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "importKind": "value",
             "moduleReference": {
               "type": "TSExternalModuleReference",
               "start": 248,
@@ -218,10 +223,11 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 256,
                 "end": 264,
-                "raw": "\"events\"",
-                "value": "events"
+                "value": "events",
+                "raw": "\"events\""
               }
-            }
+            },
+            "importKind": "value"
           },
           {
             "type": "TSExportAssignment",
@@ -231,23 +237,17 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 278,
               "end": 284,
-              "decorators": [],
               "name": "events",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 214,
-        "end": 227,
-        "raw": "\"node:events\"",
-        "value": "node:events"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -269,12 +269,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 7,
         "end": 13,
-        "decorators": [],
         "name": "events",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 16,
@@ -283,10 +282,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 24,
           "end": 32,
-          "raw": "\"events\"",
-          "value": "events"
+          "value": "events",
+          "raw": "\"events\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSExportAssignment",
@@ -296,10 +296,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 44,
         "end": 50,
-        "decorators": [],
         "name": "events",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     }
   ],

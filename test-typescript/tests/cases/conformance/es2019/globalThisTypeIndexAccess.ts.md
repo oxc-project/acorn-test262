@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 14,
           "end": 52,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
             "end": 52,
-            "decorators": [],
             "name": "w_e",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 17,
@@ -30,18 +27,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSIndexedAccessType",
                 "start": 19,
                 "end": 52,
-                "indexType": {
-                  "type": "TSLiteralType",
-                  "start": 39,
-                  "end": 51,
-                  "literal": {
-                    "type": "Literal",
-                    "start": 39,
-                    "end": 51,
-                    "raw": "\"globalThis\"",
-                    "value": "globalThis"
-                  }
-                },
                 "objectType": {
                   "type": "TSTypeQuery",
                   "start": 20,
@@ -50,21 +35,36 @@ __ESTREE_TEST__:PASS:
                     "type": "Identifier",
                     "start": 27,
                     "end": 37,
-                    "decorators": [],
                     "name": "globalThis",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
                   "typeArguments": null
+                },
+                "indexType": {
+                  "type": "TSLiteralType",
+                  "start": 39,
+                  "end": 51,
+                  "literal": {
+                    "type": "Literal",
+                    "start": 39,
+                    "end": 51,
+                    "value": "globalThis",
+                    "raw": "\"globalThis\""
+                  }
                 }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "kind": "const",
+      "declare": true
     }
   ],
   "sourceType": "script",

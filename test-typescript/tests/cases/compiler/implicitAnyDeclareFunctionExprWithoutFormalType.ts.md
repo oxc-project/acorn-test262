@@ -14,48 +14,48 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 57,
           "end": 77,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 57,
             "end": 63,
-            "decorators": [],
             "name": "lambda",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrowFunctionExpression",
             "start": 66,
             "end": 77,
+            "id": null,
+            "expression": false,
+            "generator": false,
             "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 67,
+                "end": 69,
+                "name": "l1",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              }
+            ],
             "body": {
               "type": "BlockStatement",
               "start": 74,
               "end": 77,
               "body": []
             },
-            "expression": false,
-            "generator": false,
-            "id": null,
-            "params": [
-              {
-                "type": "Identifier",
-                "start": 67,
-                "end": 69,
-                "decorators": [],
-                "name": "l1",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            ],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "typeParameters": null,
+            "returnType": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -66,47 +66,38 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 106,
           "end": 140,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 106,
             "end": 112,
-            "decorators": [],
             "name": "lambd2",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrowFunctionExpression",
             "start": 115,
             "end": 140,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 137,
-              "end": 140,
-              "body": []
-            },
+            "id": null,
             "expression": false,
             "generator": false,
-            "id": null,
+            "async": false,
             "params": [
               {
                 "type": "Identifier",
                 "start": 116,
                 "end": 119,
-                "decorators": [],
                 "name": "ll1",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               {
                 "type": "Identifier",
                 "start": 121,
                 "end": 132,
-                "decorators": [],
                 "name": "ll2",
-                "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
                   "start": 124,
@@ -116,16 +107,25 @@ __ESTREE_TEST__:PASS:
                     "start": 126,
                     "end": 132
                   }
-                }
+                },
+                "decorators": [],
+                "optional": false
               }
             ],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "body": {
+              "type": "BlockStatement",
+              "start": 137,
+              "end": 140,
+              "body": []
+            },
+            "typeParameters": null,
+            "returnType": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -136,21 +136,42 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 164,
           "end": 204,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 164,
             "end": 170,
-            "decorators": [],
             "name": "lamda3",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "FunctionExpression",
             "start": 173,
             "end": 204,
+            "id": {
+              "type": "Identifier",
+              "start": 182,
+              "end": 191,
+              "name": "myLambda3",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "expression": false,
+            "generator": false,
             "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 192,
+                "end": 199,
+                "name": "myParam",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              }
+            ],
             "body": {
               "type": "BlockStatement",
               "start": 201,
@@ -158,35 +179,14 @@ __ESTREE_TEST__:PASS:
               "body": []
             },
             "declare": false,
-            "expression": false,
-            "generator": false,
-            "id": {
-              "type": "Identifier",
-              "start": 182,
-              "end": 191,
-              "decorators": [],
-              "name": "myLambda3",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "params": [
-              {
-                "type": "Identifier",
-                "start": 192,
-                "end": 199,
-                "decorators": [],
-                "name": "myParam",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            ],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "typeParameters": null,
+            "returnType": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -197,21 +197,24 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 209,
           "end": 239,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 209,
             "end": 215,
-            "decorators": [],
             "name": "lamda4",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrowFunctionExpression",
             "start": 218,
             "end": 239,
+            "id": null,
+            "expression": false,
+            "generator": false,
             "async": false,
+            "params": [],
             "body": {
               "type": "BlockStatement",
               "start": 224,
@@ -225,23 +228,20 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 233,
                     "end": 237,
-                    "raw": "null",
-                    "value": null
+                    "value": null,
+                    "raw": "null"
                   }
                 }
               ]
             },
-            "expression": false,
-            "generator": false,
-            "id": null,
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "typeParameters": null,
+            "returnType": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -252,21 +252,32 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 300,
           "end": 342,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 300,
             "end": 307,
-            "decorators": [],
             "name": "lambda5",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "FunctionExpression",
             "start": 310,
             "end": 342,
+            "id": {
+              "type": "Identifier",
+              "start": 319,
+              "end": 323,
+              "name": "temp",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "expression": false,
+            "generator": false,
             "async": false,
+            "params": [],
             "body": {
               "type": "BlockStatement",
               "start": 326,
@@ -280,32 +291,21 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 335,
                     "end": 339,
-                    "raw": "null",
-                    "value": null
+                    "value": null,
+                    "raw": "null"
                   }
                 }
               ]
             },
             "declare": false,
-            "expression": false,
-            "generator": false,
-            "id": {
-              "type": "Identifier",
-              "start": 319,
-              "end": 323,
-              "decorators": [],
-              "name": "temp",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "typeParameters": null,
+            "returnType": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -316,21 +316,24 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 347,
           "end": 379,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 347,
             "end": 354,
-            "decorators": [],
             "name": "lambda6",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrowFunctionExpression",
             "start": 357,
             "end": 379,
+            "id": null,
+            "expression": false,
+            "generator": false,
             "async": false,
+            "params": [],
             "body": {
               "type": "BlockStatement",
               "start": 363,
@@ -344,23 +347,20 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 372,
                     "end": 376,
-                    "raw": "null",
-                    "value": null
+                    "value": null,
+                    "raw": "null"
                   }
                 }
               ]
             },
-            "expression": false,
-            "generator": false,
-            "id": null,
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "typeParameters": null,
+            "returnType": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -371,21 +371,32 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 384,
           "end": 431,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 384,
             "end": 391,
-            "decorators": [],
             "name": "lambda7",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "FunctionExpression",
             "start": 394,
             "end": 431,
+            "id": {
+              "type": "Identifier",
+              "start": 403,
+              "end": 407,
+              "name": "temp",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "expression": false,
+            "generator": false,
             "async": false,
+            "params": [],
             "body": {
               "type": "BlockStatement",
               "start": 410,
@@ -399,34 +410,23 @@ __ESTREE_TEST__:PASS:
                     "type": "Identifier",
                     "start": 419,
                     "end": 428,
-                    "decorators": [],
                     "name": "undefined",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   }
                 }
               ]
             },
             "declare": false,
-            "expression": false,
-            "generator": false,
-            "id": {
-              "type": "Identifier",
-              "start": 403,
-              "end": 407,
-              "decorators": [],
-              "name": "temp",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "typeParameters": null,
+            "returnType": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -437,21 +437,24 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 436,
           "end": 473,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 436,
             "end": 443,
-            "decorators": [],
             "name": "lambda8",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrowFunctionExpression",
             "start": 446,
             "end": 473,
+            "id": null,
+            "expression": false,
+            "generator": false,
             "async": false,
+            "params": [],
             "body": {
               "type": "BlockStatement",
               "start": 452,
@@ -465,25 +468,22 @@ __ESTREE_TEST__:PASS:
                     "type": "Identifier",
                     "start": 461,
                     "end": 470,
-                    "decorators": [],
                     "name": "undefined",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   }
                 }
               ]
             },
-            "expression": false,
-            "generator": false,
-            "id": null,
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "typeParameters": null,
+            "returnType": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -494,21 +494,24 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 509,
           "end": 538,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 509,
             "end": 516,
-            "decorators": [],
             "name": "lambda9",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrowFunctionExpression",
             "start": 519,
             "end": 538,
+            "id": null,
+            "expression": false,
+            "generator": false,
             "async": false,
+            "params": [],
             "body": {
               "type": "BlockStatement",
               "start": 525,
@@ -522,23 +525,20 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 534,
                     "end": 535,
-                    "raw": "5",
-                    "value": 5
+                    "value": 5,
+                    "raw": "5"
                   }
                 }
               ]
             },
-            "expression": false,
-            "generator": false,
-            "id": null,
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "typeParameters": null,
+            "returnType": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -549,21 +549,32 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 543,
           "end": 584,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 543,
             "end": 551,
-            "decorators": [],
             "name": "lambda10",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "FunctionExpression",
             "start": 554,
             "end": 584,
+            "id": {
+              "type": "Identifier",
+              "start": 563,
+              "end": 568,
+              "name": "temp1",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "expression": false,
+            "generator": false,
             "async": false,
+            "params": [],
             "body": {
               "type": "BlockStatement",
               "start": 571,
@@ -577,32 +588,21 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 580,
                     "end": 581,
-                    "raw": "5",
-                    "value": 5
+                    "value": 5,
+                    "raw": "5"
                   }
                 }
               ]
             },
             "declare": false,
-            "expression": false,
-            "generator": false,
-            "id": {
-              "type": "Identifier",
-              "start": 563,
-              "end": 568,
-              "decorators": [],
-              "name": "temp1",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "typeParameters": null,
+            "returnType": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

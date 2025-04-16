@@ -9,38 +9,46 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 17,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 13,
+        "name": "CtorTag",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 14,
         "end": 17,
         "body": []
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 13,
-        "decorators": [],
-        "name": "CtorTag",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     },
     {
       "type": "ExpressionStatement",
       "start": 19,
       "end": 42,
-      "directive": null,
       "expression": {
         "type": "TaggedTemplateExpression",
         "start": 19,
         "end": 41,
+        "tag": {
+          "type": "Identifier",
+          "start": 19,
+          "end": 26,
+          "name": "CtorTag",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 27,
@@ -51,25 +59,17 @@ __ESTREE_TEST__:PASS:
               "type": "TemplateElement",
               "start": 27,
               "end": 41,
-              "tail": true,
               "value": {
                 "cooked": "Hello world!",
                 "raw": "Hello world!"
-              }
+              },
+              "tail": true
             }
           ]
         },
-        "tag": {
-          "type": "Identifier",
-          "start": 19,
-          "end": 26,
-          "decorators": [],
-          "name": "CtorTag",
-          "optional": false,
-          "typeAnnotation": null
-        },
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

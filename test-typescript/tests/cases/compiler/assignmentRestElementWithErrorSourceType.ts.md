@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 27,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 27,
-            "decorators": [],
             "name": "tuple",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 9,
@@ -43,19 +40,21 @@ __ESTREE_TEST__:PASS:
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 29,
       "end": 44,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 29,
@@ -65,7 +64,6 @@ __ESTREE_TEST__:PASS:
           "type": "ArrayPattern",
           "start": 29,
           "end": 35,
-          "decorators": [],
           "elements": [
             {
               "type": "RestElement",
@@ -75,10 +73,10 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 33,
                 "end": 34,
-                "decorators": [],
                 "name": "c",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "decorators": [],
               "optional": false,
@@ -86,6 +84,7 @@ __ESTREE_TEST__:PASS:
               "value": null
             }
           ],
+          "decorators": [],
           "optional": false,
           "typeAnnotation": null
         },
@@ -93,12 +92,13 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 38,
           "end": 43,
-          "decorators": [],
           "name": "tupel",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

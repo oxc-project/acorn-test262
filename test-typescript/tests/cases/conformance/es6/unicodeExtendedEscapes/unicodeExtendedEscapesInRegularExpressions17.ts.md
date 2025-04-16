@@ -14,31 +14,31 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 26,
           "end": 49,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 26,
             "end": 27,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 30,
             "end": 49,
+            "value": null,
             "raw": "/\\u{r}\\u{n}\\u{t}/gu",
             "regex": {
               "flags": "gu",
               "pattern": "\\u{r}\\u{n}\\u{t}"
-            },
-            "value": null
-          }
+            }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

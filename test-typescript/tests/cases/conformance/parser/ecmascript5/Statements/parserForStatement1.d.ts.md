@@ -9,15 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "ForStatement",
       "start": 0,
       "end": 12,
+      "init": null,
+      "test": null,
+      "update": null,
       "body": {
         "type": "BlockStatement",
         "start": 9,
         "end": 12,
         "body": []
-      },
-      "init": null,
-      "test": null,
-      "update": null
+      }
     }
   ],
   "sourceType": "script",

@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 21,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 21,
-            "decorators": [],
             "name": "interface",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 13,
@@ -31,22 +28,22 @@ __ESTREE_TEST__:PASS:
                 "start": 15,
                 "end": 21
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         },
         {
           "type": "VariableDeclarator",
           "start": 23,
           "end": 32,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 23,
             "end": 32,
-            "decorators": [],
             "name": "I",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 24,
@@ -56,18 +53,30 @@ __ESTREE_TEST__:PASS:
                 "start": 26,
                 "end": 32
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 35,
       "end": 211,
+      "id": {
+        "type": "Identifier",
+        "start": 45,
+        "end": 46,
+        "name": "n",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 47,
@@ -77,31 +86,31 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 53,
             "end": 62,
-            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 53,
               "end": 62,
-              "decorators": [],
               "name": "interface",
-              "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 114,
             "end": 115,
-            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 114,
               "end": 115,
-              "decorators": [],
               "name": "I",
-              "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "directive": null
           },
           {
             "type": "BlockStatement",
@@ -111,18 +120,9 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
+      "kind": "namespace",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 45,
-        "end": 46,
-        "decorators": [],
-        "name": "n",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     }
   ],
   "sourceType": "script",

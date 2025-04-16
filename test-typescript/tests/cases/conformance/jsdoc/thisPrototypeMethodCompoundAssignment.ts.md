@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 83,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 0,
@@ -19,48 +18,52 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 0,
           "end": 24,
-          "computed": false,
           "object": {
             "type": "MemberExpression",
             "start": 0,
             "end": 17,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 0,
               "end": 7,
-              "decorators": [],
               "name": "Element",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 8,
               "end": 17,
-              "decorators": [],
               "name": "prototype",
-              "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": false,
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 18,
             "end": 24,
-            "decorators": [],
             "name": "remove",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
         },
         "right": {
           "type": "FunctionExpression",
           "start": 29,
           "end": 82,
+          "id": null,
+          "expression": false,
+          "generator": false,
           "async": false,
+          "params": [],
           "body": {
             "type": "BlockStatement",
             "start": 41,
@@ -70,7 +73,6 @@ __ESTREE_TEST__:PASS:
                 "type": "ExpressionStatement",
                 "start": 45,
                 "end": 80,
-                "directive": null,
                 "expression": {
                   "type": "ChainExpression",
                   "start": 45,
@@ -79,6 +81,43 @@ __ESTREE_TEST__:PASS:
                     "type": "CallExpression",
                     "start": 45,
                     "end": 79,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 45,
+                      "end": 73,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 45,
+                        "end": 60,
+                        "object": {
+                          "type": "ThisExpression",
+                          "start": 45,
+                          "end": 49
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 50,
+                          "end": 60,
+                          "name": "parentNode",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 62,
+                        "end": 73,
+                        "name": "removeChild",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "computed": false,
+                      "optional": true
+                    },
                     "arguments": [
                       {
                         "type": "ThisExpression",
@@ -86,59 +125,20 @@ __ESTREE_TEST__:PASS:
                         "end": 78
                       }
                     ],
-                    "callee": {
-                      "type": "MemberExpression",
-                      "start": 45,
-                      "end": 73,
-                      "computed": false,
-                      "object": {
-                        "type": "MemberExpression",
-                        "start": 45,
-                        "end": 60,
-                        "computed": false,
-                        "object": {
-                          "type": "ThisExpression",
-                          "start": 45,
-                          "end": 49
-                        },
-                        "optional": false,
-                        "property": {
-                          "type": "Identifier",
-                          "start": 50,
-                          "end": 60,
-                          "decorators": [],
-                          "name": "parentNode",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      },
-                      "optional": true,
-                      "property": {
-                        "type": "Identifier",
-                        "start": 62,
-                        "end": 73,
-                        "decorators": [],
-                        "name": "removeChild",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    },
                     "optional": false,
                     "typeArguments": null
                   }
-                }
+                },
+                "directive": null
               }
             ]
           },
           "declare": false,
-          "expression": false,
-          "generator": false,
-          "id": null,
-          "params": [],
-          "returnType": null,
-          "typeParameters": null
+          "typeParameters": null,
+          "returnType": null
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

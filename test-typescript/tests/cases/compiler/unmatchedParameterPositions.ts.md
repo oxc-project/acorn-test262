@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 35,
           "end": 68,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 35,
             "end": 68,
-            "decorators": [],
             "name": "s",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 36,
@@ -30,6 +27,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSFunctionType",
                 "start": 38,
                 "end": 68,
+                "typeParameters": null,
                 "params": [
                   {
                     "type": "RestElement",
@@ -39,10 +37,10 @@ __ESTREE_TEST__:PASS:
                       "type": "Identifier",
                       "start": 42,
                       "end": 47,
-                      "decorators": [],
                       "name": "items",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
                     "decorators": [],
                     "optional": false,
@@ -78,16 +76,18 @@ __ESTREE_TEST__:PASS:
                       "end": 66
                     }
                   }
-                },
-                "typeParameters": null
+                }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "kind": "let",
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
@@ -98,14 +98,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 74,
           "end": 97,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 74,
             "end": 93,
-            "decorators": [],
             "name": "t1",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 76,
@@ -114,6 +111,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSFunctionType",
                 "start": 78,
                 "end": 93,
+                "typeParameters": null,
                 "params": [],
                 "returnType": {
                   "type": "TSTypeAnnotation",
@@ -129,24 +127,26 @@ __ESTREE_TEST__:PASS:
                       "end": 91
                     }
                   }
-                },
-                "typeParameters": null
+                }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Identifier",
             "start": 96,
             "end": 97,
-            "decorators": [],
             "name": "s",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -157,14 +157,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 103,
           "end": 137,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 103,
             "end": 133,
-            "decorators": [],
             "name": "t2",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 105,
@@ -173,6 +170,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSFunctionType",
                 "start": 107,
                 "end": 133,
+                "typeParameters": null,
                 "params": [
                   {
                     "type": "RestElement",
@@ -182,10 +180,10 @@ __ESTREE_TEST__:PASS:
                       "type": "Identifier",
                       "start": 111,
                       "end": 115,
-                      "decorators": [],
                       "name": "args",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
                     "decorators": [],
                     "optional": false,
@@ -217,24 +215,26 @@ __ESTREE_TEST__:PASS:
                       "end": 131
                     }
                   }
-                },
-                "typeParameters": null
+                }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Identifier",
             "start": 136,
             "end": 137,
-            "decorators": [],
             "name": "s",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     }
   ],
   "sourceType": "script",

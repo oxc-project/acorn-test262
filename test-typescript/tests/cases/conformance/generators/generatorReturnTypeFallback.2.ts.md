@@ -9,7 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 186,
       "end": 216,
+      "id": {
+        "type": "Identifier",
+        "start": 196,
+        "end": 197,
+        "name": "f",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": true,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 200,
@@ -19,38 +31,26 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 206,
             "end": 214,
-            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 206,
               "end": 213,
+              "delegate": false,
               "argument": {
                 "type": "Literal",
                 "start": 212,
                 "end": 213,
-                "raw": "1",
-                "value": 1
-              },
-              "delegate": false
-            }
+                "value": 1,
+                "raw": "1"
+              }
+            },
+            "directive": null
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": true,
-      "id": {
-        "type": "Identifier",
-        "start": 196,
-        "end": 197,
-        "decorators": [],
-        "name": "f",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

@@ -9,6 +9,17 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 137,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 11,
+        "name": "I",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "extends": [],
+      "typeParameters": null,
       "body": {
         "type": "TSInterfaceBody",
         "start": 12,
@@ -18,35 +29,32 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 22,
             "end": 26,
-            "accessibility": null,
             "computed": true,
+            "optional": false,
+            "readonly": false,
             "key": {
               "type": "Identifier",
               "start": 23,
               "end": 24,
-              "decorators": [],
               "name": "p",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "accessibility": null,
+            "static": false
           },
           {
             "type": "TSIndexSignature",
             "start": 88,
             "end": 101,
-            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
                 "start": 89,
                 "end": 99,
-                "decorators": [],
                 "name": "p1",
-                "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
                   "start": 91,
@@ -56,26 +64,26 @@ __ESTREE_TEST__:PASS:
                     "start": 93,
                     "end": 99
                   }
-                }
+                },
+                "decorators": [],
+                "optional": false
               }
             ],
+            "typeAnnotation": null,
             "readonly": false,
             "static": false,
-            "typeAnnotation": null
+            "accessibility": null
           },
           {
             "type": "TSIndexSignature",
             "start": 110,
             "end": 135,
-            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
                 "start": 111,
                 "end": 121,
-                "decorators": [],
                 "name": "p2",
-                "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
                   "start": 113,
@@ -85,15 +93,15 @@ __ESTREE_TEST__:PASS:
                     "start": 115,
                     "end": 121
                   }
-                }
+                },
+                "decorators": [],
+                "optional": false
               },
               {
                 "type": "Identifier",
                 "start": 123,
                 "end": 133,
-                "decorators": [],
                 "name": "p3",
-                "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
                   "start": 125,
@@ -103,27 +111,19 @@ __ESTREE_TEST__:PASS:
                     "start": 127,
                     "end": 133
                   }
-                }
+                },
+                "decorators": [],
+                "optional": false
               }
             ],
+            "typeAnnotation": null,
             "readonly": false,
             "static": false,
-            "typeAnnotation": null
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 11,
-        "decorators": [],
-        "name": "I",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     }
   ],
   "sourceType": "script",

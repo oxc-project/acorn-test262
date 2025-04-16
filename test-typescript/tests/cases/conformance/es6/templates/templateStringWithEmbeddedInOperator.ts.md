@@ -14,15 +14,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 5,
           "end": 50,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 5,
             "end": 6,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "TemplateLiteral",
@@ -33,14 +32,14 @@ __ESTREE_TEST__:PASS:
                 "type": "BinaryExpression",
                 "start": 16,
                 "end": 44,
-                "operator": "in",
                 "left": {
                   "type": "Literal",
                   "start": 16,
                   "end": 20,
-                  "raw": "\"hi\"",
-                  "value": "hi"
+                  "value": "hi",
+                  "raw": "\"hi\""
                 },
+                "operator": "in",
                 "right": {
                   "type": "ObjectExpression",
                   "start": 24,
@@ -50,53 +49,53 @@ __ESTREE_TEST__:PASS:
                       "type": "Property",
                       "start": 26,
                       "end": 32,
+                      "method": false,
+                      "shorthand": false,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
                         "start": 26,
                         "end": 28,
-                        "decorators": [],
                         "name": "hi",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
-                      "kind": "init",
-                      "method": false,
-                      "optional": false,
-                      "shorthand": false,
                       "value": {
                         "type": "Literal",
                         "start": 30,
                         "end": 32,
-                        "raw": "10",
-                        "value": 10
-                      }
+                        "value": 10,
+                        "raw": "10"
+                      },
+                      "kind": "init",
+                      "optional": false
                     },
                     {
                       "type": "Property",
                       "start": 34,
                       "end": 43,
+                      "method": false,
+                      "shorthand": false,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
                         "start": 34,
                         "end": 39,
-                        "decorators": [],
                         "name": "hello",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
-                      "kind": "init",
-                      "method": false,
-                      "optional": false,
-                      "shorthand": false,
                       "value": {
                         "type": "Literal",
                         "start": 41,
                         "end": 43,
-                        "raw": "20",
-                        "value": 20
-                      }
+                        "value": 20,
+                        "raw": "20"
+                      },
+                      "kind": "init",
+                      "optional": false
                     }
                   ]
                 }
@@ -107,28 +106,29 @@ __ESTREE_TEST__:PASS:
                 "type": "TemplateElement",
                 "start": 9,
                 "end": 15,
-                "tail": false,
                 "value": {
                   "cooked": "abc",
                   "raw": "abc"
-                }
+                },
+                "tail": false
               },
               {
                 "type": "TemplateElement",
                 "start": 45,
                 "end": 50,
-                "tail": true,
                 "value": {
                   "cooked": "def",
                   "raw": "def"
-                }
+                },
+                "tail": true
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

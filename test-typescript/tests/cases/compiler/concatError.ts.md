@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 16,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 16,
-            "decorators": [],
             "name": "n1",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 6,
@@ -36,13 +33,16 @@ __ESTREE_TEST__:PASS:
                   "end": 14
                 }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -53,14 +53,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 213,
           "end": 225,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 213,
             "end": 225,
-            "decorators": [],
             "name": "fa",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 215,
@@ -75,19 +72,21 @@ __ESTREE_TEST__:PASS:
                   "end": 223
                 }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 228,
       "end": 248,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 228,
@@ -97,15 +96,40 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 228,
           "end": 230,
-          "decorators": [],
           "name": "fa",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
         "right": {
           "type": "CallExpression",
           "start": 233,
           "end": 247,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 233,
+            "end": 242,
+            "object": {
+              "type": "Identifier",
+              "start": 233,
+              "end": 235,
+              "name": "fa",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 236,
+              "end": 242,
+              "name": "concat",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": false,
+            "optional": false
+          },
           "arguments": [
             {
               "type": "ArrayExpression",
@@ -116,47 +140,22 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 244,
                   "end": 245,
-                  "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               ]
             }
           ],
-          "callee": {
-            "type": "MemberExpression",
-            "start": 233,
-            "end": 242,
-            "computed": false,
-            "object": {
-              "type": "Identifier",
-              "start": 233,
-              "end": 235,
-              "decorators": [],
-              "name": "fa",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "property": {
-              "type": "Identifier",
-              "start": 236,
-              "end": 242,
-              "decorators": [],
-              "name": "concat",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          },
           "optional": false,
           "typeArguments": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 249,
       "end": 267,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 249,
@@ -166,53 +165,54 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 249,
           "end": 251,
-          "decorators": [],
           "name": "fa",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
         "right": {
           "type": "CallExpression",
           "start": 254,
           "end": 266,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 254,
+            "end": 263,
+            "object": {
+              "type": "Identifier",
+              "start": 254,
+              "end": 256,
+              "name": "fa",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 257,
+              "end": 263,
+              "name": "concat",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": false,
+            "optional": false
+          },
           "arguments": [
             {
               "type": "Literal",
               "start": 264,
               "end": 265,
-              "raw": "0",
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           ],
-          "callee": {
-            "type": "MemberExpression",
-            "start": 254,
-            "end": 263,
-            "computed": false,
-            "object": {
-              "type": "Identifier",
-              "start": 254,
-              "end": 256,
-              "decorators": [],
-              "name": "fa",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "property": {
-              "type": "Identifier",
-              "start": 257,
-              "end": 263,
-              "decorators": [],
-              "name": "concat",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          },
           "optional": false,
           "typeArguments": null
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

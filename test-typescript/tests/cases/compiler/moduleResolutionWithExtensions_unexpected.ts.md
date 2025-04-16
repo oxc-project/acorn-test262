@@ -9,16 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 23,
-      "attributes": [],
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 7,
         "end": 22,
-        "raw": "\"normalize.css\"",
-        "value": "normalize.css"
+        "value": "normalize.css",
+        "raw": "\"normalize.css\""
       },
-      "specifiers": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

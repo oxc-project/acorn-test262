@@ -15,13 +15,13 @@ __ESTREE_TEST__:PASS:
         "end": 15,
         "body": []
       },
+      "handler": null,
       "finalizer": {
         "type": "BlockStatement",
         "start": 24,
         "end": 53,
         "body": []
-      },
-      "handler": null
+      }
     }
   ],
   "sourceType": "script",

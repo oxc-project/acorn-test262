@@ -13,8 +13,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 15,
         "end": 22,
-        "raw": "3.14159",
-        "value": 3.14159
+        "value": 3.14159,
+        "raw": "3.14159"
       },
       "exportKind": "value"
     }

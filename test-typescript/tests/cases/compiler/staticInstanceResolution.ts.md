@@ -9,7 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 221,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 13,
+        "name": "Comment",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 14,
@@ -19,27 +28,27 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 21,
             "end": 60,
-            "accessibility": "public",
+            "static": false,
             "computed": false,
-            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 28,
               "end": 45,
-              "decorators": [],
               "name": "getDocCommentText",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 45,
               "end": 60,
+              "id": null,
+              "expression": false,
+              "generator": false,
               "async": false,
+              "params": [],
               "body": {
                 "type": "BlockStatement",
                 "start": 52,
@@ -47,194 +56,44 @@ __ESTREE_TEST__:PASS:
                 "body": []
               },
               "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "typeParameters": null,
+              "returnType": null
+            },
+            "decorators": [],
+            "override": false,
+            "optional": false,
+            "accessibility": "public"
           },
           {
             "type": "MethodDefinition",
             "start": 66,
             "end": 219,
-            "accessibility": null,
+            "static": true,
             "computed": false,
-            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 73,
               "end": 90,
-              "decorators": [],
               "name": "getDocCommentText",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": true,
             "value": {
               "type": "FunctionExpression",
               "start": 90,
               "end": 219,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 116,
-                "end": 219,
-                "body": [
-                  {
-                    "type": "ExpressionStatement",
-                    "start": 126,
-                    "end": 158,
-                    "directive": null,
-                    "expression": {
-                      "type": "CallExpression",
-                      "start": 126,
-                      "end": 157,
-                      "arguments": [],
-                      "callee": {
-                        "type": "MemberExpression",
-                        "start": 126,
-                        "end": 155,
-                        "computed": false,
-                        "object": {
-                          "type": "MemberExpression",
-                          "start": 126,
-                          "end": 137,
-                          "computed": true,
-                          "object": {
-                            "type": "Identifier",
-                            "start": 126,
-                            "end": 134,
-                            "decorators": [],
-                            "name": "comments",
-                            "optional": false,
-                            "typeAnnotation": null
-                          },
-                          "optional": false,
-                          "property": {
-                            "type": "Literal",
-                            "start": 135,
-                            "end": 136,
-                            "raw": "0",
-                            "value": 0
-                          }
-                        },
-                        "optional": false,
-                        "property": {
-                          "type": "Identifier",
-                          "start": 138,
-                          "end": 155,
-                          "decorators": [],
-                          "name": "getDocCommentText",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      },
-                      "optional": false,
-                      "typeArguments": null
-                    }
-                  },
-                  {
-                    "type": "VariableDeclaration",
-                    "start": 167,
-                    "end": 182,
-                    "declarations": [
-                      {
-                        "type": "VariableDeclarator",
-                        "start": 171,
-                        "end": 181,
-                        "definite": false,
-                        "id": {
-                          "type": "Identifier",
-                          "start": 171,
-                          "end": 181,
-                          "decorators": [],
-                          "name": "c",
-                          "optional": false,
-                          "typeAnnotation": {
-                            "type": "TSTypeAnnotation",
-                            "start": 172,
-                            "end": 181,
-                            "typeAnnotation": {
-                              "type": "TSTypeReference",
-                              "start": 174,
-                              "end": 181,
-                              "typeArguments": null,
-                              "typeName": {
-                                "type": "Identifier",
-                                "start": 174,
-                                "end": 181,
-                                "decorators": [],
-                                "name": "Comment",
-                                "optional": false,
-                                "typeAnnotation": null
-                              }
-                            }
-                          }
-                        },
-                        "init": null
-                      }
-                    ],
-                    "declare": false,
-                    "kind": "var"
-                  },
-                  {
-                    "type": "ExpressionStatement",
-                    "start": 191,
-                    "end": 213,
-                    "directive": null,
-                    "expression": {
-                      "type": "CallExpression",
-                      "start": 191,
-                      "end": 212,
-                      "arguments": [],
-                      "callee": {
-                        "type": "MemberExpression",
-                        "start": 191,
-                        "end": 210,
-                        "computed": false,
-                        "object": {
-                          "type": "Identifier",
-                          "start": 191,
-                          "end": 192,
-                          "decorators": [],
-                          "name": "c",
-                          "optional": false,
-                          "typeAnnotation": null
-                        },
-                        "optional": false,
-                        "property": {
-                          "type": "Identifier",
-                          "start": 193,
-                          "end": 210,
-                          "decorators": [],
-                          "name": "getDocCommentText",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      },
-                      "optional": false,
-                      "typeArguments": null
-                    }
-                  }
-                ]
-              },
-              "declare": false,
+              "id": null,
               "expression": false,
               "generator": false,
-              "id": null,
+              "async": false,
               "params": [
                 {
                   "type": "Identifier",
                   "start": 91,
                   "end": 110,
-                  "decorators": [],
                   "name": "comments",
-                  "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 99,
@@ -247,42 +106,183 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 101,
                         "end": 108,
-                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 101,
                           "end": 108,
-                          "decorators": [],
                           "name": "Comment",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "typeArguments": null
                       }
                     }
-                  }
+                  },
+                  "decorators": [],
+                  "optional": false
                 }
               ],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "body": {
+                "type": "BlockStatement",
+                "start": 116,
+                "end": 219,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 126,
+                    "end": 158,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 126,
+                      "end": 157,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 126,
+                        "end": 155,
+                        "object": {
+                          "type": "MemberExpression",
+                          "start": 126,
+                          "end": 137,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 126,
+                            "end": 134,
+                            "name": "comments",
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
+                          },
+                          "property": {
+                            "type": "Literal",
+                            "start": 135,
+                            "end": 136,
+                            "value": 0,
+                            "raw": "0"
+                          },
+                          "computed": true,
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 138,
+                          "end": 155,
+                          "name": "getDocCommentText",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [],
+                      "optional": false,
+                      "typeArguments": null
+                    },
+                    "directive": null
+                  },
+                  {
+                    "type": "VariableDeclaration",
+                    "start": 167,
+                    "end": 182,
+                    "declarations": [
+                      {
+                        "type": "VariableDeclarator",
+                        "start": 171,
+                        "end": 181,
+                        "id": {
+                          "type": "Identifier",
+                          "start": 171,
+                          "end": 181,
+                          "name": "c",
+                          "typeAnnotation": {
+                            "type": "TSTypeAnnotation",
+                            "start": 172,
+                            "end": 181,
+                            "typeAnnotation": {
+                              "type": "TSTypeReference",
+                              "start": 174,
+                              "end": 181,
+                              "typeName": {
+                                "type": "Identifier",
+                                "start": 174,
+                                "end": 181,
+                                "name": "Comment",
+                                "typeAnnotation": null,
+                                "decorators": [],
+                                "optional": false
+                              },
+                              "typeArguments": null
+                            }
+                          },
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "init": null,
+                        "definite": false
+                      }
+                    ],
+                    "kind": "var",
+                    "declare": false
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 191,
+                    "end": 213,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 191,
+                      "end": 212,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 191,
+                        "end": 210,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 191,
+                          "end": 192,
+                          "name": "c",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 193,
+                          "end": 210,
+                          "name": "getDocCommentText",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [],
+                      "optional": false,
+                      "typeArguments": null
+                    },
+                    "directive": null
+                  }
+                ]
+              },
+              "declare": false,
+              "typeParameters": null,
+              "returnType": null
+            },
+            "decorators": [],
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 13,
-        "decorators": [],
-        "name": "Comment",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     }
   ],
   "sourceType": "script",

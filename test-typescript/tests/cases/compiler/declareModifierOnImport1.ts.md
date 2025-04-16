@@ -13,21 +13,21 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 15,
         "end": 16,
-        "decorators": [],
         "name": "a",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "Identifier",
         "start": 19,
         "end": 20,
-        "decorators": [],
         "name": "b",
-        "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "importKind": "value"
     }
   ],
   "sourceType": "script",

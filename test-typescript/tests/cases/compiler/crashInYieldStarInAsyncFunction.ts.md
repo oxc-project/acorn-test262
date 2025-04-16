@@ -14,15 +14,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 60,
           "end": 208,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 60,
             "end": 63,
-            "decorators": [],
             "name": "obj",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ObjectExpression",
@@ -33,41 +32,43 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 72,
                 "end": 206,
+                "method": true,
+                "shorthand": false,
                 "computed": true,
                 "key": {
                   "type": "MemberExpression",
                   "start": 73,
                   "end": 93,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 73,
                     "end": 79,
-                    "decorators": [],
                     "name": "Symbol",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 80,
                     "end": 93,
-                    "decorators": [],
                     "name": "asyncIterator",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "computed": false,
+                  "optional": false
                 },
-                "kind": "init",
-                "method": true,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "FunctionExpression",
                   "start": 94,
                   "end": 206,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
                   "async": false,
+                  "params": [],
                   "body": {
                     "type": "BlockStatement",
                     "start": 97,
@@ -86,25 +87,27 @@ __ESTREE_TEST__:PASS:
                               "type": "Property",
                               "start": 128,
                               "end": 189,
+                              "method": true,
+                              "shorthand": false,
                               "computed": false,
                               "key": {
                                 "type": "Identifier",
                                 "start": 128,
                                 "end": 132,
-                                "decorators": [],
                                 "name": "next",
-                                "optional": false,
-                                "typeAnnotation": null
+                                "typeAnnotation": null,
+                                "decorators": [],
+                                "optional": false
                               },
-                              "kind": "init",
-                              "method": true,
-                              "optional": false,
-                              "shorthand": false,
                               "value": {
                                 "type": "FunctionExpression",
                                 "start": 132,
                                 "end": 189,
+                                "id": null,
+                                "expression": false,
+                                "generator": false,
                                 "async": false,
+                                "params": [],
                                 "body": {
                                   "type": "BlockStatement",
                                   "start": 135,
@@ -123,25 +126,27 @@ __ESTREE_TEST__:PASS:
                                             "type": "Property",
                                             "start": 162,
                                             "end": 172,
+                                            "method": true,
+                                            "shorthand": false,
                                             "computed": false,
                                             "key": {
                                               "type": "Identifier",
                                               "start": 162,
                                               "end": 166,
-                                              "decorators": [],
                                               "name": "then",
-                                              "optional": false,
-                                              "typeAnnotation": null
+                                              "typeAnnotation": null,
+                                              "decorators": [],
+                                              "optional": false
                                             },
-                                            "kind": "init",
-                                            "method": true,
-                                            "optional": false,
-                                            "shorthand": false,
                                             "value": {
                                               "type": "FunctionExpression",
                                               "start": 166,
                                               "end": 172,
+                                              "id": null,
+                                              "expression": false,
+                                              "generator": false,
                                               "async": false,
+                                              "params": [],
                                               "body": {
                                                 "type": "BlockStatement",
                                                 "start": 169,
@@ -149,13 +154,11 @@ __ESTREE_TEST__:PASS:
                                                 "body": []
                                               },
                                               "declare": false,
-                                              "expression": false,
-                                              "generator": false,
-                                              "id": null,
-                                              "params": [],
-                                              "returnType": null,
-                                              "typeParameters": null
-                                            }
+                                              "typeParameters": null,
+                                              "returnType": null
+                                            },
+                                            "kind": "init",
+                                            "optional": false
                                           }
                                         ]
                                       }
@@ -163,13 +166,11 @@ __ESTREE_TEST__:PASS:
                                   ]
                                 },
                                 "declare": false,
-                                "expression": false,
-                                "generator": false,
-                                "id": null,
-                                "params": [],
-                                "returnType": null,
-                                "typeParameters": null
-                              }
+                                "typeParameters": null,
+                                "returnType": null
+                              },
+                              "kind": "init",
+                              "optional": false
                             }
                           ]
                         }
@@ -177,26 +178,37 @@ __ESTREE_TEST__:PASS:
                     ]
                   },
                   "declare": false,
-                  "expression": false,
-                  "generator": false,
-                  "id": null,
-                  "params": [],
-                  "returnType": null,
-                  "typeParameters": null
-                }
+                  "typeParameters": null,
+                  "returnType": null
+                },
+                "kind": "init",
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 211,
       "end": 250,
+      "id": {
+        "type": "Identifier",
+        "start": 227,
+        "end": 228,
+        "name": "g",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": true,
       "async": true,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 231,
@@ -206,40 +218,28 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 237,
             "end": 248,
-            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 237,
               "end": 247,
+              "delegate": true,
               "argument": {
                 "type": "Identifier",
                 "start": 244,
                 "end": 247,
-                "decorators": [],
                 "name": "obj",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "delegate": true
-            }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              }
+            },
+            "directive": null
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": true,
-      "id": {
-        "type": "Identifier",
-        "start": 227,
-        "end": 228,
-        "decorators": [],
-        "name": "g",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

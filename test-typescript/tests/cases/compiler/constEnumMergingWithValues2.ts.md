@@ -9,33 +9,42 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 12,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 9,
+        "name": "foo",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 10,
         "end": 12,
         "body": []
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 9,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     },
     {
       "type": "TSModuleDeclaration",
       "start": 13,
       "end": 50,
+      "id": {
+        "type": "Identifier",
+        "start": 20,
+        "end": 23,
+        "name": "foo",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 24,
@@ -45,6 +54,35 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumDeclaration",
             "start": 30,
             "end": 48,
+            "id": {
+              "type": "Identifier",
+              "start": 41,
+              "end": 42,
+              "name": "E",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "members": [
+              {
+                "type": "TSEnumMember",
+                "start": 45,
+                "end": 46,
+                "id": {
+                  "type": "Identifier",
+                  "start": 45,
+                  "end": 46,
+                  "name": "X",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "initializer": null,
+                "computed": false
+              }
+            ],
+            "const": true,
+            "declare": false,
             "body": {
               "type": "TSEnumBody",
               "start": 43,
@@ -54,46 +92,26 @@ __ESTREE_TEST__:PASS:
                   "type": "TSEnumMember",
                   "start": 45,
                   "end": 46,
-                  "computed": false,
                   "id": {
                     "type": "Identifier",
                     "start": 45,
                     "end": 46,
-                    "decorators": [],
                     "name": "X",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "initializer": null
+                  "initializer": null,
+                  "computed": false
                 }
               ]
-            },
-            "const": true,
-            "declare": false,
-            "id": {
-              "type": "Identifier",
-              "start": 41,
-              "end": 42,
-              "decorators": [],
-              "name": "E",
-              "optional": false,
-              "typeAnnotation": null
             }
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 20,
-        "end": 23,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "TSExportAssignment",
@@ -103,10 +121,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 61,
         "end": 64,
-        "decorators": [],
         "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     }
   ],

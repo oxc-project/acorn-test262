@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 43,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 12,
+        "name": "myMod",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 13,
@@ -23,27 +32,26 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 23,
                 "end": 24,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 23,
                   "end": 24,
-                  "decorators": [],
                   "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "kind": "var",
+            "declare": false
           },
           {
             "type": "ExpressionStatement",
             "start": 30,
             "end": 41,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 30,
@@ -53,46 +61,38 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 30,
                 "end": 36,
-                "computed": false,
                 "object": {
                   "type": "ThisExpression",
                   "start": 30,
                   "end": 34
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 35,
                   "end": 36,
-                  "decorators": [],
                   "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "computed": false,
+                "optional": false
               },
               "right": {
                 "type": "Literal",
                 "start": 39,
                 "end": 40,
-                "raw": "5",
-                "value": 5
+                "value": 5,
+                "raw": "5"
               }
-            }
+            },
+            "directive": null
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 12,
-        "decorators": [],
-        "name": "myMod",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

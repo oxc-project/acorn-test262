@@ -9,11 +9,11 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 10,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "VariableDeclaration",
@@ -24,15 +24,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 17,
           "end": 29,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 17,
             "end": 18,
-            "decorators": [],
             "name": "k",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrayExpression",
@@ -43,23 +42,24 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 22,
                 "end": 23,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               null,
               {
                 "type": "Literal",
                 "start": 27,
                 "end": 28,
-                "raw": "2",
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -70,15 +70,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 37,
           "end": 53,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 37,
             "end": 38,
-            "decorators": [],
             "name": "o",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrayExpression",
@@ -89,8 +88,8 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 42,
                 "end": 43,
-                "raw": "3",
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
               {
                 "type": "SpreadElement",
@@ -100,25 +99,26 @@ __ESTREE_TEST__:PASS:
                   "type": "Identifier",
                   "start": 48,
                   "end": 49,
-                  "decorators": [],
                   "name": "k",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 }
               },
               {
                 "type": "Literal",
                 "start": 51,
                 "end": 52,
-                "raw": "4",
-                "value": 4
+                "value": 4,
+                "raw": "4"
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     }
   ],
   "sourceType": "module",
@@ -136,7 +136,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 82,
       "end": 167,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 97,
+        "end": 104,
+        "value": "tslib",
+        "raw": "\"tslib\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 105,
@@ -146,28 +152,24 @@ __ESTREE_TEST__:PASS:
             "type": "TSDeclareFunction",
             "start": 111,
             "end": 165,
-            "async": false,
-            "body": null,
-            "declare": false,
-            "expression": false,
-            "generator": false,
             "id": {
               "type": "Identifier",
               "start": 120,
               "end": 133,
-              "decorators": [],
               "name": "__spreadArray",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
+            "expression": false,
+            "generator": false,
+            "async": false,
             "params": [
               {
                 "type": "Identifier",
                 "start": 134,
                 "end": 143,
-                "decorators": [],
                 "name": "to",
-                "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
                   "start": 136,
@@ -182,15 +184,15 @@ __ESTREE_TEST__:PASS:
                       "end": 141
                     }
                   }
-                }
+                },
+                "decorators": [],
+                "optional": false
               },
               {
                 "type": "Identifier",
                 "start": 145,
                 "end": 156,
-                "decorators": [],
                 "name": "from",
-                "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
                   "start": 149,
@@ -205,9 +207,14 @@ __ESTREE_TEST__:PASS:
                       "end": 154
                     }
                   }
-                }
+                },
+                "decorators": [],
+                "optional": false
               }
             ],
+            "body": null,
+            "declare": false,
+            "typeParameters": null,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 157,
@@ -222,20 +229,13 @@ __ESTREE_TEST__:PASS:
                   "end": 162
                 }
               }
-            },
-            "typeParameters": null
+            }
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 97,
-        "end": 104,
-        "raw": "\"tslib\"",
-        "value": "tslib"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",

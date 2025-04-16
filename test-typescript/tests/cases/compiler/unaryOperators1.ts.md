@@ -9,67 +9,67 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 5,
-      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 0,
         "end": 4,
+        "operator": "+",
+        "prefix": true,
         "argument": {
           "type": "Identifier",
           "start": 1,
           "end": 4,
-          "decorators": [],
           "name": "foo",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "operator": "+",
-        "prefix": true
-      }
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 6,
       "end": 11,
-      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 6,
         "end": 10,
+        "operator": "-",
+        "prefix": true,
         "argument": {
           "type": "Identifier",
           "start": 7,
           "end": 10,
-          "decorators": [],
           "name": "bar",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "operator": "-",
-        "prefix": true
-      }
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 12,
       "end": 18,
-      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 12,
         "end": 17,
+        "operator": "~",
+        "prefix": true,
         "argument": {
           "type": "Identifier",
           "start": 13,
           "end": 17,
-          "decorators": [],
           "name": "quux",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "operator": "~",
-        "prefix": true
-      }
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

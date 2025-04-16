@@ -9,19 +9,18 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 11,
-      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 0,
         "end": 11,
-        "operator": "in",
         "left": {
           "type": "Literal",
           "start": 0,
           "end": 1,
-          "raw": "3",
-          "value": 3
+          "value": 3,
+          "raw": "3"
         },
+        "operator": "in",
         "right": {
           "type": "ArrayExpression",
           "start": 5,
@@ -31,19 +30,20 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 6,
               "end": 7,
-              "raw": "0",
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             {
               "type": "Literal",
               "start": 9,
               "end": 10,
-              "raw": "1",
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           ]
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

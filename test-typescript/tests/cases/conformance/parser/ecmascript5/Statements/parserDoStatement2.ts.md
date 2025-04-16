@@ -25,22 +25,22 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 11,
         "end": 16,
-        "raw": "false",
-        "value": false
+        "value": false,
+        "raw": "false"
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 17,
       "end": 22,
-      "directive": null,
       "expression": {
         "type": "Literal",
         "start": 17,
         "end": 22,
-        "raw": "false",
-        "value": false
-      }
+        "value": false,
+        "raw": "false"
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

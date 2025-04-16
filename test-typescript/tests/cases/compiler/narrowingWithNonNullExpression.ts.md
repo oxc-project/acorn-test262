@@ -14,70 +14,68 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 6,
           "end": 22,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
             "end": 7,
-            "decorators": [],
             "name": "m",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "CallExpression",
             "start": 10,
             "end": 22,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 10,
+              "end": 18,
+              "object": {
+                "type": "Literal",
+                "start": 10,
+                "end": 12,
+                "value": "",
+                "raw": "''"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 13,
+                "end": 18,
+                "name": "match",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
+            },
             "arguments": [
               {
                 "type": "Literal",
                 "start": 19,
                 "end": 21,
-                "raw": "''",
-                "value": ""
+                "value": "",
+                "raw": "''"
               }
             ],
-            "callee": {
-              "type": "MemberExpression",
-              "start": 10,
-              "end": 18,
-              "computed": false,
-              "object": {
-                "type": "Literal",
-                "start": 10,
-                "end": 12,
-                "raw": "''",
-                "value": ""
-              },
-              "optional": false,
-              "property": {
-                "type": "Identifier",
-                "start": 13,
-                "end": 18,
-                "decorators": [],
-                "name": "match",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
             "optional": false,
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 24,
       "end": 35,
-      "directive": null,
       "expression": {
         "type": "LogicalExpression",
         "start": 24,
         "end": 34,
-        "operator": "&&",
         "left": {
           "type": "TSNonNullExpression",
           "start": 24,
@@ -86,47 +84,47 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 24,
             "end": 25,
-            "decorators": [],
             "name": "m",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         },
+        "operator": "&&",
         "right": {
           "type": "MemberExpression",
           "start": 30,
           "end": 34,
-          "computed": true,
           "object": {
             "type": "Identifier",
             "start": 30,
             "end": 31,
-            "decorators": [],
             "name": "m",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Literal",
             "start": 32,
             "end": 33,
-            "raw": "0",
-            "value": 0
-          }
+            "value": 0,
+            "raw": "0"
+          },
+          "computed": true,
+          "optional": false
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 36,
       "end": 52,
-      "directive": null,
       "expression": {
         "type": "LogicalExpression",
         "start": 36,
         "end": 51,
-        "operator": "&&",
         "left": {
           "type": "ChainExpression",
           "start": 36,
@@ -139,51 +137,53 @@ __ESTREE_TEST__:PASS:
               "type": "MemberExpression",
               "start": 36,
               "end": 42,
-              "computed": true,
               "object": {
                 "type": "Identifier",
                 "start": 36,
                 "end": 37,
-                "decorators": [],
                 "name": "m",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": true,
               "property": {
                 "type": "Literal",
                 "start": 40,
                 "end": 41,
-                "raw": "0",
-                "value": 0
-              }
+                "value": 0,
+                "raw": "0"
+              },
+              "computed": true,
+              "optional": true
             }
           }
         },
+        "operator": "&&",
         "right": {
           "type": "MemberExpression",
           "start": 47,
           "end": 51,
-          "computed": true,
           "object": {
             "type": "Identifier",
             "start": 47,
             "end": 48,
-            "decorators": [],
             "name": "m",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Literal",
             "start": 49,
             "end": 50,
-            "raw": "0",
-            "value": 0
-          }
+            "value": 0,
+            "raw": "0"
+          },
+          "computed": true,
+          "optional": false
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

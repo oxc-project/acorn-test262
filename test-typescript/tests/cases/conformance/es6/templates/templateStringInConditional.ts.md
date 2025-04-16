@@ -14,53 +14,52 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 5,
           "end": 63,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 5,
             "end": 6,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ConditionalExpression",
             "start": 9,
             "end": 63,
-            "alternate": {
+            "test": {
               "type": "TemplateLiteral",
-              "start": 47,
-              "end": 63,
+              "start": 9,
+              "end": 25,
               "expressions": [
                 {
                   "type": "Literal",
-                  "start": 54,
-                  "end": 57,
-                  "raw": "\" \"",
-                  "value": " "
+                  "start": 16,
+                  "end": 19,
+                  "value": " ",
+                  "raw": "\" \""
                 }
               ],
               "quasis": [
                 {
                   "type": "TemplateElement",
-                  "start": 47,
-                  "end": 53,
-                  "tail": false,
+                  "start": 9,
+                  "end": 15,
                   "value": {
                     "cooked": "abc",
                     "raw": "abc"
-                  }
+                  },
+                  "tail": false
                 },
                 {
                   "type": "TemplateElement",
-                  "start": 58,
-                  "end": 63,
-                  "tail": true,
+                  "start": 20,
+                  "end": 25,
                   "value": {
                     "cooked": "def",
                     "raw": "def"
-                  }
+                  },
+                  "tail": true
                 }
               ]
             },
@@ -73,8 +72,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 35,
                   "end": 38,
-                  "raw": "\" \"",
-                  "value": " "
+                  "value": " ",
+                  "raw": "\" \""
                 }
               ],
               "quasis": [
@@ -82,65 +81,66 @@ __ESTREE_TEST__:PASS:
                   "type": "TemplateElement",
                   "start": 28,
                   "end": 34,
-                  "tail": false,
                   "value": {
                     "cooked": "abc",
                     "raw": "abc"
-                  }
+                  },
+                  "tail": false
                 },
                 {
                   "type": "TemplateElement",
                   "start": 39,
                   "end": 44,
-                  "tail": true,
                   "value": {
                     "cooked": "def",
                     "raw": "def"
-                  }
+                  },
+                  "tail": true
                 }
               ]
             },
-            "test": {
+            "alternate": {
               "type": "TemplateLiteral",
-              "start": 9,
-              "end": 25,
+              "start": 47,
+              "end": 63,
               "expressions": [
                 {
                   "type": "Literal",
-                  "start": 16,
-                  "end": 19,
-                  "raw": "\" \"",
-                  "value": " "
+                  "start": 54,
+                  "end": 57,
+                  "value": " ",
+                  "raw": "\" \""
                 }
               ],
               "quasis": [
                 {
                   "type": "TemplateElement",
-                  "start": 9,
-                  "end": 15,
-                  "tail": false,
+                  "start": 47,
+                  "end": 53,
                   "value": {
                     "cooked": "abc",
                     "raw": "abc"
-                  }
+                  },
+                  "tail": false
                 },
                 {
                   "type": "TemplateElement",
-                  "start": 20,
-                  "end": 25,
-                  "tail": true,
+                  "start": 58,
+                  "end": 63,
                   "value": {
                     "cooked": "def",
                     "raw": "def"
-                  }
+                  },
+                  "tail": true
                 }
               ]
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

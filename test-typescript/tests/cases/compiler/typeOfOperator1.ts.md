@@ -14,27 +14,27 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 9,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 5,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 8,
             "end": 9,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -45,14 +45,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 15,
           "end": 35,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 15,
             "end": 24,
-            "decorators": [],
             "name": "y",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 16,
@@ -62,28 +59,31 @@ __ESTREE_TEST__:PASS:
                 "start": 18,
                 "end": 24
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "UnaryExpression",
             "start": 27,
             "end": 35,
+            "operator": "typeof",
+            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 34,
               "end": 35,
-              "decorators": [],
               "name": "x",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "operator": "typeof",
-            "prefix": true
-          }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -94,14 +94,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 41,
           "end": 61,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 41,
             "end": 50,
-            "decorators": [],
             "name": "z",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 42,
@@ -111,28 +108,31 @@ __ESTREE_TEST__:PASS:
                 "start": 44,
                 "end": 50
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "UnaryExpression",
             "start": 53,
             "end": 61,
+            "operator": "typeof",
+            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 60,
               "end": 61,
-              "decorators": [],
               "name": "x",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "operator": "typeof",
-            "prefix": true
-          }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

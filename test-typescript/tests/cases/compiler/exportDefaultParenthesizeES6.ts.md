@@ -17,28 +17,28 @@ __ESTREE_TEST__:PASS:
           "type": "ClassExpression",
           "start": 16,
           "end": 28,
-          "abstract": false,
+          "id": {
+            "type": "Identifier",
+            "start": 22,
+            "end": 25,
+            "name": "Foo",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "superClass": null,
           "body": {
             "type": "ClassBody",
             "start": 26,
             "end": 28,
             "body": []
           },
-          "declare": false,
           "decorators": [],
-          "id": {
-            "type": "Identifier",
-            "start": 22,
-            "end": 25,
-            "decorators": [],
-            "name": "Foo",
-            "optional": false,
-            "typeAnnotation": null
-          },
+          "typeParameters": null,
           "implements": [],
-          "superClass": null,
-          "superTypeArguments": null,
-          "typeParameters": null
+          "abstract": false,
+          "declare": false,
+          "superTypeArguments": null
         },
         "typeAnnotation": {
           "type": "TSAnyKeyword",

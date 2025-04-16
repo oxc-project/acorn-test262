@@ -14,15 +14,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 56,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 7,
-            "decorators": [],
             "name": "foo",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "TSTypeAssertion",
@@ -32,7 +31,11 @@ __ESTREE_TEST__:PASS:
               "type": "FunctionExpression",
               "start": 28,
               "end": 56,
+              "id": null,
+              "expression": false,
+              "generator": false,
               "async": false,
+              "params": [],
               "body": {
                 "type": "BlockStatement",
                 "start": 39,
@@ -46,19 +49,15 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 48,
                       "end": 53,
-                      "raw": "\"err\"",
-                      "value": "err"
+                      "value": "err",
+                      "raw": "\"err\""
                     }
                   }
                 ]
               },
               "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
+              "typeParameters": null,
+              "returnType": null
             },
             "typeAnnotation": {
               "type": "TSTypeLiteral",
@@ -69,6 +68,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSCallSignatureDeclaration",
                   "start": 13,
                   "end": 24,
+                  "typeParameters": null,
                   "params": [],
                   "returnType": {
                     "type": "TSTypeAnnotation",
@@ -79,16 +79,16 @@ __ESTREE_TEST__:PASS:
                       "start": 17,
                       "end": 23
                     }
-                  },
-                  "typeParameters": null
+                  }
                 }
               ]
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

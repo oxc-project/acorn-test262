@@ -14,29 +14,41 @@ __ESTREE_TEST__:PASS:
           "type": "TSDeclareFunction",
           "start": 6,
           "end": 21,
-          "async": false,
-          "body": null,
-          "declare": false,
-          "expression": false,
-          "generator": false,
           "id": {
             "type": "Identifier",
             "start": 15,
             "end": 18,
-            "decorators": [],
             "name": "foo",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
+          "expression": false,
+          "generator": false,
+          "async": false,
           "params": [],
-          "returnType": null,
-          "typeParameters": null
+          "body": null,
+          "declare": false,
+          "typeParameters": null,
+          "returnType": null
         },
         {
           "type": "FunctionDeclaration",
           "start": 26,
           "end": 44,
+          "id": {
+            "type": "Identifier",
+            "start": 35,
+            "end": 38,
+            "name": "bar",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "expression": false,
+          "generator": false,
           "async": false,
+          "params": [],
           "body": {
             "type": "BlockStatement",
             "start": 41,
@@ -44,20 +56,8 @@ __ESTREE_TEST__:PASS:
             "body": []
           },
           "declare": false,
-          "expression": false,
-          "generator": false,
-          "id": {
-            "type": "Identifier",
-            "start": 35,
-            "end": 38,
-            "decorators": [],
-            "name": "bar",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "params": [],
-          "returnType": null,
-          "typeParameters": null
+          "typeParameters": null,
+          "returnType": null
         }
       ]
     }

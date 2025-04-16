@@ -13,28 +13,28 @@ __ESTREE_TEST__:PASS:
         "type": "ClassDeclaration",
         "start": 16,
         "end": 27,
-        "abstract": false,
+        "id": {
+          "type": "Identifier",
+          "start": 22,
+          "end": 23,
+          "name": "C",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "superClass": null,
         "body": {
           "type": "ClassBody",
           "start": 24,
           "end": 27,
           "body": []
         },
-        "declare": false,
         "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 22,
-          "end": 23,
-          "decorators": [],
-          "name": "C",
-          "optional": false,
-          "typeAnnotation": null
-        },
+        "typeParameters": null,
         "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false,
+        "superTypeArguments": null
       },
       "exportKind": "value"
     },
@@ -51,27 +51,27 @@ __ESTREE_TEST__:PASS:
             "type": "Property",
             "start": 50,
             "end": 73,
+            "method": false,
+            "shorthand": false,
             "computed": false,
             "key": {
               "type": "Identifier",
               "start": 50,
               "end": 54,
-              "decorators": [],
               "name": "uhoh",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "Literal",
               "start": 56,
               "end": 73,
-              "raw": "\"another default\"",
-              "value": "another default"
-            }
+              "value": "another default",
+              "raw": "\"another default\""
+            },
+            "kind": "init",
+            "optional": false
           }
         ]
       },

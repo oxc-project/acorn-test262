@@ -9,28 +9,28 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 11,
-      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 0,
         "end": 10,
-        "operator": "*",
         "left": {
           "type": "Identifier",
           "start": 0,
           "end": 5,
-          "decorators": [],
           "name": "yield",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "operator": "*",
         "right": {
           "type": "ArrayExpression",
           "start": 8,
           "end": 10,
           "elements": []
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

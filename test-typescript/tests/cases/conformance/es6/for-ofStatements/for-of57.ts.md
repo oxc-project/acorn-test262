@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 26,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 26,
-            "decorators": [],
             "name": "iter",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 8,
@@ -30,6 +27,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 10,
                 "end": 26,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 10,
+                  "end": 18,
+                  "name": "Iterable",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 18,
@@ -41,36 +47,24 @@ __ESTREE_TEST__:PASS:
                       "end": 25
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 10,
-                  "end": 18,
-                  "decorators": [],
-                  "name": "Iterable",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ForOfStatement",
       "start": 28,
       "end": 53,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 50,
-        "end": 53,
-        "body": []
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 33,
@@ -80,30 +74,36 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 37,
             "end": 40,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 37,
               "end": 40,
-              "decorators": [],
               "name": "num",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "let"
+        "kind": "let",
+        "declare": false
       },
       "right": {
         "type": "Identifier",
         "start": 44,
         "end": 48,
-        "decorators": [],
         "name": "iter",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 50,
+        "end": 53,
+        "body": []
       }
     }
   ],

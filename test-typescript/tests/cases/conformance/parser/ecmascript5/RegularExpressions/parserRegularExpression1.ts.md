@@ -9,18 +9,18 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 38,
-      "directive": null,
       "expression": {
         "type": "Literal",
         "start": 0,
         "end": 37,
+        "value": null,
         "raw": "/(#?-?\\d*\\.\\d\\w*%?)|(@?#?[\\w-?]+%?)/g",
         "regex": {
           "flags": "g",
           "pattern": "(#?-?\\d*\\.\\d\\w*%?)|(@?#?[\\w-?]+%?)"
-        },
-        "value": null
-      }
+        }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

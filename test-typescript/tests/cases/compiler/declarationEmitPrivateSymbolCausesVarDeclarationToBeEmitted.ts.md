@@ -14,56 +14,64 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 6,
           "end": 28,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
             "end": 11,
-            "decorators": [],
             "name": "_data",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "CallExpression",
             "start": 14,
             "end": 28,
+            "callee": {
+              "type": "Identifier",
+              "start": 14,
+              "end": 20,
+              "name": "Symbol",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "arguments": [
               {
                 "type": "Literal",
                 "start": 21,
                 "end": 27,
-                "raw": "'data'",
-                "value": "data"
+                "value": "data",
+                "raw": "'data'"
               }
             ],
-            "callee": {
-              "type": "Identifier",
-              "start": 14,
-              "end": 20,
-              "decorators": [],
-              "name": "Symbol",
-              "optional": false,
-              "typeAnnotation": null
-            },
             "optional": false,
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 31,
       "end": 79,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 38,
         "end": 79,
-        "abstract": false,
+        "id": {
+          "type": "Identifier",
+          "start": 44,
+          "end": 48,
+          "name": "User",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "superClass": null,
         "body": {
           "type": "ClassBody",
           "start": 49,
@@ -73,24 +81,24 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 55,
               "end": 77,
-              "accessibility": "private",
+              "static": false,
               "computed": true,
-              "declare": false,
-              "decorators": [],
-              "definite": false,
               "key": {
                 "type": "Identifier",
                 "start": 64,
                 "end": 69,
-                "decorators": [],
                 "name": "_data",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
+              "value": null,
+              "decorators": [],
+              "declare": false,
               "override": false,
+              "optional": false,
+              "definite": false,
               "readonly": false,
-              "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 71,
@@ -101,29 +109,21 @@ __ESTREE_TEST__:PASS:
                   "end": 76
                 }
               },
-              "value": null
+              "accessibility": "private"
             }
           ]
         },
-        "declare": false,
         "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 44,
-          "end": 48,
-          "decorators": [],
-          "name": "User",
-          "optional": false,
-          "typeAnnotation": null
-        },
+        "typeParameters": null,
         "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false,
+        "superTypeArguments": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "EmptyStatement",
