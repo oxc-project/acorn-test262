@@ -58,3 +58,104 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 56,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 0,
+      "end": 24,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 18,
+        "end": 23,
+        "raw": "\"./a\"",
+        "value": "./a"
+      },
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 9,
+          "end": 10,
+          "imported": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 10,
+            "decorators": [],
+            "name": "E",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "importKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 10,
+            "decorators": [],
+            "name": "E",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ]
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 42,
+      "end": 56,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 48,
+          "end": 55,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 48,
+            "end": 49,
+            "decorators": [],
+            "name": "e",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 52,
+            "end": 55,
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "start": 52,
+              "end": 53,
+              "decorators": [],
+              "name": "E",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "property": {
+              "type": "Identifier",
+              "start": 54,
+              "end": 55,
+              "decorators": [],
+              "name": "A",
+              "optional": false,
+              "typeAnnotation": null
+            }
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "const"
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

@@ -432,3 +432,273 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 47,
+  "end": 267,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 47,
+      "end": 103,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 51,
+          "end": 102,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 51,
+            "end": 52,
+            "decorators": [],
+            "name": "a",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "Identifier",
+            "start": 91,
+            "end": 100,
+            "decorators": [],
+            "name": "undefined",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 105,
+      "end": 134,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 105,
+        "end": 133,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 105,
+          "end": 106,
+          "decorators": [],
+          "name": "a",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "right": {
+          "type": "NewExpression",
+          "start": 109,
+          "end": 133,
+          "arguments": [
+            {
+              "type": "ObjectExpression",
+              "start": 117,
+              "end": 132,
+              "properties": [
+                {
+                  "type": "Property",
+                  "start": 118,
+                  "end": 131,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 118,
+                    "end": 122,
+                    "decorators": [],
+                    "name": "doer",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "kind": "init",
+                  "method": false,
+                  "optional": false,
+                  "shorthand": false,
+                  "value": {
+                    "type": "MemberExpression",
+                    "start": 124,
+                    "end": 131,
+                    "computed": false,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 124,
+                      "end": 127,
+                      "decorators": [],
+                      "name": "Foo",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "optional": false,
+                    "property": {
+                      "type": "Identifier",
+                      "start": 128,
+                      "end": 131,
+                      "decorators": [],
+                      "name": "Bar",
+                      "optional": false,
+                      "typeAnnotation": null
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "callee": {
+            "type": "Identifier",
+            "start": 113,
+            "end": 116,
+            "decorators": [],
+            "name": "Foo",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 135,
+      "end": 202,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 141,
+          "end": 201,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 141,
+            "end": 142,
+            "decorators": [],
+            "name": "q",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 184,
+            "end": 200,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 186,
+                "end": 198,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 186,
+                  "end": 190,
+                  "decorators": [],
+                  "name": "doer",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "kind": "init",
+                "method": false,
+                "optional": false,
+                "shorthand": false,
+                "value": {
+                  "type": "ArrowFunctionExpression",
+                  "start": 192,
+                  "end": 198,
+                  "async": false,
+                  "body": {
+                    "type": "Identifier",
+                    "start": 197,
+                    "end": 198,
+                    "decorators": [],
+                    "name": "q",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "expression": true,
+                  "generator": false,
+                  "id": null,
+                  "params": [
+                    {
+                      "type": "Identifier",
+                      "start": 192,
+                      "end": 193,
+                      "decorators": [],
+                      "name": "q",
+                      "optional": false,
+                      "typeAnnotation": null
+                    }
+                  ],
+                  "returnType": null,
+                  "typeParameters": null
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 203,
+      "end": 267,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 209,
+          "end": 266,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 209,
+            "end": 210,
+            "decorators": [],
+            "name": "r",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "ArrowFunctionExpression",
+            "start": 259,
+            "end": 265,
+            "async": false,
+            "body": {
+              "type": "Identifier",
+              "start": 264,
+              "end": 265,
+              "decorators": [],
+              "name": "r",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "expression": true,
+            "generator": false,
+            "id": null,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 259,
+                "end": 260,
+                "decorators": [],
+                "name": "r",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            ],
+            "returnType": null,
+            "typeParameters": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "const"
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

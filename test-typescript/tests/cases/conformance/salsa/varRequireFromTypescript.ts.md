@@ -247,3 +247,268 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 223,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 0,
+      "end": 24,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 4,
+          "end": 24,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 4,
+            "end": 6,
+            "decorators": [],
+            "name": "ex",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 9,
+            "end": 24,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 17,
+                "end": 23,
+                "raw": "'./ex'",
+                "value": "./ex"
+              }
+            ],
+            "callee": {
+              "type": "Identifier",
+              "start": 9,
+              "end": 16,
+              "decorators": [],
+              "name": "require",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 41,
+      "end": 71,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 45,
+          "end": 70,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 45,
+            "end": 51,
+            "decorators": [],
+            "name": "crunch",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 54,
+            "end": 70,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 68,
+                "end": 69,
+                "raw": "1",
+                "value": 1
+              }
+            ],
+            "callee": {
+              "type": "MemberExpression",
+              "start": 58,
+              "end": 67,
+              "computed": false,
+              "object": {
+                "type": "Identifier",
+                "start": 58,
+                "end": 60,
+                "decorators": [],
+                "name": "ex",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "optional": false,
+              "property": {
+                "type": "Identifier",
+                "start": 61,
+                "end": 67,
+                "decorators": [],
+                "name": "Crunch",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            },
+            "typeArguments": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 72,
+      "end": 80,
+      "directive": null,
+      "expression": {
+        "type": "MemberExpression",
+        "start": 72,
+        "end": 80,
+        "computed": false,
+        "object": {
+          "type": "Identifier",
+          "start": 72,
+          "end": 78,
+          "decorators": [],
+          "name": "crunch",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "optional": false,
+        "property": {
+          "type": "Identifier",
+          "start": 79,
+          "end": 80,
+          "decorators": [],
+          "name": "n",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      }
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 165,
+      "end": 223,
+      "async": false,
+      "body": {
+        "type": "BlockStatement",
+        "start": 192,
+        "end": 223,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 198,
+            "end": 210,
+            "directive": null,
+            "expression": {
+              "type": "MemberExpression",
+              "start": 198,
+              "end": 210,
+              "computed": false,
+              "object": {
+                "type": "Identifier",
+                "start": 198,
+                "end": 206,
+                "decorators": [],
+                "name": "greatest",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "optional": false,
+              "property": {
+                "type": "Identifier",
+                "start": 207,
+                "end": 210,
+                "decorators": [],
+                "name": "day",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 215,
+            "end": 221,
+            "directive": null,
+            "expression": {
+              "type": "MemberExpression",
+              "start": 215,
+              "end": 221,
+              "computed": false,
+              "object": {
+                "type": "Identifier",
+                "start": 215,
+                "end": 219,
+                "decorators": [],
+                "name": "wrap",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "optional": false,
+              "property": {
+                "type": "Identifier",
+                "start": 220,
+                "end": 221,
+                "decorators": [],
+                "name": "n",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            }
+          }
+        ]
+      },
+      "declare": false,
+      "expression": false,
+      "generator": false,
+      "id": {
+        "type": "Identifier",
+        "start": 174,
+        "end": 175,
+        "decorators": [],
+        "name": "f",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 176,
+          "end": 184,
+          "decorators": [],
+          "name": "greatest",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        {
+          "type": "Identifier",
+          "start": 186,
+          "end": 190,
+          "decorators": [],
+          "name": "wrap",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      ],
+      "returnType": null,
+      "typeParameters": null
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

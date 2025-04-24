@@ -570,3 +570,371 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 334,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 0,
+      "end": 28,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 19,
+        "end": 27,
+        "raw": "'./dash'",
+        "value": "./dash"
+      },
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "start": 7,
+          "end": 13,
+          "local": {
+            "type": "Identifier",
+            "start": 12,
+            "end": 13,
+            "decorators": [],
+            "name": "_",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ]
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 29,
+      "end": 68,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 57,
+        "end": 67,
+        "raw": "'./Consts'",
+        "value": "./Consts"
+      },
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 38,
+          "end": 49,
+          "imported": {
+            "type": "Identifier",
+            "start": 38,
+            "end": 49,
+            "decorators": [],
+            "name": "INDEX_FIELD",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "importKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 38,
+            "end": 49,
+            "decorators": [],
+            "name": "INDEX_FIELD",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 70,
+      "end": 334,
+      "attributes": [],
+      "declaration": {
+        "type": "ClassDeclaration",
+        "start": 77,
+        "end": 334,
+        "abstract": false,
+        "body": {
+          "type": "ClassBody",
+          "start": 88,
+          "end": 334,
+          "body": [
+            {
+              "type": "MethodDefinition",
+              "start": 163,
+              "end": 332,
+              "accessibility": null,
+              "computed": false,
+              "decorators": [],
+              "key": {
+                "type": "Identifier",
+                "start": 163,
+                "end": 167,
+                "decorators": [],
+                "name": "test",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "kind": "method",
+              "optional": false,
+              "override": false,
+              "static": false,
+              "value": {
+                "type": "FunctionExpression",
+                "start": 167,
+                "end": 332,
+                "async": false,
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 177,
+                  "end": 332,
+                  "body": [
+                    {
+                      "type": "VariableDeclaration",
+                      "start": 187,
+                      "end": 201,
+                      "declarations": [
+                        {
+                          "type": "VariableDeclarator",
+                          "start": 191,
+                          "end": 200,
+                          "definite": false,
+                          "id": {
+                            "type": "Identifier",
+                            "start": 191,
+                            "end": 196,
+                            "decorators": [],
+                            "name": "index",
+                            "optional": false,
+                            "typeAnnotation": null
+                          },
+                          "init": {
+                            "type": "Literal",
+                            "start": 199,
+                            "end": 200,
+                            "raw": "0",
+                            "value": 0
+                          }
+                        }
+                      ],
+                      "declare": false,
+                      "kind": "let"
+                    },
+                    {
+                      "type": "ExpressionStatement",
+                      "start": 210,
+                      "end": 326,
+                      "directive": null,
+                      "expression": {
+                        "type": "AssignmentExpression",
+                        "start": 210,
+                        "end": 325,
+                        "operator": "=",
+                        "left": {
+                          "type": "MemberExpression",
+                          "start": 210,
+                          "end": 220,
+                          "computed": false,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 210,
+                            "end": 212,
+                            "decorators": [],
+                            "name": "vm",
+                            "optional": false,
+                            "typeAnnotation": null
+                          },
+                          "optional": false,
+                          "property": {
+                            "type": "Identifier",
+                            "start": 213,
+                            "end": 220,
+                            "decorators": [],
+                            "name": "objects",
+                            "optional": false,
+                            "typeAnnotation": null
+                          }
+                        },
+                        "right": {
+                          "type": "CallExpression",
+                          "start": 223,
+                          "end": 325,
+                          "arguments": [
+                            {
+                              "type": "Identifier",
+                              "start": 248,
+                              "end": 251,
+                              "decorators": [],
+                              "name": "obj",
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
+                            {
+                              "type": "ArrowFunctionExpression",
+                              "start": 265,
+                              "end": 314,
+                              "async": false,
+                              "body": {
+                                "type": "ObjectExpression",
+                                "start": 276,
+                                "end": 313,
+                                "properties": [
+                                  {
+                                    "type": "SpreadElement",
+                                    "start": 278,
+                                    "end": 287,
+                                    "argument": {
+                                      "type": "Identifier",
+                                      "start": 281,
+                                      "end": 287,
+                                      "decorators": [],
+                                      "name": "object",
+                                      "optional": false,
+                                      "typeAnnotation": null
+                                    }
+                                  },
+                                  {
+                                    "type": "Property",
+                                    "start": 289,
+                                    "end": 311,
+                                    "computed": true,
+                                    "key": {
+                                      "type": "Identifier",
+                                      "start": 290,
+                                      "end": 301,
+                                      "decorators": [],
+                                      "name": "INDEX_FIELD",
+                                      "optional": false,
+                                      "typeAnnotation": null
+                                    },
+                                    "kind": "init",
+                                    "method": false,
+                                    "optional": false,
+                                    "shorthand": false,
+                                    "value": {
+                                      "type": "UpdateExpression",
+                                      "start": 304,
+                                      "end": 311,
+                                      "argument": {
+                                        "type": "Identifier",
+                                        "start": 304,
+                                        "end": 309,
+                                        "decorators": [],
+                                        "name": "index",
+                                        "optional": false,
+                                        "typeAnnotation": null
+                                      },
+                                      "operator": "++",
+                                      "prefix": false
+                                    }
+                                  }
+                                ]
+                              },
+                              "expression": true,
+                              "generator": false,
+                              "id": null,
+                              "params": [
+                                {
+                                  "type": "Identifier",
+                                  "start": 265,
+                                  "end": 271,
+                                  "decorators": [],
+                                  "name": "object",
+                                  "optional": false,
+                                  "typeAnnotation": null
+                                }
+                              ],
+                              "returnType": null,
+                              "typeParameters": null
+                            }
+                          ],
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 223,
+                            "end": 234,
+                            "computed": false,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 223,
+                              "end": 224,
+                              "decorators": [],
+                              "name": "_",
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
+                            "optional": false,
+                            "property": {
+                              "type": "Identifier",
+                              "start": 225,
+                              "end": 234,
+                              "decorators": [],
+                              "name": "mapValues",
+                              "optional": false,
+                              "typeAnnotation": null
+                            }
+                          },
+                          "optional": false,
+                          "typeArguments": null
+                        }
+                      }
+                    }
+                  ]
+                },
+                "declare": false,
+                "expression": false,
+                "generator": false,
+                "id": null,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "start": 168,
+                    "end": 171,
+                    "decorators": [],
+                    "name": "obj",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 173,
+                    "end": 175,
+                    "decorators": [],
+                    "name": "vm",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                ],
+                "returnType": null,
+                "typeParameters": null
+              }
+            }
+          ]
+        },
+        "declare": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "start": 83,
+          "end": 87,
+          "decorators": [],
+          "name": "Test",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "implements": [],
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": []
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

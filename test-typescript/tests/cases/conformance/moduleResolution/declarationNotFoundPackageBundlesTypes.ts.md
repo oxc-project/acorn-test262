@@ -3,6 +3,95 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 0,
+  "end": 35,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 0,
+      "end": 12,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 4,
+          "end": 11,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 4,
+            "end": 7,
+            "decorators": [],
+            "name": "foo",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "Literal",
+            "start": 10,
+            "end": 11,
+            "raw": "0",
+            "value": 0
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 13,
+      "end": 34,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 13,
+        "end": 33,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 13,
+          "end": 27,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 13,
+            "end": 19,
+            "decorators": [],
+            "name": "module",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 20,
+            "end": 27,
+            "decorators": [],
+            "name": "exports",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "Identifier",
+          "start": 30,
+          "end": 33,
+          "decorators": [],
+          "name": "foo",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
   "end": 38,
   "body": [
     {
@@ -51,6 +140,61 @@ __ESTREE_TEST__:PASS:
         "name": "foo",
         "optional": false,
         "typeAnnotation": null
+      }
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 21,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 0,
+      "end": 20,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 0,
+        "end": 19,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 0,
+          "end": 14,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 0,
+            "end": 6,
+            "decorators": [],
+            "name": "module",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 7,
+            "end": 14,
+            "decorators": [],
+            "name": "exports",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "ObjectExpression",
+          "start": 17,
+          "end": 19,
+          "properties": []
+        }
       }
     }
   ],

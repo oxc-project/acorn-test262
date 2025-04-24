@@ -210,6 +210,83 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 0,
+  "end": 45,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 0,
+      "end": 25,
+      "attributes": [],
+      "importKind": "type",
+      "source": {
+        "type": "Literal",
+        "start": 19,
+        "end": 24,
+        "raw": "'./a'",
+        "value": "./a"
+      },
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "start": 12,
+          "end": 13,
+          "local": {
+            "type": "Identifier",
+            "start": 12,
+            "end": 13,
+            "decorators": [],
+            "name": "A",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 26,
+      "end": 44,
+      "attributes": [],
+      "declaration": null,
+      "exportKind": "type",
+      "source": null,
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "start": 40,
+          "end": 41,
+          "exported": {
+            "type": "Identifier",
+            "start": 40,
+            "end": 41,
+            "decorators": [],
+            "name": "A",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "exportKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 40,
+            "end": 41,
+            "decorators": [],
+            "name": "A",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
   "end": 64,
   "body": [
     {

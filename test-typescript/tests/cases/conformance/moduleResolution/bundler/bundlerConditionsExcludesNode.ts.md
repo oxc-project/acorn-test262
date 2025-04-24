@@ -3,6 +3,58 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 0,
+  "end": 23,
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 0,
+      "end": 22,
+      "attributes": [],
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 7,
+        "end": 22,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 13,
+            "end": 21,
+            "definite": false,
+            "id": {
+              "type": "Identifier",
+              "start": 13,
+              "end": 17,
+              "decorators": [],
+              "name": "node",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "init": {
+              "type": "Literal",
+              "start": 20,
+              "end": 21,
+              "raw": "0",
+              "value": 0
+            }
+          }
+        ],
+        "declare": false,
+        "kind": "const"
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": []
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
   "end": 27,
   "body": [
     {
@@ -39,6 +91,58 @@ __ESTREE_TEST__:PASS:
               }
             },
             "init": null
+          }
+        ],
+        "declare": false,
+        "kind": "const"
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": []
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 22,
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 0,
+      "end": 21,
+      "attributes": [],
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 7,
+        "end": 21,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 13,
+            "end": 20,
+            "definite": false,
+            "id": {
+              "type": "Identifier",
+              "start": 13,
+              "end": 16,
+              "decorators": [],
+              "name": "web",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "init": {
+              "type": "Literal",
+              "start": 19,
+              "end": 20,
+              "raw": "0",
+              "value": 0
+            }
           }
         ],
         "declare": false,

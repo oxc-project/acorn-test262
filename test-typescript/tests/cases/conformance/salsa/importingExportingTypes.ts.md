@@ -228,3 +228,208 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 208,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 0,
+      "end": 80,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 75,
+        "end": 79,
+        "raw": "\"fs\"",
+        "value": "fs"
+      },
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 9,
+          "end": 18,
+          "imported": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 18,
+            "decorators": [],
+            "name": "writeFile",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "importKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 18,
+            "decorators": [],
+            "name": "writeFile",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        {
+          "type": "ImportSpecifier",
+          "start": 20,
+          "end": 36,
+          "imported": {
+            "type": "Identifier",
+            "start": 20,
+            "end": 36,
+            "decorators": [],
+            "name": "WriteFileOptions",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "importKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 20,
+            "end": 36,
+            "decorators": [],
+            "name": "WriteFileOptions",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        {
+          "type": "ImportSpecifier",
+          "start": 38,
+          "end": 67,
+          "imported": {
+            "type": "Identifier",
+            "start": 38,
+            "end": 54,
+            "decorators": [],
+            "name": "WriteFileOptions",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "importKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 58,
+            "end": 67,
+            "decorators": [],
+            "name": "OtherName",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 122,
+      "end": 143,
+      "attributes": [],
+      "declaration": null,
+      "exportKind": "value",
+      "source": null,
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "start": 131,
+          "end": 140,
+          "exported": {
+            "type": "Identifier",
+            "start": 131,
+            "end": 140,
+            "decorators": [],
+            "name": "JSDocType",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "exportKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 131,
+            "end": 140,
+            "decorators": [],
+            "name": "JSDocType",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 144,
+      "end": 179,
+      "attributes": [],
+      "declaration": null,
+      "exportKind": "value",
+      "source": null,
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "start": 153,
+          "end": 176,
+          "exported": {
+            "type": "Identifier",
+            "start": 166,
+            "end": 176,
+            "decorators": [],
+            "name": "ThisIsFine",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "exportKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 153,
+            "end": 162,
+            "decorators": [],
+            "name": "JSDocType",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 180,
+      "end": 208,
+      "attributes": [],
+      "declaration": null,
+      "exportKind": "value",
+      "source": null,
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "start": 189,
+          "end": 205,
+          "exported": {
+            "type": "Identifier",
+            "start": 189,
+            "end": 205,
+            "decorators": [],
+            "name": "WriteFileOptions",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "exportKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 189,
+            "end": 205,
+            "decorators": [],
+            "name": "WriteFileOptions",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

@@ -2859,3 +2859,993 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 297,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 0,
+      "end": 14,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 4,
+          "end": 13,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 4,
+            "end": 5,
+            "decorators": [],
+            "name": "a",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 8,
+            "end": 13,
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 11,
+                "end": 12,
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            ],
+            "callee": {
+              "type": "Identifier",
+              "start": 8,
+              "end": 10,
+              "decorators": [],
+              "name": "f1",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 15,
+      "end": 29,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 19,
+          "end": 28,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 19,
+            "end": 20,
+            "decorators": [],
+            "name": "a",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 23,
+            "end": 28,
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 26,
+                "end": 27,
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            ],
+            "callee": {
+              "type": "Identifier",
+              "start": 23,
+              "end": 25,
+              "decorators": [],
+              "name": "f2",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 30,
+      "end": 44,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 34,
+          "end": 43,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 34,
+            "end": 35,
+            "decorators": [],
+            "name": "t",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 38,
+            "end": 43,
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 41,
+                "end": 42,
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            ],
+            "callee": {
+              "type": "Identifier",
+              "start": 38,
+              "end": 40,
+              "decorators": [],
+              "name": "f3",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 45,
+      "end": 59,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 49,
+          "end": 58,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 49,
+            "end": 50,
+            "decorators": [],
+            "name": "a",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 53,
+            "end": 58,
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 56,
+                "end": 57,
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            ],
+            "callee": {
+              "type": "Identifier",
+              "start": 53,
+              "end": 55,
+              "decorators": [],
+              "name": "f4",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 60,
+      "end": 74,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 64,
+          "end": 73,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 64,
+            "end": 65,
+            "decorators": [],
+            "name": "a",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 68,
+            "end": 73,
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 71,
+                "end": 72,
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            ],
+            "callee": {
+              "type": "Identifier",
+              "start": 68,
+              "end": 70,
+              "decorators": [],
+              "name": "f5",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 75,
+      "end": 89,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 79,
+          "end": 88,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 79,
+            "end": 80,
+            "decorators": [],
+            "name": "a",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 83,
+            "end": 88,
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 86,
+                "end": 87,
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            ],
+            "callee": {
+              "type": "Identifier",
+              "start": 83,
+              "end": 85,
+              "decorators": [],
+              "name": "f6",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 90,
+      "end": 104,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 94,
+          "end": 103,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 94,
+            "end": 95,
+            "decorators": [],
+            "name": "a",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 98,
+            "end": 103,
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 101,
+                "end": 102,
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            ],
+            "callee": {
+              "type": "Identifier",
+              "start": 98,
+              "end": 100,
+              "decorators": [],
+              "name": "f7",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 105,
+      "end": 119,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 109,
+          "end": 118,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 109,
+            "end": 110,
+            "decorators": [],
+            "name": "a",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 113,
+            "end": 118,
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 116,
+                "end": 117,
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            ],
+            "callee": {
+              "type": "Identifier",
+              "start": 113,
+              "end": 115,
+              "decorators": [],
+              "name": "f8",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 120,
+      "end": 134,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 124,
+          "end": 133,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 124,
+            "end": 125,
+            "decorators": [],
+            "name": "a",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 128,
+            "end": 133,
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 131,
+                "end": 132,
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            ],
+            "callee": {
+              "type": "Identifier",
+              "start": 128,
+              "end": 130,
+              "decorators": [],
+              "name": "f9",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 135,
+      "end": 150,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 139,
+          "end": 149,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 139,
+            "end": 140,
+            "decorators": [],
+            "name": "a",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 143,
+            "end": 149,
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 147,
+                "end": 148,
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            ],
+            "callee": {
+              "type": "Identifier",
+              "start": 143,
+              "end": 146,
+              "decorators": [],
+              "name": "f10",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 151,
+      "end": 166,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 155,
+          "end": 165,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 155,
+            "end": 156,
+            "decorators": [],
+            "name": "a",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 159,
+            "end": 165,
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 163,
+                "end": 164,
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            ],
+            "callee": {
+              "type": "Identifier",
+              "start": 159,
+              "end": 162,
+              "decorators": [],
+              "name": "f11",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 167,
+      "end": 182,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 171,
+          "end": 181,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 171,
+            "end": 172,
+            "decorators": [],
+            "name": "t",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 175,
+            "end": 181,
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 179,
+                "end": 180,
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            ],
+            "callee": {
+              "type": "Identifier",
+              "start": 175,
+              "end": 178,
+              "decorators": [],
+              "name": "f12",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 183,
+      "end": 198,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 187,
+          "end": 197,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 187,
+            "end": 188,
+            "decorators": [],
+            "name": "t",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 191,
+            "end": 197,
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 195,
+                "end": 196,
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            ],
+            "callee": {
+              "type": "Identifier",
+              "start": 191,
+              "end": 194,
+              "decorators": [],
+              "name": "f13",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 199,
+      "end": 214,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 203,
+          "end": 213,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 203,
+            "end": 204,
+            "decorators": [],
+            "name": "t",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 207,
+            "end": 213,
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 211,
+                "end": 212,
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            ],
+            "callee": {
+              "type": "Identifier",
+              "start": 207,
+              "end": 210,
+              "decorators": [],
+              "name": "f14",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 215,
+      "end": 230,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 219,
+          "end": 229,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 219,
+            "end": 220,
+            "decorators": [],
+            "name": "a",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 223,
+            "end": 229,
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 227,
+                "end": 228,
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            ],
+            "callee": {
+              "type": "Identifier",
+              "start": 223,
+              "end": 226,
+              "decorators": [],
+              "name": "f15",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 231,
+      "end": 246,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 235,
+          "end": 245,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 235,
+            "end": 236,
+            "decorators": [],
+            "name": "a",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 239,
+            "end": 245,
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 243,
+                "end": 244,
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            ],
+            "callee": {
+              "type": "Identifier",
+              "start": 239,
+              "end": 242,
+              "decorators": [],
+              "name": "f16",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 247,
+      "end": 262,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 251,
+          "end": 261,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 251,
+            "end": 252,
+            "decorators": [],
+            "name": "a",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 255,
+            "end": 261,
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 259,
+                "end": 260,
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            ],
+            "callee": {
+              "type": "Identifier",
+              "start": 255,
+              "end": 258,
+              "decorators": [],
+              "name": "f17",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 263,
+      "end": 278,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 267,
+          "end": 277,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 267,
+            "end": 268,
+            "decorators": [],
+            "name": "a",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 271,
+            "end": 277,
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 275,
+                "end": 276,
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            ],
+            "callee": {
+              "type": "Identifier",
+              "start": 271,
+              "end": 274,
+              "decorators": [],
+              "name": "f18",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 279,
+      "end": 297,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 283,
+          "end": 296,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 283,
+            "end": 284,
+            "decorators": [],
+            "name": "a",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 287,
+            "end": 296,
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 291,
+                "end": 292,
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              {
+                "type": "Identifier",
+                "start": 294,
+                "end": 295,
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            ],
+            "callee": {
+              "type": "Identifier",
+              "start": 287,
+              "end": 290,
+              "decorators": [],
+              "name": "f19",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

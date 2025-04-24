@@ -139,3 +139,177 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 168,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 0,
+      "end": 31,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 21,
+        "end": 30,
+        "raw": "\"./types\"",
+        "value": "./types"
+      },
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 9,
+          "end": 13,
+          "imported": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 13,
+            "decorators": [],
+            "name": "symb",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "importKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 13,
+            "decorators": [],
+            "name": "symb",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 82,
+      "end": 168,
+      "attributes": [],
+      "declaration": {
+        "type": "FunctionDeclaration",
+        "start": 89,
+        "end": 168,
+        "async": false,
+        "body": {
+          "type": "BlockStatement",
+          "start": 105,
+          "end": 168,
+          "body": [
+            {
+              "type": "FunctionDeclaration",
+              "start": 109,
+              "end": 128,
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "start": 126,
+                "end": 128,
+                "body": []
+              },
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": {
+                "type": "Identifier",
+                "start": 118,
+                "end": 123,
+                "decorators": [],
+                "name": "inner",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
+            },
+            {
+              "type": "ExpressionStatement",
+              "start": 131,
+              "end": 150,
+              "directive": null,
+              "expression": {
+                "type": "AssignmentExpression",
+                "start": 131,
+                "end": 149,
+                "operator": "=",
+                "left": {
+                  "type": "MemberExpression",
+                  "start": 131,
+                  "end": 142,
+                  "computed": true,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 131,
+                    "end": 136,
+                    "decorators": [],
+                    "name": "inner",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "property": {
+                    "type": "Identifier",
+                    "start": 137,
+                    "end": 141,
+                    "decorators": [],
+                    "name": "symb",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                },
+                "right": {
+                  "type": "Literal",
+                  "start": 145,
+                  "end": 149,
+                  "raw": "true",
+                  "value": true
+                }
+              }
+            },
+            {
+              "type": "ReturnStatement",
+              "start": 153,
+              "end": 166,
+              "argument": {
+                "type": "Identifier",
+                "start": 160,
+                "end": 165,
+                "decorators": [],
+                "name": "inner",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            }
+          ]
+        },
+        "declare": false,
+        "expression": false,
+        "generator": false,
+        "id": {
+          "type": "Identifier",
+          "start": 98,
+          "end": 102,
+          "decorators": [],
+          "name": "test",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": []
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

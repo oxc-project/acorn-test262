@@ -355,3 +355,456 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 309,
+  "end": 658,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 309,
+      "end": 341,
+      "async": false,
+      "body": {
+        "type": "BlockStatement",
+        "start": 339,
+        "end": 341,
+        "body": []
+      },
+      "declare": false,
+      "expression": false,
+      "generator": false,
+      "id": {
+        "type": "Identifier",
+        "start": 318,
+        "end": 331,
+        "decorators": [],
+        "name": "doHumanThings",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 332,
+          "end": 337,
+          "decorators": [],
+          "name": "param",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      ],
+      "returnType": null,
+      "typeParameters": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 343,
+      "end": 393,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 349,
+          "end": 392,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 349,
+            "end": 354,
+            "decorators": [],
+            "name": "dice1",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "ArrowFunctionExpression",
+            "start": 357,
+            "end": 392,
+            "async": false,
+            "body": {
+              "type": "CallExpression",
+              "start": 363,
+              "end": 392,
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 374,
+                  "end": 391,
+                  "operator": "*",
+                  "left": {
+                    "type": "CallExpression",
+                    "start": 374,
+                    "end": 387,
+                    "arguments": [],
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 374,
+                      "end": 385,
+                      "computed": false,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 374,
+                        "end": 378,
+                        "decorators": [],
+                        "name": "Math",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "optional": false,
+                      "property": {
+                        "type": "Identifier",
+                        "start": 379,
+                        "end": 385,
+                        "decorators": [],
+                        "name": "random",
+                        "optional": false,
+                        "typeAnnotation": null
+                      }
+                    },
+                    "optional": false,
+                    "typeArguments": null
+                  },
+                  "right": {
+                    "type": "Literal",
+                    "start": 390,
+                    "end": 391,
+                    "raw": "6",
+                    "value": 6
+                  }
+                }
+              ],
+              "callee": {
+                "type": "MemberExpression",
+                "start": 363,
+                "end": 373,
+                "computed": false,
+                "object": {
+                  "type": "Identifier",
+                  "start": 363,
+                  "end": 367,
+                  "decorators": [],
+                  "name": "Math",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "optional": false,
+                "property": {
+                  "type": "Identifier",
+                  "start": 368,
+                  "end": 373,
+                  "decorators": [],
+                  "name": "floor",
+                  "optional": false,
+                  "typeAnnotation": null
+                }
+              },
+              "optional": false,
+              "typeArguments": null
+            },
+            "expression": true,
+            "generator": false,
+            "id": null,
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 420,
+      "end": 446,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 420,
+        "end": 445,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 420,
+          "end": 430,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 420,
+            "end": 425,
+            "decorators": [],
+            "name": "dice1",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 426,
+            "end": 430,
+            "decorators": [],
+            "name": "last",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "Literal",
+          "start": 433,
+          "end": 445,
+          "raw": "'Calrissian'",
+          "value": "Calrissian"
+        }
+      }
+    },
+    {
+      "type": "BlockStatement",
+      "start": 521,
+      "end": 658,
+      "body": [
+        {
+          "type": "VariableDeclaration",
+          "start": 525,
+          "end": 575,
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 531,
+              "end": 574,
+              "definite": false,
+              "id": {
+                "type": "Identifier",
+                "start": 531,
+                "end": 536,
+                "decorators": [],
+                "name": "dice2",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "init": {
+                "type": "ArrowFunctionExpression",
+                "start": 539,
+                "end": 574,
+                "async": false,
+                "body": {
+                  "type": "CallExpression",
+                  "start": 545,
+                  "end": 574,
+                  "arguments": [
+                    {
+                      "type": "BinaryExpression",
+                      "start": 556,
+                      "end": 573,
+                      "operator": "*",
+                      "left": {
+                        "type": "CallExpression",
+                        "start": 556,
+                        "end": 569,
+                        "arguments": [],
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 556,
+                          "end": 567,
+                          "computed": false,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 556,
+                            "end": 560,
+                            "decorators": [],
+                            "name": "Math",
+                            "optional": false,
+                            "typeAnnotation": null
+                          },
+                          "optional": false,
+                          "property": {
+                            "type": "Identifier",
+                            "start": 561,
+                            "end": 567,
+                            "decorators": [],
+                            "name": "random",
+                            "optional": false,
+                            "typeAnnotation": null
+                          }
+                        },
+                        "optional": false,
+                        "typeArguments": null
+                      },
+                      "right": {
+                        "type": "Literal",
+                        "start": 572,
+                        "end": 573,
+                        "raw": "6",
+                        "value": 6
+                      }
+                    }
+                  ],
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 545,
+                    "end": 555,
+                    "computed": false,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 545,
+                      "end": 549,
+                      "decorators": [],
+                      "name": "Math",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "optional": false,
+                    "property": {
+                      "type": "Identifier",
+                      "start": 550,
+                      "end": 555,
+                      "decorators": [],
+                      "name": "floor",
+                      "optional": false,
+                      "typeAnnotation": null
+                    }
+                  },
+                  "optional": false,
+                  "typeArguments": null
+                },
+                "expression": true,
+                "generator": false,
+                "id": null,
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
+              }
+            }
+          ],
+          "declare": false,
+          "kind": "const"
+        },
+        {
+          "type": "ExpressionStatement",
+          "start": 578,
+          "end": 600,
+          "directive": null,
+          "expression": {
+            "type": "AssignmentExpression",
+            "start": 578,
+            "end": 599,
+            "operator": "=",
+            "left": {
+              "type": "MemberExpression",
+              "start": 578,
+              "end": 589,
+              "computed": false,
+              "object": {
+                "type": "Identifier",
+                "start": 578,
+                "end": 583,
+                "decorators": [],
+                "name": "dice2",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "optional": false,
+              "property": {
+                "type": "Identifier",
+                "start": 584,
+                "end": 589,
+                "decorators": [],
+                "name": "first",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            },
+            "right": {
+              "type": "Literal",
+              "start": 592,
+              "end": 599,
+              "raw": "'Rando'",
+              "value": "Rando"
+            }
+          }
+        },
+        {
+          "type": "ExpressionStatement",
+          "start": 603,
+          "end": 629,
+          "directive": null,
+          "expression": {
+            "type": "AssignmentExpression",
+            "start": 603,
+            "end": 628,
+            "operator": "=",
+            "left": {
+              "type": "MemberExpression",
+              "start": 603,
+              "end": 613,
+              "computed": false,
+              "object": {
+                "type": "Identifier",
+                "start": 603,
+                "end": 608,
+                "decorators": [],
+                "name": "dice2",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "optional": false,
+              "property": {
+                "type": "Identifier",
+                "start": 609,
+                "end": 613,
+                "decorators": [],
+                "name": "last",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            },
+            "right": {
+              "type": "Literal",
+              "start": 616,
+              "end": 628,
+              "raw": "'Calrissian'",
+              "value": "Calrissian"
+            }
+          }
+        },
+        {
+          "type": "ExpressionStatement",
+          "start": 636,
+          "end": 656,
+          "directive": null,
+          "expression": {
+            "type": "CallExpression",
+            "start": 636,
+            "end": 656,
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 650,
+                "end": 655,
+                "decorators": [],
+                "name": "dice2",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            ],
+            "callee": {
+              "type": "Identifier",
+              "start": 636,
+              "end": 649,
+              "decorators": [],
+              "name": "doHumanThings",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

@@ -1,0 +1,175 @@
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 200,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 0,
+      "end": 200,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 0,
+        "end": 199,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 0,
+          "end": 18,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 0,
+            "end": 4,
+            "decorators": [],
+            "name": "self",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 5,
+            "end": 18,
+            "decorators": [],
+            "name": "importScripts",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 21,
+          "end": 199,
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 185,
+              "end": 198,
+              "decorators": [],
+              "name": "importScripts",
+              "optional": false,
+              "typeAnnotation": null
+            }
+          ],
+          "callee": {
+            "type": "FunctionExpression",
+            "start": 22,
+            "end": 183,
+            "async": false,
+            "body": {
+              "type": "BlockStatement",
+              "start": 47,
+              "end": 183,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 101,
+                  "end": 181,
+                  "argument": {
+                    "type": "FunctionExpression",
+                    "start": 108,
+                    "end": 180,
+                    "async": false,
+                    "body": {
+                      "type": "BlockStatement",
+                      "start": 120,
+                      "end": 180,
+                      "body": [
+                        {
+                          "type": "ReturnStatement",
+                          "start": 130,
+                          "end": 174,
+                          "argument": {
+                            "type": "CallExpression",
+                            "start": 137,
+                            "end": 173,
+                            "arguments": [
+                              {
+                                "type": "ThisExpression",
+                                "start": 157,
+                                "end": 161
+                              },
+                              {
+                                "type": "Identifier",
+                                "start": 163,
+                                "end": 172,
+                                "decorators": [],
+                                "name": "arguments",
+                                "optional": false,
+                                "typeAnnotation": null
+                              }
+                            ],
+                            "callee": {
+                              "type": "MemberExpression",
+                              "start": 137,
+                              "end": 156,
+                              "computed": false,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 137,
+                                "end": 150,
+                                "decorators": [],
+                                "name": "importScripts",
+                                "optional": false,
+                                "typeAnnotation": null
+                              },
+                              "optional": false,
+                              "property": {
+                                "type": "Identifier",
+                                "start": 151,
+                                "end": 156,
+                                "decorators": [],
+                                "name": "apply",
+                                "optional": false,
+                                "typeAnnotation": null
+                              }
+                            },
+                            "optional": false,
+                            "typeArguments": null
+                          }
+                        }
+                      ]
+                    },
+                    "declare": false,
+                    "expression": false,
+                    "generator": false,
+                    "id": null,
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
+                  }
+                }
+              ]
+            },
+            "declare": false,
+            "expression": false,
+            "generator": false,
+            "id": null,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 32,
+                "end": 45,
+                "decorators": [],
+                "name": "importScripts",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            ],
+            "returnType": null,
+            "typeParameters": null
+          },
+          "optional": false,
+          "typeArguments": null
+        }
+      }
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null
+}
+```

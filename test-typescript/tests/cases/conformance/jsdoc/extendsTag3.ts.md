@@ -1,0 +1,272 @@
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 24,
+  "end": 270,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 24,
+      "end": 56,
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "start": 32,
+        "end": 56,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 38,
+            "end": 54,
+            "accessibility": null,
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 38,
+              "end": 49,
+              "decorators": [],
+              "name": "constructor",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "kind": "constructor",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "FunctionExpression",
+              "start": 49,
+              "end": 54,
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "start": 52,
+                "end": 54,
+                "body": []
+              },
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
+            }
+          }
+        ]
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 30,
+        "end": 31,
+        "decorators": [],
+        "name": "A",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "implements": [],
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 98,
+      "end": 162,
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "start": 116,
+        "end": 162,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 122,
+            "end": 160,
+            "accessibility": null,
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 122,
+              "end": 133,
+              "decorators": [],
+              "name": "constructor",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "kind": "constructor",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "FunctionExpression",
+              "start": 133,
+              "end": 160,
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "start": 136,
+                "end": 160,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 146,
+                    "end": 154,
+                    "directive": null,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 146,
+                      "end": 153,
+                      "arguments": [],
+                      "callee": {
+                        "type": "Super",
+                        "start": 146,
+                        "end": 151
+                      },
+                      "optional": false,
+                      "typeArguments": null
+                    }
+                  }
+                ]
+              },
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
+            }
+          }
+        ]
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 104,
+        "end": 105,
+        "decorators": [],
+        "name": "B",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "implements": [],
+      "superClass": {
+        "type": "Identifier",
+        "start": 114,
+        "end": 115,
+        "decorators": [],
+        "name": "A",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 206,
+      "end": 270,
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "start": 224,
+        "end": 270,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 230,
+            "end": 268,
+            "accessibility": null,
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 230,
+              "end": 241,
+              "decorators": [],
+              "name": "constructor",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "kind": "constructor",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "FunctionExpression",
+              "start": 241,
+              "end": 268,
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "start": 244,
+                "end": 268,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 254,
+                    "end": 262,
+                    "directive": null,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 254,
+                      "end": 261,
+                      "arguments": [],
+                      "callee": {
+                        "type": "Super",
+                        "start": 254,
+                        "end": 259
+                      },
+                      "optional": false,
+                      "typeArguments": null
+                    }
+                  }
+                ]
+              },
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
+            }
+          }
+        ]
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 212,
+        "end": 213,
+        "decorators": [],
+        "name": "C",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "implements": [],
+      "superClass": {
+        "type": "Identifier",
+        "start": 222,
+        "end": 223,
+        "decorators": [],
+        "name": "A",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null
+}
+```

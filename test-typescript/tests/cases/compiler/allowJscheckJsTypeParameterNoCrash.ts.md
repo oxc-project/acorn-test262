@@ -336,3 +336,276 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 161,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 0,
+      "end": 31,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 22,
+        "end": 30,
+        "raw": "'./func'",
+        "value": "./func"
+      },
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 8,
+          "end": 15,
+          "imported": {
+            "type": "Identifier",
+            "start": 8,
+            "end": 15,
+            "decorators": [],
+            "name": "vextend",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "importKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 8,
+            "end": 15,
+            "decorators": [],
+            "name": "vextend",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 52,
+      "end": 161,
+      "attributes": [],
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 59,
+        "end": 161,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 63,
+            "end": 160,
+            "definite": false,
+            "id": {
+              "type": "Identifier",
+              "start": 63,
+              "end": 64,
+              "decorators": [],
+              "name": "a",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 67,
+              "end": 160,
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "start": 75,
+                  "end": 159,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 79,
+                      "end": 157,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 79,
+                        "end": 84,
+                        "decorators": [],
+                        "name": "watch",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "kind": "init",
+                      "method": false,
+                      "optional": false,
+                      "shorthand": false,
+                      "value": {
+                        "type": "ObjectExpression",
+                        "start": 86,
+                        "end": 157,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 92,
+                            "end": 132,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 92,
+                              "end": 97,
+                              "decorators": [],
+                              "name": "data1",
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
+                            "kind": "init",
+                            "method": true,
+                            "optional": false,
+                            "shorthand": false,
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 97,
+                              "end": 132,
+                              "async": false,
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 103,
+                                "end": 132,
+                                "body": [
+                                  {
+                                    "type": "ExpressionStatement",
+                                    "start": 111,
+                                    "end": 126,
+                                    "directive": null,
+                                    "expression": {
+                                      "type": "AssignmentExpression",
+                                      "start": 111,
+                                      "end": 125,
+                                      "operator": "=",
+                                      "left": {
+                                        "type": "MemberExpression",
+                                        "start": 111,
+                                        "end": 121,
+                                        "computed": false,
+                                        "object": {
+                                          "type": "ThisExpression",
+                                          "start": 111,
+                                          "end": 115
+                                        },
+                                        "optional": false,
+                                        "property": {
+                                          "type": "Identifier",
+                                          "start": 116,
+                                          "end": 121,
+                                          "decorators": [],
+                                          "name": "data2",
+                                          "optional": false,
+                                          "typeAnnotation": null
+                                        }
+                                      },
+                                      "right": {
+                                        "type": "Literal",
+                                        "start": 124,
+                                        "end": 125,
+                                        "raw": "1",
+                                        "value": 1
+                                      }
+                                    }
+                                  }
+                                ]
+                              },
+                              "declare": false,
+                              "expression": false,
+                              "generator": false,
+                              "id": null,
+                              "params": [
+                                {
+                                  "type": "Identifier",
+                                  "start": 98,
+                                  "end": 101,
+                                  "decorators": [],
+                                  "name": "val",
+                                  "optional": false,
+                                  "typeAnnotation": null
+                                }
+                              ],
+                              "returnType": null,
+                              "typeParameters": null
+                            }
+                          },
+                          {
+                            "type": "Property",
+                            "start": 138,
+                            "end": 152,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 138,
+                              "end": 143,
+                              "decorators": [],
+                              "name": "data2",
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
+                            "kind": "init",
+                            "method": true,
+                            "optional": false,
+                            "shorthand": false,
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 143,
+                              "end": 152,
+                              "async": false,
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 149,
+                                "end": 152,
+                                "body": []
+                              },
+                              "declare": false,
+                              "expression": false,
+                              "generator": false,
+                              "id": null,
+                              "params": [
+                                {
+                                  "type": "Identifier",
+                                  "start": 144,
+                                  "end": 147,
+                                  "decorators": [],
+                                  "name": "val",
+                                  "optional": false,
+                                  "typeAnnotation": null
+                                }
+                              ],
+                              "returnType": null,
+                              "typeParameters": null
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ],
+              "callee": {
+                "type": "Identifier",
+                "start": 67,
+                "end": 74,
+                "decorators": [],
+                "name": "vextend",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "optional": false,
+              "typeArguments": null
+            }
+          }
+        ],
+        "declare": false,
+        "kind": "var"
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": []
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

@@ -628,3 +628,169 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 159,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 0,
+      "end": 31,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 0,
+        "end": 30,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 0,
+          "end": 14,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 0,
+            "end": 2,
+            "decorators": [],
+            "name": "lf",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 3,
+            "end": 14,
+            "decorators": [],
+            "name": "Transaction",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 17,
+          "end": 30,
+          "async": false,
+          "body": {
+            "type": "BlockStatement",
+            "start": 28,
+            "end": 30,
+            "body": []
+          },
+          "declare": false,
+          "expression": false,
+          "generator": false,
+          "id": null,
+          "params": [],
+          "returnType": null,
+          "typeParameters": null
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 107,
+      "end": 159,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 107,
+        "end": 158,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 107,
+          "end": 137,
+          "computed": false,
+          "object": {
+            "type": "MemberExpression",
+            "start": 107,
+            "end": 131,
+            "computed": false,
+            "object": {
+              "type": "MemberExpression",
+              "start": 107,
+              "end": 121,
+              "computed": false,
+              "object": {
+                "type": "Identifier",
+                "start": 107,
+                "end": 109,
+                "decorators": [],
+                "name": "lf",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "optional": false,
+              "property": {
+                "type": "Identifier",
+                "start": 110,
+                "end": 121,
+                "decorators": [],
+                "name": "Transaction",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            },
+            "optional": false,
+            "property": {
+              "type": "Identifier",
+              "start": 122,
+              "end": 131,
+              "decorators": [],
+              "name": "prototype",
+              "optional": false,
+              "typeAnnotation": null
+            }
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 132,
+            "end": 137,
+            "decorators": [],
+            "name": "begin",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 140,
+          "end": 158,
+          "async": false,
+          "body": {
+            "type": "BlockStatement",
+            "start": 156,
+            "end": 158,
+            "body": []
+          },
+          "declare": false,
+          "expression": false,
+          "generator": false,
+          "id": null,
+          "params": [
+            {
+              "type": "Identifier",
+              "start": 149,
+              "end": 154,
+              "decorators": [],
+              "name": "scope",
+              "optional": false,
+              "typeAnnotation": null
+            }
+          ],
+          "returnType": null,
+          "typeParameters": null
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

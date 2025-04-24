@@ -65,3 +65,102 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 28,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 0,
+      "end": 17,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 0,
+        "end": 16,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 0,
+          "end": 11,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 0,
+            "end": 1,
+            "decorators": [],
+            "name": "C",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 2,
+            "end": 11,
+            "decorators": [],
+            "name": "prototype",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "ObjectExpression",
+          "start": 14,
+          "end": 16,
+          "properties": []
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 18,
+      "end": 28,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 18,
+        "end": 27,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 18,
+          "end": 23,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 18,
+            "end": 19,
+            "decorators": [],
+            "name": "C",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 20,
+            "end": 23,
+            "decorators": [],
+            "name": "bar",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "Literal",
+          "start": 26,
+          "end": 27,
+          "raw": "2",
+          "value": 2
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

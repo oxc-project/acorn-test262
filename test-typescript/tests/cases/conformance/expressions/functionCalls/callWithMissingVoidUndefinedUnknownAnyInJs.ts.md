@@ -545,6 +545,266 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 55,
+  "end": 201,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 55,
+      "end": 60,
+      "directive": null,
+      "expression": {
+        "type": "CallExpression",
+        "start": 55,
+        "end": 59,
+        "arguments": [],
+        "callee": {
+          "type": "Identifier",
+          "start": 55,
+          "end": 57,
+          "decorators": [],
+          "name": "f1",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "optional": false,
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 61,
+      "end": 68,
+      "directive": null,
+      "expression": {
+        "type": "CallExpression",
+        "start": 61,
+        "end": 67,
+        "arguments": [],
+        "callee": {
+          "type": "MemberExpression",
+          "start": 61,
+          "end": 65,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 61,
+            "end": 63,
+            "decorators": [],
+            "name": "o1",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 64,
+            "end": 65,
+            "decorators": [],
+            "name": "m",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "optional": false,
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 158,
+      "end": 163,
+      "directive": null,
+      "expression": {
+        "type": "CallExpression",
+        "start": 158,
+        "end": 162,
+        "arguments": [],
+        "callee": {
+          "type": "Identifier",
+          "start": 158,
+          "end": 160,
+          "decorators": [],
+          "name": "f2",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "optional": false,
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 164,
+      "end": 169,
+      "directive": null,
+      "expression": {
+        "type": "CallExpression",
+        "start": 164,
+        "end": 168,
+        "arguments": [],
+        "callee": {
+          "type": "Identifier",
+          "start": 164,
+          "end": 166,
+          "decorators": [],
+          "name": "f3",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "optional": false,
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 170,
+      "end": 175,
+      "directive": null,
+      "expression": {
+        "type": "CallExpression",
+        "start": 170,
+        "end": 174,
+        "arguments": [],
+        "callee": {
+          "type": "Identifier",
+          "start": 170,
+          "end": 172,
+          "decorators": [],
+          "name": "f4",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "optional": false,
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 177,
+      "end": 184,
+      "directive": null,
+      "expression": {
+        "type": "CallExpression",
+        "start": 177,
+        "end": 183,
+        "arguments": [],
+        "callee": {
+          "type": "MemberExpression",
+          "start": 177,
+          "end": 181,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 177,
+            "end": 179,
+            "decorators": [],
+            "name": "o2",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 180,
+            "end": 181,
+            "decorators": [],
+            "name": "m",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "optional": false,
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 185,
+      "end": 192,
+      "directive": null,
+      "expression": {
+        "type": "CallExpression",
+        "start": 185,
+        "end": 191,
+        "arguments": [],
+        "callee": {
+          "type": "MemberExpression",
+          "start": 185,
+          "end": 189,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 185,
+            "end": 187,
+            "decorators": [],
+            "name": "o3",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 188,
+            "end": 189,
+            "decorators": [],
+            "name": "m",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "optional": false,
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 193,
+      "end": 200,
+      "directive": null,
+      "expression": {
+        "type": "CallExpression",
+        "start": 193,
+        "end": 199,
+        "arguments": [],
+        "callee": {
+          "type": "MemberExpression",
+          "start": 193,
+          "end": 197,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 193,
+            "end": 195,
+            "decorators": [],
+            "name": "o4",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 196,
+            "end": 197,
+            "decorators": [],
+            "name": "m",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "optional": false,
+        "typeArguments": null
+      }
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 55,
   "end": 137,
   "body": [
     {

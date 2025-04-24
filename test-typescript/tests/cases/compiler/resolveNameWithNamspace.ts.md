@@ -321,3 +321,116 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 46,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 0,
+      "end": 30,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 0,
+        "end": 30,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 0,
+          "end": 13,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 0,
+            "end": 7,
+            "decorators": [],
+            "name": "exports",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 8,
+            "end": 13,
+            "decorators": [],
+            "name": "equal",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "MemberExpression",
+          "start": 16,
+          "end": 30,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 16,
+            "end": 24,
+            "decorators": [],
+            "name": "myAssert",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 25,
+            "end": 30,
+            "decorators": [],
+            "name": "equal",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 31,
+      "end": 46,
+      "directive": null,
+      "expression": {
+        "type": "CallExpression",
+        "start": 31,
+        "end": 46,
+        "arguments": [],
+        "callee": {
+          "type": "MemberExpression",
+          "start": 31,
+          "end": 44,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 31,
+            "end": 38,
+            "decorators": [],
+            "name": "exports",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 39,
+            "end": 44,
+            "decorators": [],
+            "name": "equal",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "optional": false,
+        "typeArguments": null
+      }
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

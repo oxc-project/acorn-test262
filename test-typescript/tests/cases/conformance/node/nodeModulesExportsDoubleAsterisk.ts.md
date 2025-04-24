@@ -20,3 +20,30 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 45,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 0,
+      "end": 45,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 15,
+        "end": 44,
+        "raw": "\"double-asterisk/a/*/b/*/c/*\"",
+        "value": "double-asterisk/a/*/b/*/c/*"
+      },
+      "specifiers": []
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

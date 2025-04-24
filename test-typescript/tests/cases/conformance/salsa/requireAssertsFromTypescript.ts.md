@@ -247,3 +247,270 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 98,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 0,
+      "end": 31,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 6,
+          "end": 31,
+          "definite": false,
+          "id": {
+            "type": "ObjectPattern",
+            "start": 6,
+            "end": 13,
+            "decorators": [],
+            "optional": false,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 8,
+                "end": 11,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 8,
+                  "end": 11,
+                  "decorators": [],
+                  "name": "art",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "kind": "init",
+                "method": false,
+                "optional": false,
+                "shorthand": true,
+                "value": {
+                  "type": "Identifier",
+                  "start": 8,
+                  "end": 11,
+                  "decorators": [],
+                  "name": "art",
+                  "optional": false,
+                  "typeAnnotation": null
+                }
+              }
+            ],
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 16,
+            "end": 31,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 24,
+                "end": 30,
+                "raw": "'./ex'",
+                "value": "./ex"
+              }
+            ],
+            "callee": {
+              "type": "Identifier",
+              "start": 16,
+              "end": 23,
+              "decorators": [],
+              "name": "require",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 32,
+      "end": 62,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 38,
+          "end": 62,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 38,
+            "end": 43,
+            "decorators": [],
+            "name": "artoo",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 46,
+            "end": 62,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 54,
+                "end": 61,
+                "raw": "'./ex2'",
+                "value": "./ex2"
+              }
+            ],
+            "callee": {
+              "type": "Identifier",
+              "start": 46,
+              "end": 53,
+              "decorators": [],
+              "name": "require",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 63,
+      "end": 72,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 67,
+          "end": 72,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 67,
+            "end": 68,
+            "decorators": [],
+            "name": "x",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "Literal",
+            "start": 71,
+            "end": 72,
+            "raw": "1",
+            "value": 1
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 73,
+      "end": 79,
+      "directive": null,
+      "expression": {
+        "type": "CallExpression",
+        "start": 73,
+        "end": 79,
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 77,
+            "end": 78,
+            "decorators": [],
+            "name": "x",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        ],
+        "callee": {
+          "type": "Identifier",
+          "start": 73,
+          "end": 76,
+          "decorators": [],
+          "name": "art",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "optional": false,
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 80,
+      "end": 89,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 84,
+          "end": 89,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 84,
+            "end": 85,
+            "decorators": [],
+            "name": "y",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "Literal",
+            "start": 88,
+            "end": 89,
+            "raw": "1",
+            "value": 1
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 90,
+      "end": 98,
+      "directive": null,
+      "expression": {
+        "type": "CallExpression",
+        "start": 90,
+        "end": 98,
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 96,
+            "end": 97,
+            "decorators": [],
+            "name": "y",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        ],
+        "callee": {
+          "type": "Identifier",
+          "start": 90,
+          "end": 95,
+          "decorators": [],
+          "name": "artoo",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "optional": false,
+        "typeArguments": null
+      }
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

@@ -52,6 +52,56 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
+  "start": 19,
+  "end": 64,
+  "body": [
+    {
+      "type": "ExportAllDeclaration",
+      "start": 19,
+      "end": 38,
+      "attributes": [],
+      "exported": null,
+      "exportKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 33,
+        "end": 37,
+        "raw": "\"fs\"",
+        "value": "fs"
+      }
+    },
+    {
+      "type": "ExportAllDeclaration",
+      "start": 39,
+      "end": 64,
+      "attributes": [],
+      "exported": {
+        "type": "Identifier",
+        "start": 51,
+        "end": 53,
+        "decorators": [],
+        "name": "fs",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "exportKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 59,
+        "end": 63,
+        "raw": "\"fs\"",
+        "value": "fs"
+      }
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
   "start": 0,
   "end": 103,
   "body": [

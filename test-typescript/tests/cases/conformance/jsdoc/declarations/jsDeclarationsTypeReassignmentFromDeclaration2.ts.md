@@ -123,3 +123,118 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 62,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 0,
+      "end": 38,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 6,
+          "end": 37,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 6,
+            "end": 11,
+            "decorators": [],
+            "name": "items",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 14,
+            "end": 37,
+            "arguments": [],
+            "callee": {
+              "type": "CallExpression",
+              "start": 14,
+              "end": 35,
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 22,
+                  "end": 34,
+                  "raw": "\"./some-mod\"",
+                  "value": "./some-mod"
+                }
+              ],
+              "callee": {
+                "type": "Identifier",
+                "start": 14,
+                "end": 21,
+                "decorators": [],
+                "name": "require",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "optional": false,
+              "typeArguments": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 39,
+      "end": 62,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 39,
+        "end": 61,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 39,
+          "end": 53,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 39,
+            "end": 45,
+            "decorators": [],
+            "name": "module",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 46,
+            "end": 53,
+            "decorators": [],
+            "name": "exports",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "Identifier",
+          "start": 56,
+          "end": 61,
+          "decorators": [],
+          "name": "items",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

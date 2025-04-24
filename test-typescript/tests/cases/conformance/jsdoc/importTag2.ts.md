@@ -72,3 +72,61 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 82,
+  "end": 107,
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 82,
+      "end": 107,
+      "attributes": [],
+      "declaration": {
+        "type": "FunctionDeclaration",
+        "start": 89,
+        "end": 107,
+        "async": false,
+        "body": {
+          "type": "BlockStatement",
+          "start": 105,
+          "end": 107,
+          "body": []
+        },
+        "declare": false,
+        "expression": false,
+        "generator": false,
+        "id": {
+          "type": "Identifier",
+          "start": 98,
+          "end": 99,
+          "decorators": [],
+          "name": "f",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "params": [
+          {
+            "type": "Identifier",
+            "start": 100,
+            "end": 103,
+            "decorators": [],
+            "name": "foo",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        ],
+        "returnType": null,
+        "typeParameters": null
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": []
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

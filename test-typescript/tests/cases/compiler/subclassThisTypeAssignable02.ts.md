@@ -1339,3 +1339,55 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 35,
+  "end": 57,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 35,
+      "end": 57,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 41,
+          "end": 56,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 41,
+            "end": 46,
+            "decorators": [],
+            "name": "test9",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 49,
+            "end": 56,
+            "arguments": [],
+            "callee": {
+              "type": "Identifier",
+              "start": 53,
+              "end": 54,
+              "decorators": [],
+              "name": "C",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "const"
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

@@ -657,3 +657,2221 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1604,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 0,
+      "end": 27,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 4,
+          "end": 26,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 4,
+            "end": 16,
+            "decorators": [],
+            "name": "exportsAlias",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "Identifier",
+            "start": 19,
+            "end": 26,
+            "decorators": [],
+            "name": "exports",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 28,
+      "end": 65,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 28,
+        "end": 64,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 28,
+          "end": 46,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 28,
+            "end": 40,
+            "decorators": [],
+            "name": "exportsAlias",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 41,
+            "end": 46,
+            "decorators": [],
+            "name": "func1",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 49,
+          "end": 64,
+          "async": false,
+          "body": {
+            "type": "BlockStatement",
+            "start": 61,
+            "end": 64,
+            "body": []
+          },
+          "declare": false,
+          "expression": false,
+          "generator": false,
+          "id": null,
+          "params": [],
+          "returnType": null,
+          "typeParameters": null
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 66,
+      "end": 98,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 66,
+        "end": 97,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 66,
+          "end": 79,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 66,
+            "end": 73,
+            "decorators": [],
+            "name": "exports",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 74,
+            "end": 79,
+            "decorators": [],
+            "name": "func2",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 82,
+          "end": 97,
+          "async": false,
+          "body": {
+            "type": "BlockStatement",
+            "start": 94,
+            "end": 97,
+            "body": []
+          },
+          "declare": false,
+          "expression": false,
+          "generator": false,
+          "id": null,
+          "params": [],
+          "returnType": null,
+          "typeParameters": null
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 100,
+      "end": 140,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 104,
+          "end": 139,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 104,
+            "end": 122,
+            "decorators": [],
+            "name": "moduleExportsAlias",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 125,
+            "end": 139,
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "start": 125,
+              "end": 131,
+              "decorators": [],
+              "name": "module",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "property": {
+              "type": "Identifier",
+              "start": 132,
+              "end": 139,
+              "decorators": [],
+              "name": "exports",
+              "optional": false,
+              "typeAnnotation": null
+            }
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 141,
+      "end": 184,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 141,
+        "end": 183,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 141,
+          "end": 165,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 141,
+            "end": 159,
+            "decorators": [],
+            "name": "moduleExportsAlias",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 160,
+            "end": 165,
+            "decorators": [],
+            "name": "func3",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 168,
+          "end": 183,
+          "async": false,
+          "body": {
+            "type": "BlockStatement",
+            "start": 180,
+            "end": 183,
+            "body": []
+          },
+          "declare": false,
+          "expression": false,
+          "generator": false,
+          "id": null,
+          "params": [],
+          "returnType": null,
+          "typeParameters": null
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 185,
+      "end": 224,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 185,
+        "end": 223,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 185,
+          "end": 205,
+          "computed": false,
+          "object": {
+            "type": "MemberExpression",
+            "start": 185,
+            "end": 199,
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "start": 185,
+              "end": 191,
+              "decorators": [],
+              "name": "module",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "property": {
+              "type": "Identifier",
+              "start": 192,
+              "end": 199,
+              "decorators": [],
+              "name": "exports",
+              "optional": false,
+              "typeAnnotation": null
+            }
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 200,
+            "end": 205,
+            "decorators": [],
+            "name": "func4",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 208,
+          "end": 223,
+          "async": false,
+          "body": {
+            "type": "BlockStatement",
+            "start": 220,
+            "end": 223,
+            "body": []
+          },
+          "declare": false,
+          "expression": false,
+          "generator": false,
+          "id": null,
+          "params": [],
+          "returnType": null,
+          "typeParameters": null
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 226,
+      "end": 283,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 230,
+          "end": 282,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 230,
+            "end": 255,
+            "decorators": [],
+            "name": "multipleDeclarationAlias1",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "AssignmentExpression",
+            "start": 258,
+            "end": 282,
+            "operator": "=",
+            "left": {
+              "type": "Identifier",
+              "start": 258,
+              "end": 265,
+              "decorators": [],
+              "name": "exports",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "right": {
+              "type": "MemberExpression",
+              "start": 268,
+              "end": 282,
+              "computed": false,
+              "object": {
+                "type": "Identifier",
+                "start": 268,
+                "end": 274,
+                "decorators": [],
+                "name": "module",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "optional": false,
+              "property": {
+                "type": "Identifier",
+                "start": 275,
+                "end": 282,
+                "decorators": [],
+                "name": "exports",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            }
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 284,
+      "end": 334,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 284,
+        "end": 333,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 284,
+          "end": 315,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 284,
+            "end": 309,
+            "decorators": [],
+            "name": "multipleDeclarationAlias1",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 310,
+            "end": 315,
+            "decorators": [],
+            "name": "func5",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 318,
+          "end": 333,
+          "async": false,
+          "body": {
+            "type": "BlockStatement",
+            "start": 330,
+            "end": 333,
+            "body": []
+          },
+          "declare": false,
+          "expression": false,
+          "generator": false,
+          "id": null,
+          "params": [],
+          "returnType": null,
+          "typeParameters": null
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 336,
+      "end": 393,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 340,
+          "end": 392,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 340,
+            "end": 365,
+            "decorators": [],
+            "name": "multipleDeclarationAlias2",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "AssignmentExpression",
+            "start": 368,
+            "end": 392,
+            "operator": "=",
+            "left": {
+              "type": "MemberExpression",
+              "start": 368,
+              "end": 382,
+              "computed": false,
+              "object": {
+                "type": "Identifier",
+                "start": 368,
+                "end": 374,
+                "decorators": [],
+                "name": "module",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "optional": false,
+              "property": {
+                "type": "Identifier",
+                "start": 375,
+                "end": 382,
+                "decorators": [],
+                "name": "exports",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            },
+            "right": {
+              "type": "Identifier",
+              "start": 385,
+              "end": 392,
+              "decorators": [],
+              "name": "exports",
+              "optional": false,
+              "typeAnnotation": null
+            }
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 394,
+      "end": 444,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 394,
+        "end": 443,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 394,
+          "end": 425,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 394,
+            "end": 419,
+            "decorators": [],
+            "name": "multipleDeclarationAlias2",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 420,
+            "end": 425,
+            "decorators": [],
+            "name": "func6",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 428,
+          "end": 443,
+          "async": false,
+          "body": {
+            "type": "BlockStatement",
+            "start": 440,
+            "end": 443,
+            "body": []
+          },
+          "declare": false,
+          "expression": false,
+          "generator": false,
+          "id": null,
+          "params": [],
+          "returnType": null,
+          "typeParameters": null
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 446,
+      "end": 468,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 450,
+          "end": 467,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 450,
+            "end": 467,
+            "decorators": [],
+            "name": "someOtherVariable",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": null
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 469,
+      "end": 529,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 473,
+          "end": 528,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 473,
+            "end": 498,
+            "decorators": [],
+            "name": "multipleDeclarationAlias3",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "AssignmentExpression",
+            "start": 501,
+            "end": 528,
+            "operator": "=",
+            "left": {
+              "type": "Identifier",
+              "start": 501,
+              "end": 518,
+              "decorators": [],
+              "name": "someOtherVariable",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "right": {
+              "type": "Identifier",
+              "start": 521,
+              "end": 528,
+              "decorators": [],
+              "name": "exports",
+              "optional": false,
+              "typeAnnotation": null
+            }
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 530,
+      "end": 580,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 530,
+        "end": 579,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 530,
+          "end": 561,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 530,
+            "end": 555,
+            "decorators": [],
+            "name": "multipleDeclarationAlias3",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 556,
+            "end": 561,
+            "decorators": [],
+            "name": "func7",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 564,
+          "end": 579,
+          "async": false,
+          "body": {
+            "type": "BlockStatement",
+            "start": 576,
+            "end": 579,
+            "body": []
+          },
+          "declare": false,
+          "expression": false,
+          "generator": false,
+          "id": null,
+          "params": [],
+          "returnType": null,
+          "typeParameters": null
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 582,
+      "end": 649,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 586,
+          "end": 648,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 586,
+            "end": 611,
+            "decorators": [],
+            "name": "multipleDeclarationAlias4",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "AssignmentExpression",
+            "start": 614,
+            "end": 648,
+            "operator": "=",
+            "left": {
+              "type": "Identifier",
+              "start": 614,
+              "end": 631,
+              "decorators": [],
+              "name": "someOtherVariable",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "right": {
+              "type": "MemberExpression",
+              "start": 634,
+              "end": 648,
+              "computed": false,
+              "object": {
+                "type": "Identifier",
+                "start": 634,
+                "end": 640,
+                "decorators": [],
+                "name": "module",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "optional": false,
+              "property": {
+                "type": "Identifier",
+                "start": 641,
+                "end": 648,
+                "decorators": [],
+                "name": "exports",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            }
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 650,
+      "end": 700,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 650,
+        "end": 699,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 650,
+          "end": 681,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 650,
+            "end": 675,
+            "decorators": [],
+            "name": "multipleDeclarationAlias4",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 676,
+            "end": 681,
+            "decorators": [],
+            "name": "func8",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 684,
+          "end": 699,
+          "async": false,
+          "body": {
+            "type": "BlockStatement",
+            "start": 696,
+            "end": 699,
+            "body": []
+          },
+          "declare": false,
+          "expression": false,
+          "generator": false,
+          "id": null,
+          "params": [],
+          "returnType": null,
+          "typeParameters": null
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 702,
+      "end": 764,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 706,
+          "end": 763,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 706,
+            "end": 731,
+            "decorators": [],
+            "name": "multipleDeclarationAlias5",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "AssignmentExpression",
+            "start": 734,
+            "end": 763,
+            "operator": "=",
+            "left": {
+              "type": "MemberExpression",
+              "start": 734,
+              "end": 748,
+              "computed": false,
+              "object": {
+                "type": "Identifier",
+                "start": 734,
+                "end": 740,
+                "decorators": [],
+                "name": "module",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "optional": false,
+              "property": {
+                "type": "Identifier",
+                "start": 741,
+                "end": 748,
+                "decorators": [],
+                "name": "exports",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            },
+            "right": {
+              "type": "AssignmentExpression",
+              "start": 751,
+              "end": 763,
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "start": 751,
+                "end": 758,
+                "decorators": [],
+                "name": "exports",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "right": {
+                "type": "ObjectExpression",
+                "start": 761,
+                "end": 763,
+                "properties": []
+              }
+            }
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 765,
+      "end": 815,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 765,
+        "end": 814,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 765,
+          "end": 796,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 765,
+            "end": 790,
+            "decorators": [],
+            "name": "multipleDeclarationAlias5",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 791,
+            "end": 796,
+            "decorators": [],
+            "name": "func9",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 799,
+          "end": 814,
+          "async": false,
+          "body": {
+            "type": "BlockStatement",
+            "start": 811,
+            "end": 814,
+            "body": []
+          },
+          "declare": false,
+          "expression": false,
+          "generator": false,
+          "id": null,
+          "params": [],
+          "returnType": null,
+          "typeParameters": null
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 817,
+      "end": 879,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 821,
+          "end": 878,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 821,
+            "end": 846,
+            "decorators": [],
+            "name": "multipleDeclarationAlias6",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "AssignmentExpression",
+            "start": 849,
+            "end": 878,
+            "operator": "=",
+            "left": {
+              "type": "Identifier",
+              "start": 849,
+              "end": 856,
+              "decorators": [],
+              "name": "exports",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "right": {
+              "type": "AssignmentExpression",
+              "start": 859,
+              "end": 878,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 859,
+                "end": 873,
+                "computed": false,
+                "object": {
+                  "type": "Identifier",
+                  "start": 859,
+                  "end": 865,
+                  "decorators": [],
+                  "name": "module",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "optional": false,
+                "property": {
+                  "type": "Identifier",
+                  "start": 866,
+                  "end": 873,
+                  "decorators": [],
+                  "name": "exports",
+                  "optional": false,
+                  "typeAnnotation": null
+                }
+              },
+              "right": {
+                "type": "ObjectExpression",
+                "start": 876,
+                "end": 878,
+                "properties": []
+              }
+            }
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 880,
+      "end": 931,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 880,
+        "end": 930,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 880,
+          "end": 912,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 880,
+            "end": 905,
+            "decorators": [],
+            "name": "multipleDeclarationAlias6",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 906,
+            "end": 912,
+            "decorators": [],
+            "name": "func10",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 915,
+          "end": 930,
+          "async": false,
+          "body": {
+            "type": "BlockStatement",
+            "start": 927,
+            "end": 930,
+            "body": []
+          },
+          "declare": false,
+          "expression": false,
+          "generator": false,
+          "id": null,
+          "params": [],
+          "returnType": null,
+          "typeParameters": null
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 933,
+      "end": 983,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 933,
+        "end": 982,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 933,
+          "end": 940,
+          "decorators": [],
+          "name": "exports",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "right": {
+          "type": "AssignmentExpression",
+          "start": 943,
+          "end": 982,
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 943,
+            "end": 957,
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "start": 943,
+              "end": 949,
+              "decorators": [],
+              "name": "module",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "property": {
+              "type": "Identifier",
+              "start": 950,
+              "end": 957,
+              "decorators": [],
+              "name": "exports",
+              "optional": false,
+              "typeAnnotation": null
+            }
+          },
+          "right": {
+            "type": "AssignmentExpression",
+            "start": 960,
+            "end": 982,
+            "operator": "=",
+            "left": {
+              "type": "Identifier",
+              "start": 960,
+              "end": 977,
+              "decorators": [],
+              "name": "someOtherVariable",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "right": {
+              "type": "ObjectExpression",
+              "start": 980,
+              "end": 982,
+              "properties": []
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 984,
+      "end": 1017,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 984,
+        "end": 1016,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 984,
+          "end": 998,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 984,
+            "end": 991,
+            "decorators": [],
+            "name": "exports",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 992,
+            "end": 998,
+            "decorators": [],
+            "name": "func11",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 1001,
+          "end": 1016,
+          "async": false,
+          "body": {
+            "type": "BlockStatement",
+            "start": 1013,
+            "end": 1016,
+            "body": []
+          },
+          "declare": false,
+          "expression": false,
+          "generator": false,
+          "id": null,
+          "params": [],
+          "returnType": null,
+          "typeParameters": null
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1018,
+      "end": 1058,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1018,
+        "end": 1057,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1018,
+          "end": 1039,
+          "computed": false,
+          "object": {
+            "type": "MemberExpression",
+            "start": 1018,
+            "end": 1032,
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "start": 1018,
+              "end": 1024,
+              "decorators": [],
+              "name": "module",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "property": {
+              "type": "Identifier",
+              "start": 1025,
+              "end": 1032,
+              "decorators": [],
+              "name": "exports",
+              "optional": false,
+              "typeAnnotation": null
+            }
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 1033,
+            "end": 1039,
+            "decorators": [],
+            "name": "func12",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 1042,
+          "end": 1057,
+          "async": false,
+          "body": {
+            "type": "BlockStatement",
+            "start": 1054,
+            "end": 1057,
+            "body": []
+          },
+          "declare": false,
+          "expression": false,
+          "generator": false,
+          "id": null,
+          "params": [],
+          "returnType": null,
+          "typeParameters": null
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1060,
+      "end": 1110,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1060,
+        "end": 1109,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1060,
+          "end": 1067,
+          "decorators": [],
+          "name": "exports",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "right": {
+          "type": "AssignmentExpression",
+          "start": 1070,
+          "end": 1109,
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 1070,
+            "end": 1084,
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "start": 1070,
+              "end": 1076,
+              "decorators": [],
+              "name": "module",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "property": {
+              "type": "Identifier",
+              "start": 1077,
+              "end": 1084,
+              "decorators": [],
+              "name": "exports",
+              "optional": false,
+              "typeAnnotation": null
+            }
+          },
+          "right": {
+            "type": "AssignmentExpression",
+            "start": 1087,
+            "end": 1109,
+            "operator": "=",
+            "left": {
+              "type": "Identifier",
+              "start": 1087,
+              "end": 1104,
+              "decorators": [],
+              "name": "someOtherVariable",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "right": {
+              "type": "ObjectExpression",
+              "start": 1107,
+              "end": 1109,
+              "properties": []
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1111,
+      "end": 1144,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1111,
+        "end": 1143,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1111,
+          "end": 1125,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 1111,
+            "end": 1118,
+            "decorators": [],
+            "name": "exports",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 1119,
+            "end": 1125,
+            "decorators": [],
+            "name": "func11",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 1128,
+          "end": 1143,
+          "async": false,
+          "body": {
+            "type": "BlockStatement",
+            "start": 1140,
+            "end": 1143,
+            "body": []
+          },
+          "declare": false,
+          "expression": false,
+          "generator": false,
+          "id": null,
+          "params": [],
+          "returnType": null,
+          "typeParameters": null
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1145,
+      "end": 1185,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1145,
+        "end": 1184,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1145,
+          "end": 1166,
+          "computed": false,
+          "object": {
+            "type": "MemberExpression",
+            "start": 1145,
+            "end": 1159,
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "start": 1145,
+              "end": 1151,
+              "decorators": [],
+              "name": "module",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "property": {
+              "type": "Identifier",
+              "start": 1152,
+              "end": 1159,
+              "decorators": [],
+              "name": "exports",
+              "optional": false,
+              "typeAnnotation": null
+            }
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 1160,
+            "end": 1166,
+            "decorators": [],
+            "name": "func12",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 1169,
+          "end": 1184,
+          "async": false,
+          "body": {
+            "type": "BlockStatement",
+            "start": 1181,
+            "end": 1184,
+            "body": []
+          },
+          "declare": false,
+          "expression": false,
+          "generator": false,
+          "id": null,
+          "params": [],
+          "returnType": null,
+          "typeParameters": null
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1187,
+      "end": 1217,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1187,
+        "end": 1216,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1187,
+          "end": 1194,
+          "decorators": [],
+          "name": "exports",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "right": {
+          "type": "AssignmentExpression",
+          "start": 1197,
+          "end": 1216,
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 1197,
+            "end": 1211,
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "start": 1197,
+              "end": 1203,
+              "decorators": [],
+              "name": "module",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "property": {
+              "type": "Identifier",
+              "start": 1204,
+              "end": 1211,
+              "decorators": [],
+              "name": "exports",
+              "optional": false,
+              "typeAnnotation": null
+            }
+          },
+          "right": {
+            "type": "ObjectExpression",
+            "start": 1214,
+            "end": 1216,
+            "properties": []
+          }
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1218,
+      "end": 1251,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1218,
+        "end": 1250,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1218,
+          "end": 1232,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 1218,
+            "end": 1225,
+            "decorators": [],
+            "name": "exports",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 1226,
+            "end": 1232,
+            "decorators": [],
+            "name": "func13",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 1235,
+          "end": 1250,
+          "async": false,
+          "body": {
+            "type": "BlockStatement",
+            "start": 1247,
+            "end": 1250,
+            "body": []
+          },
+          "declare": false,
+          "expression": false,
+          "generator": false,
+          "id": null,
+          "params": [],
+          "returnType": null,
+          "typeParameters": null
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1252,
+      "end": 1292,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1252,
+        "end": 1291,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1252,
+          "end": 1273,
+          "computed": false,
+          "object": {
+            "type": "MemberExpression",
+            "start": 1252,
+            "end": 1266,
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "start": 1252,
+              "end": 1258,
+              "decorators": [],
+              "name": "module",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "property": {
+              "type": "Identifier",
+              "start": 1259,
+              "end": 1266,
+              "decorators": [],
+              "name": "exports",
+              "optional": false,
+              "typeAnnotation": null
+            }
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 1267,
+            "end": 1273,
+            "decorators": [],
+            "name": "func14",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 1276,
+          "end": 1291,
+          "async": false,
+          "body": {
+            "type": "BlockStatement",
+            "start": 1288,
+            "end": 1291,
+            "body": []
+          },
+          "declare": false,
+          "expression": false,
+          "generator": false,
+          "id": null,
+          "params": [],
+          "returnType": null,
+          "typeParameters": null
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1294,
+      "end": 1324,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1294,
+        "end": 1323,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1294,
+          "end": 1301,
+          "decorators": [],
+          "name": "exports",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "right": {
+          "type": "AssignmentExpression",
+          "start": 1304,
+          "end": 1323,
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 1304,
+            "end": 1318,
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "start": 1304,
+              "end": 1310,
+              "decorators": [],
+              "name": "module",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "property": {
+              "type": "Identifier",
+              "start": 1311,
+              "end": 1318,
+              "decorators": [],
+              "name": "exports",
+              "optional": false,
+              "typeAnnotation": null
+            }
+          },
+          "right": {
+            "type": "ObjectExpression",
+            "start": 1321,
+            "end": 1323,
+            "properties": []
+          }
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1325,
+      "end": 1358,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1325,
+        "end": 1357,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1325,
+          "end": 1339,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 1325,
+            "end": 1332,
+            "decorators": [],
+            "name": "exports",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 1333,
+            "end": 1339,
+            "decorators": [],
+            "name": "func15",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 1342,
+          "end": 1357,
+          "async": false,
+          "body": {
+            "type": "BlockStatement",
+            "start": 1354,
+            "end": 1357,
+            "body": []
+          },
+          "declare": false,
+          "expression": false,
+          "generator": false,
+          "id": null,
+          "params": [],
+          "returnType": null,
+          "typeParameters": null
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1359,
+      "end": 1399,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1359,
+        "end": 1398,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1359,
+          "end": 1380,
+          "computed": false,
+          "object": {
+            "type": "MemberExpression",
+            "start": 1359,
+            "end": 1373,
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "start": 1359,
+              "end": 1365,
+              "decorators": [],
+              "name": "module",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "property": {
+              "type": "Identifier",
+              "start": 1366,
+              "end": 1373,
+              "decorators": [],
+              "name": "exports",
+              "optional": false,
+              "typeAnnotation": null
+            }
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 1374,
+            "end": 1380,
+            "decorators": [],
+            "name": "func16",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 1383,
+          "end": 1398,
+          "async": false,
+          "body": {
+            "type": "BlockStatement",
+            "start": 1395,
+            "end": 1398,
+            "body": []
+          },
+          "declare": false,
+          "expression": false,
+          "generator": false,
+          "id": null,
+          "params": [],
+          "returnType": null,
+          "typeParameters": null
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1401,
+      "end": 1431,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1401,
+        "end": 1430,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1401,
+          "end": 1415,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 1401,
+            "end": 1407,
+            "decorators": [],
+            "name": "module",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 1408,
+            "end": 1415,
+            "decorators": [],
+            "name": "exports",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "AssignmentExpression",
+          "start": 1418,
+          "end": 1430,
+          "operator": "=",
+          "left": {
+            "type": "Identifier",
+            "start": 1418,
+            "end": 1425,
+            "decorators": [],
+            "name": "exports",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "right": {
+            "type": "ObjectExpression",
+            "start": 1428,
+            "end": 1430,
+            "properties": []
+          }
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1432,
+      "end": 1465,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1432,
+        "end": 1464,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1432,
+          "end": 1446,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 1432,
+            "end": 1439,
+            "decorators": [],
+            "name": "exports",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 1440,
+            "end": 1446,
+            "decorators": [],
+            "name": "func17",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 1449,
+          "end": 1464,
+          "async": false,
+          "body": {
+            "type": "BlockStatement",
+            "start": 1461,
+            "end": 1464,
+            "body": []
+          },
+          "declare": false,
+          "expression": false,
+          "generator": false,
+          "id": null,
+          "params": [],
+          "returnType": null,
+          "typeParameters": null
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1466,
+      "end": 1506,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1466,
+        "end": 1505,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1466,
+          "end": 1487,
+          "computed": false,
+          "object": {
+            "type": "MemberExpression",
+            "start": 1466,
+            "end": 1480,
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "start": 1466,
+              "end": 1472,
+              "decorators": [],
+              "name": "module",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "property": {
+              "type": "Identifier",
+              "start": 1473,
+              "end": 1480,
+              "decorators": [],
+              "name": "exports",
+              "optional": false,
+              "typeAnnotation": null
+            }
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 1481,
+            "end": 1487,
+            "decorators": [],
+            "name": "func18",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 1490,
+          "end": 1505,
+          "async": false,
+          "body": {
+            "type": "BlockStatement",
+            "start": 1502,
+            "end": 1505,
+            "body": []
+          },
+          "declare": false,
+          "expression": false,
+          "generator": false,
+          "id": null,
+          "params": [],
+          "returnType": null,
+          "typeParameters": null
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1508,
+      "end": 1528,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1508,
+        "end": 1527,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1508,
+          "end": 1522,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 1508,
+            "end": 1514,
+            "decorators": [],
+            "name": "module",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 1515,
+            "end": 1522,
+            "decorators": [],
+            "name": "exports",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "ObjectExpression",
+          "start": 1525,
+          "end": 1527,
+          "properties": []
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1529,
+      "end": 1562,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1529,
+        "end": 1561,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1529,
+          "end": 1543,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 1529,
+            "end": 1536,
+            "decorators": [],
+            "name": "exports",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 1537,
+            "end": 1543,
+            "decorators": [],
+            "name": "func19",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 1546,
+          "end": 1561,
+          "async": false,
+          "body": {
+            "type": "BlockStatement",
+            "start": 1558,
+            "end": 1561,
+            "body": []
+          },
+          "declare": false,
+          "expression": false,
+          "generator": false,
+          "id": null,
+          "params": [],
+          "returnType": null,
+          "typeParameters": null
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1563,
+      "end": 1603,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1563,
+        "end": 1602,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1563,
+          "end": 1584,
+          "computed": false,
+          "object": {
+            "type": "MemberExpression",
+            "start": 1563,
+            "end": 1577,
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "start": 1563,
+              "end": 1569,
+              "decorators": [],
+              "name": "module",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "property": {
+              "type": "Identifier",
+              "start": 1570,
+              "end": 1577,
+              "decorators": [],
+              "name": "exports",
+              "optional": false,
+              "typeAnnotation": null
+            }
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 1578,
+            "end": 1584,
+            "decorators": [],
+            "name": "func20",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 1587,
+          "end": 1602,
+          "async": false,
+          "body": {
+            "type": "BlockStatement",
+            "start": 1599,
+            "end": 1602,
+            "body": []
+          },
+          "declare": false,
+          "expression": false,
+          "generator": false,
+          "id": null,
+          "params": [],
+          "returnType": null,
+          "typeParameters": null
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

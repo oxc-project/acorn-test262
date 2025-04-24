@@ -3,6 +3,123 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 0,
+  "end": 95,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 0,
+      "end": 33,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 6,
+          "end": 32,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 6,
+            "end": 11,
+            "decorators": [],
+            "name": "other",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 14,
+            "end": 32,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 22,
+                "end": 31,
+                "raw": "'./other'",
+                "value": "./other"
+              }
+            ],
+            "callee": {
+              "type": "Identifier",
+              "start": 14,
+              "end": 21,
+              "decorators": [],
+              "name": "require",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 68,
+      "end": 76,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 72,
+          "end": 75,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 72,
+            "end": 75,
+            "decorators": [],
+            "name": "ppk",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": null
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 77,
+      "end": 95,
+      "directive": null,
+      "expression": {
+        "type": "MemberExpression",
+        "start": 77,
+        "end": 94,
+        "computed": false,
+        "object": {
+          "type": "Identifier",
+          "start": 77,
+          "end": 86,
+          "decorators": [],
+          "name": "Puppeteer",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "optional": false,
+        "property": {
+          "type": "Identifier",
+          "start": 87,
+          "end": 94,
+          "decorators": [],
+          "name": "connect",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
   "end": 122,
   "body": [
     {

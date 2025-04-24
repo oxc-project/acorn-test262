@@ -479,3 +479,351 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 263,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 0,
+      "end": 38,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 29,
+        "end": 37,
+        "raw": "'events'",
+        "value": "events"
+      },
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 9,
+          "end": 21,
+          "imported": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 21,
+            "decorators": [],
+            "name": "EventEmitter",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "importKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 21,
+            "decorators": [],
+            "name": "EventEmitter",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ]
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 39,
+      "end": 83,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 61,
+        "end": 82,
+        "raw": "'nestNamespaceModule'",
+        "value": "nestNamespaceModule"
+      },
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 48,
+          "end": 50,
+          "imported": {
+            "type": "Identifier",
+            "start": 48,
+            "end": 50,
+            "decorators": [],
+            "name": "n3",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "importKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 48,
+            "end": 50,
+            "decorators": [],
+            "name": "n3",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        {
+          "type": "ImportSpecifier",
+          "start": 52,
+          "end": 53,
+          "imported": {
+            "type": "Identifier",
+            "start": 52,
+            "end": 53,
+            "decorators": [],
+            "name": "d",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "importKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 52,
+            "end": 53,
+            "decorators": [],
+            "name": "d",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ]
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 84,
+      "end": 117,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 102,
+        "end": 116,
+        "raw": "'renameModule'",
+        "value": "renameModule"
+      },
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 93,
+          "end": 94,
+          "imported": {
+            "type": "Identifier",
+            "start": 93,
+            "end": 94,
+            "decorators": [],
+            "name": "c",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "importKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 93,
+            "end": 94,
+            "decorators": [],
+            "name": "c",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 119,
+      "end": 160,
+      "attributes": [],
+      "declaration": {
+        "type": "ClassDeclaration",
+        "start": 126,
+        "end": 160,
+        "abstract": false,
+        "body": {
+          "type": "ClassBody",
+          "start": 157,
+          "end": 160,
+          "body": []
+        },
+        "declare": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "start": 132,
+          "end": 135,
+          "decorators": [],
+          "name": "Foo",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "implements": [],
+        "superClass": {
+          "type": "Identifier",
+          "start": 144,
+          "end": 156,
+          "decorators": [],
+          "name": "EventEmitter",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "superTypeArguments": null,
+        "typeParameters": null
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": []
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 162,
+      "end": 196,
+      "attributes": [],
+      "declaration": {
+        "type": "ClassDeclaration",
+        "start": 169,
+        "end": 196,
+        "abstract": false,
+        "body": {
+          "type": "ClassBody",
+          "start": 193,
+          "end": 196,
+          "body": []
+        },
+        "declare": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "start": 175,
+          "end": 179,
+          "decorators": [],
+          "name": "Foo2",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "implements": [],
+        "superClass": {
+          "type": "MemberExpression",
+          "start": 188,
+          "end": 192,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 188,
+            "end": 190,
+            "decorators": [],
+            "name": "n3",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 191,
+            "end": 192,
+            "decorators": [],
+            "name": "c",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "superTypeArguments": null,
+        "typeParameters": null
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": []
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 198,
+      "end": 229,
+      "attributes": [],
+      "declaration": {
+        "type": "ClassDeclaration",
+        "start": 205,
+        "end": 229,
+        "abstract": false,
+        "body": {
+          "type": "ClassBody",
+          "start": 226,
+          "end": 229,
+          "body": []
+        },
+        "declare": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "start": 211,
+          "end": 215,
+          "decorators": [],
+          "name": "Foo3",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "implements": [],
+        "superClass": {
+          "type": "Identifier",
+          "start": 224,
+          "end": 225,
+          "decorators": [],
+          "name": "d",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "superTypeArguments": null,
+        "typeParameters": null
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": []
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 231,
+      "end": 263,
+      "attributes": [],
+      "declaration": {
+        "type": "ClassDeclaration",
+        "start": 238,
+        "end": 263,
+        "abstract": false,
+        "body": {
+          "type": "ClassBody",
+          "start": 259,
+          "end": 263,
+          "body": []
+        },
+        "declare": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "start": 244,
+          "end": 248,
+          "decorators": [],
+          "name": "Foo4",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "implements": [],
+        "superClass": {
+          "type": "Identifier",
+          "start": 257,
+          "end": 258,
+          "decorators": [],
+          "name": "c",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "superTypeArguments": null,
+        "typeParameters": null
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": []
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

@@ -3,6 +3,351 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 0,
+  "end": 189,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 0,
+      "end": 11,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 4,
+          "end": 10,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 4,
+            "end": 5,
+            "decorators": [],
+            "name": "a",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "Literal",
+            "start": 8,
+            "end": 10,
+            "raw": "10",
+            "value": 10
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 12,
+      "end": 19,
+      "directive": null,
+      "expression": {
+        "type": "MemberExpression",
+        "start": 12,
+        "end": 18,
+        "computed": false,
+        "object": {
+          "type": "ThisExpression",
+          "start": 12,
+          "end": 16
+        },
+        "optional": false,
+        "property": {
+          "type": "Identifier",
+          "start": 17,
+          "end": 18,
+          "decorators": [],
+          "name": "a",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 20,
+      "end": 27,
+      "directive": null,
+      "expression": {
+        "type": "MemberExpression",
+        "start": 20,
+        "end": 26,
+        "computed": false,
+        "object": {
+          "type": "ThisExpression",
+          "start": 20,
+          "end": 24
+        },
+        "optional": false,
+        "property": {
+          "type": "Identifier",
+          "start": 25,
+          "end": 26,
+          "decorators": [],
+          "name": "b",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 28,
+      "end": 41,
+      "directive": null,
+      "expression": {
+        "type": "MemberExpression",
+        "start": 28,
+        "end": 40,
+        "computed": false,
+        "object": {
+          "type": "Identifier",
+          "start": 28,
+          "end": 38,
+          "decorators": [],
+          "name": "globalThis",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "optional": false,
+        "property": {
+          "type": "Identifier",
+          "start": 39,
+          "end": 40,
+          "decorators": [],
+          "name": "a",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 42,
+      "end": 55,
+      "directive": null,
+      "expression": {
+        "type": "MemberExpression",
+        "start": 42,
+        "end": 54,
+        "computed": false,
+        "object": {
+          "type": "Identifier",
+          "start": 42,
+          "end": 52,
+          "decorators": [],
+          "name": "globalThis",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "optional": false,
+        "property": {
+          "type": "Identifier",
+          "start": 53,
+          "end": 54,
+          "decorators": [],
+          "name": "b",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 139,
+      "end": 146,
+      "directive": null,
+      "expression": {
+        "type": "MemberExpression",
+        "start": 139,
+        "end": 145,
+        "computed": false,
+        "object": {
+          "type": "Identifier",
+          "start": 139,
+          "end": 143,
+          "decorators": [],
+          "name": "self",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "optional": false,
+        "property": {
+          "type": "Identifier",
+          "start": 144,
+          "end": 145,
+          "decorators": [],
+          "name": "a",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 147,
+      "end": 154,
+      "directive": null,
+      "expression": {
+        "type": "MemberExpression",
+        "start": 147,
+        "end": 153,
+        "computed": false,
+        "object": {
+          "type": "Identifier",
+          "start": 147,
+          "end": 151,
+          "decorators": [],
+          "name": "self",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "optional": false,
+        "property": {
+          "type": "Identifier",
+          "start": 152,
+          "end": 153,
+          "decorators": [],
+          "name": "b",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 155,
+      "end": 164,
+      "directive": null,
+      "expression": {
+        "type": "MemberExpression",
+        "start": 155,
+        "end": 163,
+        "computed": false,
+        "object": {
+          "type": "Identifier",
+          "start": 155,
+          "end": 161,
+          "decorators": [],
+          "name": "window",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "optional": false,
+        "property": {
+          "type": "Identifier",
+          "start": 162,
+          "end": 163,
+          "decorators": [],
+          "name": "a",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 165,
+      "end": 174,
+      "directive": null,
+      "expression": {
+        "type": "MemberExpression",
+        "start": 165,
+        "end": 173,
+        "computed": false,
+        "object": {
+          "type": "Identifier",
+          "start": 165,
+          "end": 171,
+          "decorators": [],
+          "name": "window",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "optional": false,
+        "property": {
+          "type": "Identifier",
+          "start": 172,
+          "end": 173,
+          "decorators": [],
+          "name": "b",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 175,
+      "end": 181,
+      "directive": null,
+      "expression": {
+        "type": "MemberExpression",
+        "start": 175,
+        "end": 180,
+        "computed": false,
+        "object": {
+          "type": "Identifier",
+          "start": 175,
+          "end": 178,
+          "decorators": [],
+          "name": "top",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "optional": false,
+        "property": {
+          "type": "Identifier",
+          "start": 179,
+          "end": 180,
+          "decorators": [],
+          "name": "a",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 182,
+      "end": 188,
+      "directive": null,
+      "expression": {
+        "type": "MemberExpression",
+        "start": 182,
+        "end": 187,
+        "computed": false,
+        "object": {
+          "type": "Identifier",
+          "start": 182,
+          "end": 185,
+          "decorators": [],
+          "name": "top",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "optional": false,
+        "property": {
+          "type": "Identifier",
+          "start": 186,
+          "end": 187,
+          "decorators": [],
+          "name": "b",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
   "end": 155,
   "body": [
     {

@@ -2130,3 +2130,194 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 20,
+  "end": 124,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 20,
+      "end": 58,
+      "async": false,
+      "body": {
+        "type": "BlockStatement",
+        "start": 40,
+        "end": 58,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 42,
+            "end": 56,
+            "directive": null,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 42,
+              "end": 56,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 42,
+                "end": 50,
+                "computed": false,
+                "object": {
+                  "type": "ThisExpression",
+                  "start": 42,
+                  "end": 46
+                },
+                "optional": false,
+                "property": {
+                  "type": "Identifier",
+                  "start": 47,
+                  "end": 50,
+                  "decorators": [],
+                  "name": "val",
+                  "optional": false,
+                  "typeAnnotation": null
+                }
+              },
+              "right": {
+                "type": "Identifier",
+                "start": 53,
+                "end": 56,
+                "decorators": [],
+                "name": "val",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            }
+          }
+        ]
+      },
+      "declare": false,
+      "expression": false,
+      "generator": false,
+      "id": {
+        "type": "Identifier",
+        "start": 29,
+        "end": 34,
+        "decorators": [],
+        "name": "AtTop",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 35,
+          "end": 38,
+          "decorators": [],
+          "name": "val",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      ],
+      "returnType": null,
+      "typeParameters": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 76,
+      "end": 86,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 80,
+          "end": 85,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 80,
+            "end": 81,
+            "decorators": [],
+            "name": "v",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "Literal",
+            "start": 84,
+            "end": 85,
+            "raw": "1",
+            "value": 1
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 87,
+      "end": 124,
+      "alternate": null,
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 111,
+        "end": 124,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 117,
+            "end": 122,
+            "directive": null,
+            "expression": {
+              "type": "MemberExpression",
+              "start": 117,
+              "end": 122,
+              "computed": false,
+              "object": {
+                "type": "Identifier",
+                "start": 117,
+                "end": 118,
+                "decorators": [],
+                "name": "v",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "optional": false,
+              "property": {
+                "type": "Identifier",
+                "start": 119,
+                "end": 122,
+                "decorators": [],
+                "name": "val",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            }
+          }
+        ]
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "start": 91,
+        "end": 109,
+        "operator": "instanceof",
+        "left": {
+          "type": "Identifier",
+          "start": 91,
+          "end": 92,
+          "decorators": [],
+          "name": "v",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "right": {
+          "type": "Identifier",
+          "start": 104,
+          "end": 109,
+          "decorators": [],
+          "name": "AtTop",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

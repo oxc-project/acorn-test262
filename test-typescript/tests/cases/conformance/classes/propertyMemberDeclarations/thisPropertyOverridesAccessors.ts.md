@@ -141,3 +141,151 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 86,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 0,
+      "end": 86,
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "start": 22,
+        "end": 86,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 28,
+            "end": 84,
+            "accessibility": null,
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 28,
+              "end": 39,
+              "decorators": [],
+              "name": "constructor",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "kind": "constructor",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "FunctionExpression",
+              "start": 39,
+              "end": 84,
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "start": 42,
+                "end": 84,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 52,
+                    "end": 59,
+                    "directive": null,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 52,
+                      "end": 59,
+                      "arguments": [],
+                      "callee": {
+                        "type": "Super",
+                        "start": 52,
+                        "end": 57
+                      },
+                      "optional": false,
+                      "typeArguments": null
+                    }
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 68,
+                    "end": 78,
+                    "directive": null,
+                    "expression": {
+                      "type": "AssignmentExpression",
+                      "start": 68,
+                      "end": 78,
+                      "operator": "=",
+                      "left": {
+                        "type": "MemberExpression",
+                        "start": 68,
+                        "end": 74,
+                        "computed": false,
+                        "object": {
+                          "type": "ThisExpression",
+                          "start": 68,
+                          "end": 72
+                        },
+                        "optional": false,
+                        "property": {
+                          "type": "Identifier",
+                          "start": 73,
+                          "end": 74,
+                          "decorators": [],
+                          "name": "p",
+                          "optional": false,
+                          "typeAnnotation": null
+                        }
+                      },
+                      "right": {
+                        "type": "Literal",
+                        "start": 77,
+                        "end": 78,
+                        "raw": "2",
+                        "value": 2
+                      }
+                    }
+                  }
+                ]
+              },
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
+            }
+          }
+        ]
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 9,
+        "decorators": [],
+        "name": "Bar",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "implements": [],
+      "superClass": {
+        "type": "Identifier",
+        "start": 18,
+        "end": 21,
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
