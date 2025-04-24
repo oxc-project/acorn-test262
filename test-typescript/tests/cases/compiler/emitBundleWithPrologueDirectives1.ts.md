@@ -2,31 +2,31 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 71,
-  "end": 118,
+  "start": 45,
+  "end": 92,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 71,
-      "end": 90,
+      "start": 45,
+      "end": 64,
       "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 78,
-        "end": 90,
+        "start": 52,
+        "end": 64,
         "abstract": false,
         "body": {
           "type": "ClassBody",
-          "start": 88,
-          "end": 90,
+          "start": 62,
+          "end": 64,
           "body": []
         },
         "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 84,
-          "end": 87,
+          "start": 58,
+          "end": 61,
           "decorators": [],
           "name": "Doo",
           "optional": false,
@@ -43,21 +43,21 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ClassDeclaration",
-      "start": 91,
-      "end": 118,
+      "start": 65,
+      "end": 92,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 116,
-        "end": 118,
+        "start": 90,
+        "end": 92,
         "body": []
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 97,
-        "end": 103,
+        "start": 71,
+        "end": 77,
         "decorators": [],
         "name": "Scooby",
         "optional": false,
@@ -66,8 +66,8 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "superClass": {
         "type": "Identifier",
-        "start": 112,
-        "end": 115,
+        "start": 86,
+        "end": 89,
         "decorators": [],
         "name": "Doo",
         "optional": false,

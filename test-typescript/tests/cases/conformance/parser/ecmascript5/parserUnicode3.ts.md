@@ -2,26 +2,26 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 13,
+  "start": 0,
+  "end": 12,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 1,
-      "end": 13,
+      "start": 0,
+      "end": 12,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 10,
-        "end": 13,
+        "start": 9,
+        "end": 12,
         "body": []
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 9,
+        "start": 6,
+        "end": 8,
         "decorators": [],
         "name": "剩下",
         "optional": false,

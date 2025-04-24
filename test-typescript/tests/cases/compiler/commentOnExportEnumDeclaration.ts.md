@@ -2,32 +2,32 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 20,
-  "end": 53,
+  "start": 19,
+  "end": 52,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 20,
-      "end": 53,
+      "start": 19,
+      "end": 52,
       "attributes": [],
       "declaration": {
         "type": "TSEnumDeclaration",
-        "start": 27,
-        "end": 53,
+        "start": 26,
+        "end": 52,
         "body": {
           "type": "TSEnumBody",
-          "start": 38,
-          "end": 53,
+          "start": 37,
+          "end": 52,
           "members": [
             {
               "type": "TSEnumMember",
-              "start": 44,
-              "end": 45,
+              "start": 43,
+              "end": 44,
               "computed": false,
               "id": {
                 "type": "Identifier",
-                "start": 44,
-                "end": 45,
+                "start": 43,
+                "end": 44,
                 "decorators": [],
                 "name": "r",
                 "optional": false,
@@ -37,13 +37,13 @@ __ESTREE_TEST__:PASS:
             },
             {
               "type": "TSEnumMember",
-              "start": 47,
-              "end": 48,
+              "start": 46,
+              "end": 47,
               "computed": false,
               "id": {
                 "type": "Identifier",
-                "start": 47,
-                "end": 48,
+                "start": 46,
+                "end": 47,
                 "decorators": [],
                 "name": "g",
                 "optional": false,
@@ -53,13 +53,13 @@ __ESTREE_TEST__:PASS:
             },
             {
               "type": "TSEnumMember",
-              "start": 50,
-              "end": 51,
+              "start": 49,
+              "end": 50,
               "computed": false,
               "id": {
                 "type": "Identifier",
-                "start": 50,
-                "end": 51,
+                "start": 49,
+                "end": 50,
                 "decorators": [],
                 "name": "b",
                 "optional": false,
@@ -73,8 +73,8 @@ __ESTREE_TEST__:PASS:
         "declare": false,
         "id": {
           "type": "Identifier",
-          "start": 32,
-          "end": 37,
+          "start": 31,
+          "end": 36,
           "decorators": [],
           "name": "Color",
           "optional": false,

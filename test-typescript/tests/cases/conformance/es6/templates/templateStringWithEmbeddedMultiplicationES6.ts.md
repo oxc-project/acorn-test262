@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 17,
-  "end": 44,
+  "start": 0,
+  "end": 27,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 17,
-      "end": 44,
+      "start": 0,
+      "end": 27,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 21,
-          "end": 43,
+          "start": 4,
+          "end": 26,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 21,
-            "end": 22,
+            "start": 4,
+            "end": 5,
             "decorators": [],
             "name": "x",
             "optional": false,
@@ -26,25 +26,25 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 25,
-            "end": 43,
+            "start": 8,
+            "end": 26,
             "expressions": [
               {
                 "type": "BinaryExpression",
-                "start": 32,
-                "end": 37,
+                "start": 15,
+                "end": 20,
                 "operator": "*",
                 "left": {
                   "type": "Literal",
-                  "start": 32,
-                  "end": 33,
+                  "start": 15,
+                  "end": 16,
                   "raw": "7",
                   "value": 7
                 },
                 "right": {
                   "type": "Literal",
-                  "start": 36,
-                  "end": 37,
+                  "start": 19,
+                  "end": 20,
                   "raw": "6",
                   "value": 6
                 }
@@ -53,8 +53,8 @@ __ESTREE_TEST__:PASS:
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 25,
-                "end": 31,
+                "start": 8,
+                "end": 14,
                 "tail": false,
                 "value": {
                   "cooked": "abc",
@@ -63,8 +63,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "TemplateElement",
-                "start": 38,
-                "end": 43,
+                "start": 21,
+                "end": 26,
                 "tail": true,
                 "value": {
                   "cooked": "def",

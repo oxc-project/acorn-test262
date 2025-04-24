@@ -2,71 +2,71 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 16,
-  "end": 76,
+  "start": 0,
+  "end": 60,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 16,
-      "end": 76,
+      "start": 0,
+      "end": 60,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 20,
-          "end": 75,
+          "start": 4,
+          "end": 59,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 20,
-            "end": 57,
+            "start": 4,
+            "end": 41,
             "decorators": [],
             "name": "iter",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 24,
-              "end": 57,
+              "start": 8,
+              "end": 41,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 26,
-                "end": 57,
+                "start": 10,
+                "end": 41,
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
-                  "start": 34,
-                  "end": 57,
+                  "start": 18,
+                  "end": 41,
                   "params": [
                     {
                       "type": "TSFunctionType",
-                      "start": 35,
-                      "end": 56,
+                      "start": 19,
+                      "end": 40,
                       "params": [
                         {
                           "type": "Identifier",
-                          "start": 36,
-                          "end": 45,
+                          "start": 20,
+                          "end": 29,
                           "decorators": [],
                           "name": "x",
                           "optional": false,
                           "typeAnnotation": {
                             "type": "TSTypeAnnotation",
-                            "start": 37,
-                            "end": 45,
+                            "start": 21,
+                            "end": 29,
                             "typeAnnotation": {
                               "type": "TSStringKeyword",
-                              "start": 39,
-                              "end": 45
+                              "start": 23,
+                              "end": 29
                             }
                           }
                         }
                       ],
                       "returnType": {
                         "type": "TSTypeAnnotation",
-                        "start": 47,
-                        "end": 56,
+                        "start": 31,
+                        "end": 40,
                         "typeAnnotation": {
                           "type": "TSNumberKeyword",
-                          "start": 50,
-                          "end": 56
+                          "start": 34,
+                          "end": 40
                         }
                       },
                       "typeParameters": null
@@ -75,8 +75,8 @@ __ESTREE_TEST__:PASS:
                 },
                 "typeName": {
                   "type": "Identifier",
-                  "start": 26,
-                  "end": 34,
+                  "start": 10,
+                  "end": 18,
                   "decorators": [],
                   "name": "Iterable",
                   "optional": false,
@@ -87,23 +87,23 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 60,
-            "end": 75,
+            "start": 44,
+            "end": 59,
             "elements": [
               {
                 "type": "ArrowFunctionExpression",
-                "start": 61,
-                "end": 74,
+                "start": 45,
+                "end": 58,
                 "async": false,
                 "body": {
                   "type": "MemberExpression",
-                  "start": 66,
-                  "end": 74,
+                  "start": 50,
+                  "end": 58,
                   "computed": false,
                   "object": {
                     "type": "Identifier",
-                    "start": 66,
-                    "end": 67,
+                    "start": 50,
+                    "end": 51,
                     "decorators": [],
                     "name": "s",
                     "optional": false,
@@ -112,8 +112,8 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 68,
-                    "end": 74,
+                    "start": 52,
+                    "end": 58,
                     "decorators": [],
                     "name": "length",
                     "optional": false,
@@ -126,8 +126,8 @@ __ESTREE_TEST__:PASS:
                 "params": [
                   {
                     "type": "Identifier",
-                    "start": 61,
-                    "end": 62,
+                    "start": 45,
+                    "end": 46,
                     "decorators": [],
                     "name": "s",
                     "optional": false,

@@ -2,27 +2,27 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 76,
+  "start": 0,
+  "end": 75,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1,
-      "end": 76,
+      "start": 0,
+      "end": 75,
       "directive": null,
       "expression": {
         "type": "TaggedTemplateExpression",
-        "start": 1,
-        "end": 76,
+        "start": 0,
+        "end": 75,
         "quasi": {
           "type": "TemplateLiteral",
-          "start": 42,
-          "end": 76,
+          "start": 41,
+          "end": 75,
           "expressions": [
             {
               "type": "Literal",
-              "start": 48,
-              "end": 52,
+              "start": 47,
+              "end": 51,
               "raw": "\"AM\"",
               "value": "AM"
             }
@@ -30,8 +30,8 @@ __ESTREE_TEST__:PASS:
           "quasis": [
             {
               "type": "TemplateElement",
-              "start": 42,
-              "end": 47,
+              "start": 41,
+              "end": 46,
               "tail": false,
               "value": {
                 "cooked": "I ",
@@ -40,8 +40,8 @@ __ESTREE_TEST__:PASS:
             },
             {
               "type": "TemplateElement",
-              "start": 53,
-              "end": 76,
+              "start": 52,
+              "end": 75,
               "tail": true,
               "value": {
                 "cooked": " THE TEMPLATE PORTION",
@@ -52,24 +52,24 @@ __ESTREE_TEST__:PASS:
         },
         "tag": {
           "type": "TemplateLiteral",
-          "start": 1,
-          "end": 38,
+          "start": 0,
+          "end": 37,
           "expressions": [
             {
               "type": "TemplateLiteral",
-              "start": 14,
-              "end": 27,
+              "start": 13,
+              "end": 26,
               "expressions": [
                 {
                   "type": "TemplateLiteral",
-                  "start": 18,
-                  "end": 23,
+                  "start": 17,
+                  "end": 22,
                   "expressions": [],
                   "quasis": [
                     {
                       "type": "TemplateElement",
-                      "start": 18,
-                      "end": 23,
+                      "start": 17,
+                      "end": 22,
                       "tail": true,
                       "value": {
                         "cooked": "TAG",
@@ -82,8 +82,8 @@ __ESTREE_TEST__:PASS:
               "quasis": [
                 {
                   "type": "TemplateElement",
-                  "start": 14,
-                  "end": 17,
+                  "start": 13,
+                  "end": 16,
                   "tail": false,
                   "value": {
                     "cooked": "",
@@ -92,8 +92,8 @@ __ESTREE_TEST__:PASS:
                 },
                 {
                   "type": "TemplateElement",
-                  "start": 24,
-                  "end": 27,
+                  "start": 23,
+                  "end": 26,
                   "tail": true,
                   "value": {
                     "cooked": " ",
@@ -106,8 +106,8 @@ __ESTREE_TEST__:PASS:
           "quasis": [
             {
               "type": "TemplateElement",
-              "start": 1,
-              "end": 13,
+              "start": 0,
+              "end": 12,
               "tail": false,
               "value": {
                 "cooked": "I AM THE ",
@@ -116,8 +116,8 @@ __ESTREE_TEST__:PASS:
             },
             {
               "type": "TemplateElement",
-              "start": 28,
-              "end": 38,
+              "start": 27,
+              "end": 37,
               "tail": true,
               "value": {
                 "cooked": " PORTION",

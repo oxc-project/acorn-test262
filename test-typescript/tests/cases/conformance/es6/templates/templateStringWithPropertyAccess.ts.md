@@ -2,29 +2,29 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 29,
+  "start": 0,
+  "end": 28,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1,
-      "end": 29,
+      "start": 0,
+      "end": 28,
       "directive": null,
       "expression": {
         "type": "CallExpression",
-        "start": 1,
-        "end": 28,
+        "start": 0,
+        "end": 27,
         "arguments": [
           {
             "type": "TemplateLiteral",
-            "start": 22,
-            "end": 27,
+            "start": 21,
+            "end": 26,
             "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 22,
-                "end": 27,
+                "start": 21,
+                "end": 26,
                 "tail": true,
                 "value": {
                   "cooked": "abc",
@@ -36,18 +36,18 @@ __ESTREE_TEST__:PASS:
         ],
         "callee": {
           "type": "MemberExpression",
-          "start": 1,
-          "end": 21,
+          "start": 0,
+          "end": 20,
           "computed": false,
           "object": {
             "type": "TemplateLiteral",
-            "start": 1,
-            "end": 13,
+            "start": 0,
+            "end": 12,
             "expressions": [
               {
                 "type": "Literal",
-                "start": 7,
-                "end": 8,
+                "start": 6,
+                "end": 7,
                 "raw": "0",
                 "value": 0
               }
@@ -55,8 +55,8 @@ __ESTREE_TEST__:PASS:
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 1,
-                "end": 7,
+                "start": 0,
+                "end": 6,
                 "tail": false,
                 "value": {
                   "cooked": "abc",
@@ -65,8 +65,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "TemplateElement",
-                "start": 8,
-                "end": 13,
+                "start": 7,
+                "end": 12,
                 "tail": true,
                 "value": {
                   "cooked": "abc",
@@ -78,8 +78,8 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "property": {
             "type": "Identifier",
-            "start": 14,
-            "end": 21,
+            "start": 13,
+            "end": 20,
             "decorators": [],
             "name": "indexOf",
             "optional": false,

@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 17,
-  "end": 50,
+  "start": 0,
+  "end": 33,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 17,
-      "end": 50,
+      "start": 0,
+      "end": 33,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 21,
-          "end": 49,
+          "start": 4,
+          "end": 32,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 21,
-            "end": 22,
+            "start": 4,
+            "end": 5,
             "decorators": [],
             "name": "x",
             "optional": false,
@@ -26,17 +26,17 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 25,
-            "end": 49,
+            "start": 8,
+            "end": 32,
             "expressions": [
               {
                 "type": "UnaryExpression",
-                "start": 32,
-                "end": 43,
+                "start": 15,
+                "end": 26,
                 "argument": {
                   "type": "Literal",
-                  "start": 39,
-                  "end": 43,
+                  "start": 22,
+                  "end": 26,
                   "raw": "\"hi\"",
                   "value": "hi"
                 },
@@ -47,8 +47,8 @@ __ESTREE_TEST__:PASS:
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 25,
-                "end": 31,
+                "start": 8,
+                "end": 14,
                 "tail": false,
                 "value": {
                   "cooked": "abc",
@@ -57,8 +57,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "TemplateElement",
-                "start": 44,
-                "end": 49,
+                "start": 27,
+                "end": 32,
                 "tail": true,
                 "value": {
                   "cooked": "def",

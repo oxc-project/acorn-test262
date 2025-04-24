@@ -2,35 +2,35 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 2,
-  "end": 24,
+  "start": 0,
+  "end": 22,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 2,
-      "end": 24,
+      "start": 0,
+      "end": 22,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 24,
+          "start": 4,
+          "end": 22,
           "definite": false,
           "id": {
             "type": "ObjectPattern",
-            "start": 6,
-            "end": 12,
+            "start": 4,
+            "end": 10,
             "decorators": [],
             "optional": false,
             "properties": [
               {
                 "type": "Property",
-                "start": 8,
-                "end": 10,
+                "start": 6,
+                "end": 8,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 8,
-                  "end": 10,
+                  "start": 6,
+                  "end": 8,
                   "decorators": [],
                   "name": "as",
                   "optional": false,
@@ -42,8 +42,8 @@ __ESTREE_TEST__:PASS:
                 "shorthand": true,
                 "value": {
                   "type": "Identifier",
-                  "start": 8,
-                  "end": 10,
+                  "start": 6,
+                  "end": 8,
                   "decorators": [],
                   "name": "as",
                   "optional": false,
@@ -55,18 +55,18 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 15,
-            "end": 24,
+            "start": 13,
+            "end": 22,
             "properties": [
               {
                 "type": "Property",
-                "start": 17,
-                "end": 22,
+                "start": 15,
+                "end": 20,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 17,
-                  "end": 19,
+                  "start": 15,
+                  "end": 17,
                   "decorators": [],
                   "name": "as",
                   "optional": false,
@@ -78,8 +78,8 @@ __ESTREE_TEST__:PASS:
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 21,
-                  "end": 22,
+                  "start": 19,
+                  "end": 20,
                   "raw": "1",
                   "value": 1
                 }

@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 39,
+  "start": 0,
+  "end": 38,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 1,
-      "end": 38,
+      "start": 0,
+      "end": 37,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 9,
-        "end": 38,
+        "start": 8,
+        "end": 37,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 15,
-            "end": 23,
+            "start": 14,
+            "end": 22,
             "accessibility": null,
             "computed": false,
             "declare": false,
@@ -26,8 +26,8 @@ __ESTREE_TEST__:PASS:
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 22,
-              "end": 23,
+              "start": 21,
+              "end": 22,
               "decorators": [],
               "name": "x",
               "optional": false,
@@ -42,8 +42,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "PropertyDefinition",
-            "start": 28,
-            "end": 36,
+            "start": 27,
+            "end": 35,
             "accessibility": null,
             "computed": false,
             "declare": false,
@@ -51,8 +51,8 @@ __ESTREE_TEST__:PASS:
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 35,
-              "end": 36,
+              "start": 34,
+              "end": 35,
               "decorators": [],
               "name": "y",
               "optional": false,
@@ -71,8 +71,8 @@ __ESTREE_TEST__:PASS:
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 8,
+        "start": 6,
+        "end": 7,
         "decorators": [],
         "name": "C",
         "optional": false,

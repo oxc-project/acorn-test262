@@ -2,41 +2,41 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 35,
+  "start": 0,
+  "end": 34,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 1,
-      "end": 19,
+      "start": 0,
+      "end": 18,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 5,
-          "end": 18,
+          "start": 4,
+          "end": 17,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 5,
-            "end": 13,
+            "start": 4,
+            "end": 12,
             "decorators": [],
             "name": "let",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 8,
-              "end": 13,
+              "start": 7,
+              "end": 12,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
-                "start": 10,
-                "end": 13
+                "start": 9,
+                "end": 12
               }
             }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 16,
-            "end": 18,
+            "start": 15,
+            "end": 17,
             "properties": []
           }
         }
@@ -46,23 +46,23 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ExpressionStatement",
-      "start": 20,
-      "end": 35,
+      "start": 19,
+      "end": 34,
       "directive": null,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 21,
-        "end": 33,
+        "start": 20,
+        "end": 32,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 21,
-          "end": 27,
+          "start": 20,
+          "end": 26,
           "computed": true,
           "object": {
             "type": "Identifier",
-            "start": 21,
-            "end": 24,
+            "start": 20,
+            "end": 23,
             "decorators": [],
             "name": "let",
             "optional": false,
@@ -71,16 +71,16 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "property": {
             "type": "Literal",
-            "start": 25,
-            "end": 26,
+            "start": 24,
+            "end": 25,
             "raw": "0",
             "value": 0
           }
         },
         "right": {
           "type": "Literal",
-          "start": 30,
-          "end": 33,
+          "start": 29,
+          "end": 32,
           "raw": "100",
           "value": 100
         }

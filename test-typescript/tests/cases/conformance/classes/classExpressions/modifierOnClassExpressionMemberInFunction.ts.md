@@ -2,33 +2,33 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 24,
-  "end": 147,
+  "start": 0,
+  "end": 123,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 24,
-      "end": 147,
+      "start": 0,
+      "end": 123,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 37,
-        "end": 147,
+        "start": 13,
+        "end": 123,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 43,
-            "end": 145,
+            "start": 19,
+            "end": 121,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 47,
-                "end": 145,
+                "start": 23,
+                "end": 121,
                 "definite": false,
                 "id": {
                   "type": "Identifier",
-                  "start": 47,
-                  "end": 48,
+                  "start": 23,
+                  "end": 24,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
@@ -36,18 +36,18 @@ __ESTREE_TEST__:PASS:
                 },
                 "init": {
                   "type": "ClassExpression",
-                  "start": 51,
-                  "end": 145,
+                  "start": 27,
+                  "end": 121,
                   "abstract": false,
                   "body": {
                     "type": "ClassBody",
-                    "start": 59,
-                    "end": 145,
+                    "start": 35,
+                    "end": 121,
                     "body": [
                       {
                         "type": "PropertyDefinition",
-                        "start": 69,
-                        "end": 86,
+                        "start": 45,
+                        "end": 62,
                         "accessibility": "public",
                         "computed": false,
                         "declare": false,
@@ -55,8 +55,8 @@ __ESTREE_TEST__:PASS:
                         "definite": false,
                         "key": {
                           "type": "Identifier",
-                          "start": 76,
-                          "end": 81,
+                          "start": 52,
+                          "end": 57,
                           "decorators": [],
                           "name": "prop1",
                           "optional": false,
@@ -69,23 +69,23 @@ __ESTREE_TEST__:PASS:
                         "typeAnnotation": null,
                         "value": {
                           "type": "Literal",
-                          "start": 84,
-                          "end": 85,
+                          "start": 60,
+                          "end": 61,
                           "raw": "1",
                           "value": 1
                         }
                       },
                       {
                         "type": "MethodDefinition",
-                        "start": 95,
-                        "end": 112,
+                        "start": 71,
+                        "end": 88,
                         "accessibility": "private",
                         "computed": false,
                         "decorators": [],
                         "key": {
                           "type": "Identifier",
-                          "start": 103,
-                          "end": 106,
+                          "start": 79,
+                          "end": 82,
                           "decorators": [],
                           "name": "foo",
                           "optional": false,
@@ -97,13 +97,13 @@ __ESTREE_TEST__:PASS:
                         "static": false,
                         "value": {
                           "type": "FunctionExpression",
-                          "start": 106,
-                          "end": 112,
+                          "start": 82,
+                          "end": 88,
                           "async": false,
                           "body": {
                             "type": "BlockStatement",
-                            "start": 109,
-                            "end": 112,
+                            "start": 85,
+                            "end": 88,
                             "body": []
                           },
                           "declare": false,
@@ -117,8 +117,8 @@ __ESTREE_TEST__:PASS:
                       },
                       {
                         "type": "PropertyDefinition",
-                        "start": 121,
-                        "end": 139,
+                        "start": 97,
+                        "end": 115,
                         "accessibility": null,
                         "computed": false,
                         "declare": false,
@@ -126,8 +126,8 @@ __ESTREE_TEST__:PASS:
                         "definite": false,
                         "key": {
                           "type": "Identifier",
-                          "start": 128,
-                          "end": 133,
+                          "start": 104,
+                          "end": 109,
                           "decorators": [],
                           "name": "prop2",
                           "optional": false,
@@ -140,8 +140,8 @@ __ESTREE_TEST__:PASS:
                         "typeAnnotation": null,
                         "value": {
                           "type": "Literal",
-                          "start": 136,
-                          "end": 138,
+                          "start": 112,
+                          "end": 114,
                           "raw": "43",
                           "value": 43
                         }
@@ -152,8 +152,8 @@ __ESTREE_TEST__:PASS:
                   "decorators": [],
                   "id": {
                     "type": "Identifier",
-                    "start": 57,
-                    "end": 58,
+                    "start": 33,
+                    "end": 34,
                     "decorators": [],
                     "name": "C",
                     "optional": false,
@@ -176,8 +176,8 @@ __ESTREE_TEST__:PASS:
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 33,
-        "end": 34,
+        "start": 9,
+        "end": 10,
         "decorators": [],
         "name": "g",
         "optional": false,

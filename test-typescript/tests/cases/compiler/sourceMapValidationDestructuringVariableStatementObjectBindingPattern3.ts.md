@@ -2,35 +2,35 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 22,
-  "end": 48,
+  "start": 0,
+  "end": 26,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 22,
-      "end": 48,
+      "start": 0,
+      "end": 26,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 26,
-          "end": 47,
+          "start": 4,
+          "end": 25,
           "definite": false,
           "id": {
             "type": "ObjectPattern",
-            "start": 26,
-            "end": 35,
+            "start": 4,
+            "end": 13,
             "decorators": [],
             "optional": false,
             "properties": [
               {
                 "type": "Property",
-                "start": 27,
-                "end": 34,
+                "start": 5,
+                "end": 12,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 27,
-                  "end": 28,
+                  "start": 5,
+                  "end": 6,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
@@ -42,13 +42,13 @@ __ESTREE_TEST__:PASS:
                 "shorthand": true,
                 "value": {
                   "type": "AssignmentPattern",
-                  "start": 27,
-                  "end": 34,
+                  "start": 5,
+                  "end": 12,
                   "decorators": [],
                   "left": {
                     "type": "Identifier",
-                    "start": 27,
-                    "end": 28,
+                    "start": 5,
+                    "end": 6,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
@@ -57,8 +57,8 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "right": {
                     "type": "Literal",
-                    "start": 31,
-                    "end": 34,
+                    "start": 9,
+                    "end": 12,
                     "raw": "500",
                     "value": 500
                   },
@@ -70,18 +70,18 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 38,
-            "end": 47,
+            "start": 16,
+            "end": 25,
             "properties": [
               {
                 "type": "Property",
-                "start": 40,
-                "end": 45,
+                "start": 18,
+                "end": 23,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 40,
-                  "end": 41,
+                  "start": 18,
+                  "end": 19,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
@@ -93,8 +93,8 @@ __ESTREE_TEST__:PASS:
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 43,
-                  "end": 45,
+                  "start": 21,
+                  "end": 23,
                   "raw": "20",
                   "value": 20
                 }

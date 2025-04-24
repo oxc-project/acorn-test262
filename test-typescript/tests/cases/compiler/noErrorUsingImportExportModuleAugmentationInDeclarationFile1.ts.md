@@ -2,17 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 19,
-  "end": 53,
+  "start": 0,
+  "end": 34,
   "body": [
     {
       "type": "TSExportAssignment",
-      "start": 19,
-      "end": 30,
+      "start": 0,
+      "end": 11,
       "expression": {
         "type": "Identifier",
-        "start": 28,
-        "end": 29,
+        "start": 9,
+        "end": 10,
         "decorators": [],
         "name": "a",
         "optional": false,
@@ -21,29 +21,29 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 31,
-      "end": 53,
+      "start": 12,
+      "end": 34,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 43,
-          "end": 52,
+          "start": 24,
+          "end": 33,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 43,
-            "end": 52,
+            "start": 24,
+            "end": 33,
             "decorators": [],
             "name": "a",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 44,
-              "end": 52,
+              "start": 25,
+              "end": 33,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
-                "start": 46,
-                "end": 52
+                "start": 27,
+                "end": 33
               }
             }
           },

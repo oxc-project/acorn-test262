@@ -2,30 +2,30 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 18,
-  "end": 87,
+  "start": 0,
+  "end": 69,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 18,
-      "end": 87,
+      "start": 0,
+      "end": 69,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 26,
-        "end": 87,
+        "start": 8,
+        "end": 69,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 32,
-            "end": 85,
+            "start": 14,
+            "end": 67,
             "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 32,
-              "end": 33,
+              "start": 14,
+              "end": 15,
               "decorators": [],
               "name": "f",
               "optional": false,
@@ -37,28 +37,28 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 33,
-              "end": 85,
+              "start": 15,
+              "end": 67,
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 45,
-                "end": 85,
+                "start": 27,
+                "end": 67,
                 "body": [
                   {
                     "type": "VariableDeclaration",
-                    "start": 55,
-                    "end": 79,
+                    "start": 37,
+                    "end": 61,
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
-                        "start": 59,
-                        "end": 78,
+                        "start": 41,
+                        "end": 60,
                         "definite": false,
                         "id": {
                           "type": "Identifier",
-                          "start": 59,
-                          "end": 60,
+                          "start": 41,
+                          "end": 42,
                           "decorators": [],
                           "name": "a",
                           "optional": false,
@@ -66,13 +66,13 @@ __ESTREE_TEST__:PASS:
                         },
                         "init": {
                           "type": "ArrowFunctionExpression",
-                          "start": 63,
-                          "end": 78,
+                          "start": 45,
+                          "end": 60,
                           "async": false,
                           "body": {
                             "type": "Identifier",
-                            "start": 69,
-                            "end": 78,
+                            "start": 51,
+                            "end": 60,
                             "decorators": [],
                             "name": "arguments",
                             "optional": false,
@@ -99,8 +99,8 @@ __ESTREE_TEST__:PASS:
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 34,
-                  "end": 43,
+                  "start": 16,
+                  "end": 25,
                   "decorators": [],
                   "name": "arguments",
                   "optional": false,
@@ -117,8 +117,8 @@ __ESTREE_TEST__:PASS:
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 24,
-        "end": 25,
+        "start": 6,
+        "end": 7,
         "decorators": [],
         "name": "C",
         "optional": false,

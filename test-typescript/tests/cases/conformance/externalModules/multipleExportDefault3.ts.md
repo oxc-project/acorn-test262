@@ -2,27 +2,27 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 78,
+  "start": 0,
+  "end": 77,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 1,
-      "end": 49,
+      "start": 0,
+      "end": 48,
       "declaration": {
         "type": "ObjectExpression",
-        "start": 16,
-        "end": 48,
+        "start": 15,
+        "end": 47,
         "properties": [
           {
             "type": "Property",
-            "start": 22,
-            "end": 45,
+            "start": 21,
+            "end": 44,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 22,
-              "end": 26,
+              "start": 21,
+              "end": 25,
               "decorators": [],
               "name": "uhoh",
               "optional": false,
@@ -34,8 +34,8 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
-              "start": 28,
-              "end": 45,
+              "start": 27,
+              "end": 44,
               "raw": "\"another default\"",
               "value": "another default"
             }
@@ -46,25 +46,25 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 51,
-      "end": 77,
+      "start": 50,
+      "end": 76,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 66,
-        "end": 77,
+        "start": 65,
+        "end": 76,
         "abstract": false,
         "body": {
           "type": "ClassBody",
-          "start": 74,
-          "end": 77,
+          "start": 73,
+          "end": 76,
           "body": []
         },
         "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 72,
-          "end": 73,
+          "start": 71,
+          "end": 72,
           "decorators": [],
           "name": "C",
           "optional": false,

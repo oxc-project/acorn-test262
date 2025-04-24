@@ -2,41 +2,41 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 137,
+  "start": 0,
+  "end": 136,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 1,
-      "end": 68,
+      "start": 0,
+      "end": 67,
       "body": {
         "type": "TSModuleBlock",
-        "start": 12,
-        "end": 68,
+        "start": 11,
+        "end": 67,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 18,
-            "end": 66,
+            "start": 17,
+            "end": 65,
             "attributes": [],
             "declaration": {
               "type": "FunctionDeclaration",
-              "start": 25,
-              "end": 66,
+              "start": 24,
+              "end": 65,
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 40,
-                "end": 66,
+                "start": 39,
+                "end": 65,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 50,
-                    "end": 60,
+                    "start": 49,
+                    "end": 59,
                     "argument": {
                       "type": "Literal",
-                      "start": 57,
-                      "end": 59,
+                      "start": 56,
+                      "end": 58,
                       "raw": "\"\"",
                       "value": ""
                     }
@@ -48,8 +48,8 @@ __ESTREE_TEST__:PASS:
               "generator": false,
               "id": {
                 "type": "Identifier",
-                "start": 34,
-                "end": 37,
+                "start": 33,
+                "end": 36,
                 "decorators": [],
                 "name": "bar",
                 "optional": false,
@@ -69,12 +69,12 @@ __ESTREE_TEST__:PASS:
       "global": false,
       "id": {
         "type": "TSQualifiedName",
-        "start": 8,
-        "end": 11,
+        "start": 7,
+        "end": 10,
         "left": {
           "type": "Identifier",
-          "start": 8,
-          "end": 9,
+          "start": 7,
+          "end": 8,
           "decorators": [],
           "name": "Z",
           "optional": false,
@@ -82,8 +82,8 @@ __ESTREE_TEST__:PASS:
         },
         "right": {
           "type": "Identifier",
-          "start": 10,
-          "end": 11,
+          "start": 9,
+          "end": 10,
           "decorators": [],
           "name": "M",
           "optional": false,
@@ -94,21 +94,21 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 69,
-      "end": 137,
+      "start": 68,
+      "end": 136,
       "body": {
         "type": "TSModuleBlock",
-        "start": 80,
-        "end": 137,
+        "start": 79,
+        "end": 136,
         "body": [
           {
             "type": "TSImportEqualsDeclaration",
-            "start": 86,
-            "end": 101,
+            "start": 85,
+            "end": 100,
             "id": {
               "type": "Identifier",
-              "start": 93,
-              "end": 94,
+              "start": 92,
+              "end": 93,
               "decorators": [],
               "name": "M",
               "optional": false,
@@ -117,12 +117,12 @@ __ESTREE_TEST__:PASS:
             "importKind": "value",
             "moduleReference": {
               "type": "TSQualifiedName",
-              "start": 97,
-              "end": 100,
+              "start": 96,
+              "end": 99,
               "left": {
                 "type": "Identifier",
-                "start": 97,
-                "end": 98,
+                "start": 96,
+                "end": 97,
                 "decorators": [],
                 "name": "Z",
                 "optional": false,
@@ -130,8 +130,8 @@ __ESTREE_TEST__:PASS:
               },
               "right": {
                 "type": "Identifier",
-                "start": 99,
-                "end": 100,
+                "start": 98,
+                "end": 99,
                 "decorators": [],
                 "name": "M",
                 "optional": false,
@@ -141,18 +141,18 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "ExportNamedDeclaration",
-            "start": 106,
-            "end": 135,
+            "start": 105,
+            "end": 134,
             "attributes": [],
             "declaration": {
               "type": "FunctionDeclaration",
-              "start": 113,
-              "end": 135,
+              "start": 112,
+              "end": 134,
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 128,
-                "end": 135,
+                "start": 127,
+                "end": 134,
                 "body": []
               },
               "declare": false,
@@ -160,8 +160,8 @@ __ESTREE_TEST__:PASS:
               "generator": false,
               "id": {
                 "type": "Identifier",
-                "start": 122,
-                "end": 125,
+                "start": 121,
+                "end": 124,
                 "decorators": [],
                 "name": "bar",
                 "optional": false,
@@ -181,12 +181,12 @@ __ESTREE_TEST__:PASS:
       "global": false,
       "id": {
         "type": "TSQualifiedName",
-        "start": 76,
-        "end": 79,
+        "start": 75,
+        "end": 78,
         "left": {
           "type": "Identifier",
-          "start": 76,
-          "end": 77,
+          "start": 75,
+          "end": 76,
           "decorators": [],
           "name": "A",
           "optional": false,
@@ -194,8 +194,8 @@ __ESTREE_TEST__:PASS:
         },
         "right": {
           "type": "Identifier",
-          "start": 78,
-          "end": 79,
+          "start": 77,
+          "end": 78,
           "decorators": [],
           "name": "M",
           "optional": false,

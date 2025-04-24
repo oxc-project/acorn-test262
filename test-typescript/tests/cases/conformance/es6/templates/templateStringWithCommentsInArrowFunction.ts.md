@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 28,
-  "end": 146,
+  "start": 0,
+  "end": 118,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 28,
-      "end": 40,
+      "start": 0,
+      "end": 12,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 34,
-          "end": 39,
+          "start": 6,
+          "end": 11,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 34,
-            "end": 35,
+            "start": 6,
+            "end": 7,
             "decorators": [],
             "name": "a",
             "optional": false,
@@ -26,8 +26,8 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "Literal",
-            "start": 38,
-            "end": 39,
+            "start": 10,
+            "end": 11,
             "raw": "1",
             "value": 1
           }
@@ -38,18 +38,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 41,
-      "end": 93,
+      "start": 13,
+      "end": 65,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 47,
-          "end": 92,
+          "start": 19,
+          "end": 64,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 47,
-            "end": 49,
+            "start": 19,
+            "end": 21,
             "decorators": [],
             "name": "f1",
             "optional": false,
@@ -57,18 +57,18 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 52,
-            "end": 92,
+            "start": 24,
+            "end": 64,
             "async": false,
             "body": {
               "type": "TemplateLiteral",
-              "start": 62,
-              "end": 92,
+              "start": 34,
+              "end": 64,
               "expressions": [
                 {
                   "type": "Identifier",
-                  "start": 83,
-                  "end": 84,
+                  "start": 55,
+                  "end": 56,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
@@ -78,8 +78,8 @@ __ESTREE_TEST__:PASS:
               "quasis": [
                 {
                   "type": "TemplateElement",
-                  "start": 62,
-                  "end": 65,
+                  "start": 34,
+                  "end": 37,
                   "tail": false,
                   "value": {
                     "cooked": "",
@@ -88,8 +88,8 @@ __ESTREE_TEST__:PASS:
                 },
                 {
                   "type": "TemplateElement",
-                  "start": 89,
-                  "end": 92,
+                  "start": 61,
+                  "end": 64,
                   "tail": true,
                   "value": {
                     "cooked": "a",
@@ -112,18 +112,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 95,
-      "end": 146,
+      "start": 67,
+      "end": 118,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 101,
-          "end": 145,
+          "start": 73,
+          "end": 117,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 101,
-            "end": 103,
+            "start": 73,
+            "end": 75,
             "decorators": [],
             "name": "f2",
             "optional": false,
@@ -131,18 +131,18 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 106,
-            "end": 145,
+            "start": 78,
+            "end": 117,
             "async": false,
             "body": {
               "type": "TemplateLiteral",
-              "start": 116,
-              "end": 145,
+              "start": 88,
+              "end": 117,
               "expressions": [
                 {
                   "type": "Identifier",
-                  "start": 137,
-                  "end": 138,
+                  "start": 109,
+                  "end": 110,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
@@ -152,8 +152,8 @@ __ESTREE_TEST__:PASS:
               "quasis": [
                 {
                   "type": "TemplateElement",
-                  "start": 116,
-                  "end": 119,
+                  "start": 88,
+                  "end": 91,
                   "tail": false,
                   "value": {
                     "cooked": "",
@@ -162,8 +162,8 @@ __ESTREE_TEST__:PASS:
                 },
                 {
                   "type": "TemplateElement",
-                  "start": 143,
-                  "end": 145,
+                  "start": 115,
+                  "end": 117,
                   "tail": true,
                   "value": {
                     "cooked": "",

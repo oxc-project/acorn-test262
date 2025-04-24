@@ -2,44 +2,44 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 17,
-  "end": 120,
+  "start": 0,
+  "end": 103,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 17,
-      "end": 29,
+      "start": 0,
+      "end": 12,
       "directive": "use strict",
       "expression": {
         "type": "Literal",
-        "start": 17,
-        "end": 29,
+        "start": 0,
+        "end": 12,
         "raw": "\"use strict\"",
         "value": "use strict"
       }
     },
     {
       "type": "ImportDeclaration",
-      "start": 30,
-      "end": 60,
+      "start": 13,
+      "end": 43,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 55,
-        "end": 60,
+        "start": 38,
+        "end": 43,
         "raw": "\"./1\"",
         "value": "./1"
       },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 37,
-          "end": 49,
+          "start": 20,
+          "end": 32,
           "local": {
             "type": "Identifier",
-            "start": 42,
-            "end": 49,
+            "start": 25,
+            "end": 32,
             "decorators": [],
             "name": "package",
             "optional": false,
@@ -50,26 +50,26 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ImportDeclaration",
-      "start": 61,
-      "end": 95,
+      "start": 44,
+      "end": 78,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 90,
-        "end": 95,
+        "start": 73,
+        "end": 78,
         "raw": "\"./1\"",
         "value": "./1"
       },
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 69,
-          "end": 83,
+          "start": 52,
+          "end": 66,
           "imported": {
             "type": "Identifier",
-            "start": 69,
-            "end": 72,
+            "start": 52,
+            "end": 55,
             "decorators": [],
             "name": "foo",
             "optional": false,
@@ -78,8 +78,8 @@ __ESTREE_TEST__:PASS:
           "importKind": "value",
           "local": {
             "type": "Identifier",
-            "start": 76,
-            "end": 83,
+            "start": 59,
+            "end": 66,
             "decorators": [],
             "name": "private",
             "optional": false,
@@ -90,26 +90,26 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ImportDeclaration",
-      "start": 96,
-      "end": 120,
+      "start": 79,
+      "end": 103,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 115,
-        "end": 120,
+        "start": 98,
+        "end": 103,
         "raw": "\"./1\"",
         "value": "./1"
       },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 103,
-          "end": 109,
+          "start": 86,
+          "end": 92,
           "local": {
             "type": "Identifier",
-            "start": 103,
-            "end": 109,
+            "start": 86,
+            "end": 92,
             "decorators": [],
             "name": "public",
             "optional": false,

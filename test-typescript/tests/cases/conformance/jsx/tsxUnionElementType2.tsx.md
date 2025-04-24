@@ -2,17 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 25,
-  "end": 245,
+  "start": 0,
+  "end": 220,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 25,
-      "end": 57,
+      "start": 0,
+      "end": 32,
       "id": {
         "type": "Identifier",
-        "start": 32,
-        "end": 37,
+        "start": 7,
+        "end": 12,
         "decorators": [],
         "name": "React",
         "optional": false,
@@ -21,12 +21,12 @@ __ESTREE_TEST__:PASS:
       "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 40,
-        "end": 56,
+        "start": 15,
+        "end": 31,
         "expression": {
           "type": "Literal",
-          "start": 48,
-          "end": 55,
+          "start": 23,
+          "end": 30,
           "raw": "'react'",
           "value": "react"
         }
@@ -34,51 +34,51 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "FunctionDeclaration",
-      "start": 59,
-      "end": 126,
+      "start": 34,
+      "end": 101,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 94,
-        "end": 126,
+        "start": 69,
+        "end": 101,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 100,
-            "end": 124,
+            "start": 75,
+            "end": 99,
             "argument": {
               "type": "JSXElement",
-              "start": 107,
-              "end": 123,
+              "start": 82,
+              "end": 98,
               "children": [
                 {
                   "type": "JSXText",
-                  "start": 112,
-                  "end": 117,
+                  "start": 87,
+                  "end": 92,
                   "raw": "hello",
                   "value": "hello"
                 }
               ],
               "closingElement": {
                 "type": "JSXClosingElement",
-                "start": 117,
-                "end": 123,
+                "start": 92,
+                "end": 98,
                 "name": {
                   "type": "JSXIdentifier",
-                  "start": 119,
-                  "end": 122,
+                  "start": 94,
+                  "end": 97,
                   "name": "div"
                 }
               },
               "openingElement": {
                 "type": "JSXOpeningElement",
-                "start": 107,
-                "end": 112,
+                "start": 82,
+                "end": 87,
                 "attributes": [],
                 "name": {
                   "type": "JSXIdentifier",
-                  "start": 108,
-                  "end": 111,
+                  "start": 83,
+                  "end": 86,
                   "name": "div"
                 },
                 "selfClosing": false,
@@ -93,8 +93,8 @@ __ESTREE_TEST__:PASS:
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 68,
-        "end": 72,
+        "start": 43,
+        "end": 47,
         "decorators": [],
         "name": "SFC1",
         "optional": false,
@@ -103,30 +103,30 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 73,
-          "end": 92,
+          "start": 48,
+          "end": 67,
           "decorators": [],
           "name": "prop",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 77,
-            "end": 92,
+            "start": 52,
+            "end": 67,
             "typeAnnotation": {
               "type": "TSTypeLiteral",
-              "start": 79,
-              "end": 92,
+              "start": 54,
+              "end": 67,
               "members": [
                 {
                   "type": "TSPropertySignature",
-                  "start": 81,
-                  "end": 90,
+                  "start": 56,
+                  "end": 65,
                   "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 81,
-                    "end": 82,
+                    "start": 56,
+                    "end": 57,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
@@ -137,12 +137,12 @@ __ESTREE_TEST__:PASS:
                   "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 82,
-                    "end": 90,
+                    "start": 57,
+                    "end": 65,
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
-                      "start": 84,
-                      "end": 90
+                      "start": 59,
+                      "end": 65
                     }
                   }
                 }
@@ -156,56 +156,56 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "EmptyStatement",
-      "start": 126,
-      "end": 127
+      "start": 101,
+      "end": 102
     },
     {
       "type": "FunctionDeclaration",
-      "start": 129,
-      "end": 196,
+      "start": 104,
+      "end": 171,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 165,
-        "end": 196,
+        "start": 140,
+        "end": 171,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 171,
-            "end": 194,
+            "start": 146,
+            "end": 169,
             "argument": {
               "type": "JSXElement",
-              "start": 178,
-              "end": 193,
+              "start": 153,
+              "end": 168,
               "children": [
                 {
                   "type": "JSXText",
-                  "start": 182,
-                  "end": 188,
+                  "start": 157,
+                  "end": 163,
                   "raw": "World ",
                   "value": "World "
                 }
               ],
               "closingElement": {
                 "type": "JSXClosingElement",
-                "start": 188,
-                "end": 193,
+                "start": 163,
+                "end": 168,
                 "name": {
                   "type": "JSXIdentifier",
-                  "start": 190,
-                  "end": 192,
+                  "start": 165,
+                  "end": 167,
                   "name": "h1"
                 }
               },
               "openingElement": {
                 "type": "JSXOpeningElement",
-                "start": 178,
-                "end": 182,
+                "start": 153,
+                "end": 157,
                 "attributes": [],
                 "name": {
                   "type": "JSXIdentifier",
-                  "start": 179,
-                  "end": 181,
+                  "start": 154,
+                  "end": 156,
                   "name": "h1"
                 },
                 "selfClosing": false,
@@ -220,8 +220,8 @@ __ESTREE_TEST__:PASS:
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 138,
-        "end": 142,
+        "start": 113,
+        "end": 117,
         "decorators": [],
         "name": "SFC2",
         "optional": false,
@@ -230,30 +230,30 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 143,
-          "end": 163,
+          "start": 118,
+          "end": 138,
           "decorators": [],
           "name": "prop",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 147,
-            "end": 163,
+            "start": 122,
+            "end": 138,
             "typeAnnotation": {
               "type": "TSTypeLiteral",
-              "start": 149,
-              "end": 163,
+              "start": 124,
+              "end": 138,
               "members": [
                 {
                   "type": "TSPropertySignature",
-                  "start": 151,
-                  "end": 161,
+                  "start": 126,
+                  "end": 136,
                   "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 151,
-                    "end": 152,
+                    "start": 126,
+                    "end": 127,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
@@ -264,12 +264,12 @@ __ESTREE_TEST__:PASS:
                   "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 152,
-                    "end": 161,
+                    "start": 127,
+                    "end": 136,
                     "typeAnnotation": {
                       "type": "TSBooleanKeyword",
-                      "start": 154,
-                      "end": 161
+                      "start": 129,
+                      "end": 136
                     }
                   }
                 }
@@ -283,18 +283,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 198,
-      "end": 225,
+      "start": 173,
+      "end": 200,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 202,
-          "end": 224,
+          "start": 177,
+          "end": 199,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 202,
-            "end": 209,
+            "start": 177,
+            "end": 184,
             "decorators": [],
             "name": "SFCComp",
             "optional": false,
@@ -302,13 +302,13 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "LogicalExpression",
-            "start": 212,
-            "end": 224,
+            "start": 187,
+            "end": 199,
             "operator": "||",
             "left": {
               "type": "Identifier",
-              "start": 212,
-              "end": 216,
+              "start": 187,
+              "end": 191,
               "decorators": [],
               "name": "SFC1",
               "optional": false,
@@ -316,8 +316,8 @@ __ESTREE_TEST__:PASS:
             },
             "right": {
               "type": "Identifier",
-              "start": 220,
-              "end": 224,
+              "start": 195,
+              "end": 199,
               "decorators": [],
               "name": "SFC2",
               "optional": false,
@@ -331,38 +331,38 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ExpressionStatement",
-      "start": 226,
-      "end": 245,
+      "start": 201,
+      "end": 220,
       "directive": null,
       "expression": {
         "type": "JSXElement",
-        "start": 226,
-        "end": 245,
+        "start": 201,
+        "end": 220,
         "children": [],
         "closingElement": null,
         "openingElement": {
           "type": "JSXOpeningElement",
-          "start": 226,
-          "end": 245,
+          "start": 201,
+          "end": 220,
           "attributes": [
             {
               "type": "JSXAttribute",
-              "start": 235,
-              "end": 243,
+              "start": 210,
+              "end": 218,
               "name": {
                 "type": "JSXIdentifier",
-                "start": 235,
-                "end": 236,
+                "start": 210,
+                "end": 211,
                 "name": "x"
               },
               "value": {
                 "type": "JSXExpressionContainer",
-                "start": 237,
-                "end": 243,
+                "start": 212,
+                "end": 218,
                 "expression": {
                   "type": "Literal",
-                  "start": 238,
-                  "end": 242,
+                  "start": 213,
+                  "end": 217,
                   "raw": "\"hi\"",
                   "value": "hi"
                 }
@@ -371,8 +371,8 @@ __ESTREE_TEST__:PASS:
           ],
           "name": {
             "type": "JSXIdentifier",
-            "start": 227,
-            "end": 234,
+            "start": 202,
+            "end": 209,
             "name": "SFCComp"
           },
           "selfClosing": true,

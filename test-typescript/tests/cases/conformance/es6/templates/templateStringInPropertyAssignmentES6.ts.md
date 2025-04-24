@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 17,
-  "end": 63,
+  "start": 0,
+  "end": 46,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 17,
-      "end": 63,
+      "start": 0,
+      "end": 46,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 21,
-          "end": 63,
+          "start": 4,
+          "end": 46,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 21,
-            "end": 22,
+            "start": 4,
+            "end": 5,
             "decorators": [],
             "name": "x",
             "optional": false,
@@ -26,18 +26,18 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 25,
-            "end": 63,
+            "start": 8,
+            "end": 46,
             "properties": [
               {
                 "type": "Property",
-                "start": 31,
-                "end": 61,
+                "start": 14,
+                "end": 44,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 31,
-                  "end": 32,
+                  "start": 14,
+                  "end": 15,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
@@ -49,20 +49,20 @@ __ESTREE_TEST__:PASS:
                 "shorthand": false,
                 "value": {
                   "type": "TemplateLiteral",
-                  "start": 34,
-                  "end": 61,
+                  "start": 17,
+                  "end": 44,
                   "expressions": [
                     {
                       "type": "Literal",
-                      "start": 41,
-                      "end": 44,
+                      "start": 24,
+                      "end": 27,
                       "raw": "123",
                       "value": 123
                     },
                     {
                       "type": "Literal",
-                      "start": 52,
-                      "end": 55,
+                      "start": 35,
+                      "end": 38,
                       "raw": "456",
                       "value": 456
                     }
@@ -70,8 +70,8 @@ __ESTREE_TEST__:PASS:
                   "quasis": [
                     {
                       "type": "TemplateElement",
-                      "start": 34,
-                      "end": 40,
+                      "start": 17,
+                      "end": 23,
                       "tail": false,
                       "value": {
                         "cooked": "abc",
@@ -80,8 +80,8 @@ __ESTREE_TEST__:PASS:
                     },
                     {
                       "type": "TemplateElement",
-                      "start": 45,
-                      "end": 51,
+                      "start": 28,
+                      "end": 34,
                       "tail": false,
                       "value": {
                         "cooked": "def",
@@ -90,8 +90,8 @@ __ESTREE_TEST__:PASS:
                     },
                     {
                       "type": "TemplateElement",
-                      "start": 56,
-                      "end": 61,
+                      "start": 39,
+                      "end": 44,
                       "tail": true,
                       "value": {
                         "cooked": "ghi",

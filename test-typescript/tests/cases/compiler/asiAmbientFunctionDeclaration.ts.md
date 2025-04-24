@@ -2,13 +2,13 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 23,
+  "start": 0,
+  "end": 22,
   "body": [
     {
       "type": "TSDeclareFunction",
-      "start": 1,
-      "end": 23,
+      "start": 0,
+      "end": 22,
       "async": false,
       "body": null,
       "declare": true,
@@ -16,8 +16,8 @@ __ESTREE_TEST__:PASS:
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 18,
-        "end": 21,
+        "start": 17,
+        "end": 20,
         "decorators": [],
         "name": "foo",
         "optional": false,

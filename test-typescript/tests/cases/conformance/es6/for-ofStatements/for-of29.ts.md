@@ -2,50 +2,50 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 16,
-  "end": 146,
+  "start": 0,
+  "end": 130,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 16,
-      "end": 97,
+      "start": 0,
+      "end": 81,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 20,
-          "end": 96,
+          "start": 4,
+          "end": 80,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 20,
-            "end": 96,
+            "start": 4,
+            "end": 80,
             "decorators": [],
             "name": "iterableWithOptionalIterator",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 48,
-              "end": 96,
+              "start": 32,
+              "end": 80,
               "typeAnnotation": {
                 "type": "TSTypeLiteral",
-                "start": 50,
-                "end": 96,
+                "start": 34,
+                "end": 80,
                 "members": [
                   {
                     "type": "TSMethodSignature",
-                    "start": 56,
-                    "end": 94,
+                    "start": 40,
+                    "end": 78,
                     "accessibility": null,
                     "computed": true,
                     "key": {
                       "type": "MemberExpression",
-                      "start": 57,
-                      "end": 72,
+                      "start": 41,
+                      "end": 56,
                       "computed": false,
                       "object": {
                         "type": "Identifier",
-                        "start": 57,
-                        "end": 63,
+                        "start": 41,
+                        "end": 47,
                         "decorators": [],
                         "name": "Symbol",
                         "optional": false,
@@ -54,8 +54,8 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "property": {
                         "type": "Identifier",
-                        "start": 64,
-                        "end": 72,
+                        "start": 48,
+                        "end": 56,
                         "decorators": [],
                         "name": "iterator",
                         "optional": false,
@@ -68,28 +68,28 @@ __ESTREE_TEST__:PASS:
                     "readonly": false,
                     "returnType": {
                       "type": "TSTypeAnnotation",
-                      "start": 76,
-                      "end": 94,
+                      "start": 60,
+                      "end": 78,
                       "typeAnnotation": {
                         "type": "TSTypeReference",
-                        "start": 78,
-                        "end": 94,
+                        "start": 62,
+                        "end": 78,
                         "typeArguments": {
                           "type": "TSTypeParameterInstantiation",
-                          "start": 86,
-                          "end": 94,
+                          "start": 70,
+                          "end": 78,
                           "params": [
                             {
                               "type": "TSStringKeyword",
-                              "start": 87,
-                              "end": 93
+                              "start": 71,
+                              "end": 77
                             }
                           ]
                         },
                         "typeName": {
                           "type": "Identifier",
-                          "start": 78,
-                          "end": 86,
+                          "start": 62,
+                          "end": 70,
                           "decorators": [],
                           "name": "Iterator",
                           "optional": false,
@@ -112,29 +112,29 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ForOfStatement",
-      "start": 99,
-      "end": 146,
+      "start": 83,
+      "end": 130,
       "await": false,
       "body": {
         "type": "BlockStatement",
-        "start": 143,
-        "end": 146,
+        "start": 127,
+        "end": 130,
         "body": []
       },
       "left": {
         "type": "VariableDeclaration",
-        "start": 104,
-        "end": 109,
+        "start": 88,
+        "end": 93,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 108,
-            "end": 109,
+            "start": 92,
+            "end": 93,
             "definite": false,
             "id": {
               "type": "Identifier",
-              "start": 108,
-              "end": 109,
+              "start": 92,
+              "end": 93,
               "decorators": [],
               "name": "v",
               "optional": false,
@@ -148,8 +148,8 @@ __ESTREE_TEST__:PASS:
       },
       "right": {
         "type": "Identifier",
-        "start": 113,
-        "end": 141,
+        "start": 97,
+        "end": 125,
         "decorators": [],
         "name": "iterableWithOptionalIterator",
         "optional": false,

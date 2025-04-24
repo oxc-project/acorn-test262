@@ -2,27 +2,27 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 310,
-  "end": 440,
+  "start": 286,
+  "end": 416,
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 310,
-      "end": 440,
+      "start": 286,
+      "end": 416,
       "body": {
         "type": "TSEnumBody",
-        "start": 323,
-        "end": 440,
+        "start": 299,
+        "end": 416,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 329,
-            "end": 335,
+            "start": 305,
+            "end": 311,
             "computed": false,
             "id": {
               "type": "Identifier",
-              "start": 329,
-              "end": 330,
+              "start": 305,
+              "end": 306,
               "decorators": [],
               "name": "a",
               "optional": false,
@@ -30,21 +30,21 @@ __ESTREE_TEST__:PASS:
             },
             "initializer": {
               "type": "Literal",
-              "start": 333,
-              "end": 335,
+              "start": 309,
+              "end": 311,
               "raw": "10",
               "value": 10
             }
           },
           {
             "type": "TSEnumMember",
-            "start": 341,
-            "end": 346,
+            "start": 317,
+            "end": 322,
             "computed": false,
             "id": {
               "type": "Identifier",
-              "start": 341,
-              "end": 342,
+              "start": 317,
+              "end": 318,
               "decorators": [],
               "name": "b",
               "optional": false,
@@ -52,8 +52,8 @@ __ESTREE_TEST__:PASS:
             },
             "initializer": {
               "type": "Identifier",
-              "start": 345,
-              "end": 346,
+              "start": 321,
+              "end": 322,
               "decorators": [],
               "name": "a",
               "optional": false,
@@ -62,13 +62,13 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TSEnumMember",
-            "start": 352,
-            "end": 361,
+            "start": 328,
+            "end": 337,
             "computed": false,
             "id": {
               "type": "Identifier",
-              "start": 352,
-              "end": 353,
+              "start": 328,
+              "end": 329,
               "decorators": [],
               "name": "c",
               "optional": false,
@@ -76,13 +76,13 @@ __ESTREE_TEST__:PASS:
             },
             "initializer": {
               "type": "BinaryExpression",
-              "start": 357,
-              "end": 360,
+              "start": 333,
+              "end": 336,
               "operator": "+",
               "left": {
                 "type": "Identifier",
-                "start": 357,
-                "end": 358,
+                "start": 333,
+                "end": 334,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
@@ -90,8 +90,8 @@ __ESTREE_TEST__:PASS:
               },
               "right": {
                 "type": "Literal",
-                "start": 359,
-                "end": 360,
+                "start": 335,
+                "end": 336,
                 "raw": "1",
                 "value": 1
               }
@@ -99,13 +99,13 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TSEnumMember",
-            "start": 367,
-            "end": 368,
+            "start": 343,
+            "end": 344,
             "computed": false,
             "id": {
               "type": "Identifier",
-              "start": 367,
-              "end": 368,
+              "start": 343,
+              "end": 344,
               "decorators": [],
               "name": "e",
               "optional": false,
@@ -115,13 +115,13 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TSEnumMember",
-            "start": 374,
-            "end": 380,
+            "start": 350,
+            "end": 356,
             "computed": false,
             "id": {
               "type": "Identifier",
-              "start": 374,
-              "end": 375,
+              "start": 350,
+              "end": 351,
               "decorators": [],
               "name": "d",
               "optional": false,
@@ -129,12 +129,12 @@ __ESTREE_TEST__:PASS:
             },
             "initializer": {
               "type": "UnaryExpression",
-              "start": 378,
-              "end": 380,
+              "start": 354,
+              "end": 356,
               "argument": {
                 "type": "Identifier",
-                "start": 379,
-                "end": 380,
+                "start": 355,
+                "end": 356,
                 "decorators": [],
                 "name": "e",
                 "optional": false,
@@ -146,13 +146,13 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TSEnumMember",
-            "start": 386,
-            "end": 401,
+            "start": 362,
+            "end": 377,
             "computed": false,
             "id": {
               "type": "Identifier",
-              "start": 386,
-              "end": 387,
+              "start": 362,
+              "end": 363,
               "decorators": [],
               "name": "f",
               "optional": false,
@@ -160,18 +160,18 @@ __ESTREE_TEST__:PASS:
             },
             "initializer": {
               "type": "BinaryExpression",
-              "start": 390,
-              "end": 401,
+              "start": 366,
+              "end": 377,
               "operator": ">>",
               "left": {
                 "type": "BinaryExpression",
-                "start": 390,
-                "end": 396,
+                "start": 366,
+                "end": 372,
                 "operator": "<<",
                 "left": {
                   "type": "Identifier",
-                  "start": 390,
-                  "end": 391,
+                  "start": 366,
+                  "end": 367,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
@@ -179,16 +179,16 @@ __ESTREE_TEST__:PASS:
                 },
                 "right": {
                   "type": "Literal",
-                  "start": 395,
-                  "end": 396,
+                  "start": 371,
+                  "end": 372,
                   "raw": "2",
                   "value": 2
                 }
               },
               "right": {
                 "type": "Literal",
-                "start": 400,
-                "end": 401,
+                "start": 376,
+                "end": 377,
                 "raw": "1",
                 "value": 1
               }
@@ -196,13 +196,13 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TSEnumMember",
-            "start": 407,
-            "end": 423,
+            "start": 383,
+            "end": 399,
             "computed": false,
             "id": {
               "type": "Identifier",
-              "start": 407,
-              "end": 408,
+              "start": 383,
+              "end": 384,
               "decorators": [],
               "name": "g",
               "optional": false,
@@ -210,18 +210,18 @@ __ESTREE_TEST__:PASS:
             },
             "initializer": {
               "type": "BinaryExpression",
-              "start": 411,
-              "end": 423,
+              "start": 387,
+              "end": 399,
               "operator": ">>>",
               "left": {
                 "type": "BinaryExpression",
-                "start": 411,
-                "end": 417,
+                "start": 387,
+                "end": 393,
                 "operator": "<<",
                 "left": {
                   "type": "Identifier",
-                  "start": 411,
-                  "end": 412,
+                  "start": 387,
+                  "end": 388,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
@@ -229,16 +229,16 @@ __ESTREE_TEST__:PASS:
                 },
                 "right": {
                   "type": "Literal",
-                  "start": 416,
-                  "end": 417,
+                  "start": 392,
+                  "end": 393,
                   "raw": "2",
                   "value": 2
                 }
               },
               "right": {
                 "type": "Literal",
-                "start": 422,
-                "end": 423,
+                "start": 398,
+                "end": 399,
                 "raw": "1",
                 "value": 1
               }
@@ -246,13 +246,13 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TSEnumMember",
-            "start": 429,
-            "end": 438,
+            "start": 405,
+            "end": 414,
             "computed": false,
             "id": {
               "type": "Identifier",
-              "start": 429,
-              "end": 430,
+              "start": 405,
+              "end": 406,
               "decorators": [],
               "name": "h",
               "optional": false,
@@ -260,13 +260,13 @@ __ESTREE_TEST__:PASS:
             },
             "initializer": {
               "type": "BinaryExpression",
-              "start": 433,
-              "end": 438,
+              "start": 409,
+              "end": 414,
               "operator": "|",
               "left": {
                 "type": "Identifier",
-                "start": 433,
-                "end": 434,
+                "start": 409,
+                "end": 410,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
@@ -274,8 +274,8 @@ __ESTREE_TEST__:PASS:
               },
               "right": {
                 "type": "Identifier",
-                "start": 437,
-                "end": 438,
+                "start": 413,
+                "end": 414,
                 "decorators": [],
                 "name": "b",
                 "optional": false,
@@ -289,8 +289,8 @@ __ESTREE_TEST__:PASS:
       "declare": false,
       "id": {
         "type": "Identifier",
-        "start": 321,
-        "end": 322,
+        "start": 297,
+        "end": 298,
         "decorators": [],
         "name": "E",
         "optional": false,

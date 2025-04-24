@@ -2,32 +2,32 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 26,
-  "end": 326,
+  "start": 0,
+  "end": 300,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 26,
-      "end": 77,
+      "start": 0,
+      "end": 51,
       "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
-        "start": 26,
-        "end": 77,
+        "start": 0,
+        "end": 51,
         "async": false,
         "body": {
           "type": "BlockStatement",
-          "start": 32,
-          "end": 77,
+          "start": 6,
+          "end": 51,
           "body": [
             {
               "type": "ReturnStatement",
-              "start": 66,
-              "end": 75,
+              "start": 40,
+              "end": 49,
               "argument": {
                 "type": "Literal",
-                "start": 73,
-                "end": 74,
+                "start": 47,
+                "end": 48,
                 "raw": "0",
                 "value": 0
               }
@@ -44,27 +44,27 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ExpressionStatement",
-      "start": 79,
-      "end": 144,
+      "start": 53,
+      "end": 118,
       "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
-        "start": 79,
-        "end": 144,
+        "start": 53,
+        "end": 118,
         "async": false,
         "body": {
           "type": "BlockStatement",
-          "start": 85,
-          "end": 144,
+          "start": 59,
+          "end": 118,
           "body": [
             {
               "type": "ReturnStatement",
-              "start": 133,
-              "end": 142,
+              "start": 107,
+              "end": 116,
               "argument": {
                 "type": "Literal",
-                "start": 140,
-                "end": 141,
+                "start": 114,
+                "end": 115,
                 "raw": "0",
                 "value": 0
               }
@@ -81,27 +81,27 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ExpressionStatement",
-      "start": 146,
-      "end": 228,
+      "start": 120,
+      "end": 202,
       "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
-        "start": 146,
-        "end": 228,
+        "start": 120,
+        "end": 202,
         "async": false,
         "body": {
           "type": "BlockStatement",
-          "start": 152,
-          "end": 228,
+          "start": 126,
+          "end": 202,
           "body": [
             {
               "type": "ReturnStatement",
-              "start": 217,
-              "end": 226,
+              "start": 191,
+              "end": 200,
               "argument": {
                 "type": "Literal",
-                "start": 224,
-                "end": 225,
+                "start": 198,
+                "end": 199,
                 "raw": "0",
                 "value": 0
               }
@@ -118,27 +118,27 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ExpressionStatement",
-      "start": 230,
-      "end": 326,
+      "start": 204,
+      "end": 300,
       "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
-        "start": 230,
-        "end": 326,
+        "start": 204,
+        "end": 300,
         "async": false,
         "body": {
           "type": "BlockStatement",
-          "start": 236,
-          "end": 326,
+          "start": 210,
+          "end": 300,
           "body": [
             {
               "type": "ReturnStatement",
-              "start": 315,
-              "end": 324,
+              "start": 289,
+              "end": 298,
               "argument": {
                 "type": "Literal",
-                "start": 322,
-                "end": 323,
+                "start": 296,
+                "end": 297,
                 "raw": "0",
                 "value": 0
               }

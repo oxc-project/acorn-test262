@@ -2,18 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 70,
+  "start": 0,
+  "end": 69,
   "body": [
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 1,
-      "end": 27,
+      "start": 0,
+      "end": 26,
       "declare": true,
       "id": {
         "type": "Identifier",
-        "start": 14,
-        "end": 17,
+        "start": 13,
+        "end": 16,
         "decorators": [],
         "name": "Foo",
         "optional": false,
@@ -21,20 +21,20 @@ __ESTREE_TEST__:PASS:
       },
       "typeAnnotation": {
         "type": "TSStringKeyword",
-        "start": 20,
-        "end": 26
+        "start": 19,
+        "end": 25
       },
       "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 28,
-      "end": 46,
+      "start": 27,
+      "end": 45,
       "declare": false,
       "id": {
         "type": "Identifier",
-        "start": 33,
-        "end": 36,
+        "start": 32,
+        "end": 35,
         "decorators": [],
         "name": "Bar",
         "optional": false,
@@ -42,20 +42,20 @@ __ESTREE_TEST__:PASS:
       },
       "typeAnnotation": {
         "type": "TSNumberKeyword",
-        "start": 39,
-        "end": 45
+        "start": 38,
+        "end": 44
       },
       "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 47,
-      "end": 70,
+      "start": 46,
+      "end": 69,
       "declare": true,
       "id": {
         "type": "Identifier",
-        "start": 60,
-        "end": 63,
+        "start": 59,
+        "end": 62,
         "decorators": [],
         "name": "Baz",
         "optional": false,
@@ -63,13 +63,13 @@ __ESTREE_TEST__:PASS:
       },
       "typeAnnotation": {
         "type": "TSTypeReference",
-        "start": 66,
-        "end": 69,
+        "start": 65,
+        "end": 68,
         "typeArguments": null,
         "typeName": {
           "type": "Identifier",
-          "start": 66,
-          "end": 69,
+          "start": 65,
+          "end": 68,
           "decorators": [],
           "name": "Bar",
           "optional": false,

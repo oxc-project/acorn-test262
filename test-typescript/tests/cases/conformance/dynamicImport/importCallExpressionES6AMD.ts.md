@@ -2,32 +2,32 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 17,
-  "end": 57,
+  "start": 0,
+  "end": 40,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 17,
-      "end": 56,
+      "start": 0,
+      "end": 39,
       "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 24,
-        "end": 56,
+        "start": 7,
+        "end": 39,
         "async": false,
         "body": {
           "type": "BlockStatement",
-          "start": 39,
-          "end": 56,
+          "start": 22,
+          "end": 39,
           "body": [
             {
               "type": "ReturnStatement",
-              "start": 41,
-              "end": 54,
+              "start": 24,
+              "end": 37,
               "argument": {
                 "type": "Literal",
-                "start": 48,
-                "end": 53,
+                "start": 31,
+                "end": 36,
                 "raw": "\"foo\"",
                 "value": "foo"
               }
@@ -39,8 +39,8 @@ __ESTREE_TEST__:PASS:
         "generator": false,
         "id": {
           "type": "Identifier",
-          "start": 33,
-          "end": 36,
+          "start": 16,
+          "end": 19,
           "decorators": [],
           "name": "foo",
           "optional": false,

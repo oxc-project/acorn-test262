@@ -2,27 +2,27 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 61,
+  "start": 0,
+  "end": 60,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 1,
-      "end": 30,
+      "start": 0,
+      "end": 29,
       "declaration": {
         "type": "ObjectExpression",
-        "start": 16,
-        "end": 30,
+        "start": 15,
+        "end": 29,
         "properties": [
           {
             "type": "Property",
-            "start": 22,
-            "end": 28,
+            "start": 21,
+            "end": 27,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 22,
-              "end": 25,
+              "start": 21,
+              "end": 24,
               "decorators": [],
               "name": "lol",
               "optional": false,
@@ -34,8 +34,8 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
-              "start": 27,
-              "end": 28,
+              "start": 26,
+              "end": 27,
               "raw": "1",
               "value": 1
             }
@@ -46,22 +46,22 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 32,
-      "end": 61,
+      "start": 31,
+      "end": 60,
       "declaration": {
         "type": "ObjectExpression",
-        "start": 47,
-        "end": 61,
+        "start": 46,
+        "end": 60,
         "properties": [
           {
             "type": "Property",
-            "start": 53,
-            "end": 59,
+            "start": 52,
+            "end": 58,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 53,
-              "end": 56,
+              "start": 52,
+              "end": 55,
               "decorators": [],
               "name": "lol",
               "optional": false,
@@ -73,8 +73,8 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
-              "start": 58,
-              "end": 59,
+              "start": 57,
+              "end": 58,
               "raw": "2",
               "value": 2
             }

@@ -2,41 +2,41 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 193,
+  "start": 0,
+  "end": 192,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 1,
-      "end": 68,
+      "start": 0,
+      "end": 67,
       "body": {
         "type": "TSModuleBlock",
-        "start": 12,
-        "end": 68,
+        "start": 11,
+        "end": 67,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 18,
-            "end": 66,
+            "start": 17,
+            "end": 65,
             "attributes": [],
             "declaration": {
               "type": "FunctionDeclaration",
-              "start": 25,
-              "end": 66,
+              "start": 24,
+              "end": 65,
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 40,
-                "end": 66,
+                "start": 39,
+                "end": 65,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 50,
-                    "end": 60,
+                    "start": 49,
+                    "end": 59,
                     "argument": {
                       "type": "Literal",
-                      "start": 57,
-                      "end": 59,
+                      "start": 56,
+                      "end": 58,
                       "raw": "\"\"",
                       "value": ""
                     }
@@ -48,8 +48,8 @@ __ESTREE_TEST__:PASS:
               "generator": false,
               "id": {
                 "type": "Identifier",
-                "start": 34,
-                "end": 37,
+                "start": 33,
+                "end": 36,
                 "decorators": [],
                 "name": "bar",
                 "optional": false,
@@ -69,12 +69,12 @@ __ESTREE_TEST__:PASS:
       "global": false,
       "id": {
         "type": "TSQualifiedName",
-        "start": 8,
-        "end": 11,
+        "start": 7,
+        "end": 10,
         "left": {
           "type": "Identifier",
-          "start": 8,
-          "end": 9,
+          "start": 7,
+          "end": 8,
           "decorators": [],
           "name": "Z",
           "optional": false,
@@ -82,8 +82,8 @@ __ESTREE_TEST__:PASS:
         },
         "right": {
           "type": "Identifier",
-          "start": 10,
-          "end": 11,
+          "start": 9,
+          "end": 10,
           "decorators": [],
           "name": "M",
           "optional": false,
@@ -94,29 +94,29 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 69,
-      "end": 193,
+      "start": 68,
+      "end": 192,
       "body": {
         "type": "TSModuleBlock",
-        "start": 80,
-        "end": 193,
+        "start": 79,
+        "end": 192,
         "body": [
           {
             "type": "TSInterfaceDeclaration",
-            "start": 86,
-            "end": 101,
+            "start": 85,
+            "end": 100,
             "body": {
               "type": "TSInterfaceBody",
-              "start": 98,
-              "end": 101,
+              "start": 97,
+              "end": 100,
               "body": []
             },
             "declare": false,
             "extends": [],
             "id": {
               "type": "Identifier",
-              "start": 96,
-              "end": 97,
+              "start": 95,
+              "end": 96,
               "decorators": [],
               "name": "M",
               "optional": false,
@@ -126,12 +126,12 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TSImportEqualsDeclaration",
-            "start": 106,
-            "end": 121,
+            "start": 105,
+            "end": 120,
             "id": {
               "type": "Identifier",
-              "start": 113,
-              "end": 114,
+              "start": 112,
+              "end": 113,
               "decorators": [],
               "name": "M",
               "optional": false,
@@ -140,12 +140,12 @@ __ESTREE_TEST__:PASS:
             "importKind": "value",
             "moduleReference": {
               "type": "TSQualifiedName",
-              "start": 117,
-              "end": 120,
+              "start": 116,
+              "end": 119,
               "left": {
                 "type": "Identifier",
-                "start": 117,
-                "end": 118,
+                "start": 116,
+                "end": 117,
                 "decorators": [],
                 "name": "Z",
                 "optional": false,
@@ -153,8 +153,8 @@ __ESTREE_TEST__:PASS:
               },
               "right": {
                 "type": "Identifier",
-                "start": 119,
-                "end": 120,
+                "start": 118,
+                "end": 119,
                 "decorators": [],
                 "name": "M",
                 "optional": false,
@@ -164,18 +164,18 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "ExportNamedDeclaration",
-            "start": 126,
-            "end": 155,
+            "start": 125,
+            "end": 154,
             "attributes": [],
             "declaration": {
               "type": "FunctionDeclaration",
-              "start": 133,
-              "end": 155,
+              "start": 132,
+              "end": 154,
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 148,
-                "end": 155,
+                "start": 147,
+                "end": 154,
                 "body": []
               },
               "declare": false,
@@ -183,8 +183,8 @@ __ESTREE_TEST__:PASS:
               "generator": false,
               "id": {
                 "type": "Identifier",
-                "start": 142,
-                "end": 145,
+                "start": 141,
+                "end": 144,
                 "decorators": [],
                 "name": "bar",
                 "optional": false,
@@ -200,23 +200,23 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "ExpressionStatement",
-            "start": 160,
-            "end": 168,
+            "start": 159,
+            "end": 167,
             "directive": null,
             "expression": {
               "type": "CallExpression",
-              "start": 160,
-              "end": 167,
+              "start": 159,
+              "end": 166,
               "arguments": [],
               "callee": {
                 "type": "MemberExpression",
-                "start": 160,
-                "end": 165,
+                "start": 159,
+                "end": 164,
                 "computed": false,
                 "object": {
                   "type": "Identifier",
-                  "start": 160,
-                  "end": 161,
+                  "start": 159,
+                  "end": 160,
                   "decorators": [],
                   "name": "M",
                   "optional": false,
@@ -225,8 +225,8 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "property": {
                   "type": "Identifier",
-                  "start": 162,
-                  "end": 165,
+                  "start": 161,
+                  "end": 164,
                   "decorators": [],
                   "name": "bar",
                   "optional": false,
@@ -243,12 +243,12 @@ __ESTREE_TEST__:PASS:
       "global": false,
       "id": {
         "type": "TSQualifiedName",
-        "start": 76,
-        "end": 79,
+        "start": 75,
+        "end": 78,
         "left": {
           "type": "Identifier",
-          "start": 76,
-          "end": 77,
+          "start": 75,
+          "end": 76,
           "decorators": [],
           "name": "A",
           "optional": false,
@@ -256,8 +256,8 @@ __ESTREE_TEST__:PASS:
         },
         "right": {
           "type": "Identifier",
-          "start": 78,
-          "end": 79,
+          "start": 77,
+          "end": 78,
           "decorators": [],
           "name": "M",
           "optional": false,

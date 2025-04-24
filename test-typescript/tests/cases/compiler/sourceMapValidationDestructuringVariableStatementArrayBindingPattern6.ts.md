@@ -2,34 +2,34 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 22,
-  "end": 44,
+  "start": 0,
+  "end": 22,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 22,
-      "end": 44,
+      "start": 0,
+      "end": 22,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 26,
-          "end": 43,
+          "start": 4,
+          "end": 21,
           "definite": false,
           "id": {
             "type": "ArrayPattern",
-            "start": 26,
-            "end": 34,
+            "start": 4,
+            "end": 12,
             "decorators": [],
             "elements": [
               {
                 "type": "AssignmentPattern",
-                "start": 27,
-                "end": 33,
+                "start": 5,
+                "end": 11,
                 "decorators": [],
                 "left": {
                   "type": "Identifier",
-                  "start": 27,
-                  "end": 28,
+                  "start": 5,
+                  "end": 6,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
@@ -38,8 +38,8 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "right": {
                   "type": "Literal",
-                  "start": 31,
-                  "end": 33,
+                  "start": 9,
+                  "end": 11,
                   "raw": "20",
                   "value": 20
                 },
@@ -51,20 +51,20 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 37,
-            "end": 43,
+            "start": 15,
+            "end": 21,
             "elements": [
               {
                 "type": "Literal",
-                "start": 38,
-                "end": 39,
+                "start": 16,
+                "end": 17,
                 "raw": "1",
                 "value": 1
               },
               {
                 "type": "Literal",
-                "start": 41,
-                "end": 42,
+                "start": 19,
+                "end": 20,
                 "raw": "2",
                 "value": 2
               }

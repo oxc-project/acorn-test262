@@ -2,34 +2,34 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 22,
-  "end": 47,
+  "start": 0,
+  "end": 25,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 22,
-      "end": 47,
+      "start": 0,
+      "end": 25,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 26,
-          "end": 46,
+          "start": 4,
+          "end": 24,
           "definite": false,
           "id": {
             "type": "ArrayPattern",
-            "start": 26,
-            "end": 37,
+            "start": 4,
+            "end": 15,
             "decorators": [],
             "elements": [
               {
                 "type": "AssignmentPattern",
-                "start": 27,
-                "end": 33,
+                "start": 5,
+                "end": 11,
                 "decorators": [],
                 "left": {
                   "type": "Identifier",
-                  "start": 27,
-                  "end": 28,
+                  "start": 5,
+                  "end": 6,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
@@ -38,8 +38,8 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "right": {
                   "type": "Literal",
-                  "start": 31,
-                  "end": 33,
+                  "start": 9,
+                  "end": 11,
                   "raw": "20",
                   "value": 20
                 },
@@ -47,8 +47,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "Identifier",
-                "start": 35,
-                "end": 36,
+                "start": 13,
+                "end": 14,
                 "decorators": [],
                 "name": "j",
                 "optional": false,
@@ -60,20 +60,20 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 40,
-            "end": 46,
+            "start": 18,
+            "end": 24,
             "elements": [
               {
                 "type": "Literal",
-                "start": 41,
-                "end": 42,
+                "start": 19,
+                "end": 20,
                 "raw": "1",
                 "value": 1
               },
               {
                 "type": "Literal",
-                "start": 44,
-                "end": 45,
+                "start": 22,
+                "end": 23,
                 "raw": "2",
                 "value": 2
               }

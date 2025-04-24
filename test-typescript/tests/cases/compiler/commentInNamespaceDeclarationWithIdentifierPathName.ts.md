@@ -2,27 +2,27 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 70,
+  "start": 0,
+  "end": 69,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 1,
-      "end": 70,
+      "start": 0,
+      "end": 69,
       "body": {
         "type": "TSModuleBlock",
-        "start": 26,
-        "end": 70,
+        "start": 25,
+        "end": 69,
         "body": [
           {
             "type": "FunctionDeclaration",
-            "start": 32,
-            "end": 49,
+            "start": 31,
+            "end": 48,
             "async": false,
             "body": {
               "type": "BlockStatement",
-              "start": 47,
-              "end": 49,
+              "start": 46,
+              "end": 48,
               "body": []
             },
             "declare": false,
@@ -30,8 +30,8 @@ __ESTREE_TEST__:PASS:
             "generator": false,
             "id": {
               "type": "Identifier",
-              "start": 41,
-              "end": 44,
+              "start": 40,
+              "end": 43,
               "decorators": [],
               "name": "foo",
               "optional": false,
@@ -47,16 +47,16 @@ __ESTREE_TEST__:PASS:
       "global": false,
       "id": {
         "type": "TSQualifiedName",
-        "start": 11,
-        "end": 25,
+        "start": 10,
+        "end": 24,
         "left": {
           "type": "TSQualifiedName",
-          "start": 11,
-          "end": 19,
+          "start": 10,
+          "end": 18,
           "left": {
             "type": "Identifier",
-            "start": 11,
-            "end": 16,
+            "start": 10,
+            "end": 15,
             "decorators": [],
             "name": "hello",
             "optional": false,
@@ -64,8 +64,8 @@ __ESTREE_TEST__:PASS:
           },
           "right": {
             "type": "Identifier",
-            "start": 17,
-            "end": 19,
+            "start": 16,
+            "end": 18,
             "decorators": [],
             "name": "hi",
             "optional": false,
@@ -74,8 +74,8 @@ __ESTREE_TEST__:PASS:
         },
         "right": {
           "type": "Identifier",
-          "start": 20,
-          "end": 25,
+          "start": 19,
+          "end": 24,
           "decorators": [],
           "name": "world",
           "optional": false,

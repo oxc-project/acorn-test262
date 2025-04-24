@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 17,
-  "end": 48,
+  "start": 0,
+  "end": 31,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 17,
-      "end": 48,
+      "start": 0,
+      "end": 31,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 21,
-          "end": 47,
+          "start": 4,
+          "end": 30,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 21,
-            "end": 22,
+            "start": 4,
+            "end": 5,
             "decorators": [],
             "name": "x",
             "optional": false,
@@ -26,17 +26,17 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 25,
-            "end": 47,
+            "start": 8,
+            "end": 30,
             "expressions": [
               {
                 "type": "UnaryExpression",
-                "start": 32,
-                "end": 41,
+                "start": 15,
+                "end": 24,
                 "argument": {
                   "type": "Identifier",
-                  "start": 33,
-                  "end": 41,
+                  "start": 16,
+                  "end": 24,
                   "decorators": [],
                   "name": "Infinity",
                   "optional": false,
@@ -49,8 +49,8 @@ __ESTREE_TEST__:PASS:
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 25,
-                "end": 31,
+                "start": 8,
+                "end": 14,
                 "tail": false,
                 "value": {
                   "cooked": "abc",
@@ -59,8 +59,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "TemplateElement",
-                "start": 42,
-                "end": 47,
+                "start": 25,
+                "end": 30,
                 "tail": true,
                 "value": {
                   "cooked": "def",

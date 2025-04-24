@@ -2,35 +2,35 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 16,
-  "end": 133,
+  "start": 0,
+  "end": 117,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 16,
-      "end": 92,
+      "start": 0,
+      "end": 76,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 39,
-        "end": 92,
+        "start": 23,
+        "end": 76,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 45,
-            "end": 90,
+            "start": 29,
+            "end": 74,
             "accessibility": null,
             "computed": true,
             "decorators": [],
             "key": {
               "type": "MemberExpression",
-              "start": 46,
-              "end": 61,
+              "start": 30,
+              "end": 45,
               "computed": false,
               "object": {
                 "type": "Identifier",
-                "start": 46,
-                "end": 52,
+                "start": 30,
+                "end": 36,
                 "decorators": [],
                 "name": "Symbol",
                 "optional": false,
@@ -39,8 +39,8 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "property": {
                 "type": "Identifier",
-                "start": 53,
-                "end": 61,
+                "start": 37,
+                "end": 45,
                 "decorators": [],
                 "name": "iterator",
                 "optional": false,
@@ -53,22 +53,22 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 62,
-              "end": 90,
+              "start": 46,
+              "end": 74,
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 65,
-                "end": 90,
+                "start": 49,
+                "end": 74,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 75,
-                    "end": 84,
+                    "start": 59,
+                    "end": 68,
                     "argument": {
                       "type": "Identifier",
-                      "start": 82,
-                      "end": 83,
+                      "start": 66,
+                      "end": 67,
                       "decorators": [],
                       "name": "v",
                       "optional": false,
@@ -92,8 +92,8 @@ __ESTREE_TEST__:PASS:
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 22,
-        "end": 38,
+        "start": 6,
+        "end": 22,
         "decorators": [],
         "name": "MyStringIterator",
         "optional": false,
@@ -106,29 +106,29 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ForOfStatement",
-      "start": 94,
-      "end": 133,
+      "start": 78,
+      "end": 117,
       "await": false,
       "body": {
         "type": "BlockStatement",
-        "start": 130,
-        "end": 133,
+        "start": 114,
+        "end": 117,
         "body": []
       },
       "left": {
         "type": "VariableDeclaration",
-        "start": 99,
-        "end": 104,
+        "start": 83,
+        "end": 88,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 103,
-            "end": 104,
+            "start": 87,
+            "end": 88,
             "definite": false,
             "id": {
               "type": "Identifier",
-              "start": 103,
-              "end": 104,
+              "start": 87,
+              "end": 88,
               "decorators": [],
               "name": "v",
               "optional": false,
@@ -142,13 +142,13 @@ __ESTREE_TEST__:PASS:
       },
       "right": {
         "type": "NewExpression",
-        "start": 108,
-        "end": 128,
+        "start": 92,
+        "end": 112,
         "arguments": [],
         "callee": {
           "type": "Identifier",
-          "start": 112,
-          "end": 128,
+          "start": 96,
+          "end": 112,
           "decorators": [],
           "name": "MyStringIterator",
           "optional": false,

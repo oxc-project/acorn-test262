@@ -2,22 +2,22 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 25,
-  "end": 124,
+  "start": 0,
+  "end": 99,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 25,
-      "end": 101,
+      "start": 0,
+      "end": 76,
       "body": {
         "type": "TSInterfaceBody",
-        "start": 41,
-        "end": 101,
+        "start": 16,
+        "end": 76,
         "body": [
           {
             "type": "TSConstructSignatureDeclaration",
-            "start": 92,
-            "end": 99,
+            "start": 67,
+            "end": 74,
             "params": [],
             "returnType": null,
             "typeParameters": null
@@ -28,8 +28,8 @@ __ESTREE_TEST__:PASS:
       "extends": [],
       "id": {
         "type": "Identifier",
-        "start": 35,
-        "end": 40,
+        "start": 10,
+        "end": 15,
         "decorators": [],
         "name": "Entry",
         "optional": false,
@@ -39,34 +39,34 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 103,
-      "end": 124,
+      "start": 78,
+      "end": 99,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 115,
-          "end": 123,
+          "start": 90,
+          "end": 98,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 115,
-            "end": 123,
+            "start": 90,
+            "end": 98,
             "decorators": [],
             "name": "x",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 116,
-              "end": 123,
+              "start": 91,
+              "end": 98,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 118,
-                "end": 123,
+                "start": 93,
+                "end": 98,
                 "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 118,
-                  "end": 123,
+                  "start": 93,
+                  "end": 98,
                   "decorators": [],
                   "name": "Entry",
                   "optional": false,

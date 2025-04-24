@@ -2,43 +2,43 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 17,
-  "end": 59,
+  "start": 0,
+  "end": 42,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 17,
-      "end": 59,
+      "start": 0,
+      "end": 42,
       "directive": null,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 17,
-        "end": 58,
+        "start": 0,
+        "end": 41,
         "expressions": [
           {
             "type": "FunctionExpression",
-            "start": 20,
-            "end": 55,
+            "start": 3,
+            "end": 38,
             "async": false,
             "body": {
               "type": "BlockStatement",
-              "start": 41,
-              "end": 55,
+              "start": 24,
+              "end": 38,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 43,
-                  "end": 53,
+                  "start": 26,
+                  "end": 36,
                   "directive": null,
                   "expression": {
                     "type": "AssignmentExpression",
-                    "start": 43,
-                    "end": 52,
+                    "start": 26,
+                    "end": 35,
                     "operator": "=",
                     "left": {
                       "type": "Identifier",
-                      "start": 43,
-                      "end": 44,
+                      "start": 26,
+                      "end": 27,
                       "decorators": [],
                       "name": "x",
                       "optional": false,
@@ -46,8 +46,8 @@ __ESTREE_TEST__:PASS:
                     },
                     "right": {
                       "type": "Literal",
-                      "start": 47,
-                      "end": 52,
+                      "start": 30,
+                      "end": 35,
                       "raw": "\"bad\"",
                       "value": "bad"
                     }
@@ -62,19 +62,19 @@ __ESTREE_TEST__:PASS:
             "params": [
               {
                 "type": "Identifier",
-                "start": 30,
-                "end": 39,
+                "start": 13,
+                "end": 22,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 31,
-                  "end": 39,
+                  "start": 14,
+                  "end": 22,
                   "typeAnnotation": {
                     "type": "TSNumberKeyword",
-                    "start": 33,
-                    "end": 39
+                    "start": 16,
+                    "end": 22
                   }
                 }
               }
@@ -86,8 +86,8 @@ __ESTREE_TEST__:PASS:
         "quasis": [
           {
             "type": "TemplateElement",
-            "start": 17,
-            "end": 20,
+            "start": 0,
+            "end": 3,
             "tail": false,
             "value": {
               "cooked": "",
@@ -96,8 +96,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 56,
-            "end": 58,
+            "start": 39,
+            "end": 41,
             "tail": true,
             "value": {
               "cooked": "",

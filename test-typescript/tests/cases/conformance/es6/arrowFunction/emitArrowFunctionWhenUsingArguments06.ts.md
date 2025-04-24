@@ -2,33 +2,33 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 18,
-  "end": 78,
+  "start": 0,
+  "end": 60,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 18,
-      "end": 78,
+      "start": 0,
+      "end": 60,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 40,
-        "end": 78,
+        "start": 22,
+        "end": 60,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 46,
-            "end": 76,
+            "start": 28,
+            "end": 58,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 50,
-                "end": 75,
+                "start": 32,
+                "end": 57,
                 "definite": false,
                 "id": {
                   "type": "Identifier",
-                  "start": 50,
-                  "end": 51,
+                  "start": 32,
+                  "end": 33,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
@@ -36,18 +36,18 @@ __ESTREE_TEST__:PASS:
                 },
                 "init": {
                   "type": "ArrowFunctionExpression",
-                  "start": 54,
-                  "end": 75,
+                  "start": 36,
+                  "end": 57,
                   "async": false,
                   "body": {
                     "type": "ArrowFunctionExpression",
-                    "start": 60,
-                    "end": 75,
+                    "start": 42,
+                    "end": 57,
                     "async": false,
                     "body": {
                       "type": "Identifier",
-                      "start": 66,
-                      "end": 75,
+                      "start": 48,
+                      "end": 57,
                       "decorators": [],
                       "name": "arguments",
                       "optional": false,
@@ -79,8 +79,8 @@ __ESTREE_TEST__:PASS:
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 27,
-        "end": 28,
+        "start": 9,
+        "end": 10,
         "decorators": [],
         "name": "f",
         "optional": false,
@@ -89,8 +89,8 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 29,
-          "end": 38,
+          "start": 11,
+          "end": 20,
           "decorators": [],
           "name": "arguments",
           "optional": false,

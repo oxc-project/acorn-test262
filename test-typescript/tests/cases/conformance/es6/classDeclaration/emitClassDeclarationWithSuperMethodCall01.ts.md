@@ -2,30 +2,30 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 17,
-  "end": 134,
+  "start": 0,
+  "end": 117,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 17,
-      "end": 51,
+      "start": 0,
+      "end": 34,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 30,
-        "end": 51,
+        "start": 13,
+        "end": 34,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 36,
-            "end": 49,
+            "start": 19,
+            "end": 32,
             "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 36,
-              "end": 39,
+              "start": 19,
+              "end": 22,
               "decorators": [],
               "name": "foo",
               "optional": false,
@@ -37,13 +37,13 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 39,
-              "end": 49,
+              "start": 22,
+              "end": 32,
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 42,
-                "end": 49,
+                "start": 25,
+                "end": 32,
                 "body": []
               },
               "declare": false,
@@ -61,8 +61,8 @@ __ESTREE_TEST__:PASS:
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 23,
-        "end": 29,
+        "start": 6,
+        "end": 12,
         "decorators": [],
         "name": "Parent",
         "optional": false,
@@ -75,25 +75,25 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ClassDeclaration",
-      "start": 53,
-      "end": 134,
+      "start": 36,
+      "end": 117,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 78,
-        "end": 134,
+        "start": 61,
+        "end": 117,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 84,
-            "end": 132,
+            "start": 67,
+            "end": 115,
             "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 84,
-              "end": 87,
+              "start": 67,
+              "end": 70,
               "decorators": [],
               "name": "foo",
               "optional": false,
@@ -105,28 +105,28 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 87,
-              "end": 132,
+              "start": 70,
+              "end": 115,
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 90,
-                "end": 132,
+                "start": 73,
+                "end": 115,
                 "body": [
                   {
                     "type": "VariableDeclaration",
-                    "start": 100,
-                    "end": 126,
+                    "start": 83,
+                    "end": 109,
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
-                        "start": 104,
-                        "end": 125,
+                        "start": 87,
+                        "end": 108,
                         "definite": false,
                         "id": {
                           "type": "Identifier",
-                          "start": 104,
-                          "end": 105,
+                          "start": 87,
+                          "end": 88,
                           "decorators": [],
                           "name": "x",
                           "optional": false,
@@ -134,29 +134,29 @@ __ESTREE_TEST__:PASS:
                         },
                         "init": {
                           "type": "ArrowFunctionExpression",
-                          "start": 108,
-                          "end": 125,
+                          "start": 91,
+                          "end": 108,
                           "async": false,
                           "body": {
                             "type": "CallExpression",
-                            "start": 114,
-                            "end": 125,
+                            "start": 97,
+                            "end": 108,
                             "arguments": [],
                             "callee": {
                               "type": "MemberExpression",
-                              "start": 114,
-                              "end": 123,
+                              "start": 97,
+                              "end": 106,
                               "computed": false,
                               "object": {
                                 "type": "Super",
-                                "start": 114,
-                                "end": 119
+                                "start": 97,
+                                "end": 102
                               },
                               "optional": false,
                               "property": {
                                 "type": "Identifier",
-                                "start": 120,
-                                "end": 123,
+                                "start": 103,
+                                "end": 106,
                                 "decorators": [],
                                 "name": "foo",
                                 "optional": false,
@@ -195,8 +195,8 @@ __ESTREE_TEST__:PASS:
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 59,
-        "end": 62,
+        "start": 42,
+        "end": 45,
         "decorators": [],
         "name": "Foo",
         "optional": false,
@@ -205,8 +205,8 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "superClass": {
         "type": "Identifier",
-        "start": 71,
-        "end": 77,
+        "start": 54,
+        "end": 60,
         "decorators": [],
         "name": "Parent",
         "optional": false,

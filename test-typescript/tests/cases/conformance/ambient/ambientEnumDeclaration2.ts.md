@@ -2,27 +2,27 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 202,
-  "end": 311,
+  "start": 201,
+  "end": 310,
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 202,
-      "end": 248,
+      "start": 201,
+      "end": 247,
       "body": {
         "type": "TSEnumBody",
-        "start": 217,
-        "end": 248,
+        "start": 216,
+        "end": 247,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 223,
-            "end": 224,
+            "start": 222,
+            "end": 223,
             "computed": false,
             "id": {
               "type": "Identifier",
-              "start": 223,
-              "end": 224,
+              "start": 222,
+              "end": 223,
               "decorators": [],
               "name": "a",
               "optional": false,
@@ -32,13 +32,13 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TSEnumMember",
-            "start": 237,
-            "end": 238,
+            "start": 236,
+            "end": 237,
             "computed": false,
             "id": {
               "type": "Identifier",
-              "start": 237,
-              "end": 238,
+              "start": 236,
+              "end": 237,
               "decorators": [],
               "name": "b",
               "optional": false,
@@ -52,8 +52,8 @@ __ESTREE_TEST__:PASS:
       "declare": true,
       "id": {
         "type": "Identifier",
-        "start": 215,
-        "end": 216,
+        "start": 214,
+        "end": 215,
         "decorators": [],
         "name": "E",
         "optional": false,
@@ -62,22 +62,22 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "TSEnumDeclaration",
-      "start": 250,
-      "end": 311,
+      "start": 249,
+      "end": 310,
       "body": {
         "type": "TSEnumBody",
-        "start": 272,
-        "end": 311,
+        "start": 271,
+        "end": 310,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 278,
-            "end": 279,
+            "start": 277,
+            "end": 278,
             "computed": false,
             "id": {
               "type": "Identifier",
-              "start": 278,
-              "end": 279,
+              "start": 277,
+              "end": 278,
               "decorators": [],
               "name": "a",
               "optional": false,
@@ -87,13 +87,13 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TSEnumMember",
-            "start": 296,
-            "end": 297,
+            "start": 295,
+            "end": 296,
             "computed": false,
             "id": {
               "type": "Identifier",
-              "start": 296,
-              "end": 297,
+              "start": 295,
+              "end": 296,
               "decorators": [],
               "name": "b",
               "optional": false,
@@ -107,8 +107,8 @@ __ESTREE_TEST__:PASS:
       "declare": true,
       "id": {
         "type": "Identifier",
-        "start": 269,
-        "end": 271,
+        "start": 268,
+        "end": 270,
         "decorators": [],
         "name": "E1",
         "optional": false,

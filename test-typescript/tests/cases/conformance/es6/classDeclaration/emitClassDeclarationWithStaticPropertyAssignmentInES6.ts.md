@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 16,
-  "end": 106,
+  "start": 0,
+  "end": 90,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 16,
-      "end": 57,
+      "start": 0,
+      "end": 41,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 24,
-        "end": 57,
+        "start": 8,
+        "end": 41,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 30,
-            "end": 55,
+            "start": 14,
+            "end": 39,
             "accessibility": null,
             "computed": false,
             "declare": false,
@@ -26,8 +26,8 @@ __ESTREE_TEST__:PASS:
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 37,
-              "end": 38,
+              "start": 21,
+              "end": 22,
               "decorators": [],
               "name": "z",
               "optional": false,
@@ -39,18 +39,18 @@ __ESTREE_TEST__:PASS:
             "static": true,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 38,
-              "end": 46,
+              "start": 22,
+              "end": 30,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 40,
-                "end": 46
+                "start": 24,
+                "end": 30
               }
             },
             "value": {
               "type": "Literal",
-              "start": 49,
-              "end": 54,
+              "start": 33,
+              "end": 38,
               "raw": "\"Foo\"",
               "value": "Foo"
             }
@@ -61,8 +61,8 @@ __ESTREE_TEST__:PASS:
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 22,
-        "end": 23,
+        "start": 6,
+        "end": 7,
         "decorators": [],
         "name": "C",
         "optional": false,
@@ -75,18 +75,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ClassDeclaration",
-      "start": 59,
-      "end": 106,
+      "start": 43,
+      "end": 90,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 67,
-        "end": 106,
+        "start": 51,
+        "end": 90,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 73,
-            "end": 83,
+            "start": 57,
+            "end": 67,
             "accessibility": null,
             "computed": false,
             "declare": false,
@@ -94,8 +94,8 @@ __ESTREE_TEST__:PASS:
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 73,
-              "end": 74,
+              "start": 57,
+              "end": 58,
               "decorators": [],
               "name": "x",
               "optional": false,
@@ -108,16 +108,16 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 77,
-              "end": 82,
+              "start": 61,
+              "end": 66,
               "raw": "20000",
               "value": 20000
             }
           },
           {
             "type": "PropertyDefinition",
-            "start": 88,
-            "end": 104,
+            "start": 72,
+            "end": 88,
             "accessibility": null,
             "computed": false,
             "declare": false,
@@ -125,8 +125,8 @@ __ESTREE_TEST__:PASS:
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 95,
-              "end": 96,
+              "start": 79,
+              "end": 80,
               "decorators": [],
               "name": "b",
               "optional": false,
@@ -139,8 +139,8 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 99,
-              "end": 103,
+              "start": 83,
+              "end": 87,
               "raw": "true",
               "value": true
             }
@@ -151,8 +151,8 @@ __ESTREE_TEST__:PASS:
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 65,
-        "end": 66,
+        "start": 49,
+        "end": 50,
         "decorators": [],
         "name": "D",
         "optional": false,

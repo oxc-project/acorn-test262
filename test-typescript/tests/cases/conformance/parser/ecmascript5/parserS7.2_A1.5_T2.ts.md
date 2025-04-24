@@ -2,31 +2,31 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 320,
-  "end": 549,
+  "start": 319,
+  "end": 548,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 320,
-      "end": 355,
+      "start": 319,
+      "end": 354,
       "directive": null,
       "expression": {
         "type": "CallExpression",
-        "start": 320,
-        "end": 354,
+        "start": 319,
+        "end": 353,
         "arguments": [
           {
             "type": "Literal",
-            "start": 325,
-            "end": 353,
+            "start": 324,
+            "end": 352,
             "raw": "\"\\u00A0var x\\u00A0= 1\\u00A0\"",
             "value": " var x = 1 "
           }
         ],
         "callee": {
           "type": "Identifier",
-          "start": 320,
-          "end": 324,
+          "start": 319,
+          "end": 323,
           "decorators": [],
           "name": "eval",
           "optional": false,
@@ -38,40 +38,40 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "IfStatement",
-      "start": 356,
-      "end": 452,
+      "start": 355,
+      "end": 451,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 369,
-        "end": 452,
+        "start": 368,
+        "end": 451,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 373,
-            "end": 450,
+            "start": 372,
+            "end": 449,
             "directive": null,
             "expression": {
               "type": "CallExpression",
-              "start": 373,
-              "end": 449,
+              "start": 372,
+              "end": 448,
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 380,
-                  "end": 448,
+                  "start": 379,
+                  "end": 447,
                   "operator": "+",
                   "left": {
                     "type": "Literal",
-                    "start": 380,
-                    "end": 442,
+                    "start": 379,
+                    "end": 441,
                     "raw": "'#1: eval(\"\\\\u00A0var x\\\\u00A0= 1\\\\u00A0\"); x === 1. Actual: '",
                     "value": "#1: eval(\"\\u00A0var x\\u00A0= 1\\u00A0\"); x === 1. Actual: "
                   },
                   "right": {
                     "type": "Identifier",
-                    "start": 446,
-                    "end": 447,
+                    "start": 445,
+                    "end": 446,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
@@ -81,8 +81,8 @@ __ESTREE_TEST__:PASS:
               ],
               "callee": {
                 "type": "Identifier",
-                "start": 373,
-                "end": 379,
+                "start": 372,
+                "end": 378,
                 "decorators": [],
                 "name": "$ERROR",
                 "optional": false,
@@ -96,13 +96,13 @@ __ESTREE_TEST__:PASS:
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 360,
-        "end": 367,
+        "start": 359,
+        "end": 366,
         "operator": "!==",
         "left": {
           "type": "Identifier",
-          "start": 360,
-          "end": 361,
+          "start": 359,
+          "end": 360,
           "decorators": [],
           "name": "x",
           "optional": false,
@@ -110,8 +110,8 @@ __ESTREE_TEST__:PASS:
         },
         "right": {
           "type": "Literal",
-          "start": 366,
-          "end": 367,
+          "start": 365,
+          "end": 366,
           "raw": "1",
           "value": 1
         }
@@ -119,18 +119,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 465,
-      "end": 476,
+      "start": 464,
+      "end": 475,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 469,
-          "end": 474,
+          "start": 468,
+          "end": 473,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 469,
-            "end": 470,
+            "start": 468,
+            "end": 469,
             "decorators": [],
             "name": "x",
             "optional": false,
@@ -138,8 +138,8 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "Literal",
-            "start": 473,
-            "end": 474,
+            "start": 472,
+            "end": 473,
             "raw": "1",
             "value": 1
           }
@@ -150,40 +150,40 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "IfStatement",
-      "start": 477,
-      "end": 547,
+      "start": 476,
+      "end": 546,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 490,
-        "end": 547,
+        "start": 489,
+        "end": 546,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 494,
-            "end": 545,
+            "start": 493,
+            "end": 544,
             "directive": null,
             "expression": {
               "type": "CallExpression",
-              "start": 494,
-              "end": 544,
+              "start": 493,
+              "end": 543,
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 501,
-                  "end": 543,
+                  "start": 500,
+                  "end": 542,
                   "operator": "+",
                   "left": {
                     "type": "Literal",
-                    "start": 501,
-                    "end": 537,
+                    "start": 500,
+                    "end": 536,
                     "raw": "'#2:  var x = 1 ; x === 1. Actual: '",
                     "value": "#2:  var x = 1 ; x === 1. Actual: "
                   },
                   "right": {
                     "type": "Identifier",
-                    "start": 541,
-                    "end": 542,
+                    "start": 540,
+                    "end": 541,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
@@ -193,8 +193,8 @@ __ESTREE_TEST__:PASS:
               ],
               "callee": {
                 "type": "Identifier",
-                "start": 494,
-                "end": 500,
+                "start": 493,
+                "end": 499,
                 "decorators": [],
                 "name": "$ERROR",
                 "optional": false,
@@ -208,13 +208,13 @@ __ESTREE_TEST__:PASS:
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 481,
-        "end": 488,
+        "start": 480,
+        "end": 487,
         "operator": "!==",
         "left": {
           "type": "Identifier",
-          "start": 481,
-          "end": 482,
+          "start": 480,
+          "end": 481,
           "decorators": [],
           "name": "x",
           "optional": false,
@@ -222,8 +222,8 @@ __ESTREE_TEST__:PASS:
         },
         "right": {
           "type": "Literal",
-          "start": 487,
-          "end": 488,
+          "start": 486,
+          "end": 487,
           "raw": "1",
           "value": 1
         }

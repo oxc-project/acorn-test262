@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 266,
-  "end": 2616,
+  "start": 265,
+  "end": 2615,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 266,
-      "end": 287,
+      "start": 265,
+      "end": 286,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 270,
-          "end": 287,
+          "start": 269,
+          "end": 286,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 270,
-            "end": 272,
+            "start": 269,
+            "end": 271,
             "decorators": [],
             "name": "a0",
             "optional": false,
@@ -26,29 +26,29 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 275,
-            "end": 287,
+            "start": 274,
+            "end": 286,
             "elements": [
               null,
               null,
               {
                 "type": "Literal",
-                "start": 279,
-                "end": 280,
+                "start": 278,
+                "end": 279,
                 "raw": "2",
                 "value": 2
               },
               {
                 "type": "Literal",
-                "start": 282,
-                "end": 283,
+                "start": 281,
+                "end": 282,
                 "raw": "3",
                 "value": 3
               },
               {
                 "type": "Literal",
-                "start": 285,
-                "end": 286,
+                "start": 284,
+                "end": 285,
                 "raw": "4",
                 "value": 4
               }
@@ -61,18 +61,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 288,
-      "end": 315,
+      "start": 287,
+      "end": 314,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 292,
-          "end": 315,
+          "start": 291,
+          "end": 314,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 292,
-            "end": 294,
+            "start": 291,
+            "end": 293,
             "decorators": [],
             "name": "a1",
             "optional": false,
@@ -80,20 +80,20 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 297,
-            "end": 315,
+            "start": 296,
+            "end": 314,
             "elements": [
               {
                 "type": "Literal",
-                "start": 298,
-                "end": 305,
+                "start": 297,
+                "end": 304,
                 "raw": "\"hello\"",
                 "value": "hello"
               },
               {
                 "type": "Literal",
-                "start": 307,
-                "end": 314,
+                "start": 306,
+                "end": 313,
                 "raw": "\"world\"",
                 "value": "world"
               }
@@ -106,18 +106,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 316,
-      "end": 348,
+      "start": 315,
+      "end": 347,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 320,
-          "end": 347,
+          "start": 319,
+          "end": 346,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 320,
-            "end": 322,
+            "start": 319,
+            "end": 321,
             "decorators": [],
             "name": "a2",
             "optional": false,
@@ -125,20 +125,20 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 325,
-            "end": 347,
+            "start": 324,
+            "end": 346,
             "elements": [
               null,
               null,
               null,
               {
                 "type": "SpreadElement",
-                "start": 332,
-                "end": 337,
+                "start": 331,
+                "end": 336,
                 "argument": {
                   "type": "Identifier",
-                  "start": 335,
-                  "end": 337,
+                  "start": 334,
+                  "end": 336,
                   "decorators": [],
                   "name": "a0",
                   "optional": false,
@@ -147,8 +147,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "Literal",
-                "start": 339,
-                "end": 346,
+                "start": 338,
+                "end": 345,
                 "raw": "\"hello\"",
                 "value": "hello"
               }
@@ -161,18 +161,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 349,
-      "end": 368,
+      "start": 348,
+      "end": 367,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 353,
-          "end": 368,
+          "start": 352,
+          "end": 367,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 353,
-            "end": 355,
+            "start": 352,
+            "end": 354,
             "decorators": [],
             "name": "a3",
             "optional": false,
@@ -180,19 +180,19 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 358,
-            "end": 368,
+            "start": 357,
+            "end": 367,
             "elements": [
               null,
               null,
               {
                 "type": "SpreadElement",
-                "start": 362,
-                "end": 367,
+                "start": 361,
+                "end": 366,
                 "argument": {
                   "type": "Identifier",
-                  "start": 365,
-                  "end": 367,
+                  "start": 364,
+                  "end": 366,
                   "decorators": [],
                   "name": "a0",
                   "optional": false,
@@ -208,18 +208,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 369,
-      "end": 390,
+      "start": 368,
+      "end": 389,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 373,
-          "end": 389,
+          "start": 372,
+          "end": 388,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 373,
-            "end": 375,
+            "start": 372,
+            "end": 374,
             "decorators": [],
             "name": "a4",
             "optional": false,
@@ -227,18 +227,18 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 378,
-            "end": 389,
+            "start": 377,
+            "end": 388,
             "elements": [
               {
                 "type": "ArrowFunctionExpression",
-                "start": 379,
-                "end": 386,
+                "start": 378,
+                "end": 385,
                 "async": false,
                 "body": {
                   "type": "Literal",
-                  "start": 385,
-                  "end": 386,
+                  "start": 384,
+                  "end": 385,
                   "raw": "1",
                   "value": 1
                 },
@@ -258,18 +258,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 391,
-      "end": 411,
+      "start": 390,
+      "end": 410,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 395,
-          "end": 411,
+          "start": 394,
+          "end": 410,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 395,
-            "end": 397,
+            "start": 394,
+            "end": 396,
             "decorators": [],
             "name": "a5",
             "optional": false,
@@ -277,17 +277,17 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 400,
-            "end": 411,
+            "start": 399,
+            "end": 410,
             "elements": [
               {
                 "type": "SpreadElement",
-                "start": 401,
-                "end": 406,
+                "start": 400,
+                "end": 405,
                 "argument": {
                   "type": "Identifier",
-                  "start": 404,
-                  "end": 406,
+                  "start": 403,
+                  "end": 405,
                   "decorators": [],
                   "name": "a0",
                   "optional": false,
@@ -304,44 +304,44 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 1115,
-      "end": 1170,
+      "start": 1114,
+      "end": 1169,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1119,
-          "end": 1169,
+          "start": 1118,
+          "end": 1168,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 1119,
-            "end": 1138,
+            "start": 1118,
+            "end": 1137,
             "decorators": [],
             "name": "b0",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 1121,
-              "end": 1138,
+              "start": 1120,
+              "end": 1137,
               "typeAnnotation": {
                 "type": "TSTupleType",
-                "start": 1123,
-                "end": 1138,
+                "start": 1122,
+                "end": 1137,
                 "elementTypes": [
                   {
                     "type": "TSAnyKeyword",
-                    "start": 1124,
-                    "end": 1127
+                    "start": 1123,
+                    "end": 1126
                   },
                   {
                     "type": "TSAnyKeyword",
-                    "start": 1129,
-                    "end": 1132
+                    "start": 1128,
+                    "end": 1131
                   },
                   {
                     "type": "TSAnyKeyword",
-                    "start": 1134,
-                    "end": 1137
+                    "start": 1133,
+                    "end": 1136
                   }
                 ]
               }
@@ -349,13 +349,13 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 1141,
-            "end": 1169,
+            "start": 1140,
+            "end": 1168,
             "elements": [
               {
                 "type": "Identifier",
-                "start": 1142,
-                "end": 1151,
+                "start": 1141,
+                "end": 1150,
                 "decorators": [],
                 "name": "undefined",
                 "optional": false,
@@ -363,15 +363,15 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "Literal",
-                "start": 1153,
-                "end": 1157,
+                "start": 1152,
+                "end": 1156,
                 "raw": "null",
                 "value": null
               },
               {
                 "type": "Identifier",
-                "start": 1159,
-                "end": 1168,
+                "start": 1158,
+                "end": 1167,
                 "decorators": [],
                 "name": "undefined",
                 "optional": false,
@@ -386,48 +386,48 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 1171,
-      "end": 1235,
+      "start": 1170,
+      "end": 1234,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1175,
-          "end": 1234,
+          "start": 1174,
+          "end": 1233,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 1175,
-            "end": 1199,
+            "start": 1174,
+            "end": 1198,
             "decorators": [],
             "name": "b1",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 1177,
-              "end": 1199,
+              "start": 1176,
+              "end": 1198,
               "typeAnnotation": {
                 "type": "TSTupleType",
-                "start": 1179,
-                "end": 1199,
+                "start": 1178,
+                "end": 1198,
                 "elementTypes": [
                   {
                     "type": "TSArrayType",
-                    "start": 1180,
-                    "end": 1188,
+                    "start": 1179,
+                    "end": 1187,
                     "elementType": {
                       "type": "TSNumberKeyword",
-                      "start": 1180,
-                      "end": 1186
+                      "start": 1179,
+                      "end": 1185
                     }
                   },
                   {
                     "type": "TSArrayType",
-                    "start": 1190,
-                    "end": 1198,
+                    "start": 1189,
+                    "end": 1197,
                     "elementType": {
                       "type": "TSStringKeyword",
-                      "start": 1190,
-                      "end": 1196
+                      "start": 1189,
+                      "end": 1195
                     }
                   }
                 ]
@@ -436,32 +436,32 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 1202,
-            "end": 1234,
+            "start": 1201,
+            "end": 1233,
             "elements": [
               {
                 "type": "ArrayExpression",
-                "start": 1203,
-                "end": 1212,
+                "start": 1202,
+                "end": 1211,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 1204,
-                    "end": 1205,
+                    "start": 1203,
+                    "end": 1204,
                     "raw": "1",
                     "value": 1
                   },
                   {
                     "type": "Literal",
-                    "start": 1207,
-                    "end": 1208,
+                    "start": 1206,
+                    "end": 1207,
                     "raw": "2",
                     "value": 2
                   },
                   {
                     "type": "Literal",
-                    "start": 1210,
-                    "end": 1211,
+                    "start": 1209,
+                    "end": 1210,
                     "raw": "3",
                     "value": 3
                   }
@@ -469,20 +469,20 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "ArrayExpression",
-                "start": 1214,
-                "end": 1233,
+                "start": 1213,
+                "end": 1232,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 1215,
-                    "end": 1222,
+                    "start": 1214,
+                    "end": 1221,
                     "raw": "\"hello\"",
                     "value": "hello"
                   },
                   {
                     "type": "Literal",
-                    "start": 1224,
-                    "end": 1232,
+                    "start": 1223,
+                    "end": 1231,
                     "raw": "\"string\"",
                     "value": "string"
                   }
@@ -497,24 +497,24 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 1554,
-      "end": 1576,
+      "start": 1553,
+      "end": 1575,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1558,
-          "end": 1575,
+          "start": 1557,
+          "end": 1574,
           "definite": false,
           "id": {
             "type": "ArrayPattern",
-            "start": 1558,
-            "end": 1566,
+            "start": 1557,
+            "end": 1565,
             "decorators": [],
             "elements": [
               {
                 "type": "Identifier",
-                "start": 1559,
-                "end": 1561,
+                "start": 1558,
+                "end": 1560,
                 "decorators": [],
                 "name": "c0",
                 "optional": false,
@@ -522,8 +522,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "Identifier",
-                "start": 1563,
-                "end": 1565,
+                "start": 1562,
+                "end": 1564,
                 "decorators": [],
                 "name": "c1",
                 "optional": false,
@@ -535,20 +535,20 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 1569,
-            "end": 1575,
+            "start": 1568,
+            "end": 1574,
             "elements": [
               {
                 "type": "Literal",
-                "start": 1570,
-                "end": 1571,
+                "start": 1569,
+                "end": 1570,
                 "raw": "1",
                 "value": 1
               },
               {
                 "type": "Literal",
-                "start": 1573,
-                "end": 1574,
+                "start": 1572,
+                "end": 1573,
                 "raw": "2",
                 "value": 2
               }
@@ -561,24 +561,24 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 1615,
-      "end": 1643,
+      "start": 1614,
+      "end": 1642,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1619,
-          "end": 1642,
+          "start": 1618,
+          "end": 1641,
           "definite": false,
           "id": {
             "type": "ArrayPattern",
-            "start": 1619,
-            "end": 1627,
+            "start": 1618,
+            "end": 1626,
             "decorators": [],
             "elements": [
               {
                 "type": "Identifier",
-                "start": 1620,
-                "end": 1622,
+                "start": 1619,
+                "end": 1621,
                 "decorators": [],
                 "name": "c2",
                 "optional": false,
@@ -586,8 +586,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "Identifier",
-                "start": 1624,
-                "end": 1626,
+                "start": 1623,
+                "end": 1625,
                 "decorators": [],
                 "name": "c3",
                 "optional": false,
@@ -599,27 +599,27 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 1630,
-            "end": 1642,
+            "start": 1629,
+            "end": 1641,
             "elements": [
               {
                 "type": "Literal",
-                "start": 1631,
-                "end": 1632,
+                "start": 1630,
+                "end": 1631,
                 "raw": "1",
                 "value": 1
               },
               {
                 "type": "Literal",
-                "start": 1634,
-                "end": 1635,
+                "start": 1633,
+                "end": 1634,
                 "raw": "2",
                 "value": 2
               },
               {
                 "type": "Literal",
-                "start": 1637,
-                "end": 1641,
+                "start": 1636,
+                "end": 1640,
                 "raw": "true",
                 "value": true
               }
@@ -632,18 +632,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 1982,
-      "end": 2009,
+      "start": 1981,
+      "end": 2008,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1986,
-          "end": 2008,
+          "start": 1985,
+          "end": 2007,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 1986,
-            "end": 1990,
+            "start": 1985,
+            "end": 1989,
             "decorators": [],
             "name": "temp",
             "optional": false,
@@ -651,27 +651,27 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 1993,
-            "end": 2008,
+            "start": 1992,
+            "end": 2007,
             "elements": [
               {
                 "type": "Literal",
-                "start": 1994,
-                "end": 1997,
+                "start": 1993,
+                "end": 1996,
                 "raw": "\"s\"",
                 "value": "s"
               },
               {
                 "type": "Literal",
-                "start": 1999,
-                "end": 2002,
+                "start": 1998,
+                "end": 2001,
                 "raw": "\"t\"",
                 "value": "t"
               },
               {
                 "type": "Literal",
-                "start": 2004,
-                "end": 2007,
+                "start": 2003,
+                "end": 2006,
                 "raw": "\"r\"",
                 "value": "r"
               }
@@ -684,18 +684,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 2010,
-      "end": 2032,
+      "start": 2009,
+      "end": 2031,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2014,
-          "end": 2031,
+          "start": 2013,
+          "end": 2030,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 2014,
-            "end": 2019,
+            "start": 2013,
+            "end": 2018,
             "decorators": [],
             "name": "temp1",
             "optional": false,
@@ -703,27 +703,27 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 2022,
-            "end": 2031,
+            "start": 2021,
+            "end": 2030,
             "elements": [
               {
                 "type": "Literal",
-                "start": 2023,
-                "end": 2024,
+                "start": 2022,
+                "end": 2023,
                 "raw": "1",
                 "value": 1
               },
               {
                 "type": "Literal",
-                "start": 2026,
-                "end": 2027,
+                "start": 2025,
+                "end": 2026,
                 "raw": "2",
                 "value": 2
               },
               {
                 "type": "Literal",
-                "start": 2029,
-                "end": 2030,
+                "start": 2028,
+                "end": 2029,
                 "raw": "3",
                 "value": 3
               }
@@ -736,48 +736,48 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 2033,
-      "end": 2100,
+      "start": 2032,
+      "end": 2099,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2037,
-          "end": 2099,
+          "start": 2036,
+          "end": 2098,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 2037,
-            "end": 2064,
+            "start": 2036,
+            "end": 2063,
             "decorators": [],
             "name": "temp2",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 2042,
-              "end": 2064,
+              "start": 2041,
+              "end": 2063,
               "typeAnnotation": {
                 "type": "TSTupleType",
-                "start": 2044,
-                "end": 2064,
+                "start": 2043,
+                "end": 2063,
                 "elementTypes": [
                   {
                     "type": "TSArrayType",
-                    "start": 2045,
-                    "end": 2053,
+                    "start": 2044,
+                    "end": 2052,
                     "elementType": {
                       "type": "TSNumberKeyword",
-                      "start": 2045,
-                      "end": 2051
+                      "start": 2044,
+                      "end": 2050
                     }
                   },
                   {
                     "type": "TSArrayType",
-                    "start": 2055,
-                    "end": 2063,
+                    "start": 2054,
+                    "end": 2062,
                     "elementType": {
                       "type": "TSStringKeyword",
-                      "start": 2055,
-                      "end": 2061
+                      "start": 2054,
+                      "end": 2060
                     }
                   }
                 ]
@@ -786,32 +786,32 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 2067,
-            "end": 2099,
+            "start": 2066,
+            "end": 2098,
             "elements": [
               {
                 "type": "ArrayExpression",
-                "start": 2068,
-                "end": 2077,
+                "start": 2067,
+                "end": 2076,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 2069,
-                    "end": 2070,
+                    "start": 2068,
+                    "end": 2069,
                     "raw": "1",
                     "value": 1
                   },
                   {
                     "type": "Literal",
-                    "start": 2072,
-                    "end": 2073,
+                    "start": 2071,
+                    "end": 2072,
                     "raw": "2",
                     "value": 2
                   },
                   {
                     "type": "Literal",
-                    "start": 2075,
-                    "end": 2076,
+                    "start": 2074,
+                    "end": 2075,
                     "raw": "3",
                     "value": 3
                   }
@@ -819,20 +819,20 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "ArrayExpression",
-                "start": 2079,
-                "end": 2098,
+                "start": 2078,
+                "end": 2097,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 2080,
-                    "end": 2087,
+                    "start": 2079,
+                    "end": 2086,
                     "raw": "\"hello\"",
                     "value": "hello"
                   },
                   {
                     "type": "Literal",
-                    "start": 2089,
-                    "end": 2097,
+                    "start": 2088,
+                    "end": 2096,
                     "raw": "\"string\"",
                     "value": "string"
                   }
@@ -847,18 +847,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 2101,
-      "end": 2142,
+      "start": 2100,
+      "end": 2141,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2105,
-          "end": 2141,
+          "start": 2104,
+          "end": 2140,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 2105,
-            "end": 2110,
+            "start": 2104,
+            "end": 2109,
             "decorators": [],
             "name": "temp3",
             "optional": false,
@@ -866,13 +866,13 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 2113,
-            "end": 2141,
+            "start": 2112,
+            "end": 2140,
             "elements": [
               {
                 "type": "Identifier",
-                "start": 2114,
-                "end": 2123,
+                "start": 2113,
+                "end": 2122,
                 "decorators": [],
                 "name": "undefined",
                 "optional": false,
@@ -880,15 +880,15 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "Literal",
-                "start": 2125,
-                "end": 2129,
+                "start": 2124,
+                "end": 2128,
                 "raw": "null",
                 "value": null
               },
               {
                 "type": "Identifier",
-                "start": 2131,
-                "end": 2140,
+                "start": 2130,
+                "end": 2139,
                 "decorators": [],
                 "name": "undefined",
                 "optional": false,
@@ -903,18 +903,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 2143,
-      "end": 2158,
+      "start": 2142,
+      "end": 2157,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2147,
-          "end": 2157,
+          "start": 2146,
+          "end": 2156,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 2147,
-            "end": 2152,
+            "start": 2146,
+            "end": 2151,
             "decorators": [],
             "name": "temp4",
             "optional": false,
@@ -922,8 +922,8 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 2155,
-            "end": 2157,
+            "start": 2154,
+            "end": 2156,
             "elements": []
           }
         }
@@ -933,24 +933,24 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 2160,
-      "end": 2203,
+      "start": 2159,
+      "end": 2202,
       "body": {
         "type": "TSInterfaceBody",
-        "start": 2200,
-        "end": 2203,
+        "start": 2199,
+        "end": 2202,
         "body": []
       },
       "declare": false,
       "extends": [
         {
           "type": "TSInterfaceHeritage",
-          "start": 2186,
-          "end": 2199,
+          "start": 2185,
+          "end": 2198,
           "expression": {
             "type": "Identifier",
-            "start": 2186,
-            "end": 2191,
+            "start": 2185,
+            "end": 2190,
             "decorators": [],
             "name": "Array",
             "optional": false,
@@ -958,18 +958,18 @@ __ESTREE_TEST__:PASS:
           },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
-            "start": 2191,
-            "end": 2199,
+            "start": 2190,
+            "end": 2198,
             "params": [
               {
                 "type": "TSTypeReference",
-                "start": 2192,
-                "end": 2198,
+                "start": 2191,
+                "end": 2197,
                 "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 2192,
-                  "end": 2198,
+                  "start": 2191,
+                  "end": 2197,
                   "decorators": [],
                   "name": "Number",
                   "optional": false,
@@ -982,8 +982,8 @@ __ESTREE_TEST__:PASS:
       ],
       "id": {
         "type": "Identifier",
-        "start": 2170,
-        "end": 2177,
+        "start": 2169,
+        "end": 2176,
         "decorators": [],
         "name": "myArray",
         "optional": false,
@@ -993,24 +993,24 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 2204,
-      "end": 2255,
+      "start": 2203,
+      "end": 2254,
       "body": {
         "type": "TSInterfaceBody",
-        "start": 2252,
-        "end": 2255,
+        "start": 2251,
+        "end": 2254,
         "body": []
       },
       "declare": false,
       "extends": [
         {
           "type": "TSInterfaceHeritage",
-          "start": 2231,
-          "end": 2251,
+          "start": 2230,
+          "end": 2250,
           "expression": {
             "type": "Identifier",
-            "start": 2231,
-            "end": 2236,
+            "start": 2230,
+            "end": 2235,
             "decorators": [],
             "name": "Array",
             "optional": false,
@@ -1018,23 +1018,23 @@ __ESTREE_TEST__:PASS:
           },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
-            "start": 2236,
-            "end": 2251,
+            "start": 2235,
+            "end": 2250,
             "params": [
               {
                 "type": "TSUnionType",
-                "start": 2237,
-                "end": 2250,
+                "start": 2236,
+                "end": 2249,
                 "types": [
                   {
                     "type": "TSTypeReference",
-                    "start": 2237,
-                    "end": 2243,
+                    "start": 2236,
+                    "end": 2242,
                     "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
-                      "start": 2237,
-                      "end": 2243,
+                      "start": 2236,
+                      "end": 2242,
                       "decorators": [],
                       "name": "Number",
                       "optional": false,
@@ -1043,13 +1043,13 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "TSTypeReference",
-                    "start": 2244,
-                    "end": 2250,
+                    "start": 2243,
+                    "end": 2249,
                     "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
-                      "start": 2244,
-                      "end": 2250,
+                      "start": 2243,
+                      "end": 2249,
                       "decorators": [],
                       "name": "String",
                       "optional": false,
@@ -1064,8 +1064,8 @@ __ESTREE_TEST__:PASS:
       ],
       "id": {
         "type": "Identifier",
-        "start": 2214,
-        "end": 2222,
+        "start": 2213,
+        "end": 2221,
         "decorators": [],
         "name": "myArray2",
         "optional": false,
@@ -1075,18 +1075,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 2256,
-      "end": 2285,
+      "start": 2255,
+      "end": 2284,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2260,
-          "end": 2284,
+          "start": 2259,
+          "end": 2283,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 2260,
-            "end": 2262,
+            "start": 2259,
+            "end": 2261,
             "decorators": [],
             "name": "d0",
             "optional": false,
@@ -1094,31 +1094,31 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 2265,
-            "end": 2284,
+            "start": 2264,
+            "end": 2283,
             "elements": [
               {
                 "type": "Literal",
-                "start": 2266,
-                "end": 2267,
+                "start": 2265,
+                "end": 2266,
                 "raw": "1",
                 "value": 1
               },
               {
                 "type": "Literal",
-                "start": 2269,
-                "end": 2273,
+                "start": 2268,
+                "end": 2272,
                 "raw": "true",
                 "value": true
               },
               {
                 "type": "SpreadElement",
-                "start": 2275,
-                "end": 2282,
+                "start": 2274,
+                "end": 2281,
                 "argument": {
                   "type": "Identifier",
-                  "start": 2278,
-                  "end": 2282,
+                  "start": 2277,
+                  "end": 2281,
                   "decorators": [],
                   "name": "temp",
                   "optional": false,
@@ -1134,18 +1134,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 2325,
-      "end": 2344,
+      "start": 2324,
+      "end": 2343,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2329,
-          "end": 2343,
+          "start": 2328,
+          "end": 2342,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 2329,
-            "end": 2331,
+            "start": 2328,
+            "end": 2330,
             "decorators": [],
             "name": "d1",
             "optional": false,
@@ -1153,17 +1153,17 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 2334,
-            "end": 2343,
+            "start": 2333,
+            "end": 2342,
             "elements": [
               {
                 "type": "SpreadElement",
-                "start": 2335,
-                "end": 2342,
+                "start": 2334,
+                "end": 2341,
                 "argument": {
                   "type": "Identifier",
-                  "start": 2338,
-                  "end": 2342,
+                  "start": 2337,
+                  "end": 2341,
                   "decorators": [],
                   "name": "temp",
                   "optional": false,
@@ -1179,50 +1179,50 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 2377,
-      "end": 2407,
+      "start": 2376,
+      "end": 2406,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2381,
-          "end": 2406,
+          "start": 2380,
+          "end": 2405,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 2381,
-            "end": 2393,
+            "start": 2380,
+            "end": 2392,
             "decorators": [],
             "name": "d2",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 2383,
-              "end": 2393,
+              "start": 2382,
+              "end": 2392,
               "typeAnnotation": {
                 "type": "TSArrayType",
-                "start": 2385,
-                "end": 2393,
+                "start": 2384,
+                "end": 2392,
                 "elementType": {
                   "type": "TSNumberKeyword",
-                  "start": 2385,
-                  "end": 2391
+                  "start": 2384,
+                  "end": 2390
                 }
               }
             }
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 2396,
-            "end": 2406,
+            "start": 2395,
+            "end": 2405,
             "elements": [
               {
                 "type": "SpreadElement",
-                "start": 2397,
-                "end": 2405,
+                "start": 2396,
+                "end": 2404,
                 "argument": {
                   "type": "Identifier",
-                  "start": 2400,
-                  "end": 2405,
+                  "start": 2399,
+                  "end": 2404,
                   "decorators": [],
                   "name": "temp1",
                   "optional": false,
@@ -1238,34 +1238,34 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 2408,
-      "end": 2437,
+      "start": 2407,
+      "end": 2436,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2412,
-          "end": 2436,
+          "start": 2411,
+          "end": 2435,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 2412,
-            "end": 2423,
+            "start": 2411,
+            "end": 2422,
             "decorators": [],
             "name": "d3",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 2414,
-              "end": 2423,
+              "start": 2413,
+              "end": 2422,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 2416,
-                "end": 2423,
+                "start": 2415,
+                "end": 2422,
                 "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 2416,
-                  "end": 2423,
+                  "start": 2415,
+                  "end": 2422,
                   "decorators": [],
                   "name": "myArray",
                   "optional": false,
@@ -1276,17 +1276,17 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 2426,
-            "end": 2436,
+            "start": 2425,
+            "end": 2435,
             "elements": [
               {
                 "type": "SpreadElement",
-                "start": 2427,
-                "end": 2435,
+                "start": 2426,
+                "end": 2434,
                 "argument": {
                   "type": "Identifier",
-                  "start": 2430,
-                  "end": 2435,
+                  "start": 2429,
+                  "end": 2434,
                   "decorators": [],
                   "name": "temp1",
                   "optional": false,
@@ -1302,34 +1302,34 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 2438,
-      "end": 2477,
+      "start": 2437,
+      "end": 2476,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2442,
-          "end": 2476,
+          "start": 2441,
+          "end": 2475,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 2442,
-            "end": 2454,
+            "start": 2441,
+            "end": 2453,
             "decorators": [],
             "name": "d4",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 2444,
-              "end": 2454,
+              "start": 2443,
+              "end": 2453,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 2446,
-                "end": 2454,
+                "start": 2445,
+                "end": 2453,
                 "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 2446,
-                  "end": 2454,
+                  "start": 2445,
+                  "end": 2453,
                   "decorators": [],
                   "name": "myArray2",
                   "optional": false,
@@ -1340,17 +1340,17 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 2457,
-            "end": 2476,
+            "start": 2456,
+            "end": 2475,
             "elements": [
               {
                 "type": "SpreadElement",
-                "start": 2458,
-                "end": 2465,
+                "start": 2457,
+                "end": 2464,
                 "argument": {
                   "type": "Identifier",
-                  "start": 2461,
-                  "end": 2465,
+                  "start": 2460,
+                  "end": 2464,
                   "decorators": [],
                   "name": "temp",
                   "optional": false,
@@ -1359,12 +1359,12 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "SpreadElement",
-                "start": 2467,
-                "end": 2475,
+                "start": 2466,
+                "end": 2474,
                 "argument": {
                   "type": "Identifier",
-                  "start": 2470,
-                  "end": 2475,
+                  "start": 2469,
+                  "end": 2474,
                   "decorators": [],
                   "name": "temp1",
                   "optional": false,
@@ -1380,18 +1380,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 2478,
-      "end": 2498,
+      "start": 2477,
+      "end": 2497,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2482,
-          "end": 2497,
+          "start": 2481,
+          "end": 2496,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 2482,
-            "end": 2484,
+            "start": 2481,
+            "end": 2483,
             "decorators": [],
             "name": "d5",
             "optional": false,
@@ -1399,17 +1399,17 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 2487,
-            "end": 2497,
+            "start": 2486,
+            "end": 2496,
             "elements": [
               {
                 "type": "SpreadElement",
-                "start": 2488,
-                "end": 2496,
+                "start": 2487,
+                "end": 2495,
                 "argument": {
                   "type": "Identifier",
-                  "start": 2491,
-                  "end": 2496,
+                  "start": 2490,
+                  "end": 2495,
                   "decorators": [],
                   "name": "temp3",
                   "optional": false,
@@ -1425,18 +1425,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 2499,
-      "end": 2519,
+      "start": 2498,
+      "end": 2518,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2503,
-          "end": 2518,
+          "start": 2502,
+          "end": 2517,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 2503,
-            "end": 2505,
+            "start": 2502,
+            "end": 2504,
             "decorators": [],
             "name": "d6",
             "optional": false,
@@ -1444,17 +1444,17 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 2508,
-            "end": 2518,
+            "start": 2507,
+            "end": 2517,
             "elements": [
               {
                 "type": "SpreadElement",
-                "start": 2509,
-                "end": 2517,
+                "start": 2508,
+                "end": 2516,
                 "argument": {
                   "type": "Identifier",
-                  "start": 2512,
-                  "end": 2517,
+                  "start": 2511,
+                  "end": 2516,
                   "decorators": [],
                   "name": "temp4",
                   "optional": false,
@@ -1470,18 +1470,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 2520,
-      "end": 2545,
+      "start": 2519,
+      "end": 2544,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2524,
-          "end": 2544,
+          "start": 2523,
+          "end": 2543,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 2524,
-            "end": 2526,
+            "start": 2523,
+            "end": 2525,
             "decorators": [],
             "name": "d7",
             "optional": false,
@@ -1489,26 +1489,26 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 2529,
-            "end": 2544,
+            "start": 2528,
+            "end": 2543,
             "elements": [
               {
                 "type": "SpreadElement",
-                "start": 2530,
-                "end": 2543,
+                "start": 2529,
+                "end": 2542,
                 "argument": {
                   "type": "ArrayExpression",
-                  "start": 2533,
-                  "end": 2543,
+                  "start": 2532,
+                  "end": 2542,
                   "elements": [
                     {
                       "type": "SpreadElement",
-                      "start": 2534,
-                      "end": 2542,
+                      "start": 2533,
+                      "end": 2541,
                       "argument": {
                         "type": "Identifier",
-                        "start": 2537,
-                        "end": 2542,
+                        "start": 2536,
+                        "end": 2541,
                         "decorators": [],
                         "name": "temp1",
                         "optional": false,
@@ -1527,37 +1527,37 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 2546,
-      "end": 2579,
+      "start": 2545,
+      "end": 2578,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2550,
-          "end": 2579,
+          "start": 2549,
+          "end": 2578,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 2550,
-            "end": 2564,
+            "start": 2549,
+            "end": 2563,
             "decorators": [],
             "name": "d8",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 2552,
-              "end": 2564,
+              "start": 2551,
+              "end": 2563,
               "typeAnnotation": {
                 "type": "TSArrayType",
-                "start": 2554,
-                "end": 2564,
+                "start": 2553,
+                "end": 2563,
                 "elementType": {
                   "type": "TSArrayType",
-                  "start": 2554,
-                  "end": 2562,
+                  "start": 2553,
+                  "end": 2561,
                   "elementType": {
                     "type": "TSNumberKeyword",
-                    "start": 2554,
-                    "end": 2560
+                    "start": 2553,
+                    "end": 2559
                   }
                 }
               }
@@ -1565,22 +1565,22 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 2567,
-            "end": 2579,
+            "start": 2566,
+            "end": 2578,
             "elements": [
               {
                 "type": "ArrayExpression",
-                "start": 2568,
-                "end": 2578,
+                "start": 2567,
+                "end": 2577,
                 "elements": [
                   {
                     "type": "SpreadElement",
-                    "start": 2569,
-                    "end": 2577,
+                    "start": 2568,
+                    "end": 2576,
                     "argument": {
                       "type": "Identifier",
-                      "start": 2572,
-                      "end": 2577,
+                      "start": 2571,
+                      "end": 2576,
                       "decorators": [],
                       "name": "temp1",
                       "optional": false,
@@ -1598,18 +1598,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 2580,
-      "end": 2616,
+      "start": 2579,
+      "end": 2615,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2584,
-          "end": 2615,
+          "start": 2583,
+          "end": 2614,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 2584,
-            "end": 2586,
+            "start": 2583,
+            "end": 2585,
             "decorators": [],
             "name": "d9",
             "optional": false,
@@ -1617,22 +1617,22 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 2589,
-            "end": 2615,
+            "start": 2588,
+            "end": 2614,
             "elements": [
               {
                 "type": "ArrayExpression",
-                "start": 2590,
-                "end": 2600,
+                "start": 2589,
+                "end": 2599,
                 "elements": [
                   {
                     "type": "SpreadElement",
-                    "start": 2591,
-                    "end": 2599,
+                    "start": 2590,
+                    "end": 2598,
                     "argument": {
                       "type": "Identifier",
-                      "start": 2594,
-                      "end": 2599,
+                      "start": 2593,
+                      "end": 2598,
                       "decorators": [],
                       "name": "temp1",
                       "optional": false,
@@ -1643,17 +1643,17 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "SpreadElement",
-                "start": 2602,
-                "end": 2614,
+                "start": 2601,
+                "end": 2613,
                 "argument": {
                   "type": "ArrayExpression",
-                  "start": 2605,
-                  "end": 2614,
+                  "start": 2604,
+                  "end": 2613,
                   "elements": [
                     {
                       "type": "Literal",
-                      "start": 2606,
-                      "end": 2613,
+                      "start": 2605,
+                      "end": 2612,
                       "raw": "\"hello\"",
                       "value": "hello"
                     }

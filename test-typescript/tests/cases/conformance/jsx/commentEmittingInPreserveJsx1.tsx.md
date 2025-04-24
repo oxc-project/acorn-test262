@@ -2,17 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 25,
-  "end": 396,
+  "start": 0,
+  "end": 371,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 25,
-      "end": 57,
+      "start": 0,
+      "end": 32,
       "id": {
         "type": "Identifier",
-        "start": 32,
-        "end": 37,
+        "start": 7,
+        "end": 12,
         "decorators": [],
         "name": "React",
         "optional": false,
@@ -21,12 +21,12 @@ __ESTREE_TEST__:PASS:
       "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 40,
-        "end": 56,
+        "start": 15,
+        "end": 31,
         "expression": {
           "type": "Literal",
-          "start": 48,
-          "end": 55,
+          "start": 23,
+          "end": 30,
           "raw": "'react'",
           "value": "react"
         }
@@ -34,42 +34,42 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ExpressionStatement",
-      "start": 59,
-      "end": 91,
+      "start": 34,
+      "end": 66,
       "directive": null,
       "expression": {
         "type": "JSXElement",
-        "start": 59,
-        "end": 90,
+        "start": 34,
+        "end": 65,
         "children": [
           {
             "type": "JSXText",
-            "start": 64,
-            "end": 84,
+            "start": 39,
+            "end": 59,
             "raw": "\n    // Not Comment\n",
             "value": "\n    // Not Comment\n"
           }
         ],
         "closingElement": {
           "type": "JSXClosingElement",
-          "start": 84,
-          "end": 90,
+          "start": 59,
+          "end": 65,
           "name": {
             "type": "JSXIdentifier",
-            "start": 86,
-            "end": 89,
+            "start": 61,
+            "end": 64,
             "name": "div"
           }
         },
         "openingElement": {
           "type": "JSXOpeningElement",
-          "start": 59,
-          "end": 64,
+          "start": 34,
+          "end": 39,
           "attributes": [],
           "name": {
             "type": "JSXIdentifier",
-            "start": 60,
-            "end": 63,
+            "start": 35,
+            "end": 38,
             "name": "div"
           },
           "selfClosing": false,
@@ -79,59 +79,59 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ExpressionStatement",
-      "start": 93,
-      "end": 192,
+      "start": 68,
+      "end": 167,
       "directive": null,
       "expression": {
         "type": "JSXElement",
-        "start": 93,
-        "end": 191,
+        "start": 68,
+        "end": 166,
         "children": [
           {
             "type": "JSXText",
-            "start": 98,
-            "end": 122,
+            "start": 73,
+            "end": 97,
             "raw": "\n    // Not Comment\n    ",
             "value": "\n    // Not Comment\n    "
           },
           {
             "type": "JSXExpressionContainer",
-            "start": 122,
-            "end": 157,
+            "start": 97,
+            "end": 132,
             "expression": {
               "type": "JSXEmptyExpression",
-              "start": 123,
-              "end": 156
+              "start": 98,
+              "end": 131
             }
           },
           {
             "type": "JSXText",
-            "start": 157,
-            "end": 185,
+            "start": 132,
+            "end": 160,
             "raw": "\n    // Another not Comment\n",
             "value": "\n    // Another not Comment\n"
           }
         ],
         "closingElement": {
           "type": "JSXClosingElement",
-          "start": 185,
-          "end": 191,
+          "start": 160,
+          "end": 166,
           "name": {
             "type": "JSXIdentifier",
-            "start": 187,
-            "end": 190,
+            "start": 162,
+            "end": 165,
             "name": "div"
           }
         },
         "openingElement": {
           "type": "JSXOpeningElement",
-          "start": 93,
-          "end": 98,
+          "start": 68,
+          "end": 73,
           "attributes": [],
           "name": {
             "type": "JSXIdentifier",
-            "start": 94,
-            "end": 97,
+            "start": 69,
+            "end": 72,
             "name": "div"
           },
           "selfClosing": false,
@@ -141,61 +141,61 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ExpressionStatement",
-      "start": 194,
-      "end": 306,
+      "start": 169,
+      "end": 281,
       "directive": null,
       "expression": {
         "type": "JSXElement",
-        "start": 194,
-        "end": 305,
+        "start": 169,
+        "end": 280,
         "children": [
           {
             "type": "JSXText",
-            "start": 199,
-            "end": 223,
+            "start": 174,
+            "end": 198,
             "raw": "\n    // Not Comment\n    ",
             "value": "\n    // Not Comment\n    "
           },
           {
             "type": "JSXExpressionContainer",
-            "start": 223,
-            "end": 271,
+            "start": 198,
+            "end": 246,
             "expression": {
               "type": "Literal",
-              "start": 261,
-              "end": 265,
+              "start": 236,
+              "end": 240,
               "raw": "\"Hi\"",
               "value": "Hi"
             }
           },
           {
             "type": "JSXText",
-            "start": 271,
-            "end": 299,
+            "start": 246,
+            "end": 274,
             "raw": "\n    // Another not Comment\n",
             "value": "\n    // Another not Comment\n"
           }
         ],
         "closingElement": {
           "type": "JSXClosingElement",
-          "start": 299,
-          "end": 305,
+          "start": 274,
+          "end": 280,
           "name": {
             "type": "JSXIdentifier",
-            "start": 301,
-            "end": 304,
+            "start": 276,
+            "end": 279,
             "name": "div"
           }
         },
         "openingElement": {
           "type": "JSXOpeningElement",
-          "start": 194,
-          "end": 199,
+          "start": 169,
+          "end": 174,
           "attributes": [],
           "name": {
             "type": "JSXIdentifier",
-            "start": 195,
-            "end": 198,
+            "start": 170,
+            "end": 173,
             "name": "div"
           },
           "selfClosing": false,
@@ -205,61 +205,61 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ExpressionStatement",
-      "start": 308,
-      "end": 396,
+      "start": 283,
+      "end": 371,
       "directive": null,
       "expression": {
         "type": "JSXElement",
-        "start": 308,
-        "end": 395,
+        "start": 283,
+        "end": 370,
         "children": [
           {
             "type": "JSXText",
-            "start": 313,
-            "end": 340,
+            "start": 288,
+            "end": 315,
             "raw": "\n    /* Not Comment */\n    ",
             "value": "\n    /* Not Comment */\n    "
           },
           {
             "type": "JSXExpressionContainer",
-            "start": 340,
-            "end": 388,
+            "start": 315,
+            "end": 363,
             "expression": {
               "type": "Literal",
-              "start": 378,
-              "end": 382,
+              "start": 353,
+              "end": 357,
               "raw": "\"Hi\"",
               "value": "Hi"
             }
           },
           {
             "type": "JSXText",
-            "start": 388,
-            "end": 389,
+            "start": 363,
+            "end": 364,
             "raw": "\n",
             "value": "\n"
           }
         ],
         "closingElement": {
           "type": "JSXClosingElement",
-          "start": 389,
-          "end": 395,
+          "start": 364,
+          "end": 370,
           "name": {
             "type": "JSXIdentifier",
-            "start": 391,
-            "end": 394,
+            "start": 366,
+            "end": 369,
             "name": "div"
           }
         },
         "openingElement": {
           "type": "JSXOpeningElement",
-          "start": 308,
-          "end": 313,
+          "start": 283,
+          "end": 288,
           "attributes": [],
           "name": {
             "type": "JSXIdentifier",
-            "start": 309,
-            "end": 312,
+            "start": 284,
+            "end": 287,
             "name": "div"
           },
           "selfClosing": false,

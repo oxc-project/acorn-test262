@@ -2,33 +2,33 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 17,
-  "end": 133,
+  "start": 0,
+  "end": 116,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 17,
-      "end": 133,
+      "start": 0,
+      "end": 116,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 33,
-        "end": 133,
+        "start": 16,
+        "end": 116,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 101,
-            "end": 131,
+            "start": 84,
+            "end": 114,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 105,
-                "end": 130,
+                "start": 88,
+                "end": 113,
                 "definite": false,
                 "id": {
                   "type": "Identifier",
-                  "start": 105,
-                  "end": 106,
+                  "start": 88,
+                  "end": 89,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
@@ -36,17 +36,17 @@ __ESTREE_TEST__:PASS:
                 },
                 "init": {
                   "type": "TemplateLiteral",
-                  "start": 109,
-                  "end": 130,
+                  "start": 92,
+                  "end": 113,
                   "expressions": [
                     {
                       "type": "YieldExpression",
-                      "start": 116,
-                      "end": 124,
+                      "start": 99,
+                      "end": 107,
                       "argument": {
                         "type": "Literal",
-                        "start": 122,
-                        "end": 124,
+                        "start": 105,
+                        "end": 107,
                         "raw": "10",
                         "value": 10
                       },
@@ -56,8 +56,8 @@ __ESTREE_TEST__:PASS:
                   "quasis": [
                     {
                       "type": "TemplateElement",
-                      "start": 109,
-                      "end": 115,
+                      "start": 92,
+                      "end": 98,
                       "tail": false,
                       "value": {
                         "cooked": "abc",
@@ -66,8 +66,8 @@ __ESTREE_TEST__:PASS:
                     },
                     {
                       "type": "TemplateElement",
-                      "start": 125,
-                      "end": 130,
+                      "start": 108,
+                      "end": 113,
                       "tail": true,
                       "value": {
                         "cooked": "def",
@@ -88,8 +88,8 @@ __ESTREE_TEST__:PASS:
       "generator": true,
       "id": {
         "type": "Identifier",
-        "start": 27,
-        "end": 30,
+        "start": 10,
+        "end": 13,
         "decorators": [],
         "name": "gen",
         "optional": false,

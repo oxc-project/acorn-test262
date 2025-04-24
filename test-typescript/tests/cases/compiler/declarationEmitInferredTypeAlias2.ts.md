@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 24,
-  "end": 99,
+  "start": 0,
+  "end": 75,
   "body": [
     {
       "type": "BlockStatement",
-      "start": 24,
-      "end": 87,
+      "start": 0,
+      "end": 63,
       "body": [
         {
           "type": "TSTypeAliasDeclaration",
-          "start": 30,
-          "end": 59,
+          "start": 6,
+          "end": 35,
           "declare": false,
           "id": {
             "type": "Identifier",
-            "start": 35,
-            "end": 39,
+            "start": 11,
+            "end": 15,
             "decorators": [],
             "name": "Data",
             "optional": false,
@@ -26,18 +26,18 @@ __ESTREE_TEST__:PASS:
           },
           "typeAnnotation": {
             "type": "TSUnionType",
-            "start": 42,
-            "end": 58,
+            "start": 18,
+            "end": 34,
             "types": [
               {
                 "type": "TSStringKeyword",
-                "start": 42,
-                "end": 48
+                "start": 18,
+                "end": 24
               },
               {
                 "type": "TSBooleanKeyword",
-                "start": 51,
-                "end": 58
+                "start": 27,
+                "end": 34
               }
             ]
           },
@@ -45,34 +45,34 @@ __ESTREE_TEST__:PASS:
         },
         {
           "type": "VariableDeclaration",
-          "start": 64,
-          "end": 85,
+          "start": 40,
+          "end": 61,
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 68,
-              "end": 84,
+              "start": 44,
+              "end": 60,
               "definite": false,
               "id": {
                 "type": "Identifier",
-                "start": 68,
-                "end": 77,
+                "start": 44,
+                "end": 53,
                 "decorators": [],
                 "name": "obj",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 71,
-                  "end": 77,
+                  "start": 47,
+                  "end": 53,
                   "typeAnnotation": {
                     "type": "TSTypeReference",
-                    "start": 73,
-                    "end": 77,
+                    "start": 49,
+                    "end": 53,
                     "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
-                      "start": 73,
-                      "end": 77,
+                      "start": 49,
+                      "end": 53,
                       "decorators": [],
                       "name": "Data",
                       "optional": false,
@@ -83,8 +83,8 @@ __ESTREE_TEST__:PASS:
               },
               "init": {
                 "type": "Literal",
-                "start": 80,
-                "end": 84,
+                "start": 56,
+                "end": 60,
                 "raw": "true",
                 "value": true
               }
@@ -97,8 +97,8 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 88,
-      "end": 98,
+      "start": 64,
+      "end": 74,
       "attributes": [],
       "declaration": null,
       "exportKind": "value",

@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 16,
-  "end": 93,
+  "start": 0,
+  "end": 77,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 16,
-      "end": 39,
+      "start": 0,
+      "end": 23,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 20,
-          "end": 38,
+          "start": 4,
+          "end": 22,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 20,
-            "end": 26,
+            "start": 4,
+            "end": 10,
             "decorators": [],
             "name": "arrow1",
             "optional": false,
@@ -26,13 +26,13 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 30,
-            "end": 38,
+            "start": 14,
+            "end": 22,
             "async": false,
             "body": {
               "type": "BlockStatement",
-              "start": 35,
-              "end": 38,
+              "start": 19,
+              "end": 22,
               "body": []
             },
             "expression": false,
@@ -41,8 +41,8 @@ __ESTREE_TEST__:PASS:
             "params": [
               {
                 "type": "Identifier",
-                "start": 30,
-                "end": 31,
+                "start": 14,
+                "end": 15,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
@@ -59,18 +59,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 40,
-      "end": 64,
+      "start": 24,
+      "end": 48,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 44,
-          "end": 63,
+          "start": 28,
+          "end": 47,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 44,
-            "end": 50,
+            "start": 28,
+            "end": 34,
             "decorators": [],
             "name": "arrow2",
             "optional": false,
@@ -78,13 +78,13 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 53,
-            "end": 63,
+            "start": 37,
+            "end": 47,
             "async": false,
             "body": {
               "type": "BlockStatement",
-              "start": 60,
-              "end": 63,
+              "start": 44,
+              "end": 47,
               "body": []
             },
             "expression": false,
@@ -93,8 +93,8 @@ __ESTREE_TEST__:PASS:
             "params": [
               {
                 "type": "Identifier",
-                "start": 54,
-                "end": 55,
+                "start": 38,
+                "end": 39,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
@@ -111,18 +111,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 66,
-      "end": 93,
+      "start": 50,
+      "end": 77,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 70,
-          "end": 92,
+          "start": 54,
+          "end": 76,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 70,
-            "end": 76,
+            "start": 54,
+            "end": 60,
             "decorators": [],
             "name": "arrow3",
             "optional": false,
@@ -130,13 +130,13 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 79,
-            "end": 92,
+            "start": 63,
+            "end": 76,
             "async": false,
             "body": {
               "type": "BlockStatement",
-              "start": 89,
-              "end": 92,
+              "start": 73,
+              "end": 76,
               "body": []
             },
             "expression": false,
@@ -145,8 +145,8 @@ __ESTREE_TEST__:PASS:
             "params": [
               {
                 "type": "Identifier",
-                "start": 80,
-                "end": 81,
+                "start": 64,
+                "end": 65,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
@@ -154,8 +154,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "Identifier",
-                "start": 83,
-                "end": 84,
+                "start": 67,
+                "end": 68,
                 "decorators": [],
                 "name": "b",
                 "optional": false,

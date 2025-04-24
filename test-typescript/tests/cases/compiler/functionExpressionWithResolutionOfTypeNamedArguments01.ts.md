@@ -2,25 +2,25 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 76,
+  "start": 0,
+  "end": 75,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 1,
-      "end": 24,
+      "start": 0,
+      "end": 23,
       "body": {
         "type": "TSInterfaceBody",
-        "start": 21,
-        "end": 24,
+        "start": 20,
+        "end": 23,
         "body": []
       },
       "declare": false,
       "extends": [],
       "id": {
         "type": "Identifier",
-        "start": 11,
-        "end": 20,
+        "start": 10,
+        "end": 19,
         "decorators": [],
         "name": "arguments",
         "optional": false,
@@ -30,18 +30,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 26,
-      "end": 76,
+      "start": 25,
+      "end": 75,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 30,
-          "end": 76,
+          "start": 29,
+          "end": 75,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 30,
-            "end": 31,
+            "start": 29,
+            "end": 30,
             "decorators": [],
             "name": "x",
             "optional": false,
@@ -49,27 +49,27 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "FunctionExpression",
-            "start": 34,
-            "end": 76,
+            "start": 33,
+            "end": 75,
             "async": false,
             "body": {
               "type": "BlockStatement",
-              "start": 47,
-              "end": 76,
+              "start": 46,
+              "end": 75,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 53,
-                  "end": 74,
+                  "start": 52,
+                  "end": 73,
                   "directive": null,
                   "expression": {
                     "type": "TSTypeAssertion",
-                    "start": 53,
-                    "end": 73,
+                    "start": 52,
+                    "end": 72,
                     "expression": {
                       "type": "Identifier",
-                      "start": 64,
-                      "end": 73,
+                      "start": 63,
+                      "end": 72,
                       "decorators": [],
                       "name": "arguments",
                       "optional": false,
@@ -77,13 +77,13 @@ __ESTREE_TEST__:PASS:
                     },
                     "typeAnnotation": {
                       "type": "TSTypeReference",
-                      "start": 54,
-                      "end": 63,
+                      "start": 53,
+                      "end": 62,
                       "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
-                        "start": 54,
-                        "end": 63,
+                        "start": 53,
+                        "end": 62,
                         "decorators": [],
                         "name": "arguments",
                         "optional": false,
@@ -99,8 +99,8 @@ __ESTREE_TEST__:PASS:
             "generator": false,
             "id": {
               "type": "Identifier",
-              "start": 43,
-              "end": 44,
+              "start": 42,
+              "end": 43,
               "decorators": [],
               "name": "f",
               "optional": false,

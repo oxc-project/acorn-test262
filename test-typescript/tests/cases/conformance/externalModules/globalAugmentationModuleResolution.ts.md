@@ -2,13 +2,13 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 28,
-  "end": 76,
+  "start": 0,
+  "end": 48,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 28,
-      "end": 39,
+      "start": 0,
+      "end": 11,
       "attributes": [],
       "declaration": null,
       "exportKind": "value",
@@ -17,38 +17,38 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 41,
-      "end": 76,
+      "start": 13,
+      "end": 48,
       "body": {
         "type": "TSModuleBlock",
-        "start": 56,
-        "end": 76,
+        "start": 28,
+        "end": 48,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 60,
-            "end": 74,
+            "start": 32,
+            "end": 46,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 64,
-                "end": 73,
+                "start": 36,
+                "end": 45,
                 "definite": false,
                 "id": {
                   "type": "Identifier",
-                  "start": 64,
-                  "end": 73,
+                  "start": 36,
+                  "end": 45,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 65,
-                    "end": 73,
+                    "start": 37,
+                    "end": 45,
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
-                      "start": 67,
-                      "end": 73
+                      "start": 39,
+                      "end": 45
                     }
                   }
                 },
@@ -64,8 +64,8 @@ __ESTREE_TEST__:PASS:
       "global": true,
       "id": {
         "type": "Identifier",
-        "start": 49,
-        "end": 55,
+        "start": 21,
+        "end": 27,
         "decorators": [],
         "name": "global",
         "optional": false,

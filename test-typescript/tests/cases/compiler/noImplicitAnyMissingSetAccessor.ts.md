@@ -2,30 +2,30 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 26,
-  "end": 170,
+  "start": 0,
+  "end": 144,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 26,
-      "end": 86,
+      "start": 0,
+      "end": 60,
       "abstract": true,
       "body": {
         "type": "ClassBody",
-        "start": 48,
-        "end": 86,
+        "start": 22,
+        "end": 60,
         "body": [
           {
             "type": "TSAbstractMethodDefinition",
-            "start": 54,
-            "end": 84,
+            "start": 28,
+            "end": 58,
             "accessibility": "public",
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 74,
-              "end": 81,
+              "start": 48,
+              "end": 55,
               "decorators": [],
               "name": "message",
               "optional": false,
@@ -37,8 +37,8 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 81,
-              "end": 84,
+              "start": 55,
+              "end": 58,
               "async": false,
               "body": null,
               "declare": false,
@@ -56,8 +56,8 @@ __ESTREE_TEST__:PASS:
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 41,
-        "end": 47,
+        "start": 15,
+        "end": 21,
         "decorators": [],
         "name": "Parent",
         "optional": false,
@@ -70,25 +70,25 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ClassDeclaration",
-      "start": 88,
-      "end": 170,
+      "start": 62,
+      "end": 144,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 115,
-        "end": 170,
+        "start": 89,
+        "end": 144,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 121,
-            "end": 168,
+            "start": 95,
+            "end": 142,
             "accessibility": "public",
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 132,
-              "end": 139,
+              "start": 106,
+              "end": 113,
               "decorators": [],
               "name": "message",
               "optional": false,
@@ -100,22 +100,22 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 139,
-              "end": 168,
+              "start": 113,
+              "end": 142,
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 142,
-                "end": 168,
+                "start": 116,
+                "end": 142,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 152,
-                    "end": 162,
+                    "start": 126,
+                    "end": 136,
                     "argument": {
                       "type": "Literal",
-                      "start": 159,
-                      "end": 161,
+                      "start": 133,
+                      "end": 135,
                       "raw": "\"\"",
                       "value": ""
                     }
@@ -137,8 +137,8 @@ __ESTREE_TEST__:PASS:
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 94,
-        "end": 99,
+        "start": 68,
+        "end": 73,
         "decorators": [],
         "name": "Child",
         "optional": false,
@@ -147,8 +147,8 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "superClass": {
         "type": "Identifier",
-        "start": 108,
-        "end": 114,
+        "start": 82,
+        "end": 88,
         "decorators": [],
         "name": "Parent",
         "optional": false,

@@ -2,45 +2,45 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 18,
-  "end": 177,
+  "start": 0,
+  "end": 159,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 18,
-      "end": 177,
+      "start": 0,
+      "end": 159,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 31,
-        "end": 177,
+        "start": 13,
+        "end": 159,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 37,
-            "end": 80,
+            "start": 19,
+            "end": 62,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 41,
-                "end": 79,
+                "start": 23,
+                "end": 61,
                 "definite": false,
                 "id": {
                   "type": "ObjectPattern",
-                  "start": 41,
-                  "end": 54,
+                  "start": 23,
+                  "end": 36,
                   "decorators": [],
                   "optional": false,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 43,
-                      "end": 52,
+                      "start": 25,
+                      "end": 34,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 43,
-                        "end": 52,
+                        "start": 25,
+                        "end": 34,
                         "decorators": [],
                         "name": "arguments",
                         "optional": false,
@@ -52,8 +52,8 @@ __ESTREE_TEST__:PASS:
                       "shorthand": true,
                       "value": {
                         "type": "Identifier",
-                        "start": 43,
-                        "end": 52,
+                        "start": 25,
+                        "end": 34,
                         "decorators": [],
                         "name": "arguments",
                         "optional": false,
@@ -65,18 +65,18 @@ __ESTREE_TEST__:PASS:
                 },
                 "init": {
                   "type": "ObjectExpression",
-                  "start": 57,
-                  "end": 79,
+                  "start": 39,
+                  "end": 61,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 59,
-                      "end": 77,
+                      "start": 41,
+                      "end": 59,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 59,
-                        "end": 68,
+                        "start": 41,
+                        "end": 50,
                         "decorators": [],
                         "name": "arguments",
                         "optional": false,
@@ -88,8 +88,8 @@ __ESTREE_TEST__:PASS:
                       "shorthand": false,
                       "value": {
                         "type": "Literal",
-                        "start": 70,
-                        "end": 77,
+                        "start": 52,
+                        "end": 59,
                         "raw": "\"hello\"",
                         "value": "hello"
                       }
@@ -103,32 +103,32 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "IfStatement",
-            "start": 85,
-            "end": 146,
+            "start": 67,
+            "end": 128,
             "alternate": null,
             "consequent": {
               "type": "BlockStatement",
-              "start": 104,
-              "end": 146,
+              "start": 86,
+              "end": 128,
               "body": [
                 {
                   "type": "ReturnStatement",
-                  "start": 114,
-                  "end": 140,
+                  "start": 96,
+                  "end": 122,
                   "argument": {
                     "type": "ArrowFunctionExpression",
-                    "start": 121,
-                    "end": 139,
+                    "start": 103,
+                    "end": 121,
                     "async": false,
                     "body": {
                       "type": "MemberExpression",
-                      "start": 127,
-                      "end": 139,
+                      "start": 109,
+                      "end": 121,
                       "computed": true,
                       "object": {
                         "type": "Identifier",
-                        "start": 127,
-                        "end": 136,
+                        "start": 109,
+                        "end": 118,
                         "decorators": [],
                         "name": "arguments",
                         "optional": false,
@@ -137,8 +137,8 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "property": {
                         "type": "Literal",
-                        "start": 137,
-                        "end": 138,
+                        "start": 119,
+                        "end": 120,
                         "raw": "0",
                         "value": 0
                       }
@@ -155,18 +155,18 @@ __ESTREE_TEST__:PASS:
             },
             "test": {
               "type": "CallExpression",
-              "start": 89,
-              "end": 102,
+              "start": 71,
+              "end": 84,
               "arguments": [],
               "callee": {
                 "type": "MemberExpression",
-                "start": 89,
-                "end": 100,
+                "start": 71,
+                "end": 82,
                 "computed": false,
                 "object": {
                   "type": "Identifier",
-                  "start": 89,
-                  "end": 93,
+                  "start": 71,
+                  "end": 75,
                   "decorators": [],
                   "name": "Math",
                   "optional": false,
@@ -175,8 +175,8 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "property": {
                   "type": "Identifier",
-                  "start": 94,
-                  "end": 100,
+                  "start": 76,
+                  "end": 82,
                   "decorators": [],
                   "name": "random",
                   "optional": false,
@@ -189,18 +189,18 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "VariableDeclaration",
-            "start": 151,
-            "end": 175,
+            "start": 133,
+            "end": 157,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 155,
-                "end": 174,
+                "start": 137,
+                "end": 156,
                 "definite": false,
                 "id": {
                   "type": "Identifier",
-                  "start": 155,
-                  "end": 164,
+                  "start": 137,
+                  "end": 146,
                   "decorators": [],
                   "name": "arguments",
                   "optional": false,
@@ -208,8 +208,8 @@ __ESTREE_TEST__:PASS:
                 },
                 "init": {
                   "type": "Literal",
-                  "start": 167,
-                  "end": 174,
+                  "start": 149,
+                  "end": 156,
                   "raw": "\"world\"",
                   "value": "world"
                 }
@@ -225,8 +225,8 @@ __ESTREE_TEST__:PASS:
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 27,
-        "end": 28,
+        "start": 9,
+        "end": 10,
         "decorators": [],
         "name": "f",
         "optional": false,

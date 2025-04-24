@@ -2,13 +2,13 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 243,
+  "start": 0,
+  "end": 242,
   "body": [
     {
       "type": "TSDeclareFunction",
-      "start": 1,
-      "end": 52,
+      "start": 0,
+      "end": 51,
       "async": false,
       "body": null,
       "declare": true,
@@ -16,8 +16,8 @@ __ESTREE_TEST__:PASS:
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 18,
-        "end": 37,
+        "start": 17,
+        "end": 36,
         "decorators": [],
         "name": "commentedParameters",
         "optional": false,
@@ -26,12 +26,12 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "RestElement",
-          "start": 38,
-          "end": 45,
+          "start": 37,
+          "end": 44,
           "argument": {
             "type": "Identifier",
-            "start": 41,
-            "end": 45,
+            "start": 40,
+            "end": 44,
             "decorators": [],
             "name": "args",
             "optional": false,
@@ -45,64 +45,64 @@ __ESTREE_TEST__:PASS:
       ],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 46,
-        "end": 51,
+        "start": 45,
+        "end": 50,
         "typeAnnotation": {
           "type": "TSAnyKeyword",
-          "start": 48,
-          "end": 51
+          "start": 47,
+          "end": 50
         }
       },
       "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
-      "start": 54,
-      "end": 243,
+      "start": 53,
+      "end": 242,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 72,
-        "end": 243,
+        "start": 71,
+        "end": 242,
         "body": [
           {
             "type": "IfStatement",
-            "start": 78,
-            "end": 241,
+            "start": 77,
+            "end": 240,
             "alternate": {
               "type": "BlockStatement",
-              "start": 199,
-              "end": 241,
+              "start": 198,
+              "end": 240,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 209,
-                  "end": 235,
+                  "start": 208,
+                  "end": 234,
                   "directive": null,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 209,
-                    "end": 234,
+                    "start": 208,
+                    "end": 233,
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 229,
-                        "end": 230,
+                        "start": 228,
+                        "end": 229,
                         "raw": "5",
                         "value": 5
                       },
                       {
                         "type": "Literal",
-                        "start": 232,
-                        "end": 233,
+                        "start": 231,
+                        "end": 232,
                         "raw": "6",
                         "value": 6
                       }
                     ],
                     "callee": {
                       "type": "Identifier",
-                      "start": 209,
-                      "end": 228,
+                      "start": 208,
+                      "end": 227,
                       "decorators": [],
                       "name": "commentedParameters",
                       "optional": false,
@@ -116,38 +116,38 @@ __ESTREE_TEST__:PASS:
             },
             "consequent": {
               "type": "BlockStatement",
-              "start": 109,
-              "end": 193,
+              "start": 108,
+              "end": 192,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 140,
-                  "end": 166,
+                  "start": 139,
+                  "end": 165,
                   "directive": null,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 140,
-                    "end": 165,
+                    "start": 139,
+                    "end": 164,
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 160,
-                        "end": 161,
+                        "start": 159,
+                        "end": 160,
                         "raw": "3",
                         "value": 3
                       },
                       {
                         "type": "Literal",
-                        "start": 163,
-                        "end": 164,
+                        "start": 162,
+                        "end": 163,
                         "raw": "4",
                         "value": 4
                       }
                     ],
                     "callee": {
                       "type": "Identifier",
-                      "start": 140,
-                      "end": 159,
+                      "start": 139,
+                      "end": 158,
                       "decorators": [],
                       "name": "commentedParameters",
                       "optional": false,
@@ -161,28 +161,28 @@ __ESTREE_TEST__:PASS:
             },
             "test": {
               "type": "CallExpression",
-              "start": 82,
-              "end": 107,
+              "start": 81,
+              "end": 106,
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 102,
-                  "end": 103,
+                  "start": 101,
+                  "end": 102,
                   "raw": "1",
                   "value": 1
                 },
                 {
                   "type": "Literal",
-                  "start": 105,
-                  "end": 106,
+                  "start": 104,
+                  "end": 105,
                   "raw": "2",
                   "value": 2
                 }
               ],
               "callee": {
                 "type": "Identifier",
-                "start": 82,
-                "end": 101,
+                "start": 81,
+                "end": 100,
                 "decorators": [],
                 "name": "commentedParameters",
                 "optional": false,
@@ -199,8 +199,8 @@ __ESTREE_TEST__:PASS:
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 63,
-        "end": 69,
+        "start": 62,
+        "end": 68,
         "decorators": [],
         "name": "ifelse",
         "optional": false,

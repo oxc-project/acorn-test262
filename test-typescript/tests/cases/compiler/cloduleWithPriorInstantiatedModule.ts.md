@@ -2,42 +2,42 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 39,
-  "end": 239,
+  "start": 38,
+  "end": 238,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 39,
-      "end": 139,
+      "start": 38,
+      "end": 138,
       "body": {
         "type": "TSModuleBlock",
-        "start": 56,
-        "end": 139,
+        "start": 55,
+        "end": 138,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 62,
-            "end": 121,
+            "start": 61,
+            "end": 120,
             "attributes": [],
             "declaration": {
               "type": "TSInterfaceDeclaration",
-              "start": 69,
-              "end": 121,
+              "start": 68,
+              "end": 120,
               "body": {
                 "type": "TSInterfaceBody",
-                "start": 93,
-                "end": 121,
+                "start": 92,
+                "end": 120,
                 "body": [
                   {
                     "type": "TSMethodSignature",
-                    "start": 103,
-                    "end": 115,
+                    "start": 102,
+                    "end": 114,
                     "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 103,
-                      "end": 106,
+                      "start": 102,
+                      "end": 105,
                       "decorators": [],
                       "name": "foo",
                       "optional": false,
@@ -49,12 +49,12 @@ __ESTREE_TEST__:PASS:
                     "readonly": false,
                     "returnType": {
                       "type": "TSTypeAnnotation",
-                      "start": 108,
-                      "end": 114,
+                      "start": 107,
+                      "end": 113,
                       "typeAnnotation": {
                         "type": "TSVoidKeyword",
-                        "start": 110,
-                        "end": 114
+                        "start": 109,
+                        "end": 113
                       }
                     },
                     "static": false,
@@ -66,8 +66,8 @@ __ESTREE_TEST__:PASS:
               "extends": [],
               "id": {
                 "type": "Identifier",
-                "start": 79,
-                "end": 92,
+                "start": 78,
+                "end": 91,
                 "decorators": [],
                 "name": "Someinterface",
                 "optional": false,
@@ -81,18 +81,18 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "VariableDeclaration",
-            "start": 126,
-            "end": 137,
+            "start": 125,
+            "end": 136,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 130,
-                "end": 136,
+                "start": 129,
+                "end": 135,
                 "definite": false,
                 "id": {
                   "type": "Identifier",
-                  "start": 130,
-                  "end": 131,
+                  "start": 129,
+                  "end": 130,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
@@ -100,8 +100,8 @@ __ESTREE_TEST__:PASS:
                 },
                 "init": {
                   "type": "Literal",
-                  "start": 134,
-                  "end": 136,
+                  "start": 133,
+                  "end": 135,
                   "raw": "10",
                   "value": 10
                 }
@@ -116,8 +116,8 @@ __ESTREE_TEST__:PASS:
       "global": false,
       "id": {
         "type": "Identifier",
-        "start": 46,
-        "end": 55,
+        "start": 45,
+        "end": 54,
         "decorators": [],
         "name": "Moclodule",
         "optional": false,
@@ -127,21 +127,21 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ClassDeclaration",
-      "start": 141,
-      "end": 160,
+      "start": 140,
+      "end": 159,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 157,
-        "end": 160,
+        "start": 156,
+        "end": 159,
         "body": []
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 147,
-        "end": 156,
+        "start": 146,
+        "end": 155,
         "decorators": [],
         "name": "Moclodule",
         "optional": false,
@@ -154,35 +154,35 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 186,
-      "end": 239,
+      "start": 185,
+      "end": 238,
       "body": {
         "type": "TSModuleBlock",
-        "start": 203,
-        "end": 239,
+        "start": 202,
+        "end": 238,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 209,
-            "end": 237,
+            "start": 208,
+            "end": 236,
             "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
-              "start": 216,
-              "end": 237,
+              "start": 215,
+              "end": 236,
               "abstract": false,
               "body": {
                 "type": "ClassBody",
-                "start": 230,
-                "end": 237,
+                "start": 229,
+                "end": 236,
                 "body": []
               },
               "declare": false,
               "decorators": [],
               "id": {
                 "type": "Identifier",
-                "start": 222,
-                "end": 229,
+                "start": 221,
+                "end": 228,
                 "decorators": [],
                 "name": "Manager",
                 "optional": false,
@@ -203,8 +203,8 @@ __ESTREE_TEST__:PASS:
       "global": false,
       "id": {
         "type": "Identifier",
-        "start": 193,
-        "end": 202,
+        "start": 192,
+        "end": 201,
         "decorators": [],
         "name": "Moclodule",
         "optional": false,

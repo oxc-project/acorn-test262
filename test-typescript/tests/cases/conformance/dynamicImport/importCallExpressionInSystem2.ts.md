@@ -2,35 +2,35 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 20,
-  "end": 70,
+  "start": 0,
+  "end": 50,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 20,
-      "end": 69,
+      "start": 0,
+      "end": 49,
       "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 27,
-        "end": 69,
+        "start": 7,
+        "end": 49,
         "abstract": false,
         "body": {
           "type": "ClassBody",
-          "start": 35,
-          "end": 69,
+          "start": 15,
+          "end": 49,
           "body": [
             {
               "type": "MethodDefinition",
-              "start": 41,
-              "end": 67,
+              "start": 21,
+              "end": 47,
               "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 41,
-                "end": 46,
+                "start": 21,
+                "end": 26,
                 "decorators": [],
                 "name": "print",
                 "optional": false,
@@ -42,22 +42,22 @@ __ESTREE_TEST__:PASS:
               "static": false,
               "value": {
                 "type": "FunctionExpression",
-                "start": 46,
-                "end": 67,
+                "start": 26,
+                "end": 47,
                 "async": false,
                 "body": {
                   "type": "BlockStatement",
-                  "start": 49,
-                  "end": 67,
+                  "start": 29,
+                  "end": 47,
                   "body": [
                     {
                       "type": "ReturnStatement",
-                      "start": 51,
-                      "end": 66,
+                      "start": 31,
+                      "end": 46,
                       "argument": {
                         "type": "Literal",
-                        "start": 58,
-                        "end": 66,
+                        "start": 38,
+                        "end": 46,
                         "raw": "\"I am B\"",
                         "value": "I am B"
                       }
@@ -79,8 +79,8 @@ __ESTREE_TEST__:PASS:
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 33,
-          "end": 34,
+          "start": 13,
+          "end": 14,
           "decorators": [],
           "name": "B",
           "optional": false,

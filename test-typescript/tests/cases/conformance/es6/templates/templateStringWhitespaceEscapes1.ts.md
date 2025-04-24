@@ -2,24 +2,24 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 3,
-  "end": 16,
+  "start": 0,
+  "end": 13,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 3,
-      "end": 16,
+      "start": 0,
+      "end": 13,
       "directive": null,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 3,
-        "end": 15,
+        "start": 0,
+        "end": 12,
         "expressions": [],
         "quasis": [
           {
             "type": "TemplateElement",
-            "start": 3,
-            "end": 15,
+            "start": 0,
+            "end": 12,
             "tail": true,
             "value": {
               "cooked": "\t\n\u000b\f\r",

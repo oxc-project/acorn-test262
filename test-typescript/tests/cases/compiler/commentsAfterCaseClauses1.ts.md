@@ -2,63 +2,63 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 313,
+  "start": 0,
+  "end": 312,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 1,
-      "end": 313,
+      "start": 0,
+      "end": 312,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 29,
-        "end": 313,
+        "start": 28,
+        "end": 312,
         "body": [
           {
             "type": "SwitchStatement",
-            "start": 35,
-            "end": 311,
+            "start": 34,
+            "end": 310,
             "cases": [
               {
                 "type": "SwitchCase",
-                "start": 58,
-                "end": 65,
+                "start": 57,
+                "end": 64,
                 "consequent": [],
                 "test": {
                   "type": "Literal",
-                  "start": 63,
-                  "end": 64,
+                  "start": 62,
+                  "end": 63,
                   "raw": "0",
                   "value": 0
                 }
               },
               {
                 "type": "SwitchCase",
-                "start": 82,
-                "end": 89,
+                "start": 81,
+                "end": 88,
                 "consequent": [],
                 "test": {
                   "type": "Literal",
-                  "start": 87,
-                  "end": 88,
+                  "start": 86,
+                  "end": 87,
                   "raw": "1",
                   "value": 1
                 }
               },
               {
                 "type": "SwitchCase",
-                "start": 105,
-                "end": 144,
+                "start": 104,
+                "end": 143,
                 "consequent": [
                   {
                     "type": "ReturnStatement",
-                    "start": 132,
-                    "end": 144,
+                    "start": 131,
+                    "end": 143,
                     "argument": {
                       "type": "Literal",
-                      "start": 139,
-                      "end": 143,
+                      "start": 138,
+                      "end": 142,
                       "raw": "\"Hi\"",
                       "value": "Hi"
                     }
@@ -66,38 +66,38 @@ __ESTREE_TEST__:PASS:
                 ],
                 "test": {
                   "type": "Literal",
-                  "start": 110,
-                  "end": 111,
+                  "start": 109,
+                  "end": 110,
                   "raw": "2",
                   "value": 2
                 }
               },
               {
                 "type": "SwitchCase",
-                "start": 153,
-                "end": 160,
+                "start": 152,
+                "end": 159,
                 "consequent": [],
                 "test": {
                   "type": "Literal",
-                  "start": 158,
-                  "end": 159,
+                  "start": 157,
+                  "end": 158,
                   "raw": "3",
                   "value": 3
                 }
               },
               {
                 "type": "SwitchCase",
-                "start": 178,
-                "end": 224,
+                "start": 177,
+                "end": 223,
                 "consequent": [
                   {
                     "type": "ReturnStatement",
-                    "start": 209,
-                    "end": 224,
+                    "start": 208,
+                    "end": 223,
                     "argument": {
                       "type": "Literal",
-                      "start": 216,
-                      "end": 223,
+                      "start": 215,
+                      "end": 222,
                       "raw": "\"hello\"",
                       "value": "hello"
                     }
@@ -105,38 +105,38 @@ __ESTREE_TEST__:PASS:
                 ],
                 "test": {
                   "type": "Literal",
-                  "start": 183,
-                  "end": 184,
+                  "start": 182,
+                  "end": 183,
                   "raw": "4",
                   "value": 4
                 }
               },
               {
                 "type": "SwitchCase",
-                "start": 233,
-                "end": 240,
+                "start": 232,
+                "end": 239,
                 "consequent": [],
                 "test": {
                   "type": "Literal",
-                  "start": 238,
-                  "end": 239,
+                  "start": 237,
+                  "end": 238,
                   "raw": "5",
                   "value": 5
                 }
               },
               {
                 "type": "SwitchCase",
-                "start": 257,
-                "end": 305,
+                "start": 256,
+                "end": 304,
                 "consequent": [
                   {
                     "type": "ReturnStatement",
-                    "start": 290,
-                    "end": 305,
+                    "start": 289,
+                    "end": 304,
                     "argument": {
                       "type": "Literal",
-                      "start": 297,
-                      "end": 304,
+                      "start": 296,
+                      "end": 303,
                       "raw": "\"world\"",
                       "value": "world"
                     }
@@ -147,8 +147,8 @@ __ESTREE_TEST__:PASS:
             ],
             "discriminant": {
               "type": "Identifier",
-              "start": 42,
-              "end": 47,
+              "start": 41,
+              "end": 46,
               "decorators": [],
               "name": "level",
               "optional": false,
@@ -162,8 +162,8 @@ __ESTREE_TEST__:PASS:
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 21,
+        "start": 9,
+        "end": 20,
         "decorators": [],
         "name": "getSecurity",
         "optional": false,
@@ -172,8 +172,8 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 22,
-          "end": 27,
+          "start": 21,
+          "end": 26,
           "decorators": [],
           "name": "level",
           "optional": false,

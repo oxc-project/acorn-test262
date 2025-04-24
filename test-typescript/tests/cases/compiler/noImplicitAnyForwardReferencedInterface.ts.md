@@ -2,39 +2,39 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 24,
-  "end": 123,
+  "start": 0,
+  "end": 99,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 24,
-      "end": 45,
+      "start": 0,
+      "end": 21,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 36,
-          "end": 44,
+          "start": 12,
+          "end": 20,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 36,
-            "end": 44,
+            "start": 12,
+            "end": 20,
             "decorators": [],
             "name": "x",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 37,
-              "end": 44,
+              "start": 13,
+              "end": 20,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 39,
-                "end": 44,
+                "start": 15,
+                "end": 20,
                 "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 39,
-                  "end": 44,
+                  "start": 15,
+                  "end": 20,
                   "decorators": [],
                   "name": "Entry",
                   "optional": false,
@@ -51,17 +51,17 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 47,
-      "end": 123,
+      "start": 23,
+      "end": 99,
       "body": {
         "type": "TSInterfaceBody",
-        "start": 63,
-        "end": 123,
+        "start": 39,
+        "end": 99,
         "body": [
           {
             "type": "TSConstructSignatureDeclaration",
-            "start": 114,
-            "end": 121,
+            "start": 90,
+            "end": 97,
             "params": [],
             "returnType": null,
             "typeParameters": null
@@ -72,8 +72,8 @@ __ESTREE_TEST__:PASS:
       "extends": [],
       "id": {
         "type": "Identifier",
-        "start": 57,
-        "end": 62,
+        "start": 33,
+        "end": 38,
         "decorators": [],
         "name": "Entry",
         "optional": false,

@@ -2,30 +2,30 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 16,
-  "end": 185,
+  "start": 0,
+  "end": 169,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 16,
-      "end": 132,
+      "start": 0,
+      "end": 116,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 39,
-        "end": 132,
+        "start": 23,
+        "end": 116,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 45,
-            "end": 77,
+            "start": 29,
+            "end": 61,
             "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 45,
-              "end": 49,
+              "start": 29,
+              "end": 33,
               "decorators": [],
               "name": "next",
               "optional": false,
@@ -37,22 +37,22 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 49,
-              "end": 77,
+              "start": 33,
+              "end": 61,
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 52,
-                "end": 77,
+                "start": 36,
+                "end": 61,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 62,
-                    "end": 71,
+                    "start": 46,
+                    "end": 55,
                     "argument": {
                       "type": "Identifier",
-                      "start": 69,
-                      "end": 70,
+                      "start": 53,
+                      "end": 54,
                       "decorators": [],
                       "name": "x",
                       "optional": false,
@@ -72,20 +72,20 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "MethodDefinition",
-            "start": 82,
-            "end": 130,
+            "start": 66,
+            "end": 114,
             "accessibility": null,
             "computed": true,
             "decorators": [],
             "key": {
               "type": "MemberExpression",
-              "start": 83,
-              "end": 98,
+              "start": 67,
+              "end": 82,
               "computed": false,
               "object": {
                 "type": "Identifier",
-                "start": 83,
-                "end": 89,
+                "start": 67,
+                "end": 73,
                 "decorators": [],
                 "name": "Symbol",
                 "optional": false,
@@ -94,8 +94,8 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "property": {
                 "type": "Identifier",
-                "start": 90,
-                "end": 98,
+                "start": 74,
+                "end": 82,
                 "decorators": [],
                 "name": "iterator",
                 "optional": false,
@@ -108,22 +108,22 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 99,
-              "end": 130,
+              "start": 83,
+              "end": 114,
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 102,
-                "end": 130,
+                "start": 86,
+                "end": 114,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 112,
-                    "end": 124,
+                    "start": 96,
+                    "end": 108,
                     "argument": {
                       "type": "ThisExpression",
-                      "start": 119,
-                      "end": 123
+                      "start": 103,
+                      "end": 107
                     }
                   }
                 ]
@@ -143,8 +143,8 @@ __ESTREE_TEST__:PASS:
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 22,
-        "end": 38,
+        "start": 6,
+        "end": 22,
         "decorators": [],
         "name": "MyStringIterator",
         "optional": false,
@@ -157,29 +157,29 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 134,
-      "end": 145,
+      "start": 118,
+      "end": 129,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 138,
-          "end": 144,
+          "start": 122,
+          "end": 128,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 138,
-            "end": 144,
+            "start": 122,
+            "end": 128,
             "decorators": [],
             "name": "x",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 139,
-              "end": 144,
+              "start": 123,
+              "end": 128,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
-                "start": 141,
-                "end": 144
+                "start": 125,
+                "end": 128
               }
             }
           },
@@ -191,29 +191,29 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ForOfStatement",
-      "start": 146,
-      "end": 185,
+      "start": 130,
+      "end": 169,
       "await": false,
       "body": {
         "type": "BlockStatement",
-        "start": 182,
-        "end": 185,
+        "start": 166,
+        "end": 169,
         "body": []
       },
       "left": {
         "type": "VariableDeclaration",
-        "start": 151,
-        "end": 156,
+        "start": 135,
+        "end": 140,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 155,
-            "end": 156,
+            "start": 139,
+            "end": 140,
             "definite": false,
             "id": {
               "type": "Identifier",
-              "start": 155,
-              "end": 156,
+              "start": 139,
+              "end": 140,
               "decorators": [],
               "name": "v",
               "optional": false,
@@ -227,13 +227,13 @@ __ESTREE_TEST__:PASS:
       },
       "right": {
         "type": "NewExpression",
-        "start": 160,
-        "end": 180,
+        "start": 144,
+        "end": 164,
         "arguments": [],
         "callee": {
           "type": "Identifier",
-          "start": 164,
-          "end": 180,
+          "start": 148,
+          "end": 164,
           "decorators": [],
           "name": "MyStringIterator",
           "optional": false,

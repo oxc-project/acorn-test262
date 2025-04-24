@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 65,
-  "end": 217,
+  "start": 64,
+  "end": 216,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 65,
-      "end": 217,
+      "start": 64,
+      "end": 216,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 76,
-        "end": 217,
+        "start": 75,
+        "end": 216,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 82,
-            "end": 120,
+            "start": 81,
+            "end": 119,
             "accessibility": "public",
             "computed": false,
             "declare": false,
@@ -26,8 +26,8 @@ __ESTREE_TEST__:PASS:
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 89,
-              "end": 94,
+              "start": 88,
+              "end": 93,
               "decorators": [],
               "name": "regex",
               "optional": false,
@@ -39,17 +39,17 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 94,
-              "end": 102,
+              "start": 93,
+              "end": 101,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 96,
-                "end": 102,
+                "start": 95,
+                "end": 101,
                 "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 96,
-                  "end": 102,
+                  "start": 95,
+                  "end": 101,
                   "decorators": [],
                   "name": "RegExp",
                   "optional": false,
@@ -59,21 +59,21 @@ __ESTREE_TEST__:PASS:
             },
             "value": {
               "type": "NewExpression",
-              "start": 105,
-              "end": 119,
+              "start": 104,
+              "end": 118,
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 116,
-                  "end": 118,
+                  "start": 115,
+                  "end": 117,
                   "raw": "''",
                   "value": ""
                 }
               ],
               "callee": {
                 "type": "Identifier",
-                "start": 109,
-                "end": 115,
+                "start": 108,
+                "end": 114,
                 "decorators": [],
                 "name": "RegExp",
                 "optional": false,
@@ -84,8 +84,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "PropertyDefinition",
-            "start": 125,
-            "end": 150,
+            "start": 124,
+            "end": 149,
             "accessibility": "public",
             "computed": false,
             "declare": false,
@@ -93,8 +93,8 @@ __ESTREE_TEST__:PASS:
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 132,
-              "end": 136,
+              "start": 131,
+              "end": 135,
               "decorators": [],
               "name": "name",
               "optional": false,
@@ -106,33 +106,33 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 136,
-              "end": 144,
+              "start": 135,
+              "end": 143,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 138,
-                "end": 144
+                "start": 137,
+                "end": 143
               }
             },
             "value": {
               "type": "Literal",
-              "start": 147,
-              "end": 149,
+              "start": 146,
+              "end": 148,
               "raw": "''",
               "value": ""
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 156,
-            "end": 215,
+            "start": 155,
+            "end": 214,
             "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 156,
-              "end": 167,
+              "start": 155,
+              "end": 166,
               "decorators": [],
               "name": "constructor",
               "optional": false,
@@ -144,39 +144,39 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 167,
-              "end": 215,
+              "start": 166,
+              "end": 214,
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 182,
-                "end": 215,
+                "start": 181,
+                "end": 214,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 192,
-                    "end": 209,
+                    "start": 191,
+                    "end": 208,
                     "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
-                      "start": 192,
-                      "end": 208,
+                      "start": 191,
+                      "end": 207,
                       "operator": "=",
                       "left": {
                         "type": "MemberExpression",
-                        "start": 192,
-                        "end": 201,
+                        "start": 191,
+                        "end": 200,
                         "computed": false,
                         "object": {
                           "type": "ThisExpression",
-                          "start": 192,
-                          "end": 196
+                          "start": 191,
+                          "end": 195
                         },
                         "optional": false,
                         "property": {
                           "type": "Identifier",
-                          "start": 197,
-                          "end": 201,
+                          "start": 196,
+                          "end": 200,
                           "decorators": [],
                           "name": "name",
                           "optional": false,
@@ -185,8 +185,8 @@ __ESTREE_TEST__:PASS:
                       },
                       "right": {
                         "type": "Identifier",
-                        "start": 204,
-                        "end": 208,
+                        "start": 203,
+                        "end": 207,
                         "decorators": [],
                         "name": "name",
                         "optional": false,
@@ -203,19 +203,19 @@ __ESTREE_TEST__:PASS:
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 168,
-                  "end": 180,
+                  "start": 167,
+                  "end": 179,
                   "decorators": [],
                   "name": "name",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 172,
-                    "end": 180,
+                    "start": 171,
+                    "end": 179,
                     "typeAnnotation": {
                       "type": "TSStringKeyword",
-                      "start": 174,
-                      "end": 180
+                      "start": 173,
+                      "end": 179
                     }
                   }
                 }
@@ -230,8 +230,8 @@ __ESTREE_TEST__:PASS:
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 71,
-        "end": 75,
+        "start": 70,
+        "end": 74,
         "decorators": [],
         "name": "Rule",
         "optional": false,

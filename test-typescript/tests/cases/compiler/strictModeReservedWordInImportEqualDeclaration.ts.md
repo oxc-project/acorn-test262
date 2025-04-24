@@ -2,30 +2,30 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 23,
-  "end": 65,
+  "start": 0,
+  "end": 42,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 23,
-      "end": 35,
+      "start": 0,
+      "end": 12,
       "directive": "use strict",
       "expression": {
         "type": "Literal",
-        "start": 23,
-        "end": 35,
+        "start": 0,
+        "end": 12,
         "raw": "\"use strict\"",
         "value": "use strict"
       }
     },
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 36,
-      "end": 65,
+      "start": 13,
+      "end": 42,
       "id": {
         "type": "Identifier",
-        "start": 43,
-        "end": 49,
+        "start": 20,
+        "end": 26,
         "decorators": [],
         "name": "public",
         "optional": false,
@@ -34,12 +34,12 @@ __ESTREE_TEST__:PASS:
       "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 52,
-        "end": 64,
+        "start": 29,
+        "end": 41,
         "expression": {
           "type": "Literal",
-          "start": 60,
-          "end": 63,
+          "start": 37,
+          "end": 40,
           "raw": "\"1\"",
           "value": "1"
         }

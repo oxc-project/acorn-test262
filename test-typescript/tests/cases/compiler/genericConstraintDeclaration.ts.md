@@ -2,30 +2,30 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 22,
-  "end": 109,
+  "start": 0,
+  "end": 87,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 22,
-      "end": 105,
+      "start": 0,
+      "end": 83,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 46,
-        "end": 105,
+        "start": 24,
+        "end": 83,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 52,
-            "end": 103,
+            "start": 30,
+            "end": 81,
             "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 59,
-              "end": 64,
+              "start": 37,
+              "end": 42,
               "decorators": [],
               "name": "empty",
               "optional": false,
@@ -37,22 +37,22 @@ __ESTREE_TEST__:PASS:
             "static": true,
             "value": {
               "type": "FunctionExpression",
-              "start": 64,
-              "end": 103,
+              "start": 42,
+              "end": 81,
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 89,
-                "end": 103,
+                "start": 67,
+                "end": 81,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 90,
-                    "end": 102,
+                    "start": 68,
+                    "end": 80,
                     "argument": {
                       "type": "Literal",
-                      "start": 97,
-                      "end": 101,
+                      "start": 75,
+                      "end": 79,
                       "raw": "null",
                       "value": null
                     }
@@ -66,26 +66,26 @@ __ESTREE_TEST__:PASS:
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 80,
-                "end": 89,
+                "start": 58,
+                "end": 67,
                 "typeAnnotation": {
                   "type": "TSTypeReference",
-                  "start": 82,
-                  "end": 89,
+                  "start": 60,
+                  "end": 67,
                   "typeArguments": {
                     "type": "TSTypeParameterInstantiation",
-                    "start": 86,
-                    "end": 89,
+                    "start": 64,
+                    "end": 67,
                     "params": [
                       {
                         "type": "TSTypeReference",
-                        "start": 87,
-                        "end": 88,
+                        "start": 65,
+                        "end": 66,
                         "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
-                          "start": 87,
-                          "end": 88,
+                          "start": 65,
+                          "end": 66,
                           "decorators": [],
                           "name": "T",
                           "optional": false,
@@ -96,8 +96,8 @@ __ESTREE_TEST__:PASS:
                   },
                   "typeName": {
                     "type": "Identifier",
-                    "start": 82,
-                    "end": 86,
+                    "start": 60,
+                    "end": 64,
                     "decorators": [],
                     "name": "List",
                     "optional": false,
@@ -107,26 +107,26 @@ __ESTREE_TEST__:PASS:
               },
               "typeParameters": {
                 "type": "TSTypeParameterDeclaration",
-                "start": 64,
-                "end": 78,
+                "start": 42,
+                "end": 56,
                 "params": [
                   {
                     "type": "TSTypeParameter",
-                    "start": 65,
-                    "end": 77,
+                    "start": 43,
+                    "end": 55,
                     "const": false,
                     "constraint": {
                       "type": "TSTypeLiteral",
-                      "start": 75,
-                      "end": 77,
+                      "start": 53,
+                      "end": 55,
                       "members": []
                     },
                     "default": null,
                     "in": false,
                     "name": {
                       "type": "Identifier",
-                      "start": 65,
-                      "end": 66,
+                      "start": 43,
+                      "end": 44,
                       "decorators": [],
                       "name": "T",
                       "optional": false,
@@ -144,8 +144,8 @@ __ESTREE_TEST__:PASS:
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 28,
-        "end": 32,
+        "start": 6,
+        "end": 10,
         "decorators": [],
         "name": "List",
         "optional": false,
@@ -156,26 +156,26 @@ __ESTREE_TEST__:PASS:
       "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 32,
-        "end": 46,
+        "start": 10,
+        "end": 24,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 33,
-            "end": 45,
+            "start": 11,
+            "end": 23,
             "const": false,
             "constraint": {
               "type": "TSTypeLiteral",
-              "start": 43,
-              "end": 45,
+              "start": 21,
+              "end": 23,
               "members": []
             },
             "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
-              "start": 33,
-              "end": 34,
+              "start": 11,
+              "end": 12,
               "decorators": [],
               "name": "T",
               "optional": false,
