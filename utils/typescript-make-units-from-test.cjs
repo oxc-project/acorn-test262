@@ -137,21 +137,19 @@ function makeUnitsFromTest(filePath, code) {
       const metaName = match[1].toLowerCase();
       const metaValue = match[2].trim();
 
-      if (metaName !== "filename") {
+      if (metaName === "filename") {
+        if (currentFileName !== null) {
+          testUnitData.push({
+            name: currentFileName,
+            content: currentFileContent,
+            sourceType: null, // Will be set later
+          });
+          currentFileContent = "";
+        }
+        currentFileName = metaValue;
+      } else {
         currentFileOptions.set(metaName, metaValue);
-        continue;
       }
-
-      if (currentFileName) {
-        testUnitData.push({
-          name: currentFileName,
-          content: currentFileContent,
-          sourceType: null, // Will be set later
-        });
-        currentFileContent = "";
-      }
-
-      currentFileName = metaValue;
     } else {
       if (currentFileContent.length > 0) {
         currentFileContent += "\n";
