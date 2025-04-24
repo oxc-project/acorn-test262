@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 10,
+  "start": 0,
+  "end": 9,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 1,
-      "end": 10,
+      "start": 0,
+      "end": 9,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 5,
-          "end": 9,
+          "start": 4,
+          "end": 8,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 5,
-            "end": 6,
+            "start": 4,
+            "end": 5,
             "decorators": [],
             "name": "x",
             "optional": false,
@@ -26,8 +26,8 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "Literal",
-            "start": 7,
-            "end": 9,
+            "start": 6,
+            "end": 8,
             "raw": "10",
             "value": 10
           }

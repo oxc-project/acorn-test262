@@ -2,28 +2,28 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 17,
-  "end": 71,
+  "start": 0,
+  "end": 54,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 17,
-      "end": 71,
+      "start": 0,
+      "end": 54,
       "directive": null,
       "expression": {
         "type": "NewExpression",
-        "start": 17,
-        "end": 70,
+        "start": 0,
+        "end": 53,
         "arguments": [
           {
             "type": "TemplateLiteral",
-            "start": 34,
-            "end": 52,
+            "start": 17,
+            "end": 35,
             "expressions": [
               {
                 "type": "Literal",
-                "start": 43,
-                "end": 44,
+                "start": 26,
+                "end": 27,
                 "raw": "0",
                 "value": 0
               }
@@ -31,8 +31,8 @@ __ESTREE_TEST__:PASS:
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 34,
-                "end": 43,
+                "start": 17,
+                "end": 26,
                 "tail": false,
                 "value": {
                   "cooked": "hello ",
@@ -41,8 +41,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "TemplateElement",
-                "start": 44,
-                "end": 52,
+                "start": 27,
+                "end": 35,
                 "tail": true,
                 "value": {
                   "cooked": " world",
@@ -53,14 +53,14 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateLiteral",
-            "start": 54,
-            "end": 59,
+            "start": 37,
+            "end": 42,
             "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 54,
-                "end": 59,
+                "start": 37,
+                "end": 42,
                 "tail": true,
                 "value": {
                   "cooked": "   ",
@@ -71,13 +71,13 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateLiteral",
-            "start": 61,
-            "end": 69,
+            "start": 44,
+            "end": 52,
             "expressions": [
               {
                 "type": "Literal",
-                "start": 65,
-                "end": 66,
+                "start": 48,
+                "end": 49,
                 "raw": "2",
                 "value": 2
               }
@@ -85,8 +85,8 @@ __ESTREE_TEST__:PASS:
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 61,
-                "end": 65,
+                "start": 44,
+                "end": 48,
                 "tail": false,
                 "value": {
                   "cooked": "1",
@@ -95,8 +95,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "TemplateElement",
-                "start": 66,
-                "end": 69,
+                "start": 49,
+                "end": 52,
                 "tail": true,
                 "value": {
                   "cooked": "3",
@@ -108,13 +108,13 @@ __ESTREE_TEST__:PASS:
         ],
         "callee": {
           "type": "TemplateLiteral",
-          "start": 21,
-          "end": 33,
+          "start": 4,
+          "end": 16,
           "expressions": [
             {
               "type": "Literal",
-              "start": 27,
-              "end": 28,
+              "start": 10,
+              "end": 11,
               "raw": "0",
               "value": 0
             }
@@ -122,8 +122,8 @@ __ESTREE_TEST__:PASS:
           "quasis": [
             {
               "type": "TemplateElement",
-              "start": 21,
-              "end": 27,
+              "start": 4,
+              "end": 10,
               "tail": false,
               "value": {
                 "cooked": "abc",
@@ -132,8 +132,8 @@ __ESTREE_TEST__:PASS:
             },
             {
               "type": "TemplateElement",
-              "start": 28,
-              "end": 33,
+              "start": 11,
+              "end": 16,
               "tail": true,
               "value": {
                 "cooked": "abc",

@@ -2,27 +2,27 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 26,
-  "end": 380,
+  "start": 0,
+  "end": 354,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 26,
-      "end": 88,
+      "start": 0,
+      "end": 62,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 42,
-        "end": 88,
+        "start": 16,
+        "end": 62,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 76,
-            "end": 86,
+            "start": 50,
+            "end": 60,
             "argument": {
               "type": "Literal",
-              "start": 83,
-              "end": 85,
+              "start": 57,
+              "end": 59,
               "raw": "42",
               "value": 42
             }
@@ -34,8 +34,8 @@ __ESTREE_TEST__:PASS:
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 35,
-        "end": 39,
+        "start": 9,
+        "end": 13,
         "decorators": [],
         "name": "foo1",
         "optional": false,
@@ -47,22 +47,22 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "FunctionDeclaration",
-      "start": 90,
-      "end": 175,
+      "start": 64,
+      "end": 149,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 106,
-        "end": 175,
+        "start": 80,
+        "end": 149,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 163,
-            "end": 173,
+            "start": 137,
+            "end": 147,
             "argument": {
               "type": "Literal",
-              "start": 170,
-              "end": 172,
+              "start": 144,
+              "end": 146,
               "raw": "42",
               "value": 42
             }
@@ -74,8 +74,8 @@ __ESTREE_TEST__:PASS:
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 99,
-        "end": 103,
+        "start": 73,
+        "end": 77,
         "decorators": [],
         "name": "foo2",
         "optional": false,
@@ -87,22 +87,22 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "FunctionDeclaration",
-      "start": 177,
-      "end": 270,
+      "start": 151,
+      "end": 244,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 193,
-        "end": 270,
+        "start": 167,
+        "end": 244,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 258,
-            "end": 268,
+            "start": 232,
+            "end": 242,
             "argument": {
               "type": "Literal",
-              "start": 265,
-              "end": 267,
+              "start": 239,
+              "end": 241,
               "raw": "42",
               "value": 42
             }
@@ -114,8 +114,8 @@ __ESTREE_TEST__:PASS:
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 186,
-        "end": 190,
+        "start": 160,
+        "end": 164,
         "decorators": [],
         "name": "foo3",
         "optional": false,
@@ -127,22 +127,22 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "FunctionDeclaration",
-      "start": 272,
-      "end": 379,
+      "start": 246,
+      "end": 353,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 288,
-        "end": 379,
+        "start": 262,
+        "end": 353,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 367,
-            "end": 377,
+            "start": 341,
+            "end": 351,
             "argument": {
               "type": "Literal",
-              "start": 374,
-              "end": 376,
+              "start": 348,
+              "end": 350,
               "raw": "42",
               "value": 42
             }
@@ -154,8 +154,8 @@ __ESTREE_TEST__:PASS:
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 281,
-        "end": 285,
+        "start": 255,
+        "end": 259,
         "decorators": [],
         "name": "foo4",
         "optional": false,

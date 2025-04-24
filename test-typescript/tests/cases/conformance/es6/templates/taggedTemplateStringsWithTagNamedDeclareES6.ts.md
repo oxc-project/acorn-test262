@@ -2,18 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 17,
-  "end": 89,
+  "start": 0,
+  "end": 72,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 17,
-      "end": 59,
+      "start": 0,
+      "end": 42,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 56,
-        "end": 59,
+        "start": 39,
+        "end": 42,
         "body": []
       },
       "declare": false,
@@ -21,8 +21,8 @@ __ESTREE_TEST__:PASS:
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 26,
-        "end": 33,
+        "start": 9,
+        "end": 16,
         "decorators": [],
         "name": "declare",
         "optional": false,
@@ -31,30 +31,30 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 34,
-          "end": 40,
+          "start": 17,
+          "end": 23,
           "decorators": [],
           "name": "x",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 35,
-            "end": 40,
+            "start": 18,
+            "end": 23,
             "typeAnnotation": {
               "type": "TSAnyKeyword",
-              "start": 37,
-              "end": 40
+              "start": 20,
+              "end": 23
             }
           }
         },
         {
           "type": "RestElement",
-          "start": 42,
-          "end": 54,
+          "start": 25,
+          "end": 37,
           "argument": {
             "type": "Identifier",
-            "start": 45,
-            "end": 47,
+            "start": 28,
+            "end": 30,
             "decorators": [],
             "name": "ys",
             "optional": false,
@@ -64,16 +64,16 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 47,
-            "end": 54,
+            "start": 30,
+            "end": 37,
             "typeAnnotation": {
               "type": "TSArrayType",
-              "start": 49,
-              "end": 54,
+              "start": 32,
+              "end": 37,
               "elementType": {
                 "type": "TSAnyKeyword",
-                "start": 49,
-                "end": 52
+                "start": 32,
+                "end": 35
               }
             }
           },
@@ -85,22 +85,22 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ExpressionStatement",
-      "start": 61,
-      "end": 89,
+      "start": 44,
+      "end": 72,
       "directive": null,
       "expression": {
         "type": "TaggedTemplateExpression",
-        "start": 61,
-        "end": 88,
+        "start": 44,
+        "end": 71,
         "quasi": {
           "type": "TemplateLiteral",
-          "start": 69,
-          "end": 88,
+          "start": 52,
+          "end": 71,
           "expressions": [
             {
               "type": "Literal",
-              "start": 78,
-              "end": 79,
+              "start": 61,
+              "end": 62,
               "raw": "0",
               "value": 0
             }
@@ -108,8 +108,8 @@ __ESTREE_TEST__:PASS:
           "quasis": [
             {
               "type": "TemplateElement",
-              "start": 69,
-              "end": 78,
+              "start": 52,
+              "end": 61,
               "tail": false,
               "value": {
                 "cooked": "Hello ",
@@ -118,8 +118,8 @@ __ESTREE_TEST__:PASS:
             },
             {
               "type": "TemplateElement",
-              "start": 79,
-              "end": 88,
+              "start": 62,
+              "end": 71,
               "tail": true,
               "value": {
                 "cooked": " world!",
@@ -130,8 +130,8 @@ __ESTREE_TEST__:PASS:
         },
         "tag": {
           "type": "Identifier",
-          "start": 61,
-          "end": 68,
+          "start": 44,
+          "end": 51,
           "decorators": [],
           "name": "declare",
           "optional": false,

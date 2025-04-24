@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 101,
-  "end": 294,
+  "start": 100,
+  "end": 293,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 101,
-      "end": 124,
+      "start": 100,
+      "end": 123,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 105,
-          "end": 123,
+          "start": 104,
+          "end": 122,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 105,
-            "end": 106,
+            "start": 104,
+            "end": 105,
             "decorators": [],
             "name": "n",
             "optional": false,
@@ -26,19 +26,19 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "TSTypeAssertion",
-            "start": 109,
-            "end": 123,
+            "start": 108,
+            "end": 122,
             "expression": {
               "type": "Literal",
-              "start": 118,
-              "end": 122,
+              "start": 117,
+              "end": 121,
               "raw": "null",
               "value": null
             },
             "typeAnnotation": {
               "type": "TSNumberKeyword",
-              "start": 110,
-              "end": 116
+              "start": 109,
+              "end": 115
             }
           }
         }
@@ -48,18 +48,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 125,
-      "end": 148,
+      "start": 124,
+      "end": 147,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 129,
-          "end": 147,
+          "start": 128,
+          "end": 146,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 129,
-            "end": 130,
+            "start": 128,
+            "end": 129,
             "decorators": [],
             "name": "s",
             "optional": false,
@@ -67,19 +67,19 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "TSTypeAssertion",
-            "start": 133,
-            "end": 147,
+            "start": 132,
+            "end": 146,
             "expression": {
               "type": "Literal",
-              "start": 142,
-              "end": 146,
+              "start": 141,
+              "end": 145,
               "raw": "null",
               "value": null
             },
             "typeAnnotation": {
               "type": "TSStringKeyword",
-              "start": 134,
-              "end": 140
+              "start": 133,
+              "end": 139
             }
           }
         }
@@ -89,18 +89,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 149,
-      "end": 170,
+      "start": 148,
+      "end": 169,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 153,
-          "end": 169,
+          "start": 152,
+          "end": 168,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 153,
-            "end": 154,
+            "start": 152,
+            "end": 153,
             "decorators": [],
             "name": "b",
             "optional": false,
@@ -108,12 +108,12 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "TSTypeAssertion",
-            "start": 157,
-            "end": 169,
+            "start": 156,
+            "end": 168,
             "expression": {
               "type": "Identifier",
-              "start": 167,
-              "end": 168,
+              "start": 166,
+              "end": 167,
               "decorators": [],
               "name": "n",
               "optional": false,
@@ -121,8 +121,8 @@ __ESTREE_TEST__:PASS:
             },
             "typeAnnotation": {
               "type": "TSBooleanKeyword",
-              "start": 158,
-              "end": 165
+              "start": 157,
+              "end": 164
             }
           }
         }
@@ -132,13 +132,13 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "FunctionDeclaration",
-      "start": 172,
-      "end": 200,
+      "start": 171,
+      "end": 199,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 197,
-        "end": 200,
+        "start": 196,
+        "end": 199,
         "body": []
       },
       "declare": false,
@@ -146,8 +146,8 @@ __ESTREE_TEST__:PASS:
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 181,
-        "end": 187,
+        "start": 180,
+        "end": 186,
         "decorators": [],
         "name": "isVoid",
         "optional": false,
@@ -156,48 +156,48 @@ __ESTREE_TEST__:PASS:
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 190,
-        "end": 196,
+        "start": 189,
+        "end": 195,
         "typeAnnotation": {
           "type": "TSVoidKeyword",
-          "start": 192,
-          "end": 196
+          "start": 191,
+          "end": 195
         }
       },
       "typeParameters": null
     },
     {
       "type": "IfStatement",
-      "start": 269,
-      "end": 294,
+      "start": 268,
+      "end": 293,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 291,
-        "end": 294,
+        "start": 290,
+        "end": 293,
         "body": []
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 272,
-        "end": 289,
+        "start": 271,
+        "end": 288,
         "operator": "===",
         "left": {
           "type": "Literal",
-          "start": 272,
-          "end": 276,
+          "start": 271,
+          "end": 275,
           "raw": "null",
           "value": null
         },
         "right": {
           "type": "CallExpression",
-          "start": 281,
-          "end": 289,
+          "start": 280,
+          "end": 288,
           "arguments": [],
           "callee": {
             "type": "Identifier",
-            "start": 281,
-            "end": 287,
+            "start": 280,
+            "end": 286,
             "decorators": [],
             "name": "isVoid",
             "optional": false,

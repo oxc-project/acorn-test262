@@ -2,37 +2,37 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 62,
+  "start": 0,
+  "end": 61,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 1,
-      "end": 43,
+      "start": 0,
+      "end": 42,
       "body": {
         "type": "TSModuleBlock",
-        "start": 24,
-        "end": 43,
+        "start": 23,
+        "end": 42,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 26,
-            "end": 41,
+            "start": 25,
+            "end": 40,
             "attributes": [],
             "declaration": {
               "type": "VariableDeclaration",
-              "start": 33,
-              "end": 41,
+              "start": 32,
+              "end": 40,
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 37,
-                  "end": 40,
+                  "start": 36,
+                  "end": 39,
                   "definite": false,
                   "id": {
                     "type": "Identifier",
-                    "start": 37,
-                    "end": 40,
+                    "start": 36,
+                    "end": 39,
                     "decorators": [],
                     "name": "foo",
                     "optional": false,
@@ -54,12 +54,12 @@ __ESTREE_TEST__:PASS:
       "global": false,
       "id": {
         "type": "TSQualifiedName",
-        "start": 16,
-        "end": 23,
+        "start": 15,
+        "end": 22,
         "left": {
           "type": "Identifier",
-          "start": 16,
-          "end": 19,
+          "start": 15,
+          "end": 18,
           "decorators": [],
           "name": "Foo",
           "optional": false,
@@ -67,8 +67,8 @@ __ESTREE_TEST__:PASS:
         },
         "right": {
           "type": "Identifier",
-          "start": 20,
-          "end": 23,
+          "start": 19,
+          "end": 22,
           "decorators": [],
           "name": "Bar",
           "optional": false,
@@ -79,33 +79,33 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "EmptyStatement",
-      "start": 43,
-      "end": 44
+      "start": 42,
+      "end": 43
     },
     {
       "type": "ExpressionStatement",
-      "start": 45,
-      "end": 61,
+      "start": 44,
+      "end": 60,
       "directive": null,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 45,
-        "end": 60,
+        "start": 44,
+        "end": 59,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 45,
-          "end": 56,
+          "start": 44,
+          "end": 55,
           "computed": false,
           "object": {
             "type": "MemberExpression",
-            "start": 45,
-            "end": 52,
+            "start": 44,
+            "end": 51,
             "computed": false,
             "object": {
               "type": "Identifier",
-              "start": 45,
-              "end": 48,
+              "start": 44,
+              "end": 47,
               "decorators": [],
               "name": "Foo",
               "optional": false,
@@ -114,8 +114,8 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "property": {
               "type": "Identifier",
-              "start": 49,
-              "end": 52,
+              "start": 48,
+              "end": 51,
               "decorators": [],
               "name": "Bar",
               "optional": false,
@@ -125,8 +125,8 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "property": {
             "type": "Identifier",
-            "start": 53,
-            "end": 56,
+            "start": 52,
+            "end": 55,
             "decorators": [],
             "name": "foo",
             "optional": false,
@@ -135,8 +135,8 @@ __ESTREE_TEST__:PASS:
         },
         "right": {
           "type": "Literal",
-          "start": 59,
-          "end": 60,
+          "start": 58,
+          "end": 59,
           "raw": "5",
           "value": 5
         }

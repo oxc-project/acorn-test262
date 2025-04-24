@@ -2,36 +2,36 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 18,
-  "end": 158,
+  "start": 0,
+  "end": 140,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 18,
-      "end": 64,
+      "start": 0,
+      "end": 46,
       "async": true,
       "body": {
         "type": "BlockStatement",
-        "start": 40,
-        "end": 64,
+        "start": 22,
+        "end": 46,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 46,
-            "end": 62,
+            "start": 28,
+            "end": 44,
             "directive": null,
             "expression": {
               "type": "UnaryExpression",
-              "start": 46,
-              "end": 61,
+              "start": 28,
+              "end": 43,
               "argument": {
                 "type": "AwaitExpression",
-                "start": 53,
-                "end": 61,
+                "start": 35,
+                "end": 43,
                 "argument": {
                   "type": "Literal",
-                  "start": 59,
-                  "end": 61,
+                  "start": 41,
+                  "end": 43,
                   "raw": "42",
                   "value": 42
                 }
@@ -47,8 +47,8 @@ __ESTREE_TEST__:PASS:
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 33,
-        "end": 37,
+        "start": 15,
+        "end": 19,
         "decorators": [],
         "name": "bar1",
         "optional": false,
@@ -60,31 +60,31 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "FunctionDeclaration",
-      "start": 66,
-      "end": 112,
+      "start": 48,
+      "end": 94,
       "async": true,
       "body": {
         "type": "BlockStatement",
-        "start": 88,
-        "end": 112,
+        "start": 70,
+        "end": 94,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 94,
-            "end": 110,
+            "start": 76,
+            "end": 92,
             "directive": null,
             "expression": {
               "type": "UnaryExpression",
-              "start": 94,
-              "end": 109,
+              "start": 76,
+              "end": 91,
               "argument": {
                 "type": "AwaitExpression",
-                "start": 101,
-                "end": 109,
+                "start": 83,
+                "end": 91,
                 "argument": {
                   "type": "Literal",
-                  "start": 107,
-                  "end": 109,
+                  "start": 89,
+                  "end": 91,
                   "raw": "42",
                   "value": 42
                 }
@@ -100,8 +100,8 @@ __ESTREE_TEST__:PASS:
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 81,
-        "end": 85,
+        "start": 63,
+        "end": 67,
         "decorators": [],
         "name": "bar2",
         "optional": false,
@@ -113,31 +113,31 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "FunctionDeclaration",
-      "start": 114,
-      "end": 158,
+      "start": 96,
+      "end": 140,
       "async": true,
       "body": {
         "type": "BlockStatement",
-        "start": 136,
-        "end": 158,
+        "start": 118,
+        "end": 140,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 142,
-            "end": 156,
+            "start": 124,
+            "end": 138,
             "directive": null,
             "expression": {
               "type": "UnaryExpression",
-              "start": 142,
-              "end": 155,
+              "start": 124,
+              "end": 137,
               "argument": {
                 "type": "AwaitExpression",
-                "start": 147,
-                "end": 155,
+                "start": 129,
+                "end": 137,
                 "argument": {
                   "type": "Literal",
-                  "start": 153,
-                  "end": 155,
+                  "start": 135,
+                  "end": 137,
                   "raw": "42",
                   "value": 42
                 }
@@ -153,8 +153,8 @@ __ESTREE_TEST__:PASS:
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 129,
-        "end": 133,
+        "start": 111,
+        "end": 115,
         "decorators": [],
         "name": "bar3",
         "optional": false,

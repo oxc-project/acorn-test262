@@ -2,34 +2,34 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 71,
+  "start": 0,
+  "end": 70,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 1,
-      "end": 51,
+      "start": 0,
+      "end": 50,
       "body": {
         "type": "TSModuleBlock",
-        "start": 20,
-        "end": 51,
+        "start": 19,
+        "end": 50,
         "body": [
           {
             "type": "TSInterfaceDeclaration",
-            "start": 27,
-            "end": 49,
+            "start": 26,
+            "end": 48,
             "body": {
               "type": "TSInterfaceBody",
-              "start": 41,
-              "end": 49,
+              "start": 40,
+              "end": 48,
               "body": []
             },
             "declare": false,
             "extends": [],
             "id": {
               "type": "Identifier",
-              "start": 37,
-              "end": 40,
+              "start": 36,
+              "end": 39,
               "decorators": [],
               "name": "Bar",
               "optional": false,
@@ -43,8 +43,8 @@ __ESTREE_TEST__:PASS:
       "global": false,
       "id": {
         "type": "Identifier",
-        "start": 16,
-        "end": 19,
+        "start": 15,
+        "end": 18,
         "decorators": [],
         "name": "foo",
         "optional": false,
@@ -54,38 +54,38 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 53,
-      "end": 70,
+      "start": 52,
+      "end": 69,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 57,
-          "end": 69,
+          "start": 56,
+          "end": 68,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 57,
-            "end": 69,
+            "start": 56,
+            "end": 68,
             "decorators": [],
             "name": "foo",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 60,
-              "end": 69,
+              "start": 59,
+              "end": 68,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 62,
-                "end": 69,
+                "start": 61,
+                "end": 68,
                 "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
-                  "start": 62,
-                  "end": 69,
+                  "start": 61,
+                  "end": 68,
                   "left": {
                     "type": "Identifier",
-                    "start": 62,
-                    "end": 65,
+                    "start": 61,
+                    "end": 64,
                     "decorators": [],
                     "name": "foo",
                     "optional": false,
@@ -93,8 +93,8 @@ __ESTREE_TEST__:PASS:
                   },
                   "right": {
                     "type": "Identifier",
-                    "start": 66,
-                    "end": 69,
+                    "start": 65,
+                    "end": 68,
                     "decorators": [],
                     "name": "Bar",
                     "optional": false,

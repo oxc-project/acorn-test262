@@ -2,19 +2,33 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 18,
-  "end": 302,
+  "start": 0,
+  "end": 284,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 18,
-      "end": 302,
+      "start": 0,
+      "end": 284,
       "directive": null,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 18,
-        "end": 302,
+        "start": 0,
+        "end": 284,
         "expressions": [
+          {
+            "type": "Literal",
+            "start": 5,
+            "end": 8,
+            "raw": "\" \"",
+            "value": " "
+          },
+          {
+            "type": "Literal",
+            "start": 14,
+            "end": 17,
+            "raw": "\" \"",
+            "value": " "
+          },
           {
             "type": "Literal",
             "start": 23,
@@ -73,106 +87,106 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "Literal",
-            "start": 95,
-            "end": 98,
+            "start": 96,
+            "end": 99,
             "raw": "\" \"",
             "value": " "
           },
           {
             "type": "Literal",
-            "start": 104,
-            "end": 107,
+            "start": 106,
+            "end": 109,
             "raw": "\" \"",
             "value": " "
           },
           {
             "type": "Literal",
-            "start": 114,
-            "end": 117,
+            "start": 116,
+            "end": 119,
             "raw": "\" \"",
             "value": " "
           },
           {
             "type": "Literal",
-            "start": 124,
-            "end": 127,
+            "start": 126,
+            "end": 129,
             "raw": "\" \"",
             "value": " "
           },
           {
             "type": "Literal",
-            "start": 134,
-            "end": 137,
+            "start": 136,
+            "end": 139,
             "raw": "\" \"",
             "value": " "
           },
           {
             "type": "Literal",
-            "start": 144,
-            "end": 147,
+            "start": 146,
+            "end": 149,
             "raw": "\" \"",
             "value": " "
           },
           {
             "type": "Literal",
-            "start": 154,
-            "end": 157,
+            "start": 156,
+            "end": 159,
             "raw": "\" \"",
             "value": " "
           },
           {
             "type": "Literal",
-            "start": 164,
-            "end": 167,
+            "start": 166,
+            "end": 169,
             "raw": "\" \"",
             "value": " "
           },
           {
             "type": "Literal",
-            "start": 174,
-            "end": 177,
+            "start": 176,
+            "end": 179,
             "raw": "\" \"",
             "value": " "
           },
           {
             "type": "Literal",
-            "start": 184,
-            "end": 187,
+            "start": 186,
+            "end": 189,
             "raw": "\" \"",
             "value": " "
           },
           {
             "type": "Literal",
-            "start": 194,
-            "end": 197,
+            "start": 196,
+            "end": 199,
             "raw": "\" \"",
             "value": " "
           },
           {
             "type": "Literal",
-            "start": 204,
-            "end": 207,
+            "start": 208,
+            "end": 211,
             "raw": "\" \"",
             "value": " "
           },
           {
             "type": "Literal",
-            "start": 214,
-            "end": 217,
+            "start": 220,
+            "end": 223,
             "raw": "\" \"",
             "value": " "
           },
           {
             "type": "Literal",
-            "start": 226,
-            "end": 229,
+            "start": 232,
+            "end": 235,
             "raw": "\" \"",
             "value": " "
           },
           {
             "type": "Literal",
-            "start": 238,
-            "end": 241,
+            "start": 241,
+            "end": 244,
             "raw": "\" \"",
             "value": " "
           },
@@ -203,27 +217,13 @@ __ESTREE_TEST__:PASS:
             "end": 280,
             "raw": "\" \"",
             "value": " "
-          },
-          {
-            "type": "Literal",
-            "start": 286,
-            "end": 289,
-            "raw": "\" \"",
-            "value": " "
-          },
-          {
-            "type": "Literal",
-            "start": 295,
-            "end": 298,
-            "raw": "\" \"",
-            "value": " "
           }
         ],
         "quasis": [
           {
             "type": "TemplateElement",
-            "start": 18,
-            "end": 22,
+            "start": 0,
+            "end": 4,
             "tail": false,
             "value": {
               "cooked": "0",
@@ -232,8 +232,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 27,
-            "end": 31,
+            "start": 9,
+            "end": 13,
             "tail": false,
             "value": {
               "cooked": "1",
@@ -242,8 +242,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 36,
-            "end": 40,
+            "start": 18,
+            "end": 22,
             "tail": false,
             "value": {
               "cooked": "2",
@@ -252,8 +252,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 45,
-            "end": 49,
+            "start": 27,
+            "end": 31,
             "tail": false,
             "value": {
               "cooked": "3",
@@ -262,8 +262,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 54,
-            "end": 58,
+            "start": 36,
+            "end": 40,
             "tail": false,
             "value": {
               "cooked": "4",
@@ -272,8 +272,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 63,
-            "end": 67,
+            "start": 45,
+            "end": 49,
             "tail": false,
             "value": {
               "cooked": "5",
@@ -282,8 +282,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 72,
-            "end": 76,
+            "start": 54,
+            "end": 58,
             "tail": false,
             "value": {
               "cooked": "6",
@@ -292,8 +292,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 81,
-            "end": 85,
+            "start": 63,
+            "end": 67,
             "tail": false,
             "value": {
               "cooked": "7",
@@ -302,8 +302,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 90,
-            "end": 94,
+            "start": 72,
+            "end": 76,
             "tail": false,
             "value": {
               "cooked": "8",
@@ -312,8 +312,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 99,
-            "end": 103,
+            "start": 81,
+            "end": 85,
             "tail": false,
             "value": {
               "cooked": "9",
@@ -322,8 +322,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 108,
-            "end": 113,
+            "start": 90,
+            "end": 95,
             "tail": false,
             "value": {
               "cooked": "10",
@@ -332,8 +332,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 118,
-            "end": 123,
+            "start": 100,
+            "end": 105,
             "tail": false,
             "value": {
               "cooked": "11",
@@ -342,8 +342,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 128,
-            "end": 133,
+            "start": 110,
+            "end": 115,
             "tail": false,
             "value": {
               "cooked": "12",
@@ -352,8 +352,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 138,
-            "end": 143,
+            "start": 120,
+            "end": 125,
             "tail": false,
             "value": {
               "cooked": "13",
@@ -362,8 +362,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 148,
-            "end": 153,
+            "start": 130,
+            "end": 135,
             "tail": false,
             "value": {
               "cooked": "14",
@@ -372,8 +372,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 158,
-            "end": 163,
+            "start": 140,
+            "end": 145,
             "tail": false,
             "value": {
               "cooked": "15",
@@ -382,8 +382,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 168,
-            "end": 173,
+            "start": 150,
+            "end": 155,
             "tail": false,
             "value": {
               "cooked": "16",
@@ -392,8 +392,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 178,
-            "end": 183,
+            "start": 160,
+            "end": 165,
             "tail": false,
             "value": {
               "cooked": "17",
@@ -402,8 +402,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 188,
-            "end": 193,
+            "start": 170,
+            "end": 175,
             "tail": false,
             "value": {
               "cooked": "18",
@@ -412,8 +412,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 198,
-            "end": 203,
+            "start": 180,
+            "end": 185,
             "tail": false,
             "value": {
               "cooked": "19",
@@ -422,8 +422,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 208,
-            "end": 213,
+            "start": 190,
+            "end": 195,
             "tail": false,
             "value": {
               "cooked": "20",
@@ -432,8 +432,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 218,
-            "end": 225,
+            "start": 200,
+            "end": 207,
             "tail": false,
             "value": {
               "cooked": "2028",
@@ -442,8 +442,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 230,
-            "end": 237,
+            "start": 212,
+            "end": 219,
             "tail": false,
             "value": {
               "cooked": "2029",
@@ -452,8 +452,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 242,
-            "end": 249,
+            "start": 224,
+            "end": 231,
             "tail": false,
             "value": {
               "cooked": "0085",
@@ -462,8 +462,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 254,
-            "end": 258,
+            "start": 236,
+            "end": 240,
             "tail": false,
             "value": {
               "cooked": "t",
@@ -472,8 +472,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 263,
-            "end": 267,
+            "start": 245,
+            "end": 249,
             "tail": false,
             "value": {
               "cooked": "v",
@@ -482,8 +482,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 272,
-            "end": 276,
+            "start": 254,
+            "end": 258,
             "tail": false,
             "value": {
               "cooked": "f",
@@ -492,8 +492,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 281,
-            "end": 285,
+            "start": 263,
+            "end": 267,
             "tail": false,
             "value": {
               "cooked": "b",
@@ -502,8 +502,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 290,
-            "end": 294,
+            "start": 272,
+            "end": 276,
             "tail": false,
             "value": {
               "cooked": "r",
@@ -512,8 +512,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 299,
-            "end": 302,
+            "start": 281,
+            "end": 284,
             "tail": true,
             "value": {
               "cooked": "n",

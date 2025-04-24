@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 24,
-  "end": 83,
+  "start": 0,
+  "end": 59,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 24,
-      "end": 60,
+      "start": 0,
+      "end": 36,
       "attributes": [],
       "declaration": {
         "type": "TSTypeAliasDeclaration",
-        "start": 31,
-        "end": 60,
+        "start": 7,
+        "end": 36,
         "declare": false,
         "id": {
           "type": "Identifier",
-          "start": 36,
-          "end": 40,
+          "start": 12,
+          "end": 16,
           "decorators": [],
           "name": "Data",
           "optional": false,
@@ -26,18 +26,18 @@ __ESTREE_TEST__:PASS:
         },
         "typeAnnotation": {
           "type": "TSUnionType",
-          "start": 43,
-          "end": 59,
+          "start": 19,
+          "end": 35,
           "types": [
             {
               "type": "TSStringKeyword",
-              "start": 43,
-              "end": 49
+              "start": 19,
+              "end": 25
             },
             {
               "type": "TSBooleanKeyword",
-              "start": 52,
-              "end": 59
+              "start": 28,
+              "end": 35
             }
           ]
         },
@@ -49,34 +49,34 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 61,
-      "end": 82,
+      "start": 37,
+      "end": 58,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 65,
-          "end": 81,
+          "start": 41,
+          "end": 57,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 65,
-            "end": 74,
+            "start": 41,
+            "end": 50,
             "decorators": [],
             "name": "obj",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 68,
-              "end": 74,
+              "start": 44,
+              "end": 50,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 70,
-                "end": 74,
+                "start": 46,
+                "end": 50,
                 "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 70,
-                  "end": 74,
+                  "start": 46,
+                  "end": 50,
                   "decorators": [],
                   "name": "Data",
                   "optional": false,
@@ -87,8 +87,8 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "Literal",
-            "start": 77,
-            "end": 81,
+            "start": 53,
+            "end": 57,
             "raw": "true",
             "value": true
           }

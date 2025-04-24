@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 16,
-  "end": 90,
+  "start": 0,
+  "end": 74,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 16,
-      "end": 48,
+      "start": 0,
+      "end": 32,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 20,
-          "end": 47,
+          "start": 4,
+          "end": 31,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 20,
-            "end": 23,
+            "start": 4,
+            "end": 7,
             "decorators": [],
             "name": "map",
             "optional": false,
@@ -26,30 +26,30 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "NewExpression",
-            "start": 26,
-            "end": 47,
+            "start": 10,
+            "end": 31,
             "arguments": [
               {
                 "type": "ArrayExpression",
-                "start": 34,
-                "end": 46,
+                "start": 18,
+                "end": 30,
                 "elements": [
                   {
                     "type": "ArrayExpression",
-                    "start": 35,
-                    "end": 45,
+                    "start": 19,
+                    "end": 29,
                     "elements": [
                       {
                         "type": "Literal",
-                        "start": 36,
-                        "end": 38,
+                        "start": 20,
+                        "end": 22,
                         "raw": "\"\"",
                         "value": ""
                       },
                       {
                         "type": "Literal",
-                        "start": 40,
-                        "end": 44,
+                        "start": 24,
+                        "end": 28,
                         "raw": "true",
                         "value": true
                       }
@@ -60,8 +60,8 @@ __ESTREE_TEST__:PASS:
             ],
             "callee": {
               "type": "Identifier",
-              "start": 30,
-              "end": 33,
+              "start": 14,
+              "end": 17,
               "decorators": [],
               "name": "Map",
               "optional": false,
@@ -76,23 +76,23 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ForOfStatement",
-      "start": 49,
-      "end": 90,
+      "start": 33,
+      "end": 74,
       "await": false,
       "body": {
         "type": "BlockStatement",
-        "start": 73,
-        "end": 90,
+        "start": 57,
+        "end": 74,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 79,
-            "end": 81,
+            "start": 63,
+            "end": 65,
             "directive": null,
             "expression": {
               "type": "Identifier",
-              "start": 79,
-              "end": 80,
+              "start": 63,
+              "end": 64,
               "decorators": [],
               "name": "k",
               "optional": false,
@@ -101,13 +101,13 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "ExpressionStatement",
-            "start": 86,
-            "end": 88,
+            "start": 70,
+            "end": 72,
             "directive": null,
             "expression": {
               "type": "Identifier",
-              "start": 86,
-              "end": 87,
+              "start": 70,
+              "end": 71,
               "decorators": [],
               "name": "v",
               "optional": false,
@@ -118,24 +118,24 @@ __ESTREE_TEST__:PASS:
       },
       "left": {
         "type": "VariableDeclaration",
-        "start": 54,
-        "end": 64,
+        "start": 38,
+        "end": 48,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 58,
-            "end": 64,
+            "start": 42,
+            "end": 48,
             "definite": false,
             "id": {
               "type": "ArrayPattern",
-              "start": 58,
-              "end": 64,
+              "start": 42,
+              "end": 48,
               "decorators": [],
               "elements": [
                 {
                   "type": "Identifier",
-                  "start": 59,
-                  "end": 60,
+                  "start": 43,
+                  "end": 44,
                   "decorators": [],
                   "name": "k",
                   "optional": false,
@@ -143,8 +143,8 @@ __ESTREE_TEST__:PASS:
                 },
                 {
                   "type": "Identifier",
-                  "start": 62,
-                  "end": 63,
+                  "start": 46,
+                  "end": 47,
                   "decorators": [],
                   "name": "v",
                   "optional": false,
@@ -162,8 +162,8 @@ __ESTREE_TEST__:PASS:
       },
       "right": {
         "type": "Identifier",
-        "start": 68,
-        "end": 71,
+        "start": 52,
+        "end": 55,
         "decorators": [],
         "name": "map",
         "optional": false,

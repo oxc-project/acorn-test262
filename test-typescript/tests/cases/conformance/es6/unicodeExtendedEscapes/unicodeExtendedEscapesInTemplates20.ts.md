@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 22,
-  "end": 129,
+  "start": 0,
+  "end": 107,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 22,
-      "end": 129,
+      "start": 0,
+      "end": 107,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 26,
-          "end": 128,
+          "start": 4,
+          "end": 106,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 26,
-            "end": 27,
+            "start": 4,
+            "end": 5,
             "decorators": [],
             "name": "x",
             "optional": false,
@@ -26,19 +26,19 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 30,
-            "end": 128,
+            "start": 8,
+            "end": 106,
             "expressions": [
               {
                 "type": "TemplateLiteral",
-                "start": 63,
-                "end": 96,
+                "start": 41,
+                "end": 74,
                 "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
-                    "start": 63,
-                    "end": 96,
+                    "start": 41,
+                    "end": 74,
                     "tail": true,
                     "value": {
                       "cooked": "    ",
@@ -51,8 +51,8 @@ __ESTREE_TEST__:PASS:
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 30,
-                "end": 63,
+                "start": 8,
+                "end": 41,
                 "tail": false,
                 "value": {
                   "cooked": "Hello",
@@ -61,8 +61,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "TemplateElement",
-                "start": 96,
-                "end": 128,
+                "start": 74,
+                "end": 106,
                 "tail": true,
                 "value": {
                   "cooked": "world",

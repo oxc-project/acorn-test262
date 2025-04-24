@@ -2,28 +2,28 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 25,
-  "end": 82,
+  "start": 0,
+  "end": 57,
   "body": [
     {
       "type": "ForOfStatement",
-      "start": 25,
-      "end": 82,
+      "start": 0,
+      "end": 57,
       "await": false,
       "body": {
         "type": "BlockStatement",
-        "start": 68,
-        "end": 82,
+        "start": 43,
+        "end": 57,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 74,
-            "end": 80,
+            "start": 49,
+            "end": 55,
             "directive": null,
             "expression": {
               "type": "Identifier",
-              "start": 74,
-              "end": 79,
+              "start": 49,
+              "end": 54,
               "decorators": [],
               "name": "entry",
               "optional": false,
@@ -34,24 +34,24 @@ __ESTREE_TEST__:PASS:
       },
       "left": {
         "type": "VariableDeclaration",
-        "start": 30,
-        "end": 48,
+        "start": 5,
+        "end": 23,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 36,
-            "end": 48,
+            "start": 11,
+            "end": 23,
             "definite": false,
             "id": {
               "type": "ArrayPattern",
-              "start": 36,
-              "end": 48,
+              "start": 11,
+              "end": 23,
               "decorators": [],
               "elements": [
                 {
                   "type": "Identifier",
-                  "start": 37,
-                  "end": 40,
+                  "start": 12,
+                  "end": 15,
                   "decorators": [],
                   "name": "key",
                   "optional": false,
@@ -59,8 +59,8 @@ __ESTREE_TEST__:PASS:
                 },
                 {
                   "type": "Identifier",
-                  "start": 42,
-                  "end": 47,
+                  "start": 17,
+                  "end": 22,
                   "decorators": [],
                   "name": "entry",
                   "optional": false,
@@ -78,13 +78,13 @@ __ESTREE_TEST__:PASS:
       },
       "right": {
         "type": "NewExpression",
-        "start": 52,
-        "end": 66,
+        "start": 27,
+        "end": 41,
         "arguments": [],
         "callee": {
           "type": "Identifier",
-          "start": 56,
-          "end": 64,
+          "start": 31,
+          "end": 39,
           "decorators": [],
           "name": "FormData",
           "optional": false,

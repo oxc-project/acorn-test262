@@ -2,25 +2,25 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 44,
+  "start": 0,
+  "end": 43,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 1,
-      "end": 16,
+      "start": 0,
+      "end": 15,
       "body": {
         "type": "TSInterfaceBody",
-        "start": 13,
-        "end": 16,
+        "start": 12,
+        "end": 15,
         "body": []
       },
       "declare": false,
       "extends": [],
       "id": {
         "type": "Identifier",
-        "start": 11,
-        "end": 12,
+        "start": 10,
+        "end": 11,
         "decorators": [],
         "name": "f",
         "optional": false,
@@ -30,27 +30,27 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "FunctionDeclaration",
-      "start": 18,
-      "end": 44,
+      "start": 17,
+      "end": 43,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 31,
-        "end": 44,
+        "start": 30,
+        "end": 43,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 37,
-            "end": 42,
+            "start": 36,
+            "end": 41,
             "directive": null,
             "expression": {
               "type": "TSTypeAssertion",
-              "start": 37,
-              "end": 41,
+              "start": 36,
+              "end": 40,
               "expression": {
                 "type": "Identifier",
-                "start": 40,
-                "end": 41,
+                "start": 39,
+                "end": 40,
                 "decorators": [],
                 "name": "f",
                 "optional": false,
@@ -58,13 +58,13 @@ __ESTREE_TEST__:PASS:
               },
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 38,
-                "end": 39,
+                "start": 37,
+                "end": 38,
                 "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 38,
-                  "end": 39,
+                  "start": 37,
+                  "end": 38,
                   "decorators": [],
                   "name": "f",
                   "optional": false,
@@ -80,8 +80,8 @@ __ESTREE_TEST__:PASS:
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 27,
-        "end": 28,
+        "start": 26,
+        "end": 27,
         "decorators": [],
         "name": "f",
         "optional": false,

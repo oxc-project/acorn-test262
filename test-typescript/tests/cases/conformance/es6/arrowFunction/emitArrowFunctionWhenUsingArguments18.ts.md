@@ -2,45 +2,45 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 18,
-  "end": 142,
+  "start": 0,
+  "end": 124,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 18,
-      "end": 142,
+      "start": 0,
+      "end": 124,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 31,
-        "end": 142,
+        "start": 13,
+        "end": 124,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 37,
-            "end": 77,
+            "start": 19,
+            "end": 59,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 41,
-                "end": 76,
+                "start": 23,
+                "end": 58,
                 "definite": false,
                 "id": {
                   "type": "ObjectPattern",
-                  "start": 41,
-                  "end": 60,
+                  "start": 23,
+                  "end": 42,
                   "decorators": [],
                   "optional": false,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 43,
-                      "end": 58,
+                      "start": 25,
+                      "end": 40,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 43,
-                        "end": 52,
+                        "start": 25,
+                        "end": 34,
                         "decorators": [],
                         "name": "arguments",
                         "optional": false,
@@ -52,8 +52,8 @@ __ESTREE_TEST__:PASS:
                       "shorthand": false,
                       "value": {
                         "type": "Identifier",
-                        "start": 54,
-                        "end": 58,
+                        "start": 36,
+                        "end": 40,
                         "decorators": [],
                         "name": "args",
                         "optional": false,
@@ -65,18 +65,18 @@ __ESTREE_TEST__:PASS:
                 },
                 "init": {
                   "type": "ObjectExpression",
-                  "start": 63,
-                  "end": 76,
+                  "start": 45,
+                  "end": 58,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 65,
-                      "end": 74,
+                      "start": 47,
+                      "end": 56,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 65,
-                        "end": 74,
+                        "start": 47,
+                        "end": 56,
                         "decorators": [],
                         "name": "arguments",
                         "optional": false,
@@ -88,8 +88,8 @@ __ESTREE_TEST__:PASS:
                       "shorthand": true,
                       "value": {
                         "type": "Identifier",
-                        "start": 65,
-                        "end": 74,
+                        "start": 47,
+                        "end": 56,
                         "decorators": [],
                         "name": "arguments",
                         "optional": false,
@@ -105,27 +105,27 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "IfStatement",
-            "start": 82,
-            "end": 140,
+            "start": 64,
+            "end": 122,
             "alternate": null,
             "consequent": {
               "type": "BlockStatement",
-              "start": 101,
-              "end": 140,
+              "start": 83,
+              "end": 122,
               "body": [
                 {
                   "type": "ReturnStatement",
-                  "start": 111,
-                  "end": 134,
+                  "start": 93,
+                  "end": 116,
                   "argument": {
                     "type": "ArrowFunctionExpression",
-                    "start": 118,
-                    "end": 133,
+                    "start": 100,
+                    "end": 115,
                     "async": false,
                     "body": {
                       "type": "Identifier",
-                      "start": 124,
-                      "end": 133,
+                      "start": 106,
+                      "end": 115,
                       "decorators": [],
                       "name": "arguments",
                       "optional": false,
@@ -143,18 +143,18 @@ __ESTREE_TEST__:PASS:
             },
             "test": {
               "type": "CallExpression",
-              "start": 86,
-              "end": 99,
+              "start": 68,
+              "end": 81,
               "arguments": [],
               "callee": {
                 "type": "MemberExpression",
-                "start": 86,
-                "end": 97,
+                "start": 68,
+                "end": 79,
                 "computed": false,
                 "object": {
                   "type": "Identifier",
-                  "start": 86,
-                  "end": 90,
+                  "start": 68,
+                  "end": 72,
                   "decorators": [],
                   "name": "Math",
                   "optional": false,
@@ -163,8 +163,8 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "property": {
                   "type": "Identifier",
-                  "start": 91,
-                  "end": 97,
+                  "start": 73,
+                  "end": 79,
                   "decorators": [],
                   "name": "random",
                   "optional": false,
@@ -182,8 +182,8 @@ __ESTREE_TEST__:PASS:
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 27,
-        "end": 28,
+        "start": 9,
+        "end": 10,
         "decorators": [],
         "name": "f",
         "optional": false,

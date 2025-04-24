@@ -2,18 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 126,
+  "start": 0,
+  "end": 125,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 1,
-      "end": 126,
+      "start": 0,
+      "end": 125,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 124,
-        "end": 126,
+        "start": 123,
+        "end": 125,
         "body": []
       },
       "declare": false,
@@ -21,8 +21,8 @@ __ESTREE_TEST__:PASS:
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 29,
+        "start": 9,
+        "end": 28,
         "decorators": [],
         "name": "commentedParameters",
         "optional": false,
@@ -31,8 +31,8 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 49,
-          "end": 50,
+          "start": 48,
+          "end": 49,
           "decorators": [],
           "name": "a",
           "optional": false,
@@ -40,8 +40,8 @@ __ESTREE_TEST__:PASS:
         },
         {
           "type": "Identifier",
-          "start": 96,
-          "end": 97,
+          "start": 95,
+          "end": 96,
           "decorators": [],
           "name": "b",
           "optional": false,

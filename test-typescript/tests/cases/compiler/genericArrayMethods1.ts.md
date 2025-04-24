@@ -2,76 +2,76 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 61,
+  "start": 0,
+  "end": 60,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 1,
-      "end": 34,
+      "start": 0,
+      "end": 33,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 5,
-          "end": 33,
+          "start": 4,
+          "end": 32,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 5,
-            "end": 15,
+            "start": 4,
+            "end": 14,
             "decorators": [],
             "name": "x",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 6,
-              "end": 15,
+              "start": 5,
+              "end": 14,
               "typeAnnotation": {
                 "type": "TSArrayType",
-                "start": 7,
-                "end": 15,
+                "start": 6,
+                "end": 14,
                 "elementType": {
                   "type": "TSStringKeyword",
-                  "start": 7,
-                  "end": 13
+                  "start": 6,
+                  "end": 12
                 }
               }
             }
           },
           "init": {
             "type": "CallExpression",
-            "start": 19,
-            "end": 33,
+            "start": 18,
+            "end": 32,
             "arguments": [
               {
                 "type": "Literal",
-                "start": 31,
-                "end": 32,
+                "start": 30,
+                "end": 31,
                 "raw": "0",
                 "value": 0
               }
             ],
             "callee": {
               "type": "MemberExpression",
-              "start": 19,
-              "end": 30,
+              "start": 18,
+              "end": 29,
               "computed": false,
               "object": {
                 "type": "ArrayExpression",
-                "start": 19,
-                "end": 24,
+                "start": 18,
+                "end": 23,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 20,
-                    "end": 21,
+                    "start": 19,
+                    "end": 20,
                     "raw": "0",
                     "value": 0
                   },
                   {
                     "type": "Literal",
-                    "start": 22,
-                    "end": 23,
+                    "start": 21,
+                    "end": 22,
                     "raw": "1",
                     "value": 1
                   }
@@ -80,8 +80,8 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "property": {
                 "type": "Identifier",
-                "start": 25,
-                "end": 30,
+                "start": 24,
+                "end": 29,
                 "decorators": [],
                 "name": "slice",
                 "optional": false,

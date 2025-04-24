@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 23,
-  "end": 67,
+  "start": 0,
+  "end": 44,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 23,
-      "end": 36,
+      "start": 0,
+      "end": 13,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 27,
-          "end": 35,
+          "start": 4,
+          "end": 12,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 27,
-            "end": 29,
+            "start": 4,
+            "end": 6,
             "decorators": [],
             "name": "as",
             "optional": false,
@@ -26,8 +26,8 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "Literal",
-            "start": 32,
-            "end": 35,
+            "start": 9,
+            "end": 12,
             "raw": "100",
             "value": 100
           }
@@ -38,8 +38,8 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 38,
-      "end": 66,
+      "start": 15,
+      "end": 43,
       "attributes": [],
       "declaration": null,
       "exportKind": "value",
@@ -47,12 +47,12 @@ __ESTREE_TEST__:PASS:
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 47,
-          "end": 59,
+          "start": 24,
+          "end": 36,
           "exported": {
             "type": "Identifier",
-            "start": 53,
-            "end": 59,
+            "start": 30,
+            "end": 36,
             "decorators": [],
             "name": "return",
             "optional": false,
@@ -61,8 +61,8 @@ __ESTREE_TEST__:PASS:
           "exportKind": "value",
           "local": {
             "type": "Identifier",
-            "start": 47,
-            "end": 49,
+            "start": 24,
+            "end": 26,
             "decorators": [],
             "name": "as",
             "optional": false,
@@ -71,12 +71,12 @@ __ESTREE_TEST__:PASS:
         },
         {
           "type": "ExportSpecifier",
-          "start": 61,
-          "end": 63,
+          "start": 38,
+          "end": 40,
           "exported": {
             "type": "Identifier",
-            "start": 61,
-            "end": 63,
+            "start": 38,
+            "end": 40,
             "decorators": [],
             "name": "as",
             "optional": false,
@@ -85,8 +85,8 @@ __ESTREE_TEST__:PASS:
           "exportKind": "value",
           "local": {
             "type": "Identifier",
-            "start": 61,
-            "end": 63,
+            "start": 38,
+            "end": 40,
             "decorators": [],
             "name": "as",
             "optional": false,

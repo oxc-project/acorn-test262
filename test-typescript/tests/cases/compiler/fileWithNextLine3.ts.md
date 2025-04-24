@@ -2,17 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 131,
-  "end": 141,
+  "start": 130,
+  "end": 140,
   "body": [
     {
       "type": "ReturnStatement",
-      "start": 131,
-      "end": 140,
+      "start": 130,
+      "end": 139,
       "argument": {
         "type": "Literal",
-        "start": 138,
-        "end": 139,
+        "start": 137,
+        "end": 138,
         "raw": "0",
         "value": 0
       }

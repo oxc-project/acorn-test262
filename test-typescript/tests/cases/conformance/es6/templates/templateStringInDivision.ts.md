@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 28,
+  "start": 0,
+  "end": 27,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 1,
-      "end": 28,
+      "start": 0,
+      "end": 27,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 5,
-          "end": 27,
+          "start": 4,
+          "end": 26,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 5,
-            "end": 6,
+            "start": 4,
+            "end": 5,
             "decorators": [],
             "name": "x",
             "optional": false,
@@ -26,18 +26,18 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "BinaryExpression",
-            "start": 9,
-            "end": 27,
+            "start": 8,
+            "end": 26,
             "operator": "/",
             "left": {
               "type": "TemplateLiteral",
-              "start": 9,
-              "end": 23,
+              "start": 8,
+              "end": 22,
               "expressions": [
                 {
                   "type": "Literal",
-                  "start": 16,
-                  "end": 17,
+                  "start": 15,
+                  "end": 16,
                   "raw": "1",
                   "value": 1
                 }
@@ -45,8 +45,8 @@ __ESTREE_TEST__:PASS:
               "quasis": [
                 {
                   "type": "TemplateElement",
-                  "start": 9,
-                  "end": 15,
+                  "start": 8,
+                  "end": 14,
                   "tail": false,
                   "value": {
                     "cooked": "abc",
@@ -55,8 +55,8 @@ __ESTREE_TEST__:PASS:
                 },
                 {
                   "type": "TemplateElement",
-                  "start": 18,
-                  "end": 23,
+                  "start": 17,
+                  "end": 22,
                   "tail": true,
                   "value": {
                     "cooked": "def",
@@ -67,8 +67,8 @@ __ESTREE_TEST__:PASS:
             },
             "right": {
               "type": "Literal",
-              "start": 26,
-              "end": 27,
+              "start": 25,
+              "end": 26,
               "raw": "1",
               "value": 1
             }

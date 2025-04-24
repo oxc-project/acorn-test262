@@ -2,13 +2,13 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 24,
-  "end": 222,
+  "start": 0,
+  "end": 198,
   "body": [
     {
       "type": "TSDeclareFunction",
-      "start": 24,
-      "end": 63,
+      "start": 0,
+      "end": 39,
       "async": false,
       "body": null,
       "declare": true,
@@ -16,8 +16,8 @@ __ESTREE_TEST__:PASS:
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 41,
-        "end": 51,
+        "start": 17,
+        "end": 27,
         "decorators": [],
         "name": "myRandBool",
         "optional": false,
@@ -26,45 +26,45 @@ __ESTREE_TEST__:PASS:
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 53,
-        "end": 62,
+        "start": 29,
+        "end": 38,
         "typeAnnotation": {
           "type": "TSBooleanKeyword",
-          "start": 55,
-          "end": 62
+          "start": 31,
+          "end": 38
         }
       },
       "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
-      "start": 65,
-      "end": 88,
+      "start": 41,
+      "end": 64,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 69,
-          "end": 87,
+          "start": 45,
+          "end": 63,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 69,
-            "end": 77,
+            "start": 45,
+            "end": 53,
             "decorators": [],
             "name": "a",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 70,
-              "end": 77,
+              "start": 46,
+              "end": 53,
               "typeAnnotation": {
                 "type": "TSLiteralType",
-                "start": 72,
-                "end": 77,
+                "start": 48,
+                "end": 53,
                 "literal": {
                   "type": "Literal",
-                  "start": 72,
-                  "end": 77,
+                  "start": 48,
+                  "end": 53,
                   "raw": "\"foo\"",
                   "value": "foo"
                 }
@@ -73,8 +73,8 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "Literal",
-            "start": 81,
-            "end": 86,
+            "start": 57,
+            "end": 62,
             "raw": "\"foo\"",
             "value": "foo"
           }
@@ -85,50 +85,50 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 89,
-      "end": 120,
+      "start": 65,
+      "end": 96,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 93,
-          "end": 119,
+          "start": 69,
+          "end": 95,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 93,
-            "end": 109,
+            "start": 69,
+            "end": 85,
             "decorators": [],
             "name": "b",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 94,
-              "end": 109,
+              "start": 70,
+              "end": 85,
               "typeAnnotation": {
                 "type": "TSUnionType",
-                "start": 96,
-                "end": 109,
+                "start": 72,
+                "end": 85,
                 "types": [
                   {
                     "type": "TSLiteralType",
-                    "start": 96,
-                    "end": 101,
+                    "start": 72,
+                    "end": 77,
                     "literal": {
                       "type": "Literal",
-                      "start": 96,
-                      "end": 101,
+                      "start": 72,
+                      "end": 77,
                       "raw": "\"foo\"",
                       "value": "foo"
                     }
                   },
                   {
                     "type": "TSLiteralType",
-                    "start": 104,
-                    "end": 109,
+                    "start": 80,
+                    "end": 85,
                     "literal": {
                       "type": "Literal",
-                      "start": 104,
-                      "end": 109,
+                      "start": 80,
+                      "end": 85,
                       "raw": "\"bar\"",
                       "value": "bar"
                     }
@@ -139,8 +139,8 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "Literal",
-            "start": 113,
-            "end": 118,
+            "start": 89,
+            "end": 94,
             "raw": "\"foo\"",
             "value": "foo"
           }
@@ -151,33 +151,33 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 121,
-      "end": 167,
+      "start": 97,
+      "end": 143,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 125,
-          "end": 166,
+          "start": 101,
+          "end": 142,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 125,
-            "end": 133,
+            "start": 101,
+            "end": 109,
             "decorators": [],
             "name": "c",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 126,
-              "end": 133,
+              "start": 102,
+              "end": 109,
               "typeAnnotation": {
                 "type": "TSLiteralType",
-                "start": 128,
-                "end": 133,
+                "start": 104,
+                "end": 109,
                 "literal": {
                   "type": "Literal",
-                  "start": 128,
-                  "end": 133,
+                  "start": 104,
+                  "end": 109,
                   "raw": "\"foo\"",
                   "value": "foo"
                 }
@@ -186,26 +186,26 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ConditionalExpression",
-            "start": 137,
-            "end": 165,
+            "start": 113,
+            "end": 141,
             "alternate": {
               "type": "Literal",
-              "start": 159,
-              "end": 164,
+              "start": 135,
+              "end": 140,
               "raw": "\"foo\"",
               "value": "foo"
             },
             "consequent": {
               "type": "Literal",
-              "start": 150,
-              "end": 155,
+              "start": 126,
+              "end": 131,
               "raw": "\"foo\"",
               "value": "foo"
             },
             "test": {
               "type": "Identifier",
-              "start": 137,
-              "end": 147,
+              "start": 113,
+              "end": 123,
               "decorators": [],
               "name": "myRandBool",
               "optional": false,
@@ -219,50 +219,50 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 168,
-      "end": 222,
+      "start": 144,
+      "end": 198,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 172,
-          "end": 221,
+          "start": 148,
+          "end": 197,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 172,
-            "end": 188,
+            "start": 148,
+            "end": 164,
             "decorators": [],
             "name": "d",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 173,
-              "end": 188,
+              "start": 149,
+              "end": 164,
               "typeAnnotation": {
                 "type": "TSUnionType",
-                "start": 175,
-                "end": 188,
+                "start": 151,
+                "end": 164,
                 "types": [
                   {
                     "type": "TSLiteralType",
-                    "start": 175,
-                    "end": 180,
+                    "start": 151,
+                    "end": 156,
                     "literal": {
                       "type": "Literal",
-                      "start": 175,
-                      "end": 180,
+                      "start": 151,
+                      "end": 156,
                       "raw": "\"foo\"",
                       "value": "foo"
                     }
                   },
                   {
                     "type": "TSLiteralType",
-                    "start": 183,
-                    "end": 188,
+                    "start": 159,
+                    "end": 164,
                     "literal": {
                       "type": "Literal",
-                      "start": 183,
-                      "end": 188,
+                      "start": 159,
+                      "end": 164,
                       "raw": "\"bar\"",
                       "value": "bar"
                     }
@@ -273,26 +273,26 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ConditionalExpression",
-            "start": 192,
-            "end": 220,
+            "start": 168,
+            "end": 196,
             "alternate": {
               "type": "Literal",
-              "start": 214,
-              "end": 219,
+              "start": 190,
+              "end": 195,
               "raw": "\"bar\"",
               "value": "bar"
             },
             "consequent": {
               "type": "Literal",
-              "start": 205,
-              "end": 210,
+              "start": 181,
+              "end": 186,
               "raw": "\"foo\"",
               "value": "foo"
             },
             "test": {
               "type": "Identifier",
-              "start": 192,
-              "end": 202,
+              "start": 168,
+              "end": 178,
               "decorators": [],
               "name": "myRandBool",
               "optional": false,

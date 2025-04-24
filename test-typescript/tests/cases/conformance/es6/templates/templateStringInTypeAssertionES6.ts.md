@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 17,
-  "end": 47,
+  "start": 0,
+  "end": 30,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 17,
-      "end": 47,
+      "start": 0,
+      "end": 30,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 21,
-          "end": 46,
+          "start": 4,
+          "end": 29,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 21,
-            "end": 22,
+            "start": 4,
+            "end": 5,
             "decorators": [],
             "name": "x",
             "optional": false,
@@ -26,17 +26,17 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "TSTypeAssertion",
-            "start": 25,
-            "end": 46,
+            "start": 8,
+            "end": 29,
             "expression": {
               "type": "TemplateLiteral",
-              "start": 30,
-              "end": 46,
+              "start": 13,
+              "end": 29,
               "expressions": [
                 {
                   "type": "Literal",
-                  "start": 37,
-                  "end": 40,
+                  "start": 20,
+                  "end": 23,
                   "raw": "123",
                   "value": 123
                 }
@@ -44,8 +44,8 @@ __ESTREE_TEST__:PASS:
               "quasis": [
                 {
                   "type": "TemplateElement",
-                  "start": 30,
-                  "end": 36,
+                  "start": 13,
+                  "end": 19,
                   "tail": false,
                   "value": {
                     "cooked": "abc",
@@ -54,8 +54,8 @@ __ESTREE_TEST__:PASS:
                 },
                 {
                   "type": "TemplateElement",
-                  "start": 41,
-                  "end": 46,
+                  "start": 24,
+                  "end": 29,
                   "tail": true,
                   "value": {
                     "cooked": "def",
@@ -66,8 +66,8 @@ __ESTREE_TEST__:PASS:
             },
             "typeAnnotation": {
               "type": "TSAnyKeyword",
-              "start": 26,
-              "end": 29
+              "start": 9,
+              "end": 12
             }
           }
         }

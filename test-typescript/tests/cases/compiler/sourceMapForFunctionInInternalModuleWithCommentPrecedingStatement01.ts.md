@@ -2,42 +2,42 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 20,
-  "end": 97,
+  "start": 0,
+  "end": 77,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 20,
-      "end": 97,
+      "start": 0,
+      "end": 77,
       "body": {
         "type": "TSModuleBlock",
-        "start": 29,
-        "end": 97,
+        "start": 9,
+        "end": 77,
         "body": [
           {
             "type": "FunctionDeclaration",
-            "start": 35,
-            "end": 95,
+            "start": 15,
+            "end": 75,
             "async": false,
             "body": {
               "type": "BlockStatement",
-              "start": 48,
-              "end": 95,
+              "start": 28,
+              "end": 75,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 79,
-                  "end": 89,
+                  "start": 59,
+                  "end": 69,
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 83,
-                      "end": 88,
+                      "start": 63,
+                      "end": 68,
                       "definite": false,
                       "id": {
                         "type": "Identifier",
-                        "start": 83,
-                        "end": 84,
+                        "start": 63,
+                        "end": 64,
                         "decorators": [],
                         "name": "a",
                         "optional": false,
@@ -45,8 +45,8 @@ __ESTREE_TEST__:PASS:
                       },
                       "init": {
                         "type": "Literal",
-                        "start": 87,
-                        "end": 88,
+                        "start": 67,
+                        "end": 68,
                         "raw": "1",
                         "value": 1
                       }
@@ -62,8 +62,8 @@ __ESTREE_TEST__:PASS:
             "generator": false,
             "id": {
               "type": "Identifier",
-              "start": 44,
-              "end": 45,
+              "start": 24,
+              "end": 25,
               "decorators": [],
               "name": "P",
               "optional": false,
@@ -79,8 +79,8 @@ __ESTREE_TEST__:PASS:
       "global": false,
       "id": {
         "type": "Identifier",
-        "start": 27,
-        "end": 28,
+        "start": 7,
+        "end": 8,
         "decorators": [],
         "name": "Q",
         "optional": false,

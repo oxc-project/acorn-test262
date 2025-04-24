@@ -2,30 +2,30 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 111,
+  "start": 0,
+  "end": 110,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1,
-      "end": 111,
+      "start": 0,
+      "end": 110,
       "directive": null,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 1,
-        "end": 110,
+        "start": 0,
+        "end": 109,
         "expressions": [
           {
             "type": "Literal",
-            "start": 32,
-            "end": 34,
+            "start": 31,
+            "end": 33,
             "raw": "10",
             "value": 10
           },
           {
             "type": "Literal",
-            "start": 80,
-            "end": 82,
+            "start": 79,
+            "end": 81,
             "raw": "20",
             "value": 20
           }
@@ -33,8 +33,8 @@ __ESTREE_TEST__:PASS:
         "quasis": [
           {
             "type": "TemplateElement",
-            "start": 1,
-            "end": 8,
+            "start": 0,
+            "end": 7,
             "tail": false,
             "value": {
               "cooked": "head",
@@ -43,8 +43,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 35,
-            "end": 45,
+            "start": 34,
+            "end": 44,
             "tail": false,
             "value": {
               "cooked": "\nmiddle",
@@ -53,8 +53,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 103,
-            "end": 110,
+            "start": 102,
+            "end": 109,
             "tail": true,
             "value": {
               "cooked": "\ntail",

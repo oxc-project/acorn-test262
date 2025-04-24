@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 103,
+  "start": 0,
+  "end": 102,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 1,
-      "end": 12,
+      "start": 0,
+      "end": 11,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 5,
-          "end": 11,
+          "start": 4,
+          "end": 10,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 5,
-            "end": 6,
+            "start": 4,
+            "end": 5,
             "decorators": [],
             "name": "x",
             "optional": false,
@@ -26,8 +26,8 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "Literal",
-            "start": 9,
-            "end": 11,
+            "start": 8,
+            "end": 10,
             "raw": "10",
             "value": 10
           }
@@ -38,27 +38,27 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "FunctionDeclaration",
-      "start": 76,
-      "end": 103,
+      "start": 75,
+      "end": 102,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 91,
-        "end": 103,
+        "start": 90,
+        "end": 102,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 97,
-            "end": 101,
+            "start": 96,
+            "end": 100,
             "directive": null,
             "expression": {
               "type": "UpdateExpression",
-              "start": 97,
-              "end": 100,
+              "start": 96,
+              "end": 99,
               "argument": {
                 "type": "Identifier",
-                "start": 97,
-                "end": 98,
+                "start": 96,
+                "end": 97,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
@@ -75,8 +75,8 @@ __ESTREE_TEST__:PASS:
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 85,
-        "end": 88,
+        "start": 84,
+        "end": 87,
         "decorators": [],
         "name": "foo",
         "optional": false,

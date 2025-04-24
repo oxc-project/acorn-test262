@@ -2,27 +2,27 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 85,
+  "start": 0,
+  "end": 84,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 1,
-      "end": 49,
+      "start": 0,
+      "end": 48,
       "declaration": {
         "type": "ObjectExpression",
-        "start": 16,
-        "end": 48,
+        "start": 15,
+        "end": 47,
         "properties": [
           {
             "type": "Property",
-            "start": 22,
-            "end": 45,
+            "start": 21,
+            "end": 44,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 22,
-              "end": 26,
+              "start": 21,
+              "end": 25,
               "decorators": [],
               "name": "uhoh",
               "optional": false,
@@ -34,8 +34,8 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
-              "start": 28,
-              "end": 45,
+              "start": 27,
+              "end": 44,
               "raw": "\"another default\"",
               "value": "another default"
             }
@@ -46,17 +46,17 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 51,
-      "end": 84,
+      "start": 50,
+      "end": 83,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 66,
-        "end": 84,
+        "start": 65,
+        "end": 83,
         "async": false,
         "body": {
           "type": "BlockStatement",
-          "start": 81,
-          "end": 84,
+          "start": 80,
+          "end": 83,
           "body": []
         },
         "declare": false,
@@ -64,8 +64,8 @@ __ESTREE_TEST__:PASS:
         "generator": false,
         "id": {
           "type": "Identifier",
-          "start": 75,
-          "end": 78,
+          "start": 74,
+          "end": 77,
           "decorators": [],
           "name": "Foo",
           "optional": false,

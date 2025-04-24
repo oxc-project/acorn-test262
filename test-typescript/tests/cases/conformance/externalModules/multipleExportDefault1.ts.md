@@ -2,22 +2,22 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 89,
+  "start": 0,
+  "end": 88,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 1,
-      "end": 39,
+      "start": 0,
+      "end": 38,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 16,
-        "end": 39,
+        "start": 15,
+        "end": 38,
         "async": false,
         "body": {
           "type": "BlockStatement",
-          "start": 31,
-          "end": 39,
+          "start": 30,
+          "end": 38,
           "body": []
         },
         "declare": false,
@@ -25,8 +25,8 @@ __ESTREE_TEST__:PASS:
         "generator": false,
         "id": {
           "type": "Identifier",
-          "start": 25,
-          "end": 28,
+          "start": 24,
+          "end": 27,
           "decorators": [],
           "name": "Foo",
           "optional": false,
@@ -40,22 +40,22 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 41,
-      "end": 89,
+      "start": 40,
+      "end": 88,
       "declaration": {
         "type": "ObjectExpression",
-        "start": 56,
-        "end": 88,
+        "start": 55,
+        "end": 87,
         "properties": [
           {
             "type": "Property",
-            "start": 62,
-            "end": 85,
+            "start": 61,
+            "end": 84,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 62,
-              "end": 66,
+              "start": 61,
+              "end": 65,
               "decorators": [],
               "name": "uhoh",
               "optional": false,
@@ -67,8 +67,8 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
-              "start": 68,
-              "end": 85,
+              "start": 67,
+              "end": 84,
               "raw": "\"another default\"",
               "value": "another default"
             }

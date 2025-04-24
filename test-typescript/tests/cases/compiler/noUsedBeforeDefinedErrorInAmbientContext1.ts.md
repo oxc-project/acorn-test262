@@ -2,38 +2,38 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 26,
-  "end": 89,
+  "start": 0,
+  "end": 63,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 26,
-      "end": 50,
+      "start": 0,
+      "end": 24,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 38,
-          "end": 49,
+          "start": 12,
+          "end": 23,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 38,
-            "end": 49,
+            "start": 12,
+            "end": 23,
             "decorators": [],
             "name": "S",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 39,
-              "end": 49,
+              "start": 13,
+              "end": 23,
               "typeAnnotation": {
                 "type": "TSTypeQuery",
-                "start": 41,
-                "end": 49,
+                "start": 15,
+                "end": 23,
                 "exprName": {
                   "type": "Identifier",
-                  "start": 48,
-                  "end": 49,
+                  "start": 22,
+                  "end": 23,
                   "decorators": [],
                   "name": "A",
                   "optional": false,
@@ -51,29 +51,29 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 63,
-      "end": 87,
+      "start": 37,
+      "end": 61,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 77,
-          "end": 86,
+          "start": 51,
+          "end": 60,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 77,
-            "end": 86,
+            "start": 51,
+            "end": 60,
             "decorators": [],
             "name": "A",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 78,
-              "end": 86,
+              "start": 52,
+              "end": 60,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
-                "start": 80,
-                "end": 86
+                "start": 54,
+                "end": 60
               }
             }
           },

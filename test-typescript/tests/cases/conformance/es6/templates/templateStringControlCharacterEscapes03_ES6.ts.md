@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 18,
-  "end": 45,
+  "start": 0,
+  "end": 27,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 18,
-      "end": 45,
+      "start": 0,
+      "end": 27,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 22,
-          "end": 44,
+          "start": 4,
+          "end": 26,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 22,
-            "end": 23,
+            "start": 4,
+            "end": 5,
             "decorators": [],
             "name": "x",
             "optional": false,
@@ -26,14 +26,14 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 26,
-            "end": 44,
+            "start": 8,
+            "end": 26,
             "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 26,
-                "end": 44,
+                "start": 8,
+                "end": 26,
                 "tail": true,
                 "value": {
                   "cooked": "\u001f\u001f 1F 1f",

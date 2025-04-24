@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 27,
+  "start": 0,
+  "end": 26,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 1,
-      "end": 27,
+      "start": 0,
+      "end": 26,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 5,
-          "end": 26,
+          "start": 4,
+          "end": 25,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 5,
-            "end": 6,
+            "start": 4,
+            "end": 5,
             "decorators": [],
             "name": "x",
             "optional": false,
@@ -26,17 +26,17 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "UnaryExpression",
-            "start": 9,
-            "end": 26,
+            "start": 8,
+            "end": 25,
             "argument": {
               "type": "TemplateLiteral",
-              "start": 10,
-              "end": 26,
+              "start": 9,
+              "end": 25,
               "expressions": [
                 {
                   "type": "Literal",
-                  "start": 17,
-                  "end": 20,
+                  "start": 16,
+                  "end": 19,
                   "raw": "123",
                   "value": 123
                 }
@@ -44,8 +44,8 @@ __ESTREE_TEST__:PASS:
               "quasis": [
                 {
                   "type": "TemplateElement",
-                  "start": 10,
-                  "end": 16,
+                  "start": 9,
+                  "end": 15,
                   "tail": false,
                   "value": {
                     "cooked": "abc",
@@ -54,8 +54,8 @@ __ESTREE_TEST__:PASS:
                 },
                 {
                   "type": "TemplateElement",
-                  "start": 21,
-                  "end": 26,
+                  "start": 20,
+                  "end": 25,
                   "tail": true,
                   "value": {
                     "cooked": "def",

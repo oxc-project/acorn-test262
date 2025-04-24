@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 19,
+  "start": 0,
+  "end": 18,
   "body": [
     {
       "type": "WhileStatement",
-      "start": 1,
-      "end": 19,
+      "start": 0,
+      "end": 18,
       "body": {
         "type": "BreakStatement",
-        "start": 14,
-        "end": 19,
+        "start": 13,
+        "end": 18,
         "label": null
       },
       "test": {
         "type": "Literal",
-        "start": 8,
-        "end": 12,
+        "start": 7,
+        "end": 11,
         "raw": "true",
         "value": true
       }

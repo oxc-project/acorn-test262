@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 16,
-  "end": 56,
+  "start": 0,
+  "end": 40,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 16,
-      "end": 28,
+      "start": 0,
+      "end": 12,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 20,
-          "end": 27,
+          "start": 4,
+          "end": 11,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 20,
-            "end": 21,
+            "start": 4,
+            "end": 5,
             "decorators": [],
             "name": "v",
             "optional": false,
@@ -26,13 +26,13 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 24,
-            "end": 27,
+            "start": 8,
+            "end": 11,
             "elements": [
               {
                 "type": "Literal",
-                "start": 25,
-                "end": 26,
+                "start": 9,
+                "end": 10,
                 "raw": "1",
                 "value": 1
               }
@@ -45,23 +45,23 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ForOfStatement",
-      "start": 29,
-      "end": 56,
+      "start": 13,
+      "end": 40,
       "await": false,
       "body": {
         "type": "BlockStatement",
-        "start": 46,
-        "end": 56,
+        "start": 30,
+        "end": 40,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 52,
-            "end": 54,
+            "start": 36,
+            "end": 38,
             "directive": null,
             "expression": {
               "type": "Identifier",
-              "start": 52,
-              "end": 53,
+              "start": 36,
+              "end": 37,
               "decorators": [],
               "name": "v",
               "optional": false,
@@ -72,18 +72,18 @@ __ESTREE_TEST__:PASS:
       },
       "left": {
         "type": "VariableDeclaration",
-        "start": 34,
-        "end": 39,
+        "start": 18,
+        "end": 23,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 38,
-            "end": 39,
+            "start": 22,
+            "end": 23,
             "definite": false,
             "id": {
               "type": "Identifier",
-              "start": 38,
-              "end": 39,
+              "start": 22,
+              "end": 23,
               "decorators": [],
               "name": "v",
               "optional": false,
@@ -97,8 +97,8 @@ __ESTREE_TEST__:PASS:
       },
       "right": {
         "type": "Identifier",
-        "start": 43,
-        "end": 44,
+        "start": 27,
+        "end": 28,
         "decorators": [],
         "name": "v",
         "optional": false,

@@ -2,32 +2,32 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 25,
+  "start": 0,
+  "end": 24,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 1,
-      "end": 25,
+      "start": 0,
+      "end": 24,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 15,
-        "end": 25,
+        "start": 14,
+        "end": 24,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 16,
-            "end": 24,
+            "start": 15,
+            "end": 23,
             "directive": null,
             "expression": {
               "type": "MetaProperty",
-              "start": 16,
-              "end": 24,
+              "start": 15,
+              "end": 23,
               "meta": {
                 "type": "Identifier",
-                "start": 16,
-                "end": 19,
+                "start": 15,
+                "end": 18,
                 "decorators": [],
                 "name": "new",
                 "optional": false,
@@ -35,8 +35,8 @@ __ESTREE_TEST__:PASS:
               },
               "property": {
                 "type": "Identifier",
-                "start": 20,
-                "end": 24,
+                "start": 19,
+                "end": 23,
                 "decorators": [],
                 "name": "targ",
                 "optional": false,
@@ -51,8 +51,8 @@ __ESTREE_TEST__:PASS:
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 13,
+        "start": 9,
+        "end": 12,
         "decorators": [],
         "name": "foo",
         "optional": false,

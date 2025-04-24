@@ -2,34 +2,34 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 16,
-  "end": 38,
+  "start": 0,
+  "end": 22,
   "body": [
     {
       "type": "ForOfStatement",
-      "start": 16,
-      "end": 38,
+      "start": 0,
+      "end": 22,
       "await": false,
       "body": {
         "type": "BlockStatement",
-        "start": 36,
-        "end": 38,
+        "start": 20,
+        "end": 22,
         "body": []
       },
       "left": {
         "type": "VariableDeclaration",
-        "start": 21,
-        "end": 28,
+        "start": 5,
+        "end": 12,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 25,
-            "end": 28,
+            "start": 9,
+            "end": 12,
             "definite": false,
             "id": {
               "type": "Identifier",
-              "start": 25,
-              "end": 28,
+              "start": 9,
+              "end": 12,
               "decorators": [],
               "name": "let",
               "optional": false,
@@ -43,8 +43,8 @@ __ESTREE_TEST__:PASS:
       },
       "right": {
         "type": "ArrayExpression",
-        "start": 32,
-        "end": 34,
+        "start": 16,
+        "end": 18,
         "elements": []
       }
     }

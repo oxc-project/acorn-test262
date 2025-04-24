@@ -2,33 +2,33 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 16,
-  "end": 52,
+  "start": 0,
+  "end": 36,
   "body": [
     {
       "type": "ForOfStatement",
-      "start": 16,
-      "end": 52,
+      "start": 0,
+      "end": 36,
       "await": false,
       "body": {
         "type": "BlockStatement",
-        "start": 34,
-        "end": 52,
+        "start": 18,
+        "end": 36,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 40,
-            "end": 50,
+            "start": 24,
+            "end": 34,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 44,
-                "end": 49,
+                "start": 28,
+                "end": 33,
                 "definite": false,
                 "id": {
                   "type": "Identifier",
-                  "start": 44,
-                  "end": 45,
+                  "start": 28,
+                  "end": 29,
                   "decorators": [],
                   "name": "v",
                   "optional": false,
@@ -36,8 +36,8 @@ __ESTREE_TEST__:PASS:
                 },
                 "init": {
                   "type": "Literal",
-                  "start": 48,
-                  "end": 49,
+                  "start": 32,
+                  "end": 33,
                   "raw": "0",
                   "value": 0
                 }
@@ -50,18 +50,18 @@ __ESTREE_TEST__:PASS:
       },
       "left": {
         "type": "VariableDeclaration",
-        "start": 21,
-        "end": 26,
+        "start": 5,
+        "end": 10,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 25,
-            "end": 26,
+            "start": 9,
+            "end": 10,
             "definite": false,
             "id": {
               "type": "Identifier",
-              "start": 25,
-              "end": 26,
+              "start": 9,
+              "end": 10,
               "decorators": [],
               "name": "v",
               "optional": false,
@@ -75,8 +75,8 @@ __ESTREE_TEST__:PASS:
       },
       "right": {
         "type": "ArrayExpression",
-        "start": 30,
-        "end": 32,
+        "start": 14,
+        "end": 16,
         "elements": []
       }
     }

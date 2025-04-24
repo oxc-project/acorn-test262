@@ -2,55 +2,55 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 193,
+  "start": 0,
+  "end": 192,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 1,
-      "end": 29,
+      "start": 0,
+      "end": 28,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 5,
-          "end": 28,
+          "start": 4,
+          "end": 27,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 5,
-            "end": 28,
+            "start": 4,
+            "end": 27,
             "decorators": [],
             "name": "fooOrBar",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 13,
-              "end": 28,
+              "start": 12,
+              "end": 27,
               "typeAnnotation": {
                 "type": "TSUnionType",
-                "start": 15,
-                "end": 28,
+                "start": 14,
+                "end": 27,
                 "types": [
                   {
                     "type": "TSLiteralType",
-                    "start": 15,
-                    "end": 20,
+                    "start": 14,
+                    "end": 19,
                     "literal": {
                       "type": "Literal",
-                      "start": 15,
-                      "end": 20,
+                      "start": 14,
+                      "end": 19,
                       "raw": "\"foo\"",
                       "value": "foo"
                     }
                   },
                   {
                     "type": "TSLiteralType",
-                    "start": 23,
-                    "end": 28,
+                    "start": 22,
+                    "end": 27,
                     "literal": {
                       "type": "Literal",
-                      "start": 23,
-                      "end": 28,
+                      "start": 22,
+                      "end": 27,
                       "raw": "\"bar\"",
                       "value": "bar"
                     }
@@ -67,18 +67,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 31,
-      "end": 54,
+      "start": 30,
+      "end": 53,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 35,
-          "end": 53,
+          "start": 34,
+          "end": 52,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 35,
-            "end": 36,
+            "start": 34,
+            "end": 35,
             "decorators": [],
             "name": "a",
             "optional": false,
@@ -86,23 +86,23 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "TSAsExpression",
-            "start": 39,
-            "end": 53,
+            "start": 38,
+            "end": 52,
             "expression": {
               "type": "Literal",
-              "start": 39,
-              "end": 44,
+              "start": 38,
+              "end": 43,
               "raw": "\"foo\"",
               "value": "foo"
             },
             "typeAnnotation": {
               "type": "TSLiteralType",
-              "start": 48,
-              "end": 53,
+              "start": 47,
+              "end": 52,
               "literal": {
                 "type": "Literal",
-                "start": 48,
-                "end": 53,
+                "start": 47,
+                "end": 52,
                 "raw": "\"bar\"",
                 "value": "bar"
               }
@@ -115,18 +115,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 55,
-      "end": 78,
+      "start": 54,
+      "end": 77,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 59,
-          "end": 77,
+          "start": 58,
+          "end": 76,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 59,
-            "end": 60,
+            "start": 58,
+            "end": 59,
             "decorators": [],
             "name": "b",
             "optional": false,
@@ -134,23 +134,23 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "TSAsExpression",
-            "start": 63,
-            "end": 77,
+            "start": 62,
+            "end": 76,
             "expression": {
               "type": "Literal",
-              "start": 63,
-              "end": 68,
+              "start": 62,
+              "end": 67,
               "raw": "\"bar\"",
               "value": "bar"
             },
             "typeAnnotation": {
               "type": "TSLiteralType",
-              "start": 72,
-              "end": 77,
+              "start": 71,
+              "end": 76,
               "literal": {
                 "type": "Literal",
-                "start": 72,
-                "end": 77,
+                "start": 71,
+                "end": 76,
                 "raw": "\"foo\"",
                 "value": "foo"
               }
@@ -163,18 +163,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 79,
-      "end": 105,
+      "start": 78,
+      "end": 104,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 83,
-          "end": 104,
+          "start": 82,
+          "end": 103,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 83,
-            "end": 84,
+            "start": 82,
+            "end": 83,
             "decorators": [],
             "name": "c",
             "optional": false,
@@ -182,12 +182,12 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "TSAsExpression",
-            "start": 87,
-            "end": 104,
+            "start": 86,
+            "end": 103,
             "expression": {
               "type": "Identifier",
-              "start": 87,
-              "end": 95,
+              "start": 86,
+              "end": 94,
               "decorators": [],
               "name": "fooOrBar",
               "optional": false,
@@ -195,12 +195,12 @@ __ESTREE_TEST__:PASS:
             },
             "typeAnnotation": {
               "type": "TSLiteralType",
-              "start": 99,
-              "end": 104,
+              "start": 98,
+              "end": 103,
               "literal": {
                 "type": "Literal",
-                "start": 99,
-                "end": 104,
+                "start": 98,
+                "end": 103,
                 "raw": "\"foo\"",
                 "value": "foo"
               }
@@ -213,18 +213,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 106,
-      "end": 132,
+      "start": 105,
+      "end": 131,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 110,
-          "end": 131,
+          "start": 109,
+          "end": 130,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 110,
-            "end": 111,
+            "start": 109,
+            "end": 110,
             "decorators": [],
             "name": "d",
             "optional": false,
@@ -232,12 +232,12 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "TSAsExpression",
-            "start": 114,
-            "end": 131,
+            "start": 113,
+            "end": 130,
             "expression": {
               "type": "Identifier",
-              "start": 114,
-              "end": 122,
+              "start": 113,
+              "end": 121,
               "decorators": [],
               "name": "fooOrBar",
               "optional": false,
@@ -245,12 +245,12 @@ __ESTREE_TEST__:PASS:
             },
             "typeAnnotation": {
               "type": "TSLiteralType",
-              "start": 126,
-              "end": 131,
+              "start": 125,
+              "end": 130,
               "literal": {
                 "type": "Literal",
-                "start": 126,
-                "end": 131,
+                "start": 125,
+                "end": 130,
                 "raw": "\"bar\"",
                 "value": "bar"
               }
@@ -263,18 +263,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 133,
-      "end": 159,
+      "start": 132,
+      "end": 158,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 137,
-          "end": 158,
+          "start": 136,
+          "end": 157,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 137,
-            "end": 138,
+            "start": 136,
+            "end": 137,
             "decorators": [],
             "name": "e",
             "optional": false,
@@ -282,12 +282,12 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "TSAsExpression",
-            "start": 141,
-            "end": 158,
+            "start": 140,
+            "end": 157,
             "expression": {
               "type": "Identifier",
-              "start": 141,
-              "end": 149,
+              "start": 140,
+              "end": 148,
               "decorators": [],
               "name": "fooOrBar",
               "optional": false,
@@ -295,12 +295,12 @@ __ESTREE_TEST__:PASS:
             },
             "typeAnnotation": {
               "type": "TSLiteralType",
-              "start": 153,
-              "end": 158,
+              "start": 152,
+              "end": 157,
               "literal": {
                 "type": "Literal",
-                "start": 153,
-                "end": 158,
+                "start": 152,
+                "end": 157,
                 "raw": "\"baz\"",
                 "value": "baz"
               }
@@ -313,18 +313,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 160,
-      "end": 193,
+      "start": 159,
+      "end": 192,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 164,
-          "end": 192,
+          "start": 163,
+          "end": 191,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 164,
-            "end": 165,
+            "start": 163,
+            "end": 164,
             "decorators": [],
             "name": "f",
             "optional": false,
@@ -332,23 +332,23 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "TSAsExpression",
-            "start": 168,
-            "end": 192,
+            "start": 167,
+            "end": 191,
             "expression": {
               "type": "Literal",
-              "start": 168,
-              "end": 173,
+              "start": 167,
+              "end": 172,
               "raw": "\"baz\"",
               "value": "baz"
             },
             "typeAnnotation": {
               "type": "TSTypeQuery",
-              "start": 177,
-              "end": 192,
+              "start": 176,
+              "end": 191,
               "exprName": {
                 "type": "Identifier",
-                "start": 184,
-                "end": 192,
+                "start": 183,
+                "end": 191,
                 "decorators": [],
                 "name": "fooOrBar",
                 "optional": false,

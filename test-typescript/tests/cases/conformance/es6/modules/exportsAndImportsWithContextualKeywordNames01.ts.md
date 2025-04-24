@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 23,
-  "end": 104,
+  "start": 0,
+  "end": 81,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 23,
-      "end": 67,
+      "start": 0,
+      "end": 44,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 27,
-          "end": 67,
+          "start": 4,
+          "end": 44,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 27,
-            "end": 30,
+            "start": 4,
+            "end": 7,
             "decorators": [],
             "name": "set",
             "optional": false,
@@ -26,18 +26,18 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 33,
-            "end": 67,
+            "start": 10,
+            "end": 44,
             "properties": [
               {
                 "type": "Property",
-                "start": 39,
-                "end": 65,
+                "start": 16,
+                "end": 42,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 43,
-                  "end": 46,
+                  "start": 20,
+                  "end": 23,
                   "decorators": [],
                   "name": "foo",
                   "optional": false,
@@ -49,13 +49,13 @@ __ESTREE_TEST__:PASS:
                 "shorthand": false,
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 46,
-                  "end": 65,
+                  "start": 23,
+                  "end": 42,
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 58,
-                    "end": 65,
+                    "start": 35,
+                    "end": 42,
                     "body": []
                   },
                   "declare": false,
@@ -65,19 +65,19 @@ __ESTREE_TEST__:PASS:
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 47,
-                      "end": 56,
+                      "start": 24,
+                      "end": 33,
                       "decorators": [],
                       "name": "x",
                       "optional": false,
                       "typeAnnotation": {
                         "type": "TSTypeAnnotation",
-                        "start": 48,
-                        "end": 56,
+                        "start": 25,
+                        "end": 33,
                         "typeAnnotation": {
                           "type": "TSNumberKeyword",
-                          "start": 50,
-                          "end": 56
+                          "start": 27,
+                          "end": 33
                         }
                       }
                     }
@@ -95,18 +95,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 68,
-      "end": 81,
+      "start": 45,
+      "end": 58,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 72,
-          "end": 80,
+          "start": 49,
+          "end": 57,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 72,
-            "end": 75,
+            "start": 49,
+            "end": 52,
             "decorators": [],
             "name": "get",
             "optional": false,
@@ -114,8 +114,8 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "Literal",
-            "start": 78,
-            "end": 80,
+            "start": 55,
+            "end": 57,
             "raw": "10",
             "value": 10
           }
@@ -126,8 +126,8 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 83,
-      "end": 103,
+      "start": 60,
+      "end": 80,
       "attributes": [],
       "declaration": null,
       "exportKind": "value",
@@ -135,12 +135,12 @@ __ESTREE_TEST__:PASS:
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 92,
-          "end": 95,
+          "start": 69,
+          "end": 72,
           "exported": {
             "type": "Identifier",
-            "start": 92,
-            "end": 95,
+            "start": 69,
+            "end": 72,
             "decorators": [],
             "name": "set",
             "optional": false,
@@ -149,8 +149,8 @@ __ESTREE_TEST__:PASS:
           "exportKind": "value",
           "local": {
             "type": "Identifier",
-            "start": 92,
-            "end": 95,
+            "start": 69,
+            "end": 72,
             "decorators": [],
             "name": "set",
             "optional": false,
@@ -159,12 +159,12 @@ __ESTREE_TEST__:PASS:
         },
         {
           "type": "ExportSpecifier",
-          "start": 97,
-          "end": 100,
+          "start": 74,
+          "end": 77,
           "exported": {
             "type": "Identifier",
-            "start": 97,
-            "end": 100,
+            "start": 74,
+            "end": 77,
             "decorators": [],
             "name": "get",
             "optional": false,
@@ -173,8 +173,8 @@ __ESTREE_TEST__:PASS:
           "exportKind": "value",
           "local": {
             "type": "Identifier",
-            "start": 97,
-            "end": 100,
+            "start": 74,
+            "end": 77,
             "decorators": [],
             "name": "get",
             "optional": false,

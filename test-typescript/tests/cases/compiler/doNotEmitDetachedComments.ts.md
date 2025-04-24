@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 61,
-  "end": 227,
+  "start": 35,
+  "end": 201,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 61,
-      "end": 72,
+      "start": 35,
+      "end": 46,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 65,
-          "end": 71,
+          "start": 39,
+          "end": 45,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 65,
-            "end": 66,
+            "start": 39,
+            "end": 40,
             "decorators": [],
             "name": "x",
             "optional": false,
@@ -26,8 +26,8 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "Literal",
-            "start": 69,
-            "end": 71,
+            "start": 43,
+            "end": 45,
             "raw": "10",
             "value": 10
           }
@@ -38,13 +38,13 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "FunctionDeclaration",
-      "start": 98,
-      "end": 116,
+      "start": 72,
+      "end": 90,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 113,
-        "end": 116,
+        "start": 87,
+        "end": 90,
         "body": []
       },
       "declare": false,
@@ -52,8 +52,8 @@ __ESTREE_TEST__:PASS:
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 107,
-        "end": 110,
+        "start": 81,
+        "end": 84,
         "decorators": [],
         "name": "foo",
         "optional": false,
@@ -65,13 +65,13 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "FunctionDeclaration",
-      "start": 180,
-      "end": 198,
+      "start": 154,
+      "end": 172,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 195,
-        "end": 198,
+        "start": 169,
+        "end": 172,
         "body": []
       },
       "declare": false,
@@ -79,8 +79,8 @@ __ESTREE_TEST__:PASS:
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 189,
-        "end": 192,
+        "start": 163,
+        "end": 166,
         "decorators": [],
         "name": "bar",
         "optional": false,

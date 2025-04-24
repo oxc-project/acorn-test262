@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 17,
-  "end": 320,
+  "start": 0,
+  "end": 303,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 17,
-      "end": 28,
+      "start": 0,
+      "end": 11,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 21,
-          "end": 27,
+          "start": 4,
+          "end": 10,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 21,
-            "end": 22,
+            "start": 4,
+            "end": 5,
             "decorators": [],
             "name": "a",
             "optional": false,
@@ -26,14 +26,14 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 25,
-            "end": 27,
+            "start": 8,
+            "end": 10,
             "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 25,
-                "end": 27,
+                "start": 8,
+                "end": 10,
                 "tail": true,
                 "value": {
                   "cooked": "",
@@ -49,18 +49,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 30,
-      "end": 47,
+      "start": 13,
+      "end": 30,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 34,
-          "end": 46,
+          "start": 17,
+          "end": 29,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 34,
-            "end": 35,
+            "start": 17,
+            "end": 18,
             "decorators": [],
             "name": "b",
             "optional": false,
@@ -68,13 +68,13 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 38,
-            "end": 46,
+            "start": 21,
+            "end": 29,
             "expressions": [
               {
                 "type": "Literal",
-                "start": 42,
-                "end": 43,
+                "start": 25,
+                "end": 26,
                 "raw": "0",
                 "value": 0
               }
@@ -82,8 +82,8 @@ __ESTREE_TEST__:PASS:
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 38,
-                "end": 41,
+                "start": 21,
+                "end": 24,
                 "tail": false,
                 "value": {
                   "cooked": "",
@@ -92,8 +92,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "TemplateElement",
-                "start": 44,
-                "end": 46,
+                "start": 27,
+                "end": 29,
                 "tail": true,
                 "value": {
                   "cooked": "",
@@ -109,18 +109,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 49,
-      "end": 67,
+      "start": 32,
+      "end": 50,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 53,
-          "end": 66,
+          "start": 36,
+          "end": 49,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 53,
-            "end": 54,
+            "start": 36,
+            "end": 37,
             "decorators": [],
             "name": "c",
             "optional": false,
@@ -128,13 +128,13 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 57,
-            "end": 66,
+            "start": 40,
+            "end": 49,
             "expressions": [
               {
                 "type": "Literal",
-                "start": 62,
-                "end": 63,
+                "start": 45,
+                "end": 46,
                 "raw": "0",
                 "value": 0
               }
@@ -142,8 +142,8 @@ __ESTREE_TEST__:PASS:
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 57,
-                "end": 61,
+                "start": 40,
+                "end": 44,
                 "tail": false,
                 "value": {
                   "cooked": "1",
@@ -152,8 +152,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "TemplateElement",
-                "start": 64,
-                "end": 66,
+                "start": 47,
+                "end": 49,
                 "tail": true,
                 "value": {
                   "cooked": "",
@@ -169,18 +169,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 69,
-      "end": 87,
+      "start": 52,
+      "end": 70,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 73,
-          "end": 86,
+          "start": 56,
+          "end": 69,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 73,
-            "end": 74,
+            "start": 56,
+            "end": 57,
             "decorators": [],
             "name": "d",
             "optional": false,
@@ -188,13 +188,13 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 77,
-            "end": 86,
+            "start": 60,
+            "end": 69,
             "expressions": [
               {
                 "type": "Literal",
-                "start": 81,
-                "end": 82,
+                "start": 64,
+                "end": 65,
                 "raw": "0",
                 "value": 0
               }
@@ -202,8 +202,8 @@ __ESTREE_TEST__:PASS:
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 77,
-                "end": 80,
+                "start": 60,
+                "end": 63,
                 "tail": false,
                 "value": {
                   "cooked": "",
@@ -212,8 +212,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "TemplateElement",
-                "start": 83,
-                "end": 86,
+                "start": 66,
+                "end": 69,
                 "tail": true,
                 "value": {
                   "cooked": "2",
@@ -229,18 +229,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 89,
-      "end": 108,
+      "start": 72,
+      "end": 91,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 93,
-          "end": 107,
+          "start": 76,
+          "end": 90,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 93,
-            "end": 94,
+            "start": 76,
+            "end": 77,
             "decorators": [],
             "name": "e",
             "optional": false,
@@ -248,13 +248,13 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 97,
-            "end": 107,
+            "start": 80,
+            "end": 90,
             "expressions": [
               {
                 "type": "Literal",
-                "start": 102,
-                "end": 103,
+                "start": 85,
+                "end": 86,
                 "raw": "0",
                 "value": 0
               }
@@ -262,8 +262,8 @@ __ESTREE_TEST__:PASS:
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 97,
-                "end": 101,
+                "start": 80,
+                "end": 84,
                 "tail": false,
                 "value": {
                   "cooked": "1",
@@ -272,8 +272,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "TemplateElement",
-                "start": 104,
-                "end": 107,
+                "start": 87,
+                "end": 90,
                 "tail": true,
                 "value": {
                   "cooked": "2",
@@ -289,18 +289,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 110,
-      "end": 133,
+      "start": 93,
+      "end": 116,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 114,
-          "end": 132,
+          "start": 97,
+          "end": 115,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 114,
-            "end": 115,
+            "start": 97,
+            "end": 98,
             "decorators": [],
             "name": "f",
             "optional": false,
@@ -308,20 +308,20 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 118,
-            "end": 132,
+            "start": 101,
+            "end": 115,
             "expressions": [
               {
                 "type": "Literal",
-                "start": 122,
-                "end": 123,
+                "start": 105,
+                "end": 106,
                 "raw": "0",
                 "value": 0
               },
               {
                 "type": "Literal",
-                "start": 128,
-                "end": 129,
+                "start": 111,
+                "end": 112,
                 "raw": "0",
                 "value": 0
               }
@@ -329,8 +329,8 @@ __ESTREE_TEST__:PASS:
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 118,
-                "end": 121,
+                "start": 101,
+                "end": 104,
                 "tail": false,
                 "value": {
                   "cooked": "",
@@ -339,8 +339,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "TemplateElement",
-                "start": 124,
-                "end": 127,
+                "start": 107,
+                "end": 110,
                 "tail": false,
                 "value": {
                   "cooked": "",
@@ -349,8 +349,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "TemplateElement",
-                "start": 130,
-                "end": 132,
+                "start": 113,
+                "end": 115,
                 "tail": true,
                 "value": {
                   "cooked": "",
@@ -366,18 +366,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 135,
-      "end": 159,
+      "start": 118,
+      "end": 142,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 139,
-          "end": 158,
+          "start": 122,
+          "end": 141,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 139,
-            "end": 140,
+            "start": 122,
+            "end": 123,
             "decorators": [],
             "name": "g",
             "optional": false,
@@ -385,20 +385,20 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 143,
-            "end": 158,
+            "start": 126,
+            "end": 141,
             "expressions": [
               {
                 "type": "Literal",
-                "start": 148,
-                "end": 149,
+                "start": 131,
+                "end": 132,
                 "raw": "0",
                 "value": 0
               },
               {
                 "type": "Literal",
-                "start": 154,
-                "end": 155,
+                "start": 137,
+                "end": 138,
                 "raw": "0",
                 "value": 0
               }
@@ -406,8 +406,8 @@ __ESTREE_TEST__:PASS:
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 143,
-                "end": 147,
+                "start": 126,
+                "end": 130,
                 "tail": false,
                 "value": {
                   "cooked": "1",
@@ -416,8 +416,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "TemplateElement",
-                "start": 150,
-                "end": 153,
+                "start": 133,
+                "end": 136,
                 "tail": false,
                 "value": {
                   "cooked": "",
@@ -426,8 +426,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "TemplateElement",
-                "start": 156,
-                "end": 158,
+                "start": 139,
+                "end": 141,
                 "tail": true,
                 "value": {
                   "cooked": "",
@@ -443,18 +443,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 161,
-      "end": 185,
+      "start": 144,
+      "end": 168,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 165,
-          "end": 184,
+          "start": 148,
+          "end": 167,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 165,
-            "end": 166,
+            "start": 148,
+            "end": 149,
             "decorators": [],
             "name": "h",
             "optional": false,
@@ -462,20 +462,20 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 169,
-            "end": 184,
+            "start": 152,
+            "end": 167,
             "expressions": [
               {
                 "type": "Literal",
-                "start": 173,
-                "end": 174,
+                "start": 156,
+                "end": 157,
                 "raw": "0",
                 "value": 0
               },
               {
                 "type": "Literal",
-                "start": 180,
-                "end": 181,
+                "start": 163,
+                "end": 164,
                 "raw": "0",
                 "value": 0
               }
@@ -483,8 +483,8 @@ __ESTREE_TEST__:PASS:
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 169,
-                "end": 172,
+                "start": 152,
+                "end": 155,
                 "tail": false,
                 "value": {
                   "cooked": "",
@@ -493,8 +493,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "TemplateElement",
-                "start": 175,
-                "end": 179,
+                "start": 158,
+                "end": 162,
                 "tail": false,
                 "value": {
                   "cooked": "2",
@@ -503,8 +503,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "TemplateElement",
-                "start": 182,
-                "end": 184,
+                "start": 165,
+                "end": 167,
                 "tail": true,
                 "value": {
                   "cooked": "",
@@ -520,18 +520,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 187,
-      "end": 212,
+      "start": 170,
+      "end": 195,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 191,
-          "end": 211,
+          "start": 174,
+          "end": 194,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 191,
-            "end": 192,
+            "start": 174,
+            "end": 175,
             "decorators": [],
             "name": "i",
             "optional": false,
@@ -539,20 +539,20 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 195,
-            "end": 211,
+            "start": 178,
+            "end": 194,
             "expressions": [
               {
                 "type": "Literal",
-                "start": 200,
-                "end": 201,
+                "start": 183,
+                "end": 184,
                 "raw": "0",
                 "value": 0
               },
               {
                 "type": "Literal",
-                "start": 207,
-                "end": 208,
+                "start": 190,
+                "end": 191,
                 "raw": "0",
                 "value": 0
               }
@@ -560,8 +560,8 @@ __ESTREE_TEST__:PASS:
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 195,
-                "end": 199,
+                "start": 178,
+                "end": 182,
                 "tail": false,
                 "value": {
                   "cooked": "1",
@@ -570,8 +570,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "TemplateElement",
-                "start": 202,
-                "end": 206,
+                "start": 185,
+                "end": 189,
                 "tail": false,
                 "value": {
                   "cooked": "2",
@@ -580,8 +580,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "TemplateElement",
-                "start": 209,
-                "end": 211,
+                "start": 192,
+                "end": 194,
                 "tail": true,
                 "value": {
                   "cooked": "",
@@ -597,18 +597,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 214,
-      "end": 238,
+      "start": 197,
+      "end": 221,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 218,
-          "end": 237,
+          "start": 201,
+          "end": 220,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 218,
-            "end": 219,
+            "start": 201,
+            "end": 202,
             "decorators": [],
             "name": "j",
             "optional": false,
@@ -616,20 +616,20 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 222,
-            "end": 237,
+            "start": 205,
+            "end": 220,
             "expressions": [
               {
                 "type": "Literal",
-                "start": 226,
-                "end": 227,
+                "start": 209,
+                "end": 210,
                 "raw": "0",
                 "value": 0
               },
               {
                 "type": "Literal",
-                "start": 232,
-                "end": 233,
+                "start": 215,
+                "end": 216,
                 "raw": "0",
                 "value": 0
               }
@@ -637,8 +637,8 @@ __ESTREE_TEST__:PASS:
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 222,
-                "end": 225,
+                "start": 205,
+                "end": 208,
                 "tail": false,
                 "value": {
                   "cooked": "",
@@ -647,8 +647,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "TemplateElement",
-                "start": 228,
-                "end": 231,
+                "start": 211,
+                "end": 214,
                 "tail": false,
                 "value": {
                   "cooked": "",
@@ -657,8 +657,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "TemplateElement",
-                "start": 234,
-                "end": 237,
+                "start": 217,
+                "end": 220,
                 "tail": true,
                 "value": {
                   "cooked": "3",
@@ -674,18 +674,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 240,
-      "end": 265,
+      "start": 223,
+      "end": 248,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 244,
-          "end": 264,
+          "start": 227,
+          "end": 247,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 244,
-            "end": 245,
+            "start": 227,
+            "end": 228,
             "decorators": [],
             "name": "k",
             "optional": false,
@@ -693,20 +693,20 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 248,
-            "end": 264,
+            "start": 231,
+            "end": 247,
             "expressions": [
               {
                 "type": "Literal",
-                "start": 253,
-                "end": 254,
+                "start": 236,
+                "end": 237,
                 "raw": "0",
                 "value": 0
               },
               {
                 "type": "Literal",
-                "start": 259,
-                "end": 260,
+                "start": 242,
+                "end": 243,
                 "raw": "0",
                 "value": 0
               }
@@ -714,8 +714,8 @@ __ESTREE_TEST__:PASS:
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 248,
-                "end": 252,
+                "start": 231,
+                "end": 235,
                 "tail": false,
                 "value": {
                   "cooked": "1",
@@ -724,8 +724,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "TemplateElement",
-                "start": 255,
-                "end": 258,
+                "start": 238,
+                "end": 241,
                 "tail": false,
                 "value": {
                   "cooked": "",
@@ -734,8 +734,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "TemplateElement",
-                "start": 261,
-                "end": 264,
+                "start": 244,
+                "end": 247,
                 "tail": true,
                 "value": {
                   "cooked": "3",
@@ -751,18 +751,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 267,
-      "end": 292,
+      "start": 250,
+      "end": 275,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 271,
-          "end": 291,
+          "start": 254,
+          "end": 274,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 271,
-            "end": 272,
+            "start": 254,
+            "end": 255,
             "decorators": [],
             "name": "l",
             "optional": false,
@@ -770,20 +770,20 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 275,
-            "end": 291,
+            "start": 258,
+            "end": 274,
             "expressions": [
               {
                 "type": "Literal",
-                "start": 279,
-                "end": 280,
+                "start": 262,
+                "end": 263,
                 "raw": "0",
                 "value": 0
               },
               {
                 "type": "Literal",
-                "start": 286,
-                "end": 287,
+                "start": 269,
+                "end": 270,
                 "raw": "0",
                 "value": 0
               }
@@ -791,8 +791,8 @@ __ESTREE_TEST__:PASS:
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 275,
-                "end": 278,
+                "start": 258,
+                "end": 261,
                 "tail": false,
                 "value": {
                   "cooked": "",
@@ -801,8 +801,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "TemplateElement",
-                "start": 281,
-                "end": 285,
+                "start": 264,
+                "end": 268,
                 "tail": false,
                 "value": {
                   "cooked": "2",
@@ -811,8 +811,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "TemplateElement",
-                "start": 288,
-                "end": 291,
+                "start": 271,
+                "end": 274,
                 "tail": true,
                 "value": {
                   "cooked": "3",
@@ -828,18 +828,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 294,
-      "end": 320,
+      "start": 277,
+      "end": 303,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 298,
-          "end": 319,
+          "start": 281,
+          "end": 302,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 298,
-            "end": 299,
+            "start": 281,
+            "end": 282,
             "decorators": [],
             "name": "m",
             "optional": false,
@@ -847,20 +847,20 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 302,
-            "end": 319,
+            "start": 285,
+            "end": 302,
             "expressions": [
               {
                 "type": "Literal",
-                "start": 307,
-                "end": 308,
+                "start": 290,
+                "end": 291,
                 "raw": "0",
                 "value": 0
               },
               {
                 "type": "Literal",
-                "start": 314,
-                "end": 315,
+                "start": 297,
+                "end": 298,
                 "raw": "0",
                 "value": 0
               }
@@ -868,8 +868,8 @@ __ESTREE_TEST__:PASS:
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 302,
-                "end": 306,
+                "start": 285,
+                "end": 289,
                 "tail": false,
                 "value": {
                   "cooked": "1",
@@ -878,8 +878,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "TemplateElement",
-                "start": 309,
-                "end": 313,
+                "start": 292,
+                "end": 296,
                 "tail": false,
                 "value": {
                   "cooked": "2",
@@ -888,8 +888,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "TemplateElement",
-                "start": 316,
-                "end": 319,
+                "start": 299,
+                "end": 302,
                 "tail": true,
                 "value": {
                   "cooked": "3",

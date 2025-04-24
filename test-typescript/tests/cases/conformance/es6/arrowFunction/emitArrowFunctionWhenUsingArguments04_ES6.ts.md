@@ -2,33 +2,33 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 18,
-  "end": 82,
+  "start": 0,
+  "end": 64,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 18,
-      "end": 82,
+      "start": 0,
+      "end": 64,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 31,
-        "end": 82,
+        "start": 13,
+        "end": 64,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 37,
-            "end": 51,
+            "start": 19,
+            "end": 33,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 41,
-                "end": 50,
+                "start": 23,
+                "end": 32,
                 "definite": false,
                 "id": {
                   "type": "Identifier",
-                  "start": 41,
-                  "end": 50,
+                  "start": 23,
+                  "end": 32,
                   "decorators": [],
                   "name": "arguments",
                   "optional": false,
@@ -42,18 +42,18 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "VariableDeclaration",
-            "start": 56,
-            "end": 80,
+            "start": 38,
+            "end": 62,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 60,
-                "end": 79,
+                "start": 42,
+                "end": 61,
                 "definite": false,
                 "id": {
                   "type": "Identifier",
-                  "start": 60,
-                  "end": 61,
+                  "start": 42,
+                  "end": 43,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
@@ -61,13 +61,13 @@ __ESTREE_TEST__:PASS:
                 },
                 "init": {
                   "type": "ArrowFunctionExpression",
-                  "start": 64,
-                  "end": 79,
+                  "start": 46,
+                  "end": 61,
                   "async": false,
                   "body": {
                     "type": "Identifier",
-                    "start": 70,
-                    "end": 79,
+                    "start": 52,
+                    "end": 61,
                     "decorators": [],
                     "name": "arguments",
                     "optional": false,
@@ -92,8 +92,8 @@ __ESTREE_TEST__:PASS:
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 27,
-        "end": 28,
+        "start": 9,
+        "end": 10,
         "decorators": [],
         "name": "f",
         "optional": false,

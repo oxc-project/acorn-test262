@@ -2,26 +2,26 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 204,
+  "start": 0,
+  "end": 203,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 1,
-      "end": 103,
+      "start": 0,
+      "end": 102,
       "body": {
         "type": "TSModuleBlock",
-        "start": 14,
-        "end": 103,
+        "start": 13,
+        "end": 102,
         "body": [
           {
             "type": "TSImportEqualsDeclaration",
-            "start": 17,
-            "end": 36,
+            "start": 16,
+            "end": 35,
             "id": {
               "type": "Identifier",
-              "start": 24,
-              "end": 27,
+              "start": 23,
+              "end": 26,
               "decorators": [],
               "name": "XYZ",
               "optional": false,
@@ -30,16 +30,16 @@ __ESTREE_TEST__:PASS:
             "importKind": "value",
             "moduleReference": {
               "type": "TSQualifiedName",
-              "start": 30,
-              "end": 35,
+              "start": 29,
+              "end": 34,
               "left": {
                 "type": "TSQualifiedName",
-                "start": 30,
-                "end": 33,
+                "start": 29,
+                "end": 32,
                 "left": {
                   "type": "Identifier",
-                  "start": 30,
-                  "end": 31,
+                  "start": 29,
+                  "end": 30,
                   "decorators": [],
                   "name": "X",
                   "optional": false,
@@ -47,8 +47,8 @@ __ESTREE_TEST__:PASS:
                 },
                 "right": {
                   "type": "Identifier",
-                  "start": 32,
-                  "end": 33,
+                  "start": 31,
+                  "end": 32,
                   "decorators": [],
                   "name": "Y",
                   "optional": false,
@@ -57,8 +57,8 @@ __ESTREE_TEST__:PASS:
               },
               "right": {
                 "type": "Identifier",
-                "start": 34,
-                "end": 35,
+                "start": 33,
+                "end": 34,
                 "decorators": [],
                 "name": "Z",
                 "optional": false,
@@ -68,43 +68,43 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "ExportNamedDeclaration",
-            "start": 38,
-            "end": 101,
+            "start": 37,
+            "end": 100,
             "attributes": [],
             "declaration": {
               "type": "FunctionDeclaration",
-              "start": 45,
-              "end": 101,
+              "start": 44,
+              "end": 100,
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 70,
-                "end": 101,
+                "start": 69,
+                "end": 100,
                 "body": [
                   {
                     "type": "IfStatement",
-                    "start": 74,
-                    "end": 98,
+                    "start": 73,
+                    "end": 97,
                     "alternate": null,
                     "consequent": {
                       "type": "ExpressionStatement",
-                      "start": 83,
-                      "end": 98,
+                      "start": 82,
+                      "end": 97,
                       "directive": null,
                       "expression": {
                         "type": "CallExpression",
-                        "start": 83,
-                        "end": 97,
+                        "start": 82,
+                        "end": 96,
                         "arguments": [
                           {
                             "type": "BinaryExpression",
-                            "start": 93,
-                            "end": 96,
+                            "start": 92,
+                            "end": 95,
                             "operator": "-",
                             "left": {
                               "type": "Identifier",
-                              "start": 93,
-                              "end": 94,
+                              "start": 92,
+                              "end": 93,
                               "decorators": [],
                               "name": "x",
                               "optional": false,
@@ -112,8 +112,8 @@ __ESTREE_TEST__:PASS:
                             },
                             "right": {
                               "type": "Literal",
-                              "start": 95,
-                              "end": 96,
+                              "start": 94,
+                              "end": 95,
                               "raw": "1",
                               "value": 1
                             }
@@ -121,13 +121,13 @@ __ESTREE_TEST__:PASS:
                         ],
                         "callee": {
                           "type": "MemberExpression",
-                          "start": 83,
-                          "end": 91,
+                          "start": 82,
+                          "end": 90,
                           "computed": false,
                           "object": {
                             "type": "Identifier",
-                            "start": 83,
-                            "end": 86,
+                            "start": 82,
+                            "end": 85,
                             "decorators": [],
                             "name": "XYZ",
                             "optional": false,
@@ -136,8 +136,8 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "property": {
                             "type": "Identifier",
-                            "start": 87,
-                            "end": 91,
+                            "start": 86,
+                            "end": 90,
                             "decorators": [],
                             "name": "pong",
                             "optional": false,
@@ -150,13 +150,13 @@ __ESTREE_TEST__:PASS:
                     },
                     "test": {
                       "type": "BinaryExpression",
-                      "start": 78,
-                      "end": 81,
+                      "start": 77,
+                      "end": 80,
                       "operator": ">",
                       "left": {
                         "type": "Identifier",
-                        "start": 78,
-                        "end": 79,
+                        "start": 77,
+                        "end": 78,
                         "decorators": [],
                         "name": "x",
                         "optional": false,
@@ -164,8 +164,8 @@ __ESTREE_TEST__:PASS:
                       },
                       "right": {
                         "type": "Literal",
-                        "start": 80,
-                        "end": 81,
+                        "start": 79,
+                        "end": 80,
                         "raw": "0",
                         "value": 0
                       }
@@ -178,8 +178,8 @@ __ESTREE_TEST__:PASS:
               "generator": false,
               "id": {
                 "type": "Identifier",
-                "start": 54,
-                "end": 58,
+                "start": 53,
+                "end": 57,
                 "decorators": [],
                 "name": "ping",
                 "optional": false,
@@ -188,19 +188,19 @@ __ESTREE_TEST__:PASS:
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 59,
-                  "end": 68,
+                  "start": 58,
+                  "end": 67,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 60,
-                    "end": 68,
+                    "start": 59,
+                    "end": 67,
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
-                      "start": 62,
-                      "end": 68
+                      "start": 61,
+                      "end": 67
                     }
                   }
                 }
@@ -218,16 +218,16 @@ __ESTREE_TEST__:PASS:
       "global": false,
       "id": {
         "type": "TSQualifiedName",
-        "start": 8,
-        "end": 13,
+        "start": 7,
+        "end": 12,
         "left": {
           "type": "TSQualifiedName",
-          "start": 8,
-          "end": 11,
+          "start": 7,
+          "end": 10,
           "left": {
             "type": "Identifier",
-            "start": 8,
-            "end": 9,
+            "start": 7,
+            "end": 8,
             "decorators": [],
             "name": "A",
             "optional": false,
@@ -235,8 +235,8 @@ __ESTREE_TEST__:PASS:
           },
           "right": {
             "type": "Identifier",
-            "start": 10,
-            "end": 11,
+            "start": 9,
+            "end": 10,
             "decorators": [],
             "name": "B",
             "optional": false,
@@ -245,8 +245,8 @@ __ESTREE_TEST__:PASS:
         },
         "right": {
           "type": "Identifier",
-          "start": 12,
-          "end": 13,
+          "start": 11,
+          "end": 12,
           "decorators": [],
           "name": "C",
           "optional": false,
@@ -257,21 +257,21 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 105,
-      "end": 204,
+      "start": 104,
+      "end": 203,
       "body": {
         "type": "TSModuleBlock",
-        "start": 114,
-        "end": 204,
+        "start": 113,
+        "end": 203,
         "body": [
           {
             "type": "TSImportEqualsDeclaration",
-            "start": 117,
-            "end": 136,
+            "start": 116,
+            "end": 135,
             "id": {
               "type": "Identifier",
-              "start": 124,
-              "end": 127,
+              "start": 123,
+              "end": 126,
               "decorators": [],
               "name": "ABC",
               "optional": false,
@@ -280,16 +280,16 @@ __ESTREE_TEST__:PASS:
             "importKind": "value",
             "moduleReference": {
               "type": "TSQualifiedName",
-              "start": 130,
-              "end": 135,
+              "start": 129,
+              "end": 134,
               "left": {
                 "type": "TSQualifiedName",
-                "start": 130,
-                "end": 133,
+                "start": 129,
+                "end": 132,
                 "left": {
                   "type": "Identifier",
-                  "start": 130,
-                  "end": 131,
+                  "start": 129,
+                  "end": 130,
                   "decorators": [],
                   "name": "A",
                   "optional": false,
@@ -297,8 +297,8 @@ __ESTREE_TEST__:PASS:
                 },
                 "right": {
                   "type": "Identifier",
-                  "start": 132,
-                  "end": 133,
+                  "start": 131,
+                  "end": 132,
                   "decorators": [],
                   "name": "B",
                   "optional": false,
@@ -307,8 +307,8 @@ __ESTREE_TEST__:PASS:
               },
               "right": {
                 "type": "Identifier",
-                "start": 134,
-                "end": 135,
+                "start": 133,
+                "end": 134,
                 "decorators": [],
                 "name": "C",
                 "optional": false,
@@ -318,43 +318,43 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "ExportNamedDeclaration",
-            "start": 138,
-            "end": 202,
+            "start": 137,
+            "end": 201,
             "attributes": [],
             "declaration": {
               "type": "FunctionDeclaration",
-              "start": 145,
-              "end": 202,
+              "start": 144,
+              "end": 201,
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 170,
-                "end": 202,
+                "start": 169,
+                "end": 201,
                 "body": [
                   {
                     "type": "IfStatement",
-                    "start": 174,
-                    "end": 199,
+                    "start": 173,
+                    "end": 198,
                     "alternate": null,
                     "consequent": {
                       "type": "ExpressionStatement",
-                      "start": 185,
-                      "end": 199,
+                      "start": 184,
+                      "end": 198,
                       "directive": null,
                       "expression": {
                         "type": "CallExpression",
-                        "start": 185,
-                        "end": 198,
+                        "start": 184,
+                        "end": 197,
                         "arguments": [
                           {
                             "type": "BinaryExpression",
-                            "start": 194,
-                            "end": 197,
+                            "start": 193,
+                            "end": 196,
                             "operator": "-",
                             "left": {
                               "type": "Identifier",
-                              "start": 194,
-                              "end": 195,
+                              "start": 193,
+                              "end": 194,
                               "decorators": [],
                               "name": "x",
                               "optional": false,
@@ -362,8 +362,8 @@ __ESTREE_TEST__:PASS:
                             },
                             "right": {
                               "type": "Literal",
-                              "start": 196,
-                              "end": 197,
+                              "start": 195,
+                              "end": 196,
                               "raw": "1",
                               "value": 1
                             }
@@ -371,13 +371,13 @@ __ESTREE_TEST__:PASS:
                         ],
                         "callee": {
                           "type": "MemberExpression",
-                          "start": 185,
-                          "end": 193,
+                          "start": 184,
+                          "end": 192,
                           "computed": false,
                           "object": {
                             "type": "Identifier",
-                            "start": 185,
-                            "end": 188,
+                            "start": 184,
+                            "end": 187,
                             "decorators": [],
                             "name": "ABC",
                             "optional": false,
@@ -386,8 +386,8 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "property": {
                             "type": "Identifier",
-                            "start": 189,
-                            "end": 193,
+                            "start": 188,
+                            "end": 192,
                             "decorators": [],
                             "name": "ping",
                             "optional": false,
@@ -400,13 +400,13 @@ __ESTREE_TEST__:PASS:
                     },
                     "test": {
                       "type": "BinaryExpression",
-                      "start": 178,
-                      "end": 183,
+                      "start": 177,
+                      "end": 182,
                       "operator": ">",
                       "left": {
                         "type": "Identifier",
-                        "start": 178,
-                        "end": 179,
+                        "start": 177,
+                        "end": 178,
                         "decorators": [],
                         "name": "x",
                         "optional": false,
@@ -414,8 +414,8 @@ __ESTREE_TEST__:PASS:
                       },
                       "right": {
                         "type": "Literal",
-                        "start": 182,
-                        "end": 183,
+                        "start": 181,
+                        "end": 182,
                         "raw": "0",
                         "value": 0
                       }
@@ -428,8 +428,8 @@ __ESTREE_TEST__:PASS:
               "generator": false,
               "id": {
                 "type": "Identifier",
-                "start": 154,
-                "end": 158,
+                "start": 153,
+                "end": 157,
                 "decorators": [],
                 "name": "pong",
                 "optional": false,
@@ -438,19 +438,19 @@ __ESTREE_TEST__:PASS:
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 159,
-                  "end": 168,
+                  "start": 158,
+                  "end": 167,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 160,
-                    "end": 168,
+                    "start": 159,
+                    "end": 167,
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
-                      "start": 162,
-                      "end": 168
+                      "start": 161,
+                      "end": 167
                     }
                   }
                 }
@@ -468,8 +468,8 @@ __ESTREE_TEST__:PASS:
       "global": false,
       "id": {
         "type": "Identifier",
-        "start": 112,
-        "end": 113,
+        "start": 111,
+        "end": 112,
         "decorators": [],
         "name": "X",
         "optional": false,

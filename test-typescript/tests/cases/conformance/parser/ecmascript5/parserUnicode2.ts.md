@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 83,
+  "start": 0,
+  "end": 82,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 1,
-      "end": 83,
+      "start": 0,
+      "end": 82,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 5,
-          "end": 82,
+          "start": 4,
+          "end": 81,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 5,
-            "end": 78,
+            "start": 4,
+            "end": 77,
             "decorators": [],
             "name": "才能ソЫⅨ蒤郳र्क्ड्राüışğİliيونيكودöÄüß才能ソЫⅨ蒤郳र्क्ड्राüışğİliيونيكودöÄüßAbcd123",
             "optional": false,
@@ -26,8 +26,8 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "Literal",
-            "start": 81,
-            "end": 82,
+            "start": 80,
+            "end": 81,
             "raw": "1",
             "value": 1
           }

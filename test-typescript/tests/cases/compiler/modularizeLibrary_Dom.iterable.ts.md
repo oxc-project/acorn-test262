@@ -2,33 +2,33 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 25,
-  "end": 104,
+  "start": 0,
+  "end": 79,
   "body": [
     {
       "type": "ForOfStatement",
-      "start": 25,
-      "end": 104,
+      "start": 0,
+      "end": 79,
       "await": false,
       "body": {
         "type": "BlockStatement",
-        "start": 83,
-        "end": 104,
+        "start": 58,
+        "end": 79,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 89,
-            "end": 102,
+            "start": 64,
+            "end": 77,
             "directive": null,
             "expression": {
               "type": "MemberExpression",
-              "start": 89,
-              "end": 101,
+              "start": 64,
+              "end": 76,
               "computed": false,
               "object": {
                 "type": "Identifier",
-                "start": 89,
-                "end": 96,
+                "start": 64,
+                "end": 71,
                 "decorators": [],
                 "name": "element",
                 "optional": false,
@@ -37,8 +37,8 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "property": {
                 "type": "Identifier",
-                "start": 97,
-                "end": 101,
+                "start": 72,
+                "end": 76,
                 "decorators": [],
                 "name": "href",
                 "optional": false,
@@ -50,18 +50,18 @@ __ESTREE_TEST__:PASS:
       },
       "left": {
         "type": "VariableDeclaration",
-        "start": 30,
-        "end": 43,
+        "start": 5,
+        "end": 18,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 36,
-            "end": 43,
+            "start": 11,
+            "end": 18,
             "definite": false,
             "id": {
               "type": "Identifier",
-              "start": 36,
-              "end": 43,
+              "start": 11,
+              "end": 18,
               "decorators": [],
               "name": "element",
               "optional": false,
@@ -75,26 +75,26 @@ __ESTREE_TEST__:PASS:
       },
       "right": {
         "type": "CallExpression",
-        "start": 47,
-        "end": 81,
+        "start": 22,
+        "end": 56,
         "arguments": [
           {
             "type": "Literal",
-            "start": 77,
-            "end": 80,
+            "start": 52,
+            "end": 55,
             "raw": "\"a\"",
             "value": "a"
           }
         ],
         "callee": {
           "type": "MemberExpression",
-          "start": 47,
-          "end": 76,
+          "start": 22,
+          "end": 51,
           "computed": false,
           "object": {
             "type": "Identifier",
-            "start": 47,
-            "end": 55,
+            "start": 22,
+            "end": 30,
             "decorators": [],
             "name": "document",
             "optional": false,
@@ -103,8 +103,8 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "property": {
             "type": "Identifier",
-            "start": 56,
-            "end": 76,
+            "start": 31,
+            "end": 51,
             "decorators": [],
             "name": "getElementsByTagName",
             "optional": false,

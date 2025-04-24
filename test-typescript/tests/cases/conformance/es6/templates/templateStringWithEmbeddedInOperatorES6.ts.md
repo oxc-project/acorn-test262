@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 17,
-  "end": 67,
+  "start": 0,
+  "end": 50,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 17,
-      "end": 67,
+      "start": 0,
+      "end": 50,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 21,
-          "end": 66,
+          "start": 4,
+          "end": 49,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 21,
-            "end": 22,
+            "start": 4,
+            "end": 5,
             "decorators": [],
             "name": "x",
             "optional": false,
@@ -26,35 +26,35 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 25,
-            "end": 66,
+            "start": 8,
+            "end": 49,
             "expressions": [
               {
                 "type": "BinaryExpression",
-                "start": 32,
-                "end": 60,
+                "start": 15,
+                "end": 43,
                 "operator": "in",
                 "left": {
                   "type": "Literal",
-                  "start": 32,
-                  "end": 36,
+                  "start": 15,
+                  "end": 19,
                   "raw": "\"hi\"",
                   "value": "hi"
                 },
                 "right": {
                   "type": "ObjectExpression",
-                  "start": 40,
-                  "end": 60,
+                  "start": 23,
+                  "end": 43,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 42,
-                      "end": 48,
+                      "start": 25,
+                      "end": 31,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 42,
-                        "end": 44,
+                        "start": 25,
+                        "end": 27,
                         "decorators": [],
                         "name": "hi",
                         "optional": false,
@@ -66,21 +66,21 @@ __ESTREE_TEST__:PASS:
                       "shorthand": false,
                       "value": {
                         "type": "Literal",
-                        "start": 46,
-                        "end": 48,
+                        "start": 29,
+                        "end": 31,
                         "raw": "10",
                         "value": 10
                       }
                     },
                     {
                       "type": "Property",
-                      "start": 50,
-                      "end": 59,
+                      "start": 33,
+                      "end": 42,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 50,
-                        "end": 55,
+                        "start": 33,
+                        "end": 38,
                         "decorators": [],
                         "name": "hello",
                         "optional": false,
@@ -92,8 +92,8 @@ __ESTREE_TEST__:PASS:
                       "shorthand": false,
                       "value": {
                         "type": "Literal",
-                        "start": 57,
-                        "end": 59,
+                        "start": 40,
+                        "end": 42,
                         "raw": "20",
                         "value": 20
                       }
@@ -105,8 +105,8 @@ __ESTREE_TEST__:PASS:
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 25,
-                "end": 31,
+                "start": 8,
+                "end": 14,
                 "tail": false,
                 "value": {
                   "cooked": "abc",
@@ -115,8 +115,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "TemplateElement",
-                "start": 61,
-                "end": 66,
+                "start": 44,
+                "end": 49,
                 "tail": true,
                 "value": {
                   "cooked": "def",

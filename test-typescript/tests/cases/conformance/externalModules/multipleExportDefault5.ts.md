@@ -2,22 +2,22 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 60,
+  "start": 0,
+  "end": 59,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 1,
-      "end": 34,
+      "start": 0,
+      "end": 33,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 16,
-        "end": 34,
+        "start": 15,
+        "end": 33,
         "async": false,
         "body": {
           "type": "BlockStatement",
-          "start": 31,
-          "end": 34,
+          "start": 30,
+          "end": 33,
           "body": []
         },
         "declare": false,
@@ -25,8 +25,8 @@ __ESTREE_TEST__:PASS:
         "generator": false,
         "id": {
           "type": "Identifier",
-          "start": 25,
-          "end": 28,
+          "start": 24,
+          "end": 27,
           "decorators": [],
           "name": "bar",
           "optional": false,
@@ -40,25 +40,25 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 35,
-      "end": 60,
+      "start": 34,
+      "end": 59,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 50,
-        "end": 60,
+        "start": 49,
+        "end": 59,
         "abstract": false,
         "body": {
           "type": "ClassBody",
-          "start": 58,
-          "end": 60,
+          "start": 57,
+          "end": 59,
           "body": []
         },
         "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 56,
-          "end": 57,
+          "start": 55,
+          "end": 56,
           "decorators": [],
           "name": "C",
           "optional": false,

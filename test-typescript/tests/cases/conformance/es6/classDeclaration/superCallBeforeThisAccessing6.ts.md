@@ -2,30 +2,30 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 127,
+  "start": 0,
+  "end": 126,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 1,
-      "end": 38,
+      "start": 0,
+      "end": 37,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 12,
-        "end": 38,
+        "start": 11,
+        "end": 37,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 18,
-            "end": 36,
+            "start": 17,
+            "end": 35,
             "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 18,
-              "end": 29,
+              "start": 17,
+              "end": 28,
               "decorators": [],
               "name": "constructor",
               "optional": false,
@@ -37,13 +37,13 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 29,
-              "end": 36,
+              "start": 28,
+              "end": 35,
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 33,
-                "end": 36,
+                "start": 32,
+                "end": 35,
                 "body": []
               },
               "declare": false,
@@ -53,8 +53,8 @@ __ESTREE_TEST__:PASS:
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 30,
-                  "end": 31,
+                  "start": 29,
+                  "end": 30,
                   "decorators": [],
                   "name": "c",
                   "optional": false,
@@ -71,8 +71,8 @@ __ESTREE_TEST__:PASS:
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 11,
+        "start": 6,
+        "end": 10,
         "decorators": [],
         "name": "Base",
         "optional": false,
@@ -85,18 +85,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ClassDeclaration",
-      "start": 39,
-      "end": 127,
+      "start": 38,
+      "end": 126,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 60,
-        "end": 127,
+        "start": 59,
+        "end": 126,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 66,
-            "end": 77,
+            "start": 65,
+            "end": 76,
             "accessibility": "private",
             "computed": false,
             "declare": false,
@@ -104,8 +104,8 @@ __ESTREE_TEST__:PASS:
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 74,
-              "end": 76,
+              "start": 73,
+              "end": 75,
               "decorators": [],
               "name": "_t",
               "optional": false,
@@ -120,15 +120,15 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "MethodDefinition",
-            "start": 82,
-            "end": 125,
+            "start": 81,
+            "end": 124,
             "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 82,
-              "end": 93,
+              "start": 81,
+              "end": 92,
               "decorators": [],
               "name": "constructor",
               "optional": false,
@@ -140,34 +140,34 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 93,
-              "end": 125,
+              "start": 92,
+              "end": 124,
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 96,
-                "end": 125,
+                "start": 95,
+                "end": 124,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 106,
-                    "end": 118,
+                    "start": 105,
+                    "end": 117,
                     "directive": null,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 106,
-                      "end": 117,
+                      "start": 105,
+                      "end": 116,
                       "arguments": [
                         {
                           "type": "ThisExpression",
-                          "start": 112,
-                          "end": 116
+                          "start": 111,
+                          "end": 115
                         }
                       ],
                       "callee": {
                         "type": "Super",
-                        "start": 106,
-                        "end": 111
+                        "start": 105,
+                        "end": 110
                       },
                       "optional": false,
                       "typeArguments": null
@@ -190,8 +190,8 @@ __ESTREE_TEST__:PASS:
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 45,
-        "end": 46,
+        "start": 44,
+        "end": 45,
         "decorators": [],
         "name": "D",
         "optional": false,
@@ -200,8 +200,8 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "superClass": {
         "type": "Identifier",
-        "start": 55,
-        "end": 59,
+        "start": 54,
+        "end": 58,
         "decorators": [],
         "name": "Base",
         "optional": false,

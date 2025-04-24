@@ -2,30 +2,30 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 628,
+  "start": 0,
+  "end": 627,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 1,
-      "end": 65,
+      "start": 0,
+      "end": 64,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 10,
-        "end": 65,
+        "start": 9,
+        "end": 64,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 16,
-            "end": 63,
+            "start": 15,
+            "end": 62,
             "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 16,
-              "end": 27,
+              "start": 15,
+              "end": 26,
               "decorators": [],
               "name": "constructor",
               "optional": false,
@@ -37,13 +37,13 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 27,
-              "end": 63,
+              "start": 26,
+              "end": 62,
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 56,
-                "end": 63,
+                "start": 55,
+                "end": 62,
                 "body": []
               },
               "declare": false,
@@ -53,21 +53,21 @@ __ESTREE_TEST__:PASS:
               "params": [
                 {
                   "type": "TSParameterProperty",
-                  "start": 28,
-                  "end": 54,
+                  "start": 27,
+                  "end": 53,
                   "accessibility": "public",
                   "decorators": [],
                   "override": false,
                   "parameter": {
                     "type": "ArrayPattern",
-                    "start": 35,
-                    "end": 54,
+                    "start": 34,
+                    "end": 53,
                     "decorators": [],
                     "elements": [
                       {
                         "type": "Identifier",
-                        "start": 36,
-                        "end": 37,
+                        "start": 35,
+                        "end": 36,
                         "decorators": [],
                         "name": "x",
                         "optional": false,
@@ -75,8 +75,8 @@ __ESTREE_TEST__:PASS:
                       },
                       {
                         "type": "Identifier",
-                        "start": 39,
-                        "end": 40,
+                        "start": 38,
+                        "end": 39,
                         "decorators": [],
                         "name": "y",
                         "optional": false,
@@ -84,8 +84,8 @@ __ESTREE_TEST__:PASS:
                       },
                       {
                         "type": "Identifier",
-                        "start": 42,
-                        "end": 43,
+                        "start": 41,
+                        "end": 42,
                         "decorators": [],
                         "name": "z",
                         "optional": false,
@@ -95,16 +95,16 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
-                      "start": 44,
-                      "end": 54,
+                      "start": 43,
+                      "end": 53,
                       "typeAnnotation": {
                         "type": "TSArrayType",
-                        "start": 46,
-                        "end": 54,
+                        "start": 45,
+                        "end": 53,
                         "elementType": {
                           "type": "TSStringKeyword",
-                          "start": 46,
-                          "end": 52
+                          "start": 45,
+                          "end": 51
                         }
                       }
                     }
@@ -123,8 +123,8 @@ __ESTREE_TEST__:PASS:
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 9,
+        "start": 6,
+        "end": 8,
         "decorators": [],
         "name": "C1",
         "optional": false,
@@ -137,13 +137,13 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 67,
-      "end": 111,
+      "start": 66,
+      "end": 110,
       "declare": false,
       "id": {
         "type": "Identifier",
-        "start": 72,
-        "end": 82,
+        "start": 71,
+        "end": 81,
         "decorators": [],
         "name": "TupleType1",
         "optional": false,
@@ -151,23 +151,23 @@ __ESTREE_TEST__:PASS:
       },
       "typeAnnotation": {
         "type": "TSTupleType",
-        "start": 85,
-        "end": 110,
+        "start": 84,
+        "end": 109,
         "elementTypes": [
           {
             "type": "TSStringKeyword",
-            "start": 86,
-            "end": 92
+            "start": 85,
+            "end": 91
           },
           {
             "type": "TSNumberKeyword",
-            "start": 94,
-            "end": 100
+            "start": 93,
+            "end": 99
           },
           {
             "type": "TSBooleanKeyword",
-            "start": 102,
-            "end": 109
+            "start": 101,
+            "end": 108
           }
         ]
       },
@@ -175,25 +175,25 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ClassDeclaration",
-      "start": 113,
-      "end": 179,
+      "start": 112,
+      "end": 178,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 122,
-        "end": 179,
+        "start": 121,
+        "end": 178,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 128,
-            "end": 177,
+            "start": 127,
+            "end": 176,
             "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 128,
-              "end": 139,
+              "start": 127,
+              "end": 138,
               "decorators": [],
               "name": "constructor",
               "optional": false,
@@ -205,13 +205,13 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 139,
-              "end": 177,
+              "start": 138,
+              "end": 176,
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 170,
-                "end": 177,
+                "start": 169,
+                "end": 176,
                 "body": []
               },
               "declare": false,
@@ -221,21 +221,21 @@ __ESTREE_TEST__:PASS:
               "params": [
                 {
                   "type": "TSParameterProperty",
-                  "start": 140,
-                  "end": 168,
+                  "start": 139,
+                  "end": 167,
                   "accessibility": "public",
                   "decorators": [],
                   "override": false,
                   "parameter": {
                     "type": "ArrayPattern",
-                    "start": 147,
-                    "end": 168,
+                    "start": 146,
+                    "end": 167,
                     "decorators": [],
                     "elements": [
                       {
                         "type": "Identifier",
-                        "start": 148,
-                        "end": 149,
+                        "start": 147,
+                        "end": 148,
                         "decorators": [],
                         "name": "x",
                         "optional": false,
@@ -243,8 +243,8 @@ __ESTREE_TEST__:PASS:
                       },
                       {
                         "type": "Identifier",
-                        "start": 151,
-                        "end": 152,
+                        "start": 150,
+                        "end": 151,
                         "decorators": [],
                         "name": "y",
                         "optional": false,
@@ -252,8 +252,8 @@ __ESTREE_TEST__:PASS:
                       },
                       {
                         "type": "Identifier",
-                        "start": 154,
-                        "end": 155,
+                        "start": 153,
+                        "end": 154,
                         "decorators": [],
                         "name": "z",
                         "optional": false,
@@ -263,17 +263,17 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
-                      "start": 156,
-                      "end": 168,
+                      "start": 155,
+                      "end": 167,
                       "typeAnnotation": {
                         "type": "TSTypeReference",
-                        "start": 158,
-                        "end": 168,
+                        "start": 157,
+                        "end": 167,
                         "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
-                          "start": 158,
-                          "end": 168,
+                          "start": 157,
+                          "end": 167,
                           "decorators": [],
                           "name": "TupleType1",
                           "optional": false,
@@ -296,8 +296,8 @@ __ESTREE_TEST__:PASS:
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 119,
-        "end": 121,
+        "start": 118,
+        "end": 120,
         "decorators": [],
         "name": "C2",
         "optional": false,
@@ -310,13 +310,13 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 181,
-      "end": 233,
+      "start": 180,
+      "end": 232,
       "declare": false,
       "id": {
         "type": "Identifier",
-        "start": 186,
-        "end": 194,
+        "start": 185,
+        "end": 193,
         "decorators": [],
         "name": "ObjType1",
         "optional": false,
@@ -324,19 +324,19 @@ __ESTREE_TEST__:PASS:
       },
       "typeAnnotation": {
         "type": "TSTypeLiteral",
-        "start": 197,
-        "end": 233,
+        "start": 196,
+        "end": 232,
         "members": [
           {
             "type": "TSPropertySignature",
-            "start": 199,
-            "end": 209,
+            "start": 198,
+            "end": 208,
             "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 199,
-              "end": 200,
+              "start": 198,
+              "end": 199,
               "decorators": [],
               "name": "x",
               "optional": false,
@@ -347,25 +347,25 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 200,
-              "end": 208,
+              "start": 199,
+              "end": 207,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
-                "start": 202,
-                "end": 208
+                "start": 201,
+                "end": 207
               }
             }
           },
           {
             "type": "TSPropertySignature",
-            "start": 210,
-            "end": 220,
+            "start": 209,
+            "end": 219,
             "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 210,
-              "end": 211,
+              "start": 209,
+              "end": 210,
               "decorators": [],
               "name": "y",
               "optional": false,
@@ -376,25 +376,25 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 211,
-              "end": 219,
+              "start": 210,
+              "end": 218,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 213,
-                "end": 219
+                "start": 212,
+                "end": 218
               }
             }
           },
           {
             "type": "TSPropertySignature",
-            "start": 221,
-            "end": 231,
+            "start": 220,
+            "end": 230,
             "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 221,
-              "end": 222,
+              "start": 220,
+              "end": 221,
               "decorators": [],
               "name": "z",
               "optional": false,
@@ -405,12 +405,12 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 222,
-              "end": 231,
+              "start": 221,
+              "end": 230,
               "typeAnnotation": {
                 "type": "TSBooleanKeyword",
-                "start": 224,
-                "end": 231
+                "start": 223,
+                "end": 230
               }
             }
           }
@@ -420,25 +420,25 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ClassDeclaration",
-      "start": 235,
-      "end": 301,
+      "start": 234,
+      "end": 300,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 244,
-        "end": 301,
+        "start": 243,
+        "end": 300,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 250,
-            "end": 299,
+            "start": 249,
+            "end": 298,
             "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 250,
-              "end": 261,
+              "start": 249,
+              "end": 260,
               "decorators": [],
               "name": "constructor",
               "optional": false,
@@ -450,13 +450,13 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 261,
-              "end": 299,
+              "start": 260,
+              "end": 298,
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 292,
-                "end": 299,
+                "start": 291,
+                "end": 298,
                 "body": []
               },
               "declare": false,
@@ -466,27 +466,27 @@ __ESTREE_TEST__:PASS:
               "params": [
                 {
                   "type": "TSParameterProperty",
-                  "start": 262,
-                  "end": 290,
+                  "start": 261,
+                  "end": 289,
                   "accessibility": "public",
                   "decorators": [],
                   "override": false,
                   "parameter": {
                     "type": "ObjectPattern",
-                    "start": 269,
-                    "end": 290,
+                    "start": 268,
+                    "end": 289,
                     "decorators": [],
                     "optional": false,
                     "properties": [
                       {
                         "type": "Property",
-                        "start": 271,
-                        "end": 272,
+                        "start": 270,
+                        "end": 271,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
-                          "start": 271,
-                          "end": 272,
+                          "start": 270,
+                          "end": 271,
                           "decorators": [],
                           "name": "x",
                           "optional": false,
@@ -498,8 +498,8 @@ __ESTREE_TEST__:PASS:
                         "shorthand": true,
                         "value": {
                           "type": "Identifier",
-                          "start": 271,
-                          "end": 272,
+                          "start": 270,
+                          "end": 271,
                           "decorators": [],
                           "name": "x",
                           "optional": false,
@@ -508,13 +508,13 @@ __ESTREE_TEST__:PASS:
                       },
                       {
                         "type": "Property",
-                        "start": 274,
-                        "end": 275,
+                        "start": 273,
+                        "end": 274,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
-                          "start": 274,
-                          "end": 275,
+                          "start": 273,
+                          "end": 274,
                           "decorators": [],
                           "name": "y",
                           "optional": false,
@@ -526,8 +526,8 @@ __ESTREE_TEST__:PASS:
                         "shorthand": true,
                         "value": {
                           "type": "Identifier",
-                          "start": 274,
-                          "end": 275,
+                          "start": 273,
+                          "end": 274,
                           "decorators": [],
                           "name": "y",
                           "optional": false,
@@ -536,13 +536,13 @@ __ESTREE_TEST__:PASS:
                       },
                       {
                         "type": "Property",
-                        "start": 277,
-                        "end": 278,
+                        "start": 276,
+                        "end": 277,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
-                          "start": 277,
-                          "end": 278,
+                          "start": 276,
+                          "end": 277,
                           "decorators": [],
                           "name": "z",
                           "optional": false,
@@ -554,8 +554,8 @@ __ESTREE_TEST__:PASS:
                         "shorthand": true,
                         "value": {
                           "type": "Identifier",
-                          "start": 277,
-                          "end": 278,
+                          "start": 276,
+                          "end": 277,
                           "decorators": [],
                           "name": "z",
                           "optional": false,
@@ -565,17 +565,17 @@ __ESTREE_TEST__:PASS:
                     ],
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
-                      "start": 280,
-                      "end": 290,
+                      "start": 279,
+                      "end": 289,
                       "typeAnnotation": {
                         "type": "TSTypeReference",
-                        "start": 282,
-                        "end": 290,
+                        "start": 281,
+                        "end": 289,
                         "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
-                          "start": 282,
-                          "end": 290,
+                          "start": 281,
+                          "end": 289,
                           "decorators": [],
                           "name": "ObjType1",
                           "optional": false,
@@ -598,8 +598,8 @@ __ESTREE_TEST__:PASS:
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 241,
-        "end": 243,
+        "start": 240,
+        "end": 242,
         "decorators": [],
         "name": "C3",
         "optional": false,
@@ -612,18 +612,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 303,
-      "end": 323,
+      "start": 302,
+      "end": 322,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 307,
-          "end": 322,
+          "start": 306,
+          "end": 321,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 307,
-            "end": 309,
+            "start": 306,
+            "end": 308,
             "decorators": [],
             "name": "c1",
             "optional": false,
@@ -631,20 +631,20 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "NewExpression",
-            "start": 312,
-            "end": 322,
+            "start": 311,
+            "end": 321,
             "arguments": [
               {
                 "type": "ArrayExpression",
-                "start": 319,
-                "end": 321,
+                "start": 318,
+                "end": 320,
                 "elements": []
               }
             ],
             "callee": {
               "type": "Identifier",
-              "start": 316,
-              "end": 318,
+              "start": 315,
+              "end": 317,
               "decorators": [],
               "name": "C1",
               "optional": false,
@@ -659,18 +659,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ExpressionStatement",
-      "start": 324,
-      "end": 365,
+      "start": 323,
+      "end": 364,
       "directive": null,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 324,
-        "end": 364,
+        "start": 323,
+        "end": 363,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 324,
-          "end": 326,
+          "start": 323,
+          "end": 325,
           "decorators": [],
           "name": "c1",
           "optional": false,
@@ -678,32 +678,32 @@ __ESTREE_TEST__:PASS:
         },
         "right": {
           "type": "NewExpression",
-          "start": 329,
-          "end": 364,
+          "start": 328,
+          "end": 363,
           "arguments": [
             {
               "type": "ArrayExpression",
-              "start": 336,
-              "end": 363,
+              "start": 335,
+              "end": 362,
               "elements": [
                 {
                   "type": "Literal",
-                  "start": 337,
-                  "end": 344,
+                  "start": 336,
+                  "end": 343,
                   "raw": "\"larry\"",
                   "value": "larry"
                 },
                 {
                   "type": "Literal",
-                  "start": 346,
-                  "end": 355,
+                  "start": 345,
+                  "end": 354,
                   "raw": "\"{curly}\"",
                   "value": "{curly}"
                 },
                 {
                   "type": "Literal",
-                  "start": 357,
-                  "end": 362,
+                  "start": 356,
+                  "end": 361,
                   "raw": "\"moe\"",
                   "value": "moe"
                 }
@@ -712,8 +712,8 @@ __ESTREE_TEST__:PASS:
           ],
           "callee": {
             "type": "Identifier",
-            "start": 333,
-            "end": 335,
+            "start": 332,
+            "end": 334,
             "decorators": [],
             "name": "C1",
             "optional": false,
@@ -725,18 +725,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 366,
-      "end": 419,
+      "start": 365,
+      "end": 418,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 370,
-          "end": 418,
+          "start": 369,
+          "end": 417,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 370,
-            "end": 385,
+            "start": 369,
+            "end": 384,
             "decorators": [],
             "name": "useC1Properties",
             "optional": false,
@@ -744,23 +744,23 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "LogicalExpression",
-            "start": 388,
-            "end": 418,
+            "start": 387,
+            "end": 417,
             "operator": "&&",
             "left": {
               "type": "BinaryExpression",
-              "start": 388,
-              "end": 401,
+              "start": 387,
+              "end": 400,
               "operator": "===",
               "left": {
                 "type": "MemberExpression",
-                "start": 388,
-                "end": 392,
+                "start": 387,
+                "end": 391,
                 "computed": false,
                 "object": {
                   "type": "Identifier",
-                  "start": 388,
-                  "end": 390,
+                  "start": 387,
+                  "end": 389,
                   "decorators": [],
                   "name": "c1",
                   "optional": false,
@@ -769,8 +769,8 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "property": {
                   "type": "Identifier",
-                  "start": 391,
-                  "end": 392,
+                  "start": 390,
+                  "end": 391,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
@@ -779,13 +779,13 @@ __ESTREE_TEST__:PASS:
               },
               "right": {
                 "type": "MemberExpression",
-                "start": 397,
-                "end": 401,
+                "start": 396,
+                "end": 400,
                 "computed": false,
                 "object": {
                   "type": "Identifier",
-                  "start": 397,
-                  "end": 399,
+                  "start": 396,
+                  "end": 398,
                   "decorators": [],
                   "name": "c1",
                   "optional": false,
@@ -794,8 +794,8 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "property": {
                   "type": "Identifier",
-                  "start": 400,
-                  "end": 401,
+                  "start": 399,
+                  "end": 400,
                   "decorators": [],
                   "name": "y",
                   "optional": false,
@@ -805,18 +805,18 @@ __ESTREE_TEST__:PASS:
             },
             "right": {
               "type": "BinaryExpression",
-              "start": 405,
-              "end": 418,
+              "start": 404,
+              "end": 417,
               "operator": "===",
               "left": {
                 "type": "MemberExpression",
-                "start": 405,
-                "end": 409,
+                "start": 404,
+                "end": 408,
                 "computed": false,
                 "object": {
                   "type": "Identifier",
-                  "start": 405,
-                  "end": 407,
+                  "start": 404,
+                  "end": 406,
                   "decorators": [],
                   "name": "c1",
                   "optional": false,
@@ -825,8 +825,8 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "property": {
                   "type": "Identifier",
-                  "start": 408,
-                  "end": 409,
+                  "start": 407,
+                  "end": 408,
                   "decorators": [],
                   "name": "y",
                   "optional": false,
@@ -835,13 +835,13 @@ __ESTREE_TEST__:PASS:
               },
               "right": {
                 "type": "MemberExpression",
-                "start": 414,
-                "end": 418,
+                "start": 413,
+                "end": 417,
                 "computed": false,
                 "object": {
                   "type": "Identifier",
-                  "start": 414,
-                  "end": 416,
+                  "start": 413,
+                  "end": 415,
                   "decorators": [],
                   "name": "c1",
                   "optional": false,
@@ -850,8 +850,8 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "property": {
                   "type": "Identifier",
-                  "start": 417,
-                  "end": 418,
+                  "start": 416,
+                  "end": 417,
                   "decorators": [],
                   "name": "z",
                   "optional": false,
@@ -867,18 +867,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 421,
-      "end": 455,
+      "start": 420,
+      "end": 454,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 425,
-          "end": 454,
+          "start": 424,
+          "end": 453,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 425,
-            "end": 427,
+            "start": 424,
+            "end": 426,
             "decorators": [],
             "name": "c2",
             "optional": false,
@@ -886,40 +886,40 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "NewExpression",
-            "start": 430,
-            "end": 454,
+            "start": 429,
+            "end": 453,
             "arguments": [
               {
                 "type": "ArrayExpression",
-                "start": 437,
-                "end": 453,
+                "start": 436,
+                "end": 452,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 438,
-                    "end": 442,
+                    "start": 437,
+                    "end": 441,
                     "raw": "\"10\"",
                     "value": "10"
                   },
                   {
                     "type": "Literal",
-                    "start": 444,
-                    "end": 446,
+                    "start": 443,
+                    "end": 445,
                     "raw": "10",
                     "value": 10
                   },
                   {
                     "type": "UnaryExpression",
-                    "start": 448,
-                    "end": 452,
+                    "start": 447,
+                    "end": 451,
                     "argument": {
                       "type": "UnaryExpression",
-                      "start": 449,
-                      "end": 452,
+                      "start": 448,
+                      "end": 451,
                       "argument": {
                         "type": "Literal",
-                        "start": 450,
-                        "end": 452,
+                        "start": 449,
+                        "end": 451,
                         "raw": "10",
                         "value": 10
                       },
@@ -934,8 +934,8 @@ __ESTREE_TEST__:PASS:
             ],
             "callee": {
               "type": "Identifier",
-              "start": 434,
-              "end": 436,
+              "start": 433,
+              "end": 435,
               "decorators": [],
               "name": "C2",
               "optional": false,
@@ -950,24 +950,24 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 456,
-      "end": 500,
+      "start": 455,
+      "end": 499,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 460,
-          "end": 499,
+          "start": 459,
+          "end": 498,
           "definite": false,
           "id": {
             "type": "ArrayPattern",
-            "start": 460,
-            "end": 478,
+            "start": 459,
+            "end": 477,
             "decorators": [],
             "elements": [
               {
                 "type": "Identifier",
-                "start": 461,
-                "end": 465,
+                "start": 460,
+                "end": 464,
                 "decorators": [],
                 "name": "c2_x",
                 "optional": false,
@@ -975,8 +975,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "Identifier",
-                "start": 467,
-                "end": 471,
+                "start": 466,
+                "end": 470,
                 "decorators": [],
                 "name": "c2_y",
                 "optional": false,
@@ -984,8 +984,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "Identifier",
-                "start": 473,
-                "end": 477,
+                "start": 472,
+                "end": 476,
                 "decorators": [],
                 "name": "c2_z",
                 "optional": false,
@@ -997,18 +997,18 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 481,
-            "end": 499,
+            "start": 480,
+            "end": 498,
             "elements": [
               {
                 "type": "MemberExpression",
-                "start": 482,
-                "end": 486,
+                "start": 481,
+                "end": 485,
                 "computed": false,
                 "object": {
                   "type": "Identifier",
-                  "start": 482,
-                  "end": 484,
+                  "start": 481,
+                  "end": 483,
                   "decorators": [],
                   "name": "c2",
                   "optional": false,
@@ -1017,8 +1017,8 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "property": {
                   "type": "Identifier",
-                  "start": 485,
-                  "end": 486,
+                  "start": 484,
+                  "end": 485,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
@@ -1027,13 +1027,13 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "MemberExpression",
-                "start": 488,
-                "end": 492,
+                "start": 487,
+                "end": 491,
                 "computed": false,
                 "object": {
                   "type": "Identifier",
-                  "start": 488,
-                  "end": 490,
+                  "start": 487,
+                  "end": 489,
                   "decorators": [],
                   "name": "c2",
                   "optional": false,
@@ -1042,8 +1042,8 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "property": {
                   "type": "Identifier",
-                  "start": 491,
-                  "end": 492,
+                  "start": 490,
+                  "end": 491,
                   "decorators": [],
                   "name": "y",
                   "optional": false,
@@ -1052,13 +1052,13 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "MemberExpression",
-                "start": 494,
-                "end": 498,
+                "start": 493,
+                "end": 497,
                 "computed": false,
                 "object": {
                   "type": "Identifier",
-                  "start": 494,
-                  "end": 496,
+                  "start": 493,
+                  "end": 495,
                   "decorators": [],
                   "name": "c2",
                   "optional": false,
@@ -1067,8 +1067,8 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "property": {
                   "type": "Identifier",
-                  "start": 497,
-                  "end": 498,
+                  "start": 496,
+                  "end": 497,
                   "decorators": [],
                   "name": "z",
                   "optional": false,
@@ -1084,18 +1084,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 502,
-      "end": 543,
+      "start": 501,
+      "end": 542,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 506,
-          "end": 542,
+          "start": 505,
+          "end": 541,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 506,
-            "end": 508,
+            "start": 505,
+            "end": 507,
             "decorators": [],
             "name": "c3",
             "optional": false,
@@ -1103,23 +1103,23 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "NewExpression",
-            "start": 511,
-            "end": 542,
+            "start": 510,
+            "end": 541,
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 518,
-                "end": 541,
+                "start": 517,
+                "end": 540,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 519,
-                    "end": 523,
+                    "start": 518,
+                    "end": 522,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 519,
-                      "end": 520,
+                      "start": 518,
+                      "end": 519,
                       "decorators": [],
                       "name": "x",
                       "optional": false,
@@ -1131,21 +1131,21 @@ __ESTREE_TEST__:PASS:
                     "shorthand": false,
                     "value": {
                       "type": "Literal",
-                      "start": 522,
-                      "end": 523,
+                      "start": 521,
+                      "end": 522,
                       "raw": "0",
                       "value": 0
                     }
                   },
                   {
                     "type": "Property",
-                    "start": 525,
-                    "end": 530,
+                    "start": 524,
+                    "end": 529,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 525,
-                      "end": 526,
+                      "start": 524,
+                      "end": 525,
                       "decorators": [],
                       "name": "y",
                       "optional": false,
@@ -1157,21 +1157,21 @@ __ESTREE_TEST__:PASS:
                     "shorthand": false,
                     "value": {
                       "type": "Literal",
-                      "start": 528,
-                      "end": 530,
+                      "start": 527,
+                      "end": 529,
                       "raw": "\"\"",
                       "value": ""
                     }
                   },
                   {
                     "type": "Property",
-                    "start": 532,
-                    "end": 540,
+                    "start": 531,
+                    "end": 539,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 532,
-                      "end": 533,
+                      "start": 531,
+                      "end": 532,
                       "decorators": [],
                       "name": "z",
                       "optional": false,
@@ -1183,8 +1183,8 @@ __ESTREE_TEST__:PASS:
                     "shorthand": false,
                     "value": {
                       "type": "Literal",
-                      "start": 535,
-                      "end": 540,
+                      "start": 534,
+                      "end": 539,
                       "raw": "false",
                       "value": false
                     }
@@ -1194,8 +1194,8 @@ __ESTREE_TEST__:PASS:
             ],
             "callee": {
               "type": "Identifier",
-              "start": 515,
-              "end": 517,
+              "start": 514,
+              "end": 516,
               "decorators": [],
               "name": "C3",
               "optional": false,
@@ -1210,18 +1210,18 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ExpressionStatement",
-      "start": 544,
-      "end": 583,
+      "start": 543,
+      "end": 582,
       "directive": null,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 544,
-        "end": 582,
+        "start": 543,
+        "end": 581,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 544,
-          "end": 546,
+          "start": 543,
+          "end": 545,
           "decorators": [],
           "name": "c3",
           "optional": false,
@@ -1229,23 +1229,23 @@ __ESTREE_TEST__:PASS:
         },
         "right": {
           "type": "NewExpression",
-          "start": 549,
-          "end": 582,
+          "start": 548,
+          "end": 581,
           "arguments": [
             {
               "type": "ObjectExpression",
-              "start": 556,
-              "end": 581,
+              "start": 555,
+              "end": 580,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 557,
-                  "end": 561,
+                  "start": 556,
+                  "end": 560,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 557,
-                    "end": 558,
+                    "start": 556,
+                    "end": 557,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
@@ -1257,21 +1257,21 @@ __ESTREE_TEST__:PASS:
                   "shorthand": false,
                   "value": {
                     "type": "Literal",
-                    "start": 560,
-                    "end": 561,
+                    "start": 559,
+                    "end": 560,
                     "raw": "0",
                     "value": 0
                   }
                 },
                 {
                   "type": "Property",
-                  "start": 563,
-                  "end": 571,
+                  "start": 562,
+                  "end": 570,
                   "computed": false,
                   "key": {
                     "type": "Literal",
-                    "start": 563,
-                    "end": 566,
+                    "start": 562,
+                    "end": 565,
                     "raw": "\"y\"",
                     "value": "y"
                   },
@@ -1281,21 +1281,21 @@ __ESTREE_TEST__:PASS:
                   "shorthand": false,
                   "value": {
                     "type": "Literal",
-                    "start": 568,
-                    "end": 571,
+                    "start": 567,
+                    "end": 570,
                     "raw": "\"y\"",
                     "value": "y"
                   }
                 },
                 {
                   "type": "Property",
-                  "start": 573,
-                  "end": 580,
+                  "start": 572,
+                  "end": 579,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 573,
-                    "end": 574,
+                    "start": 572,
+                    "end": 573,
                     "decorators": [],
                     "name": "z",
                     "optional": false,
@@ -1307,8 +1307,8 @@ __ESTREE_TEST__:PASS:
                   "shorthand": false,
                   "value": {
                     "type": "Literal",
-                    "start": 576,
-                    "end": 580,
+                    "start": 575,
+                    "end": 579,
                     "raw": "true",
                     "value": true
                   }
@@ -1318,8 +1318,8 @@ __ESTREE_TEST__:PASS:
           ],
           "callee": {
             "type": "Identifier",
-            "start": 553,
-            "end": 555,
+            "start": 552,
+            "end": 554,
             "decorators": [],
             "name": "C3",
             "optional": false,
@@ -1331,24 +1331,24 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 584,
-      "end": 628,
+      "start": 583,
+      "end": 627,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 588,
-          "end": 627,
+          "start": 587,
+          "end": 626,
           "definite": false,
           "id": {
             "type": "ArrayPattern",
-            "start": 588,
-            "end": 606,
+            "start": 587,
+            "end": 605,
             "decorators": [],
             "elements": [
               {
                 "type": "Identifier",
-                "start": 589,
-                "end": 593,
+                "start": 588,
+                "end": 592,
                 "decorators": [],
                 "name": "c3_x",
                 "optional": false,
@@ -1356,8 +1356,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "Identifier",
-                "start": 595,
-                "end": 599,
+                "start": 594,
+                "end": 598,
                 "decorators": [],
                 "name": "c3_y",
                 "optional": false,
@@ -1365,8 +1365,8 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "Identifier",
-                "start": 601,
-                "end": 605,
+                "start": 600,
+                "end": 604,
                 "decorators": [],
                 "name": "c3_z",
                 "optional": false,
@@ -1378,18 +1378,18 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 609,
-            "end": 627,
+            "start": 608,
+            "end": 626,
             "elements": [
               {
                 "type": "MemberExpression",
-                "start": 610,
-                "end": 614,
+                "start": 609,
+                "end": 613,
                 "computed": false,
                 "object": {
                   "type": "Identifier",
-                  "start": 610,
-                  "end": 612,
+                  "start": 609,
+                  "end": 611,
                   "decorators": [],
                   "name": "c3",
                   "optional": false,
@@ -1398,8 +1398,8 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "property": {
                   "type": "Identifier",
-                  "start": 613,
-                  "end": 614,
+                  "start": 612,
+                  "end": 613,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
@@ -1408,13 +1408,13 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "MemberExpression",
-                "start": 616,
-                "end": 620,
+                "start": 615,
+                "end": 619,
                 "computed": false,
                 "object": {
                   "type": "Identifier",
-                  "start": 616,
-                  "end": 618,
+                  "start": 615,
+                  "end": 617,
                   "decorators": [],
                   "name": "c3",
                   "optional": false,
@@ -1423,8 +1423,8 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "property": {
                   "type": "Identifier",
-                  "start": 619,
-                  "end": 620,
+                  "start": 618,
+                  "end": 619,
                   "decorators": [],
                   "name": "y",
                   "optional": false,
@@ -1433,13 +1433,13 @@ __ESTREE_TEST__:PASS:
               },
               {
                 "type": "MemberExpression",
-                "start": 622,
-                "end": 626,
+                "start": 621,
+                "end": 625,
                 "computed": false,
                 "object": {
                   "type": "Identifier",
-                  "start": 622,
-                  "end": 624,
+                  "start": 621,
+                  "end": 623,
                   "decorators": [],
                   "name": "c3",
                   "optional": false,
@@ -1448,8 +1448,8 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "property": {
                   "type": "Identifier",
-                  "start": 625,
-                  "end": 626,
+                  "start": 624,
+                  "end": 625,
                   "decorators": [],
                   "name": "z",
                   "optional": false,

@@ -2,18 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 18,
-  "end": 132,
+  "start": 0,
+  "end": 114,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 18,
-      "end": 79,
+      "start": 0,
+      "end": 61,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 76,
-        "end": 79,
+        "start": 58,
+        "end": 61,
         "body": []
       },
       "declare": false,
@@ -21,8 +21,8 @@ __ESTREE_TEST__:PASS:
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 27,
-        "end": 28,
+        "start": 9,
+        "end": 10,
         "decorators": [],
         "name": "f",
         "optional": false,
@@ -31,24 +31,24 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 29,
-          "end": 52,
+          "start": 11,
+          "end": 34,
           "decorators": [],
           "name": "x",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 30,
-            "end": 52,
+            "start": 12,
+            "end": 34,
             "typeAnnotation": {
               "type": "TSTypeReference",
-              "start": 32,
-              "end": 52,
+              "start": 14,
+              "end": 34,
               "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
-                "start": 32,
-                "end": 52,
+                "start": 14,
+                "end": 34,
                 "decorators": [],
                 "name": "TemplateStringsArray",
                 "optional": false,
@@ -59,37 +59,37 @@ __ESTREE_TEST__:PASS:
         },
         {
           "type": "Identifier",
-          "start": 54,
-          "end": 63,
+          "start": 36,
+          "end": 45,
           "decorators": [],
           "name": "y",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 55,
-            "end": 63,
+            "start": 37,
+            "end": 45,
             "typeAnnotation": {
               "type": "TSNumberKeyword",
-              "start": 57,
-              "end": 63
+              "start": 39,
+              "end": 45
             }
           }
         },
         {
           "type": "Identifier",
-          "start": 65,
-          "end": 74,
+          "start": 47,
+          "end": 56,
           "decorators": [],
           "name": "z",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 66,
-            "end": 74,
+            "start": 48,
+            "end": 56,
             "typeAnnotation": {
               "type": "TSNumberKeyword",
-              "start": 68,
-              "end": 74
+              "start": 50,
+              "end": 56
             }
           }
         }
@@ -99,39 +99,39 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ExpressionStatement",
-      "start": 81,
-      "end": 95,
+      "start": 63,
+      "end": 77,
       "directive": null,
       "expression": {
         "type": "CallExpression",
-        "start": 81,
-        "end": 94,
+        "start": 63,
+        "end": 76,
         "arguments": [
           {
             "type": "ObjectExpression",
-            "start": 83,
-            "end": 85,
+            "start": 65,
+            "end": 67,
             "properties": []
           },
           {
             "type": "Literal",
-            "start": 87,
-            "end": 89,
+            "start": 69,
+            "end": 71,
             "raw": "10",
             "value": 10
           },
           {
             "type": "Literal",
-            "start": 91,
-            "end": 93,
+            "start": 73,
+            "end": 75,
             "raw": "10",
             "value": 10
           }
         ],
         "callee": {
           "type": "Identifier",
-          "start": 81,
-          "end": 82,
+          "start": 63,
+          "end": 64,
           "decorators": [],
           "name": "f",
           "optional": false,
@@ -143,29 +143,29 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ExpressionStatement",
-      "start": 97,
-      "end": 132,
+      "start": 79,
+      "end": 114,
       "directive": null,
       "expression": {
         "type": "TaggedTemplateExpression",
-        "start": 97,
-        "end": 131,
+        "start": 79,
+        "end": 113,
         "quasi": {
           "type": "TemplateLiteral",
-          "start": 99,
-          "end": 131,
+          "start": 81,
+          "end": 113,
           "expressions": [
             {
               "type": "Literal",
-              "start": 109,
-              "end": 113,
+              "start": 91,
+              "end": 95,
               "raw": "1234",
               "value": 1234
             },
             {
               "type": "Literal",
-              "start": 118,
-              "end": 122,
+              "start": 100,
+              "end": 104,
               "raw": "5678",
               "value": 5678
             }
@@ -173,8 +173,8 @@ __ESTREE_TEST__:PASS:
           "quasis": [
             {
               "type": "TemplateElement",
-              "start": 99,
-              "end": 108,
+              "start": 81,
+              "end": 90,
               "tail": false,
               "value": {
                 "cooked": "abcdef",
@@ -183,8 +183,8 @@ __ESTREE_TEST__:PASS:
             },
             {
               "type": "TemplateElement",
-              "start": 114,
-              "end": 117,
+              "start": 96,
+              "end": 99,
               "tail": false,
               "value": {
                 "cooked": "",
@@ -193,8 +193,8 @@ __ESTREE_TEST__:PASS:
             },
             {
               "type": "TemplateElement",
-              "start": 123,
-              "end": 131,
+              "start": 105,
+              "end": 113,
               "tail": true,
               "value": {
                 "cooked": "ghijkl",
@@ -205,8 +205,8 @@ __ESTREE_TEST__:PASS:
         },
         "tag": {
           "type": "Identifier",
-          "start": 97,
-          "end": 98,
+          "start": 79,
+          "end": 80,
           "decorators": [],
           "name": "f",
           "optional": false,

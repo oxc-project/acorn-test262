@@ -25,7 +25,10 @@ async function main() {
     process.stdout.write(`\r${i + 1} / ${srcFiles.length}`);
 
     const srcFile = srcFiles[i];
-    const code = fs.readFileSync(srcFile, "utf-8");
+    let code = fs.readFileSync(srcFile, "utf-8");
+    // Trim off UTF-8 BOM
+    if (code.charCodeAt(0) === 0xFEFF) code = code.slice(1);
+
     const { tests } = makeUnitsFromTest(srcFile, code);
     if (tests.length === 0) {
       continue;

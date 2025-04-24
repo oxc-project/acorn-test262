@@ -2,33 +2,33 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 18,
-  "end": 67,
+  "start": 0,
+  "end": 49,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 18,
-      "end": 67,
+      "start": 0,
+      "end": 49,
       "directive": null,
       "expression": {
         "type": "CallExpression",
-        "start": 18,
-        "end": 66,
+        "start": 0,
+        "end": 48,
         "arguments": [
           {
             "type": "ObjectExpression",
-            "start": 29,
-            "end": 59,
+            "start": 11,
+            "end": 41,
             "properties": [
               {
                 "type": "Property",
-                "start": 31,
-                "end": 57,
+                "start": 13,
+                "end": 39,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 31,
-                  "end": 34,
+                  "start": 13,
+                  "end": 16,
                   "decorators": [],
                   "name": "raw",
                   "optional": false,
@@ -40,27 +40,27 @@ __ESTREE_TEST__:PASS:
                 "shorthand": false,
                 "value": {
                   "type": "ArrayExpression",
-                  "start": 36,
-                  "end": 57,
+                  "start": 18,
+                  "end": 39,
                   "elements": [
                     {
                       "type": "Literal",
-                      "start": 37,
-                      "end": 42,
+                      "start": 19,
+                      "end": 24,
                       "raw": "\"foo\"",
                       "value": "foo"
                     },
                     {
                       "type": "Literal",
-                      "start": 44,
-                      "end": 49,
+                      "start": 26,
+                      "end": 31,
                       "raw": "\"bar\"",
                       "value": "bar"
                     },
                     {
                       "type": "Literal",
-                      "start": 51,
-                      "end": 56,
+                      "start": 33,
+                      "end": 38,
                       "raw": "\"baz\"",
                       "value": "baz"
                     }
@@ -71,28 +71,28 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "Literal",
-            "start": 61,
-            "end": 62,
+            "start": 43,
+            "end": 44,
             "raw": "1",
             "value": 1
           },
           {
             "type": "Literal",
-            "start": 64,
-            "end": 65,
+            "start": 46,
+            "end": 47,
             "raw": "2",
             "value": 2
           }
         ],
         "callee": {
           "type": "MemberExpression",
-          "start": 18,
-          "end": 28,
+          "start": 0,
+          "end": 10,
           "computed": false,
           "object": {
             "type": "Identifier",
-            "start": 18,
-            "end": 24,
+            "start": 0,
+            "end": 6,
             "decorators": [],
             "name": "String",
             "optional": false,
@@ -101,8 +101,8 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "property": {
             "type": "Identifier",
-            "start": 25,
-            "end": 28,
+            "start": 7,
+            "end": 10,
             "decorators": [],
             "name": "raw",
             "optional": false,

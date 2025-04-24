@@ -2,32 +2,32 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 43,
+  "start": 0,
+  "end": 42,
   "body": [
     {
       "type": "WhileStatement",
-      "start": 1,
-      "end": 43,
+      "start": 0,
+      "end": 42,
       "body": {
         "type": "BlockStatement",
-        "start": 22,
-        "end": 43,
+        "start": 21,
+        "end": 42,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 28,
-            "end": 41,
+            "start": 27,
+            "end": 40,
             "directive": null,
             "expression": {
               "type": "TemplateLiteral",
-              "start": 28,
-              "end": 40,
+              "start": 27,
+              "end": 39,
               "expressions": [
                 {
                   "type": "Literal",
-                  "start": 34,
-                  "end": 35,
+                  "start": 33,
+                  "end": 34,
                   "raw": "1",
                   "value": 1
                 }
@@ -35,8 +35,8 @@ __ESTREE_TEST__:PASS:
               "quasis": [
                 {
                   "type": "TemplateElement",
-                  "start": 28,
-                  "end": 34,
+                  "start": 27,
+                  "end": 33,
                   "tail": false,
                   "value": {
                     "cooked": "def",
@@ -45,8 +45,8 @@ __ESTREE_TEST__:PASS:
                 },
                 {
                   "type": "TemplateElement",
-                  "start": 35,
-                  "end": 40,
+                  "start": 34,
+                  "end": 39,
                   "tail": true,
                   "value": {
                     "cooked": "def",
@@ -60,13 +60,13 @@ __ESTREE_TEST__:PASS:
       },
       "test": {
         "type": "TemplateLiteral",
-        "start": 8,
-        "end": 20,
+        "start": 7,
+        "end": 19,
         "expressions": [
           {
             "type": "Literal",
-            "start": 14,
-            "end": 15,
+            "start": 13,
+            "end": 14,
             "raw": "0",
             "value": 0
           }
@@ -74,8 +74,8 @@ __ESTREE_TEST__:PASS:
         "quasis": [
           {
             "type": "TemplateElement",
-            "start": 8,
-            "end": 14,
+            "start": 7,
+            "end": 13,
             "tail": false,
             "value": {
               "cooked": "abc",
@@ -84,8 +84,8 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TemplateElement",
-            "start": 15,
-            "end": 20,
+            "start": 14,
+            "end": 19,
             "tail": true,
             "value": {
               "cooked": "abc",

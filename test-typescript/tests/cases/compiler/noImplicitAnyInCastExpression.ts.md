@@ -2,28 +2,28 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 89,
-  "end": 341,
+  "start": 64,
+  "end": 316,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 89,
-      "end": 137,
+      "start": 64,
+      "end": 112,
       "body": {
         "type": "TSInterfaceBody",
-        "start": 104,
-        "end": 137,
+        "start": 79,
+        "end": 112,
         "body": [
           {
             "type": "TSPropertySignature",
-            "start": 110,
-            "end": 120,
+            "start": 85,
+            "end": 95,
             "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 110,
-              "end": 111,
+              "start": 85,
+              "end": 86,
               "decorators": [],
               "name": "a",
               "optional": false,
@@ -34,25 +34,25 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 111,
-              "end": 119,
+              "start": 86,
+              "end": 94,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
-                "start": 113,
-                "end": 119
+                "start": 88,
+                "end": 94
               }
             }
           },
           {
             "type": "TSPropertySignature",
-            "start": 125,
-            "end": 135,
+            "start": 100,
+            "end": 110,
             "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 125,
-              "end": 126,
+              "start": 100,
+              "end": 101,
               "decorators": [],
               "name": "b",
               "optional": false,
@@ -63,12 +63,12 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 126,
-              "end": 134,
+              "start": 101,
+              "end": 109,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 128,
-                "end": 134
+                "start": 103,
+                "end": 109
               }
             }
           }
@@ -78,8 +78,8 @@ __ESTREE_TEST__:PASS:
       "extends": [],
       "id": {
         "type": "Identifier",
-        "start": 99,
-        "end": 103,
+        "start": 74,
+        "end": 78,
         "decorators": [],
         "name": "IFoo",
         "optional": false,
@@ -89,27 +89,27 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ExpressionStatement",
-      "start": 182,
-      "end": 202,
+      "start": 157,
+      "end": 177,
       "directive": null,
       "expression": {
         "type": "TSTypeAssertion",
-        "start": 183,
-        "end": 200,
+        "start": 158,
+        "end": 175,
         "expression": {
           "type": "ObjectExpression",
-          "start": 189,
-          "end": 200,
+          "start": 164,
+          "end": 175,
           "properties": [
             {
               "type": "Property",
-              "start": 191,
-              "end": 198,
+              "start": 166,
+              "end": 173,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 191,
-                "end": 192,
+                "start": 166,
+                "end": 167,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
@@ -121,8 +121,8 @@ __ESTREE_TEST__:PASS:
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 194,
-                "end": 198,
+                "start": 169,
+                "end": 173,
                 "raw": "null",
                 "value": null
               }
@@ -131,13 +131,13 @@ __ESTREE_TEST__:PASS:
         },
         "typeAnnotation": {
           "type": "TSTypeReference",
-          "start": 184,
-          "end": 188,
+          "start": 159,
+          "end": 163,
           "typeArguments": null,
           "typeName": {
             "type": "Identifier",
-            "start": 184,
-            "end": 188,
+            "start": 159,
+            "end": 163,
             "decorators": [],
             "name": "IFoo",
             "optional": false,
@@ -148,27 +148,27 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ExpressionStatement",
-      "start": 243,
-      "end": 274,
+      "start": 218,
+      "end": 249,
       "directive": null,
       "expression": {
         "type": "TSTypeAssertion",
-        "start": 244,
-        "end": 272,
+        "start": 219,
+        "end": 247,
         "expression": {
           "type": "ObjectExpression",
-          "start": 250,
-          "end": 272,
+          "start": 225,
+          "end": 247,
           "properties": [
             {
               "type": "Property",
-              "start": 252,
-              "end": 256,
+              "start": 227,
+              "end": 231,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 252,
-                "end": 253,
+                "start": 227,
+                "end": 228,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
@@ -180,21 +180,21 @@ __ESTREE_TEST__:PASS:
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 255,
-                "end": 256,
+                "start": 230,
+                "end": 231,
                 "raw": "2",
                 "value": 2
               }
             },
             {
               "type": "Property",
-              "start": 258,
-              "end": 270,
+              "start": 233,
+              "end": 245,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 258,
-                "end": 259,
+                "start": 233,
+                "end": 234,
                 "decorators": [],
                 "name": "b",
                 "optional": false,
@@ -206,8 +206,8 @@ __ESTREE_TEST__:PASS:
               "shorthand": false,
               "value": {
                 "type": "Identifier",
-                "start": 261,
-                "end": 270,
+                "start": 236,
+                "end": 245,
                 "decorators": [],
                 "name": "undefined",
                 "optional": false,
@@ -218,13 +218,13 @@ __ESTREE_TEST__:PASS:
         },
         "typeAnnotation": {
           "type": "TSTypeReference",
-          "start": 245,
-          "end": 249,
+          "start": 220,
+          "end": 224,
           "typeArguments": null,
           "typeName": {
             "type": "Identifier",
-            "start": 245,
-            "end": 249,
+            "start": 220,
+            "end": 224,
             "decorators": [],
             "name": "IFoo",
             "optional": false,
@@ -235,27 +235,27 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ExpressionStatement",
-      "start": 321,
-      "end": 341,
+      "start": 296,
+      "end": 316,
       "directive": null,
       "expression": {
         "type": "TSTypeAssertion",
-        "start": 322,
-        "end": 339,
+        "start": 297,
+        "end": 314,
         "expression": {
           "type": "ObjectExpression",
-          "start": 328,
-          "end": 339,
+          "start": 303,
+          "end": 314,
           "properties": [
             {
               "type": "Property",
-              "start": 330,
-              "end": 337,
+              "start": 305,
+              "end": 312,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 330,
-                "end": 331,
+                "start": 305,
+                "end": 306,
                 "decorators": [],
                 "name": "c",
                 "optional": false,
@@ -267,8 +267,8 @@ __ESTREE_TEST__:PASS:
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 333,
-                "end": 337,
+                "start": 308,
+                "end": 312,
                 "raw": "null",
                 "value": null
               }
@@ -277,13 +277,13 @@ __ESTREE_TEST__:PASS:
         },
         "typeAnnotation": {
           "type": "TSTypeReference",
-          "start": 323,
-          "end": 327,
+          "start": 298,
+          "end": 302,
           "typeArguments": null,
           "typeName": {
             "type": "Identifier",
-            "start": 323,
-            "end": 327,
+            "start": 298,
+            "end": 302,
             "decorators": [],
             "name": "IFoo",
             "optional": false,

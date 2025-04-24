@@ -2,34 +2,34 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 61,
-  "end": 85,
+  "start": 34,
+  "end": 58,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 61,
-      "end": 84,
+      "start": 34,
+      "end": 57,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 73,
-          "end": 83,
+          "start": 46,
+          "end": 56,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 73,
-            "end": 83,
+            "start": 46,
+            "end": 56,
             "decorators": [],
             "name": "OData",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 78,
-              "end": 83,
+              "start": 51,
+              "end": 56,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
-                "start": 80,
-                "end": 83
+                "start": 53,
+                "end": 56
               }
             }
           },

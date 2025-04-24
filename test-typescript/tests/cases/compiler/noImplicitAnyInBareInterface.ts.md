@@ -2,36 +2,36 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 25,
-  "end": 148,
+  "start": 0,
+  "end": 123,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 25,
-      "end": 148,
+      "start": 0,
+      "end": 123,
       "body": {
         "type": "TSInterfaceBody",
-        "start": 41,
-        "end": 148,
+        "start": 16,
+        "end": 123,
         "body": [
           {
             "type": "TSConstructSignatureDeclaration",
-            "start": 111,
-            "end": 118,
+            "start": 86,
+            "end": 93,
             "params": [],
             "returnType": null,
             "typeParameters": null
           },
           {
             "type": "TSMethodSignature",
-            "start": 123,
-            "end": 135,
+            "start": 98,
+            "end": 110,
             "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 123,
-              "end": 126,
+              "start": 98,
+              "end": 101,
               "decorators": [],
               "name": "few",
               "optional": false,
@@ -43,12 +43,12 @@ __ESTREE_TEST__:PASS:
             "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 129,
-              "end": 134,
+              "start": 104,
+              "end": 109,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
-                "start": 131,
-                "end": 134
+                "start": 106,
+                "end": 109
               }
             },
             "static": false,
@@ -56,14 +56,14 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TSMethodSignature",
-            "start": 140,
-            "end": 146,
+            "start": 115,
+            "end": 121,
             "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 140,
-              "end": 143,
+              "start": 115,
+              "end": 118,
               "decorators": [],
               "name": "foo",
               "optional": false,
@@ -83,8 +83,8 @@ __ESTREE_TEST__:PASS:
       "extends": [],
       "id": {
         "type": "Identifier",
-        "start": 35,
-        "end": 40,
+        "start": 10,
+        "end": 15,
         "decorators": [],
         "name": "Entry",
         "optional": false,

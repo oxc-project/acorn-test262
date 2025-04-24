@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 17,
-  "end": 100,
+  "start": 0,
+  "end": 83,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 17,
-      "end": 58,
+      "start": 0,
+      "end": 41,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 21,
-          "end": 57,
+          "start": 4,
+          "end": 40,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 21,
-            "end": 24,
+            "start": 4,
+            "end": 7,
             "decorators": [],
             "name": "map",
             "optional": false,
@@ -26,30 +26,30 @@ __ESTREE_TEST__:PASS:
           },
           "init": {
             "type": "NewExpression",
-            "start": 27,
-            "end": 57,
+            "start": 10,
+            "end": 40,
             "arguments": [
               {
                 "type": "ArrayExpression",
-                "start": 35,
-                "end": 56,
+                "start": 18,
+                "end": 39,
                 "elements": [
                   {
                     "type": "ArrayExpression",
-                    "start": 36,
-                    "end": 46,
+                    "start": 19,
+                    "end": 29,
                     "elements": [
                       {
                         "type": "Literal",
-                        "start": 37,
-                        "end": 39,
+                        "start": 20,
+                        "end": 22,
                         "raw": "\"\"",
                         "value": ""
                       },
                       {
                         "type": "Literal",
-                        "start": 41,
-                        "end": 45,
+                        "start": 24,
+                        "end": 28,
                         "raw": "true",
                         "value": true
                       }
@@ -57,20 +57,20 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "ArrayExpression",
-                    "start": 48,
-                    "end": 55,
+                    "start": 31,
+                    "end": 38,
                     "elements": [
                       {
                         "type": "Literal",
-                        "start": 49,
-                        "end": 51,
+                        "start": 32,
+                        "end": 34,
                         "raw": "\"\"",
                         "value": ""
                       },
                       {
                         "type": "Literal",
-                        "start": 53,
-                        "end": 54,
+                        "start": 36,
+                        "end": 37,
                         "raw": "0",
                         "value": 0
                       }
@@ -81,8 +81,8 @@ __ESTREE_TEST__:PASS:
             ],
             "callee": {
               "type": "Identifier",
-              "start": 31,
-              "end": 34,
+              "start": 14,
+              "end": 17,
               "decorators": [],
               "name": "Map",
               "optional": false,
@@ -97,23 +97,23 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ForOfStatement",
-      "start": 59,
-      "end": 100,
+      "start": 42,
+      "end": 83,
       "await": false,
       "body": {
         "type": "BlockStatement",
-        "start": 83,
-        "end": 100,
+        "start": 66,
+        "end": 83,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 89,
-            "end": 91,
+            "start": 72,
+            "end": 74,
             "directive": null,
             "expression": {
               "type": "Identifier",
-              "start": 89,
-              "end": 90,
+              "start": 72,
+              "end": 73,
               "decorators": [],
               "name": "k",
               "optional": false,
@@ -122,13 +122,13 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "ExpressionStatement",
-            "start": 96,
-            "end": 98,
+            "start": 79,
+            "end": 81,
             "directive": null,
             "expression": {
               "type": "Identifier",
-              "start": 96,
-              "end": 97,
+              "start": 79,
+              "end": 80,
               "decorators": [],
               "name": "v",
               "optional": false,
@@ -139,24 +139,24 @@ __ESTREE_TEST__:PASS:
       },
       "left": {
         "type": "VariableDeclaration",
-        "start": 64,
-        "end": 74,
+        "start": 47,
+        "end": 57,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 68,
-            "end": 74,
+            "start": 51,
+            "end": 57,
             "definite": false,
             "id": {
               "type": "ArrayPattern",
-              "start": 68,
-              "end": 74,
+              "start": 51,
+              "end": 57,
               "decorators": [],
               "elements": [
                 {
                   "type": "Identifier",
-                  "start": 69,
-                  "end": 70,
+                  "start": 52,
+                  "end": 53,
                   "decorators": [],
                   "name": "k",
                   "optional": false,
@@ -164,8 +164,8 @@ __ESTREE_TEST__:PASS:
                 },
                 {
                   "type": "Identifier",
-                  "start": 72,
-                  "end": 73,
+                  "start": 55,
+                  "end": 56,
                   "decorators": [],
                   "name": "v",
                   "optional": false,
@@ -183,8 +183,8 @@ __ESTREE_TEST__:PASS:
       },
       "right": {
         "type": "Identifier",
-        "start": 78,
-        "end": 81,
+        "start": 61,
+        "end": 64,
         "decorators": [],
         "name": "map",
         "optional": false,

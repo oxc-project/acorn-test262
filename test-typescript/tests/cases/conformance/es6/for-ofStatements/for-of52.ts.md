@@ -2,40 +2,40 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 16,
-  "end": 43,
+  "start": 0,
+  "end": 27,
   "body": [
     {
       "type": "ForOfStatement",
-      "start": 16,
-      "end": 43,
+      "start": 0,
+      "end": 27,
       "await": false,
       "body": {
         "type": "BlockStatement",
-        "start": 41,
-        "end": 43,
+        "start": 25,
+        "end": 27,
         "body": []
       },
       "left": {
         "type": "VariableDeclaration",
-        "start": 21,
-        "end": 31,
+        "start": 5,
+        "end": 15,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 25,
-            "end": 31,
+            "start": 9,
+            "end": 15,
             "definite": false,
             "id": {
               "type": "ArrayPattern",
-              "start": 25,
-              "end": 31,
+              "start": 9,
+              "end": 15,
               "decorators": [],
               "elements": [
                 {
                   "type": "Identifier",
-                  "start": 26,
-                  "end": 27,
+                  "start": 10,
+                  "end": 11,
                   "decorators": [],
                   "name": "v",
                   "optional": false,
@@ -43,8 +43,8 @@ __ESTREE_TEST__:PASS:
                 },
                 {
                   "type": "Identifier",
-                  "start": 29,
-                  "end": 30,
+                  "start": 13,
+                  "end": 14,
                   "decorators": [],
                   "name": "v",
                   "optional": false,
@@ -62,13 +62,13 @@ __ESTREE_TEST__:PASS:
       },
       "right": {
         "type": "ArrayExpression",
-        "start": 35,
-        "end": 39,
+        "start": 19,
+        "end": 23,
         "elements": [
           {
             "type": "ArrayExpression",
-            "start": 36,
-            "end": 38,
+            "start": 20,
+            "end": 22,
             "elements": []
           }
         ]
