@@ -159,3 +159,149 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 76,
+  "end": 348,
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 76,
+      "end": 212,
+      "attributes": [],
+      "declaration": {
+        "type": "ClassDeclaration",
+        "start": 83,
+        "end": 212,
+        "abstract": false,
+        "body": {
+          "type": "ClassBody",
+          "start": 97,
+          "end": 212,
+          "body": [
+            {
+              "type": "MethodDefinition",
+              "start": 158,
+              "end": 210,
+              "accessibility": null,
+              "computed": false,
+              "decorators": [],
+              "key": {
+                "type": "Identifier",
+                "start": 158,
+                "end": 201,
+                "decorators": [],
+                "name": "case5_unexpectedlyResolvesPathToNodeModules",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "kind": "method",
+              "optional": false,
+              "override": false,
+              "static": false,
+              "value": {
+                "type": "FunctionExpression",
+                "start": 201,
+                "end": 210,
+                "async": false,
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 208,
+                  "end": 210,
+                  "body": []
+                },
+                "declare": false,
+                "expression": false,
+                "generator": false,
+                "id": null,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "start": 202,
+                    "end": 206,
+                    "decorators": [],
+                    "name": "init",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                ],
+                "returnType": null,
+                "typeParameters": null
+              }
+            }
+          ]
+        },
+        "declare": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "start": 89,
+          "end": 96,
+          "decorators": [],
+          "name": "NewAjax",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "implements": [],
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": []
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 286,
+      "end": 348,
+      "directive": null,
+      "expression": {
+        "type": "MemberExpression",
+        "start": 286,
+        "end": 347,
+        "computed": false,
+        "object": {
+          "type": "MemberExpression",
+          "start": 286,
+          "end": 303,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 286,
+            "end": 293,
+            "decorators": [],
+            "name": "NewAjax",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 294,
+            "end": 303,
+            "decorators": [],
+            "name": "prototype",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "optional": false,
+        "property": {
+          "type": "Identifier",
+          "start": 304,
+          "end": 347,
+          "decorators": [],
+          "name": "case6_unexpectedlyResolvesPathToNodeModules",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

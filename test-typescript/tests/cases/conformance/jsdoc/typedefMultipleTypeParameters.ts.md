@@ -2,6 +2,93 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
+  "start": 355,
+  "end": 524,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 355,
+      "end": 365,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 359,
+          "end": 364,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 359,
+            "end": 364,
+            "decorators": [],
+            "name": "tuvwx",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": null
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 452,
+      "end": 462,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 456,
+          "end": 461,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 456,
+            "end": 461,
+            "decorators": [],
+            "name": "wrong",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": null
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 506,
+      "end": 523,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 510,
+          "end": 522,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 510,
+            "end": 522,
+            "decorators": [],
+            "name": "insufficient",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": null
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
   "start": 0,
   "end": 92,
   "body": [

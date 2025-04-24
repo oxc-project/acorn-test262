@@ -611,3 +611,266 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 53,
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 0,
+      "end": 52,
+      "attributes": [],
+      "declaration": null,
+      "exportKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 39,
+        "end": 51,
+        "raw": "\"./index.js\"",
+        "value": "./index.js"
+      },
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "start": 9,
+          "end": 31,
+          "exported": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 31,
+            "decorators": [],
+            "name": "__classPrivateFieldGet",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "exportKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 31,
+            "decorators": [],
+            "name": "__classPrivateFieldGet",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 118,
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 0,
+      "end": 118,
+      "attributes": [],
+      "declaration": {
+        "type": "ClassDeclaration",
+        "start": 7,
+        "end": 118,
+        "abstract": false,
+        "body": {
+          "type": "ClassBody",
+          "start": 17,
+          "end": 118,
+          "body": [
+            {
+              "type": "MethodDefinition",
+              "start": 21,
+              "end": 70,
+              "accessibility": null,
+              "computed": false,
+              "decorators": [],
+              "key": {
+                "type": "Identifier",
+                "start": 21,
+                "end": 32,
+                "decorators": [],
+                "name": "constructor",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "kind": "constructor",
+              "optional": false,
+              "override": false,
+              "static": false,
+              "value": {
+                "type": "FunctionExpression",
+                "start": 32,
+                "end": 70,
+                "async": false,
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 35,
+                  "end": 70,
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "start": 41,
+                      "end": 66,
+                      "directive": null,
+                      "expression": {
+                        "type": "CallExpression",
+                        "start": 41,
+                        "end": 65,
+                        "arguments": [
+                          {
+                            "type": "CallExpression",
+                            "start": 53,
+                            "end": 64,
+                            "arguments": [],
+                            "callee": {
+                              "type": "MemberExpression",
+                              "start": 53,
+                              "end": 62,
+                              "computed": false,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 53,
+                                "end": 56,
+                                "decorators": [],
+                                "name": "Foo",
+                                "optional": false,
+                                "typeAnnotation": null
+                              },
+                              "optional": false,
+                              "property": {
+                                "type": "PrivateIdentifier",
+                                "start": 57,
+                                "end": 62,
+                                "name": "test"
+                              }
+                            },
+                            "optional": false,
+                            "typeArguments": null
+                          }
+                        ],
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 41,
+                          "end": 52,
+                          "computed": false,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 41,
+                            "end": 48,
+                            "decorators": [],
+                            "name": "console",
+                            "optional": false,
+                            "typeAnnotation": null
+                          },
+                          "optional": false,
+                          "property": {
+                            "type": "Identifier",
+                            "start": 49,
+                            "end": 52,
+                            "decorators": [],
+                            "name": "log",
+                            "optional": false,
+                            "typeAnnotation": null
+                          }
+                        },
+                        "optional": false,
+                        "typeArguments": null
+                      }
+                    }
+                  ]
+                },
+                "declare": false,
+                "expression": false,
+                "generator": false,
+                "id": null,
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
+              }
+            },
+            {
+              "type": "MethodDefinition",
+              "start": 74,
+              "end": 116,
+              "accessibility": null,
+              "computed": false,
+              "decorators": [],
+              "key": {
+                "type": "PrivateIdentifier",
+                "start": 81,
+                "end": 86,
+                "name": "test"
+              },
+              "kind": "method",
+              "optional": false,
+              "override": false,
+              "static": true,
+              "value": {
+                "type": "FunctionExpression",
+                "start": 86,
+                "end": 116,
+                "async": false,
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 89,
+                  "end": 116,
+                  "body": [
+                    {
+                      "type": "ReturnStatement",
+                      "start": 95,
+                      "end": 112,
+                      "argument": {
+                        "type": "Literal",
+                        "start": 102,
+                        "end": 111,
+                        "raw": "'success'",
+                        "value": "success"
+                      }
+                    }
+                  ]
+                },
+                "declare": false,
+                "expression": false,
+                "generator": false,
+                "id": null,
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
+              }
+            }
+          ]
+        },
+        "declare": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "start": 13,
+          "end": 16,
+          "decorators": [],
+          "name": "Foo",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "implements": [],
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": []
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

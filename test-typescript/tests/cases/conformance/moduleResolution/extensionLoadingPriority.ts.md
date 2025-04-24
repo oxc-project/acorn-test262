@@ -3,6 +3,56 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 0,
+  "end": 23,
+  "body": [
+    {
+      "type": "ExportDefaultDeclaration",
+      "start": 0,
+      "end": 22,
+      "declaration": {
+        "type": "Literal",
+        "start": 15,
+        "end": 21,
+        "raw": "\"a.js\"",
+        "value": "a.js"
+      },
+      "exportKind": "value"
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 26,
+  "body": [
+    {
+      "type": "ExportDefaultDeclaration",
+      "start": 0,
+      "end": 25,
+      "declaration": {
+        "type": "Literal",
+        "start": 15,
+        "end": 24,
+        "raw": "\"a.js.js\"",
+        "value": "a.js.js"
+      },
+      "exportKind": "value"
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
   "end": 31,
   "body": [
     {
@@ -15,6 +65,31 @@ __ESTREE_TEST__:PASS:
         "end": 29,
         "raw": "\"dir/index.ts\"",
         "value": "dir/index.ts"
+      },
+      "exportKind": "value"
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 25,
+  "body": [
+    {
+      "type": "ExportDefaultDeclaration",
+      "start": 0,
+      "end": 24,
+      "declaration": {
+        "type": "Literal",
+        "start": 15,
+        "end": 23,
+        "raw": "\"dir.js\"",
+        "value": "dir.js"
       },
       "exportKind": "value"
     }

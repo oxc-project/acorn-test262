@@ -75,3 +75,51 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 65,
+  "end": 82,
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 65,
+      "end": 82,
+      "attributes": [],
+      "declaration": {
+        "type": "ClassDeclaration",
+        "start": 72,
+        "end": 82,
+        "abstract": false,
+        "body": {
+          "type": "ClassBody",
+          "start": 80,
+          "end": 82,
+          "body": []
+        },
+        "declare": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "start": 78,
+          "end": 79,
+          "decorators": [],
+          "name": "C",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "implements": [],
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": []
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

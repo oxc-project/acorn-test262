@@ -101,3 +101,65 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 119,
+  "end": 157,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 119,
+      "end": 125,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 123,
+          "end": 124,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 123,
+            "end": 124,
+            "decorators": [],
+            "name": "a",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": null
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 151,
+      "end": 157,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 155,
+          "end": 156,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 155,
+            "end": 156,
+            "decorators": [],
+            "name": "b",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": null
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

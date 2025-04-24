@@ -52,6 +52,18 @@ function createCompilerSettings(options) {
   };
 }
 
+// Mapping from file extension to source type
+const EXTENSIONS = {
+  ".js": {typescript: false, jsx: false, module: true},
+  ".mjs": {typescript: false, jsx: false, module: true},
+  ".cjs": {typescript: false, jsx: false, module: false},
+  ".jsx": {typescript: false, jsx: true, module: true},
+  ".ts": {typescript: true, jsx: false, module: true},
+  ".mts": {typescript: true, jsx: false, module: true},
+  ".cts": {typescript: true, jsx: false, module: false},
+  ".tsx": {typescript: true, jsx: true, module: true},
+};
+
 /**
  * Get source type from file path
  * @param {string} filePath - Path to the file
@@ -59,23 +71,18 @@ function createCompilerSettings(options) {
  * @returns {Object|null} Source type
  */
 function getSourceType(filePath, options) {
-  try {
-    // Simple implementation that detects JSX and TypeScript files
-    const ext = path.extname(filePath).toLowerCase();
-    const isTypeScript = [".ts", ".tsx", ".d.ts"].includes(ext);
-    const isJSX = [".jsx", ".tsx"].includes(ext) || options.jsx.length > 0;
+  const ext = path.extname(filePath).toLowerCase();
+  let sourceType = EXTENSIONS[ext];
 
-    if (!isTypeScript) return null;
+  if (!sourceType) return null;
 
-    return {
-      typescript: isTypeScript,
-      jsx: isJSX,
-      module: false, // Will be updated later if needed
-      unambiguous: true,
-    };
-  } catch (e) {
-    return null;
-  }
+  sourceType = {
+    ...sourceType,
+    module: false, // Will be updated later if needed
+  };
+  if (options.jsx.length > 0) sourceType.jsx = true;
+
+  return sourceType;
 }
 
 /**
@@ -174,11 +181,7 @@ function makeUnitsFromTest(filePath, code) {
     .filter(unit => {
       const sourceType = getSourceType(unit.name, settings);
       if (!sourceType) return false;
-
-      if (isModule) {
-        sourceType.module = true;
-      }
-
+      if (isModule) sourceType.module = true;
       unit.sourceType = sourceType;
       return true;
     });

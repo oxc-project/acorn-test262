@@ -853,3 +853,59 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 49,
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 0,
+      "end": 49,
+      "attributes": [],
+      "declaration": {
+        "type": "ClassDeclaration",
+        "start": 7,
+        "end": 49,
+        "abstract": false,
+        "body": {
+          "type": "ClassBody",
+          "start": 43,
+          "end": 49,
+          "body": []
+        },
+        "declare": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "start": 13,
+          "end": 24,
+          "decorators": [],
+          "name": "MyComponent",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "implements": [],
+        "superClass": {
+          "type": "Identifier",
+          "start": 33,
+          "end": 42,
+          "decorators": [],
+          "name": "Component",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "superTypeArguments": null,
+        "typeParameters": null
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": []
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

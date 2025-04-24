@@ -42,3 +42,14 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 68,
+  "end": 68,
+  "body": [],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

@@ -61,3 +61,77 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 76,
+  "end": 114,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 76,
+      "end": 114,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 76,
+        "end": 114,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 76,
+          "end": 92,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 76,
+            "end": 83,
+            "decorators": [],
+            "name": "exports",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 84,
+            "end": 92,
+            "decorators": [],
+            "name": "inherits",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 95,
+          "end": 114,
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 103,
+              "end": 113,
+              "raw": "'inherits'",
+              "value": "inherits"
+            }
+          ],
+          "callee": {
+            "type": "Identifier",
+            "start": 95,
+            "end": 102,
+            "decorators": [],
+            "name": "factory",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "typeArguments": null
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

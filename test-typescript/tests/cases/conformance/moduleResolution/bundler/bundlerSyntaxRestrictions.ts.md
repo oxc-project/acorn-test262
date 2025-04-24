@@ -335,6 +335,132 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 0,
+  "end": 75,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 0,
+      "end": 21,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 15,
+        "end": 20,
+        "raw": "\"./a\"",
+        "value": "./a"
+      },
+      "specifiers": []
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 22,
+      "end": 36,
+      "directive": null,
+      "expression": {
+        "type": "ImportExpression",
+        "start": 22,
+        "end": 35,
+        "options": null,
+        "source": {
+          "type": "Literal",
+          "start": 29,
+          "end": 34,
+          "raw": "\"./a\"",
+          "value": "./a"
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 37,
+      "end": 62,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 43,
+          "end": 61,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 43,
+            "end": 44,
+            "decorators": [],
+            "name": "_",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 47,
+            "end": 61,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 55,
+                "end": 60,
+                "raw": "\"./a\"",
+                "value": "./a"
+              }
+            ],
+            "callee": {
+              "type": "Identifier",
+              "start": 47,
+              "end": 54,
+              "decorators": [],
+              "name": "require",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 63,
+      "end": 67,
+      "directive": null,
+      "expression": {
+        "type": "MemberExpression",
+        "start": 63,
+        "end": 66,
+        "computed": false,
+        "object": {
+          "type": "Identifier",
+          "start": 63,
+          "end": 64,
+          "decorators": [],
+          "name": "_",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "optional": false,
+        "property": {
+          "type": "Identifier",
+          "start": 65,
+          "end": 66,
+          "decorators": [],
+          "name": "a",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
   "end": 101,
   "body": [
     {

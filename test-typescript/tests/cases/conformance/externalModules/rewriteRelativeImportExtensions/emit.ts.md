@@ -466,6 +466,314 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
+  "start": 11,
+  "end": 341,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 11,
+      "end": 37,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 26,
+        "end": 36,
+        "raw": "\"./foo.ts\"",
+        "value": "./foo.ts"
+      },
+      "specifiers": []
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 38,
+      "end": 66,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 53,
+        "end": 65,
+        "raw": "\"../foo.mts\"",
+        "value": "../foo.mts"
+      },
+      "specifiers": []
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 67,
+      "end": 98,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 82,
+        "end": 97,
+        "raw": "\"../../foo.cts\"",
+        "value": "../../foo.cts"
+      },
+      "specifiers": []
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 99,
+      "end": 126,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 114,
+        "end": 125,
+        "raw": "\"./foo.tsx\"",
+        "value": "./foo.tsx"
+      },
+      "specifiers": []
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 127,
+      "end": 145,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 134,
+        "end": 144,
+        "raw": "\"./foo.ts\"",
+        "value": "./foo.ts"
+      },
+      "specifiers": []
+    },
+    {
+      "type": "ExportAllDeclaration",
+      "start": 146,
+      "end": 171,
+      "attributes": [],
+      "exported": null,
+      "exportKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 160,
+        "end": 170,
+        "raw": "\"./foo.ts\"",
+        "value": "./foo.ts"
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 180,
+      "end": 199,
+      "directive": null,
+      "expression": {
+        "type": "ImportExpression",
+        "start": 180,
+        "end": 198,
+        "options": null,
+        "source": {
+          "type": "Literal",
+          "start": 187,
+          "end": 197,
+          "raw": "\"./foo.ts\"",
+          "value": "./foo.ts"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 200,
+      "end": 248,
+      "directive": null,
+      "expression": {
+        "type": "ImportExpression",
+        "start": 200,
+        "end": 247,
+        "options": {
+          "type": "ObjectExpression",
+          "start": 219,
+          "end": 246,
+          "properties": [
+            {
+              "type": "Property",
+              "start": 221,
+              "end": 244,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 221,
+                "end": 225,
+                "decorators": [],
+                "name": "with",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "kind": "init",
+              "method": false,
+              "optional": false,
+              "shorthand": false,
+              "value": {
+                "type": "ObjectExpression",
+                "start": 227,
+                "end": 244,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 229,
+                    "end": 242,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 229,
+                      "end": 233,
+                      "decorators": [],
+                      "name": "attr",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "kind": "init",
+                    "method": false,
+                    "optional": false,
+                    "shorthand": false,
+                    "value": {
+                      "type": "Literal",
+                      "start": 235,
+                      "end": 242,
+                      "raw": "\"value\"",
+                      "value": "value"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "source": {
+          "type": "Literal",
+          "start": 207,
+          "end": 217,
+          "raw": "\"./foo.ts\"",
+          "value": "./foo.ts"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 249,
+      "end": 269,
+      "directive": null,
+      "expression": {
+        "type": "CallExpression",
+        "start": 249,
+        "end": 268,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 257,
+            "end": 267,
+            "raw": "\"./foo.ts\"",
+            "value": "./foo.ts"
+          }
+        ],
+        "callee": {
+          "type": "Identifier",
+          "start": 249,
+          "end": 256,
+          "decorators": [],
+          "name": "require",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "optional": false,
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "BlockStatement",
+      "start": 270,
+      "end": 318,
+      "body": [
+        {
+          "type": "ExpressionStatement",
+          "start": 274,
+          "end": 294,
+          "directive": null,
+          "expression": {
+            "type": "CallExpression",
+            "start": 274,
+            "end": 293,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 282,
+                "end": 292,
+                "raw": "\"./foo.ts\"",
+                "value": "./foo.ts"
+              }
+            ],
+            "callee": {
+              "type": "Identifier",
+              "start": 274,
+              "end": 281,
+              "decorators": [],
+              "name": "require",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        },
+        {
+          "type": "ExpressionStatement",
+          "start": 297,
+          "end": 316,
+          "directive": null,
+          "expression": {
+            "type": "CallExpression",
+            "start": 297,
+            "end": 315,
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 305,
+                "end": 314,
+                "arguments": [],
+                "callee": {
+                  "type": "Identifier",
+                  "start": 305,
+                  "end": 312,
+                  "decorators": [],
+                  "name": "getPath",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "optional": false,
+                "typeArguments": null
+              }
+            ],
+            "callee": {
+              "type": "Identifier",
+              "start": 297,
+              "end": 304,
+              "decorators": [],
+              "name": "require",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
   "start": 0,
   "end": 337,
   "body": [

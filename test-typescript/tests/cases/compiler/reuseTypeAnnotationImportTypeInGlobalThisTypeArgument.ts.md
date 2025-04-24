@@ -435,3 +435,134 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 172,
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 0,
+      "end": 10,
+      "attributes": [],
+      "declaration": null,
+      "exportKind": "value",
+      "source": null,
+      "specifiers": []
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 107,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 0,
+      "end": 60,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 38,
+        "end": 59,
+        "raw": "'./contractHelper.js'",
+        "value": "./contractHelper.js"
+      },
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 9,
+          "end": 30,
+          "imported": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 30,
+            "decorators": [],
+            "name": "handleParamGovernance",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "importKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 30,
+            "decorators": [],
+            "name": "handleParamGovernance",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 61,
+      "end": 107,
+      "attributes": [],
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 68,
+        "end": 107,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 74,
+            "end": 106,
+            "definite": false,
+            "id": {
+              "type": "Identifier",
+              "start": 74,
+              "end": 78,
+              "decorators": [],
+              "name": "blah",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 81,
+              "end": 106,
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "start": 103,
+                  "end": 105,
+                  "properties": []
+                }
+              ],
+              "callee": {
+                "type": "Identifier",
+                "start": 81,
+                "end": 102,
+                "decorators": [],
+                "name": "handleParamGovernance",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "optional": false,
+              "typeArguments": null
+            }
+          }
+        ],
+        "declare": false,
+        "kind": "const"
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": []
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

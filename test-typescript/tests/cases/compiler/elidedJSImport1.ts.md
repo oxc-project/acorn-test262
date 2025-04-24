@@ -3,6 +3,199 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 0,
+  "end": 265,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 0,
+      "end": 25,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 20,
+        "end": 24,
+        "raw": "'fs'",
+        "value": "fs"
+      },
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "start": 7,
+          "end": 14,
+          "local": {
+            "type": "Identifier",
+            "start": 12,
+            "end": 14,
+            "decorators": [],
+            "name": "fs",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ]
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 26,
+      "end": 74,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 54,
+        "end": 73,
+        "raw": "'@truffle/contract'",
+        "value": "@truffle/contract"
+      },
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "start": 33,
+          "end": 48,
+          "local": {
+            "type": "Identifier",
+            "start": 33,
+            "end": 48,
+            "decorators": [],
+            "name": "TruffleContract",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 126,
+      "end": 142,
+      "directive": null,
+      "expression": {
+        "type": "CallExpression",
+        "start": 126,
+        "end": 141,
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 138,
+            "end": 140,
+            "decorators": [],
+            "name": "fs",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        ],
+        "callee": {
+          "type": "MemberExpression",
+          "start": 126,
+          "end": 137,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 126,
+            "end": 133,
+            "decorators": [],
+            "name": "console",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 134,
+            "end": 137,
+            "decorators": [],
+            "name": "log",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "optional": false,
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 143,
+      "end": 219,
+      "directive": null,
+      "expression": {
+        "type": "CallExpression",
+        "start": 143,
+        "end": 218,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 155,
+            "end": 176,
+            "raw": "'TruffleContract is '",
+            "value": "TruffleContract is "
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 178,
+            "end": 200,
+            "argument": {
+              "type": "Identifier",
+              "start": 185,
+              "end": 200,
+              "decorators": [],
+              "name": "TruffleContract",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "operator": "typeof",
+            "prefix": true
+          },
+          {
+            "type": "Identifier",
+            "start": 202,
+            "end": 217,
+            "decorators": [],
+            "name": "TruffleContract",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        ],
+        "callee": {
+          "type": "MemberExpression",
+          "start": 143,
+          "end": 154,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 143,
+            "end": 150,
+            "decorators": [],
+            "name": "console",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 151,
+            "end": 154,
+            "decorators": [],
+            "name": "log",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "optional": false,
+        "typeArguments": null
+      }
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
   "end": 217,
   "body": [
     {

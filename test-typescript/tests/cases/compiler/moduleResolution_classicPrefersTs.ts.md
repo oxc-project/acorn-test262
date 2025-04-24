@@ -3,6 +3,31 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 0,
+  "end": 38,
+  "body": [
+    {
+      "type": "ExportDefaultDeclaration",
+      "start": 0,
+      "end": 37,
+      "declaration": {
+        "type": "Literal",
+        "start": 15,
+        "end": 36,
+        "raw": "\"dir1/dir2/dir3/a.js\"",
+        "value": "dir1/dir2/dir3/a.js"
+      },
+      "exportKind": "value"
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
   "end": 33,
   "body": [
     {

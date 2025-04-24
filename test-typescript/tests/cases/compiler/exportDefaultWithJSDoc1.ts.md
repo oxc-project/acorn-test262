@@ -2,6 +2,30 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
+  "start": 123,
+  "end": 145,
+  "body": [
+    {
+      "type": "ExportDefaultDeclaration",
+      "start": 123,
+      "end": 144,
+      "declaration": {
+        "type": "ArrayExpression",
+        "start": 139,
+        "end": 142,
+        "elements": []
+      },
+      "exportKind": "value"
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
   "start": 0,
   "end": 24,
   "body": [

@@ -497,3 +497,201 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 170,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 0,
+      "end": 50,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 40,
+        "end": 50,
+        "raw": "'./helper'",
+        "value": "./helper"
+      },
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 9,
+          "end": 32,
+          "imported": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 32,
+            "decorators": [],
+            "name": "createNamespacedHelpers",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "importKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 32,
+            "decorators": [],
+            "name": "createNamespacedHelpers",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ]
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 51,
+      "end": 97,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 57,
+          "end": 97,
+          "definite": false,
+          "id": {
+            "type": "ObjectPattern",
+            "start": 57,
+            "end": 69,
+            "decorators": [],
+            "optional": false,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 59,
+                "end": 67,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 59,
+                  "end": 67,
+                  "decorators": [],
+                  "name": "mapState",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "kind": "init",
+                "method": false,
+                "optional": false,
+                "shorthand": true,
+                "value": {
+                  "type": "Identifier",
+                  "start": 59,
+                  "end": 67,
+                  "decorators": [],
+                  "name": "mapState",
+                  "optional": false,
+                  "typeAnnotation": null
+                }
+              }
+            ],
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 72,
+            "end": 97,
+            "arguments": [],
+            "callee": {
+              "type": "Identifier",
+              "start": 72,
+              "end": 95,
+              "decorators": [],
+              "name": "createNamespacedHelpers",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "const"
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "start": 98,
+      "end": 170,
+      "declaration": {
+        "type": "ObjectExpression",
+        "start": 113,
+        "end": 170,
+        "properties": [
+          {
+            "type": "Property",
+            "start": 119,
+            "end": 168,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 119,
+              "end": 127,
+              "decorators": [],
+              "name": "computed",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "kind": "init",
+            "method": false,
+            "optional": false,
+            "shorthand": false,
+            "value": {
+              "type": "ObjectExpression",
+              "start": 129,
+              "end": 168,
+              "properties": [
+                {
+                  "type": "SpreadElement",
+                  "start": 139,
+                  "end": 162,
+                  "argument": {
+                    "type": "CallExpression",
+                    "start": 142,
+                    "end": 162,
+                    "arguments": [
+                      {
+                        "type": "ArrayExpression",
+                        "start": 151,
+                        "end": 161,
+                        "elements": [
+                          {
+                            "type": "Literal",
+                            "start": 152,
+                            "end": 160,
+                            "raw": "'panels'",
+                            "value": "panels"
+                          }
+                        ]
+                      }
+                    ],
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 142,
+                      "end": 150,
+                      "decorators": [],
+                      "name": "mapState",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "optional": false,
+                    "typeArguments": null
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "exportKind": "value"
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

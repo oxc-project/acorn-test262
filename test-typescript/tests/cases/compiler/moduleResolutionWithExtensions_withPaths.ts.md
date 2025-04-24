@@ -3,6 +3,102 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 0,
+  "end": 49,
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 0,
+      "end": 48,
+      "attributes": [],
+      "declaration": {
+        "type": "FunctionDeclaration",
+        "start": 7,
+        "end": 48,
+        "async": false,
+        "body": {
+          "type": "BlockStatement",
+          "start": 23,
+          "end": 48,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 26,
+              "end": 46,
+              "directive": null,
+              "expression": {
+                "type": "CallExpression",
+                "start": 26,
+                "end": 45,
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 38,
+                    "end": 44,
+                    "raw": "\"test\"",
+                    "value": "test"
+                  }
+                ],
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 26,
+                  "end": 37,
+                  "computed": false,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 26,
+                    "end": 33,
+                    "decorators": [],
+                    "name": "console",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "property": {
+                    "type": "Identifier",
+                    "start": 34,
+                    "end": 37,
+                    "decorators": [],
+                    "name": "log",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                },
+                "optional": false,
+                "typeArguments": null
+              }
+            }
+          ]
+        },
+        "declare": false,
+        "expression": false,
+        "generator": false,
+        "id": {
+          "type": "Identifier",
+          "start": 16,
+          "end": 20,
+          "decorators": [],
+          "name": "test",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": []
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
   "end": 38,
   "body": [
     {
@@ -42,6 +138,102 @@ __ESTREE_TEST__:PASS:
         "typeParameters": null
       },
       "exportKind": "type",
+      "source": null,
+      "specifiers": []
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 53,
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 0,
+      "end": 52,
+      "attributes": [],
+      "declaration": {
+        "type": "FunctionDeclaration",
+        "start": 7,
+        "end": 52,
+        "async": false,
+        "body": {
+          "type": "BlockStatement",
+          "start": 27,
+          "end": 52,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 30,
+              "end": 50,
+              "directive": null,
+              "expression": {
+                "type": "CallExpression",
+                "start": 30,
+                "end": 49,
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 42,
+                    "end": 48,
+                    "raw": "\"test\"",
+                    "value": "test"
+                  }
+                ],
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 30,
+                  "end": 41,
+                  "computed": false,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 30,
+                    "end": 37,
+                    "decorators": [],
+                    "name": "console",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "property": {
+                    "type": "Identifier",
+                    "start": 38,
+                    "end": 41,
+                    "decorators": [],
+                    "name": "log",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                },
+                "optional": false,
+                "typeArguments": null
+              }
+            }
+          ]
+        },
+        "declare": false,
+        "expression": false,
+        "generator": false,
+        "id": {
+          "type": "Identifier",
+          "start": 16,
+          "end": 24,
+          "decorators": [],
+          "name": "relative",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
+      },
+      "exportKind": "value",
       "source": null,
       "specifiers": []
     }

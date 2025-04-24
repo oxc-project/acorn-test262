@@ -2,6 +2,63 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
+  "start": 91,
+  "end": 136,
+  "body": [
+    {
+      "type": "TSDeclareFunction",
+      "start": 91,
+      "end": 120,
+      "async": false,
+      "body": null,
+      "declare": true,
+      "expression": false,
+      "generator": false,
+      "id": {
+        "type": "Identifier",
+        "start": 108,
+        "end": 111,
+        "decorators": [],
+        "name": "foo",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "params": [],
+      "returnType": {
+        "type": "TSTypeAnnotation",
+        "start": 113,
+        "end": 119,
+        "typeAnnotation": {
+          "type": "TSVoidKeyword",
+          "start": 115,
+          "end": 119
+        }
+      },
+      "typeParameters": null
+    },
+    {
+      "type": "TSExportAssignment",
+      "start": 121,
+      "end": 134,
+      "expression": {
+        "type": "Identifier",
+        "start": 130,
+        "end": 133,
+        "decorators": [],
+        "name": "foo",
+        "optional": false,
+        "typeAnnotation": null
+      }
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
   "start": 0,
   "end": 796,
   "body": [
@@ -696,6 +753,174 @@ __ESTREE_TEST__:PASS:
         "typeAnnotation": null
       },
       "kind": "namespace"
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 52,
+  "body": [
+    {
+      "type": "TSImportEqualsDeclaration",
+      "start": 0,
+      "end": 36,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 10,
+        "decorators": [],
+        "name": "foo",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "importKind": "value",
+      "moduleReference": {
+        "type": "TSExternalModuleReference",
+        "start": 13,
+        "end": 35,
+        "expression": {
+          "type": "Literal",
+          "start": 21,
+          "end": 34,
+          "raw": "\"./other.cjs\"",
+          "value": "./other.cjs"
+        }
+      }
+    },
+    {
+      "type": "TSExportAssignment",
+      "start": 37,
+      "end": 50,
+      "expression": {
+        "type": "Identifier",
+        "start": 46,
+        "end": 49,
+        "decorators": [],
+        "name": "foo",
+        "optional": false,
+        "typeAnnotation": null
+      }
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 45,
+  "body": [
+    {
+      "type": "TSDeclareFunction",
+      "start": 0,
+      "end": 29,
+      "async": false,
+      "body": null,
+      "declare": true,
+      "expression": false,
+      "generator": false,
+      "id": {
+        "type": "Identifier",
+        "start": 17,
+        "end": 20,
+        "decorators": [],
+        "name": "foo",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "params": [],
+      "returnType": {
+        "type": "TSTypeAnnotation",
+        "start": 22,
+        "end": 28,
+        "typeAnnotation": {
+          "type": "TSVoidKeyword",
+          "start": 24,
+          "end": 28
+        }
+      },
+      "typeParameters": null
+    },
+    {
+      "type": "TSExportAssignment",
+      "start": 30,
+      "end": 43,
+      "expression": {
+        "type": "Identifier",
+        "start": 39,
+        "end": 42,
+        "decorators": [],
+        "name": "foo",
+        "optional": false,
+        "typeAnnotation": null
+      }
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 45,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 0,
+      "end": 25,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 14,
+          "end": 24,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 14,
+            "end": 17,
+            "decorators": [],
+            "name": "foo",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "Literal",
+            "start": 20,
+            "end": 24,
+            "raw": "1234",
+            "value": 1234
+          }
+        }
+      ],
+      "declare": true,
+      "kind": "const"
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "start": 26,
+      "end": 45,
+      "declaration": {
+        "type": "Identifier",
+        "start": 41,
+        "end": 44,
+        "decorators": [],
+        "name": "foo",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",

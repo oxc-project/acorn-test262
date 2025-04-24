@@ -42,3 +42,55 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 29,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 0,
+      "end": 29,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 23,
+        "end": 28,
+        "raw": "\"./a\"",
+        "value": "./a"
+      },
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 9,
+          "end": 15,
+          "imported": {
+            "type": "Identifier",
+            "start": 14,
+            "end": 15,
+            "decorators": [],
+            "name": "A",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "importKind": "type",
+          "local": {
+            "type": "Identifier",
+            "start": 14,
+            "end": 15,
+            "decorators": [],
+            "name": "A",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

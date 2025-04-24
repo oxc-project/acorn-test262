@@ -3,6 +3,74 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 0,
+  "end": 56,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 0,
+      "end": 30,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 14,
+          "end": 29,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 14,
+            "end": 29,
+            "decorators": [],
+            "name": "_default",
+            "optional": false,
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 22,
+              "end": 29,
+              "typeAnnotation": {
+                "type": "TSLiteralType",
+                "start": 24,
+                "end": 29,
+                "literal": {
+                  "type": "Literal",
+                  "start": 24,
+                  "end": 29,
+                  "raw": "\"esm\"",
+                  "value": "esm"
+                }
+              }
+            }
+          },
+          "init": null
+        }
+      ],
+      "declare": true,
+      "kind": "const"
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "start": 31,
+      "end": 55,
+      "declaration": {
+        "type": "Identifier",
+        "start": 46,
+        "end": 54,
+        "decorators": [],
+        "name": "_default",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "exportKind": "value"
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
   "end": 50,
   "body": [
     {

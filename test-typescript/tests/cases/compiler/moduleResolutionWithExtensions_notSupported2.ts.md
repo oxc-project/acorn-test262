@@ -2,6 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
+  "start": 67,
+  "end": 67,
+  "body": [],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
   "start": 0,
   "end": 24,
   "body": [

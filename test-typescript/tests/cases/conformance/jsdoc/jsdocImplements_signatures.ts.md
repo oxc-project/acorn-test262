@@ -72,3 +72,42 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 25,
+  "end": 37,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 25,
+      "end": 37,
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "start": 34,
+        "end": 37,
+        "body": []
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 31,
+        "end": 32,
+        "decorators": [],
+        "name": "B",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "implements": [],
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

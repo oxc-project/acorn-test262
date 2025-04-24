@@ -286,6 +286,128 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 0,
+  "end": 80,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 0,
+      "end": 32,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 20,
+        "end": 31,
+        "raw": "\"./library\"",
+        "value": "./library"
+      },
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 9,
+          "end": 12,
+          "imported": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 12,
+            "decorators": [],
+            "name": "Foo",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "importKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 12,
+            "decorators": [],
+            "name": "Foo",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 33,
+      "end": 79,
+      "attributes": [],
+      "declaration": {
+        "type": "ClassDeclaration",
+        "start": 40,
+        "end": 79,
+        "abstract": false,
+        "body": {
+          "type": "ClassBody",
+          "start": 64,
+          "end": 79,
+          "body": [
+            {
+              "type": "PropertyDefinition",
+              "start": 70,
+              "end": 77,
+              "accessibility": null,
+              "computed": false,
+              "declare": false,
+              "decorators": [],
+              "definite": false,
+              "key": {
+                "type": "Identifier",
+                "start": 70,
+                "end": 76,
+                "decorators": [],
+                "name": "member",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "optional": false,
+              "override": false,
+              "readonly": false,
+              "static": false,
+              "typeAnnotation": null,
+              "value": null
+            }
+          ]
+        },
+        "declare": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "start": 46,
+          "end": 51,
+          "decorators": [],
+          "name": "MyFoo",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "implements": [],
+        "superClass": {
+          "type": "Identifier",
+          "start": 60,
+          "end": 63,
+          "decorators": [],
+          "name": "Foo",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "superTypeArguments": null,
+        "typeParameters": null
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": []
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
   "end": 252,
   "body": [
     {

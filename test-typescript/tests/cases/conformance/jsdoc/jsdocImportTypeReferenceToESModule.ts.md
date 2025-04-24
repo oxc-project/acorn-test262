@@ -54,3 +54,84 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 33,
+  "end": 66,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 33,
+      "end": 66,
+      "async": false,
+      "body": {
+        "type": "BlockStatement",
+        "start": 50,
+        "end": 66,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 56,
+            "end": 64,
+            "directive": null,
+            "expression": {
+              "type": "MemberExpression",
+              "start": 56,
+              "end": 64,
+              "computed": false,
+              "object": {
+                "type": "Identifier",
+                "start": 56,
+                "end": 57,
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "optional": false,
+              "property": {
+                "type": "Identifier",
+                "start": 58,
+                "end": 64,
+                "decorators": [],
+                "name": "config",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            }
+          }
+        ]
+      },
+      "declare": false,
+      "expression": false,
+      "generator": false,
+      "id": {
+        "type": "Identifier",
+        "start": 42,
+        "end": 46,
+        "decorators": [],
+        "name": "demo",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 47,
+          "end": 48,
+          "decorators": [],
+          "name": "a",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      ],
+      "returnType": null,
+      "typeParameters": null
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

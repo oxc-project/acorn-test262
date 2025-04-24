@@ -98,3 +98,178 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 50,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 0,
+      "end": 13,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 0,
+        "end": 13,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 0,
+          "end": 8,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 0,
+            "end": 2,
+            "decorators": [],
+            "name": "lf",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 3,
+            "end": 8,
+            "decorators": [],
+            "name": "Order",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "ObjectExpression",
+          "start": 11,
+          "end": 13,
+          "properties": []
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 14,
+      "end": 32,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 14,
+        "end": 31,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 14,
+          "end": 27,
+          "computed": false,
+          "object": {
+            "type": "MemberExpression",
+            "start": 14,
+            "end": 22,
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "start": 14,
+              "end": 16,
+              "decorators": [],
+              "name": "lf",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "property": {
+              "type": "Identifier",
+              "start": 17,
+              "end": 22,
+              "decorators": [],
+              "name": "Order",
+              "optional": false,
+              "typeAnnotation": null
+            }
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 23,
+            "end": 27,
+            "decorators": [],
+            "name": "DESC",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "Literal",
+          "start": 30,
+          "end": 31,
+          "raw": "0",
+          "value": 0
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 33,
+      "end": 50,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 33,
+        "end": 49,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 33,
+          "end": 45,
+          "computed": false,
+          "object": {
+            "type": "MemberExpression",
+            "start": 33,
+            "end": 41,
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "start": 33,
+              "end": 35,
+              "decorators": [],
+              "name": "lf",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "property": {
+              "type": "Identifier",
+              "start": 36,
+              "end": 41,
+              "decorators": [],
+              "name": "Order",
+              "optional": false,
+              "typeAnnotation": null
+            }
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 42,
+            "end": 45,
+            "decorators": [],
+            "name": "ASC",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "Literal",
+          "start": 48,
+          "end": 49,
+          "raw": "1",
+          "value": 1
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

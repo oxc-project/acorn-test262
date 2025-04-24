@@ -288,3 +288,217 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 150,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 0,
+      "end": 43,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 29,
+        "end": 42,
+        "raw": "\"./component\"",
+        "value": "./component"
+      },
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 9,
+          "end": 15,
+          "imported": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 15,
+            "decorators": [],
+            "name": "MyComp",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "importKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 15,
+            "decorators": [],
+            "name": "MyComp",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        {
+          "type": "ImportSpecifier",
+          "start": 17,
+          "end": 21,
+          "imported": {
+            "type": "Identifier",
+            "start": 17,
+            "end": 21,
+            "decorators": [],
+            "name": "Prop",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "importKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 17,
+            "end": 21,
+            "decorators": [],
+            "name": "Prop",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ]
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 44,
+      "end": 75,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 67,
+        "end": 74,
+        "raw": "\"react\"",
+        "value": "react"
+      },
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "start": 51,
+          "end": 61,
+          "local": {
+            "type": "Identifier",
+            "start": 56,
+            "end": 61,
+            "decorators": [],
+            "name": "React",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ]
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 77,
+      "end": 116,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 81,
+          "end": 115,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 81,
+            "end": 82,
+            "decorators": [],
+            "name": "x",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "JSXElement",
+            "start": 85,
+            "end": 115,
+            "children": [],
+            "closingElement": null,
+            "openingElement": {
+              "type": "JSXOpeningElement",
+              "start": 85,
+              "end": 115,
+              "attributes": [
+                {
+                  "type": "JSXAttribute",
+                  "start": 99,
+                  "end": 105,
+                  "name": {
+                    "type": "JSXIdentifier",
+                    "start": 99,
+                    "end": 100,
+                    "name": "a"
+                  },
+                  "value": {
+                    "type": "JSXExpressionContainer",
+                    "start": 101,
+                    "end": 105,
+                    "expression": {
+                      "type": "Literal",
+                      "start": 102,
+                      "end": 104,
+                      "raw": "10",
+                      "value": 10
+                    }
+                  }
+                },
+                {
+                  "type": "JSXAttribute",
+                  "start": 106,
+                  "end": 112,
+                  "name": {
+                    "type": "JSXIdentifier",
+                    "start": 106,
+                    "end": 107,
+                    "name": "b"
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "start": 108,
+                    "end": 112,
+                    "raw": "\"hi\"",
+                    "value": "hi"
+                  }
+                }
+              ],
+              "name": {
+                "type": "JSXIdentifier",
+                "start": 86,
+                "end": 92,
+                "name": "MyComp"
+              },
+              "selfClosing": true,
+              "typeArguments": {
+                "type": "TSTypeParameterInstantiation",
+                "start": 92,
+                "end": 98,
+                "params": [
+                  {
+                    "type": "TSTypeReference",
+                    "start": 93,
+                    "end": 97,
+                    "typeArguments": null,
+                    "typeName": {
+                      "type": "Identifier",
+                      "start": 93,
+                      "end": 97,
+                      "decorators": [],
+                      "name": "Prop",
+                      "optional": false,
+                      "typeAnnotation": null
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "let"
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

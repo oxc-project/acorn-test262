@@ -107,3 +107,118 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 27,
+  "end": 87,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 27,
+      "end": 87,
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "start": 45,
+        "end": 87,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 51,
+            "end": 85,
+            "accessibility": null,
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 51,
+              "end": 52,
+              "decorators": [],
+              "name": "m",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "kind": "method",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "FunctionExpression",
+              "start": 52,
+              "end": 85,
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "start": 55,
+                "end": 85,
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 65,
+                    "end": 79,
+                    "argument": {
+                      "type": "MemberExpression",
+                      "start": 72,
+                      "end": 78,
+                      "computed": false,
+                      "object": {
+                        "type": "ThisExpression",
+                        "start": 72,
+                        "end": 76
+                      },
+                      "optional": false,
+                      "property": {
+                        "type": "Identifier",
+                        "start": 77,
+                        "end": 78,
+                        "decorators": [],
+                        "name": "x",
+                        "optional": false,
+                        "typeAnnotation": null
+                      }
+                    }
+                  }
+                ]
+              },
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
+            }
+          }
+        ]
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 33,
+        "end": 34,
+        "decorators": [],
+        "name": "B",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "implements": [],
+      "superClass": {
+        "type": "Identifier",
+        "start": 43,
+        "end": 44,
+        "decorators": [],
+        "name": "A",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```

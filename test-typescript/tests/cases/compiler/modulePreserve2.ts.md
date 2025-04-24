@@ -3,6 +3,68 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 0,
+  "end": 25,
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 0,
+      "end": 24,
+      "attributes": [],
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 7,
+        "end": 24,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 13,
+            "end": 23,
+            "definite": false,
+            "id": {
+              "type": "Identifier",
+              "start": 13,
+              "end": 23,
+              "decorators": [],
+              "name": "esm",
+              "optional": false,
+              "typeAnnotation": {
+                "type": "TSTypeAnnotation",
+                "start": 16,
+                "end": 23,
+                "typeAnnotation": {
+                  "type": "TSLiteralType",
+                  "start": 18,
+                  "end": 23,
+                  "literal": {
+                    "type": "Literal",
+                    "start": 18,
+                    "end": 23,
+                    "raw": "\"esm\"",
+                    "value": "esm"
+                  }
+                }
+              }
+            },
+            "init": null
+          }
+        ],
+        "declare": false,
+        "kind": "const"
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": []
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
   "end": 40,
   "body": [
     {
@@ -138,6 +200,107 @@ __ESTREE_TEST__:PASS:
           "value": "dep"
         }
       }
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 54,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 0,
+      "end": 26,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 20,
+        "end": 25,
+        "raw": "\"dep\"",
+        "value": "dep"
+      },
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 9,
+          "end": 12,
+          "imported": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 12,
+            "decorators": [],
+            "name": "esm",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "importKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 12,
+            "decorators": [],
+            "name": "esm",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        }
+      ]
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 27,
+      "end": 54,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 33,
+          "end": 53,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 33,
+            "end": 36,
+            "decorators": [],
+            "name": "cjs",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 39,
+            "end": 53,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 47,
+                "end": 52,
+                "raw": "\"dep\"",
+                "value": "dep"
+              }
+            ],
+            "callee": {
+              "type": "Identifier",
+              "start": 39,
+              "end": 46,
+              "decorators": [],
+              "name": "require",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "typeArguments": null
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "const"
     }
   ],
   "sourceType": "module",

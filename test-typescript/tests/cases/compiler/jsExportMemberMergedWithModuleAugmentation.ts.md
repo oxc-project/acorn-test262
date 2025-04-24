@@ -3,6 +3,143 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 0,
+  "end": 76,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 0,
+      "end": 44,
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "start": 12,
+        "end": 44,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 40,
+            "end": 42,
+            "accessibility": null,
+            "computed": false,
+            "declare": false,
+            "decorators": [],
+            "definite": false,
+            "key": {
+              "type": "Identifier",
+              "start": 40,
+              "end": 41,
+              "decorators": [],
+              "name": "x",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "override": false,
+            "readonly": false,
+            "static": false,
+            "typeAnnotation": null,
+            "value": null
+          }
+        ]
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 11,
+        "decorators": [],
+        "name": "Abcde",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "implements": [],
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 46,
+      "end": 75,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 46,
+        "end": 74,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 46,
+          "end": 60,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 46,
+            "end": 52,
+            "decorators": [],
+            "name": "module",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 53,
+            "end": 60,
+            "decorators": [],
+            "name": "exports",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "ObjectExpression",
+          "start": 63,
+          "end": 74,
+          "properties": [
+            {
+              "type": "Property",
+              "start": 67,
+              "end": 72,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 67,
+                "end": 72,
+                "decorators": [],
+                "name": "Abcde",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "kind": "init",
+              "method": false,
+              "optional": false,
+              "shorthand": true,
+              "value": {
+                "type": "Identifier",
+                "start": 67,
+                "end": 72,
+                "decorators": [],
+                "name": "Abcde",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
   "end": 233,
   "body": [
     {

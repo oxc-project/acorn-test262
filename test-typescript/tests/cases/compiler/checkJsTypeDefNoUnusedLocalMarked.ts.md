@@ -144,3 +144,66 @@ __ESTREE_TEST__:PASS:
   "hashbang": null
 }
 ```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 94,
+  "end": 141,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 94,
+      "end": 141,
+      "directive": null,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 94,
+        "end": 140,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 94,
+          "end": 108,
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "start": 94,
+            "end": 100,
+            "decorators": [],
+            "name": "module",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "property": {
+            "type": "Identifier",
+            "start": 101,
+            "end": 108,
+            "decorators": [],
+            "name": "exports",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        },
+        "right": {
+          "type": "UnaryExpression",
+          "start": 133,
+          "end": 139,
+          "argument": {
+            "type": "Literal",
+            "start": 138,
+            "end": 139,
+            "raw": "0",
+            "value": 0
+          },
+          "operator": "void",
+          "prefix": true
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
