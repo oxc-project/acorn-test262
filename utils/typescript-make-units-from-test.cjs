@@ -54,14 +54,14 @@ function createCompilerSettings(options) {
 
 // Mapping from file extension to source type
 const EXTENSIONS = {
-  ".js": {typescript: false, jsx: false, module: true},
-  ".mjs": {typescript: false, jsx: false, module: true},
-  ".cjs": {typescript: false, jsx: false, module: false},
-  ".jsx": {typescript: false, jsx: true, module: true},
-  ".ts": {typescript: true, jsx: false, module: true},
-  ".mts": {typescript: true, jsx: false, module: true},
-  ".cts": {typescript: true, jsx: false, module: false},
-  ".tsx": {typescript: true, jsx: true, module: true},
+  ".js": { typescript: false, jsx: false, module: true },
+  ".mjs": { typescript: false, jsx: false, module: true },
+  ".cjs": { typescript: false, jsx: false, module: false },
+  ".jsx": { typescript: false, jsx: true, module: true },
+  ".ts": { typescript: true, jsx: false, module: true },
+  ".mts": { typescript: true, jsx: false, module: true },
+  ".cts": { typescript: true, jsx: false, module: false },
+  ".tsx": { typescript: true, jsx: true, module: true },
 };
 
 /**
